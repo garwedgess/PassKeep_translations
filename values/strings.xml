@@ -100,7 +100,7 @@
     <string name="pref_title_delete_all_passwords">Delete Database</string>
     <string name="pref_title_block_screenshots">Block Screenshots</string>
     <string name="pref_title_auto_logout">Auto Logout</string>
-    <string name="pref_title_auto_login">Auto-Login</string>
+    <string name="pref_title_auto_login">Auto Login</string>
     <string name="pref_summary_delete_all_passwords">**Warning** Delete all the contents of the database including the master passkey. This cannot be undone.</string>
     <string name="pref_summary_reset_master_passkey">**Warning** Reset the master passkey. Backups with the old passkey will not work anymore.</string>
     <string name="pref_summary_self_destruct">Delete all passwords when 5 failed attempts have been entered using the \"sign in\" button.</string>
