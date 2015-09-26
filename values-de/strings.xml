@@ -152,7 +152,7 @@
     <string name="color_swatch_description_selected">Farbe<xliff:g example="14" id="color_index">%1$d</xliff:g> ausgewählt</string>
 
     <!-- Timer settings strings -->
-    <string name="timer_off">Automatisches Ausloggen ahh>string>   
+    <string name="timer_off">Automatisches Ausloggen ahh</string>   
     <string name="timer_on_exit">Ausloggzeit</string>
     <string name="timer_thirty_secs">30 Sekunden</string>
     <string name="timer_one_minute">1 Minute</string>
