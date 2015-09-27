@@ -1,0 +1,163 @@
+<resources xmlns:xliff="http://schemas.android.com/apk/res-auto">
+    <string name="app_name">PassKeep</string>
+
+    <!-- Main Titles -->
+    <string name="fragment_title_settings">Ustawienia</string>
+    <string name="fragment_title_backup_restore">Kopia Zapasowa/Przywracanie</string>
+    <string name="fragment_title_passwords">Hasła</string>
+    <string name="fragment_title_password_entry">Wprowadzanie Hasła</string>
+    <string name="fragment_title_password_generator">Generator Haseł</string>
+    <string name="fragment_title_path_picker_default">Wybierz Katalog</string>
+    <string name="fragment_title_path_picker_share_backup">Udostępnij Backup</string>
+
+    <!--Actions -->
+    <string name="action_select_all">Wybierz Wszystkie</string>
+    <string name="action_delete">Usuń</string>
+    <string name="action_title_items_selected">%d wybranych</string>
+    <string name="action_donate">Wspomóż</string>
+    <string name="action_settings">Ustawienia</string>
+    <string name="action_edit_password">Edytuj Hasło</string>
+    <string name="action_logout">Wyloguj</string>
+    <string name="action_delete_password">Usuń Hasło</string>
+    <string name="action_search">Szukaj</string>
+    <string name="action_color_picker">Narzędzie do Wybierania Kolorów</string>
+    <string name="action_undo">Cofnij</string>
+    <string name="action_floating_window">Ruchome Okienko</string>
+    <string name="action_file_browser_new_dir">Nowy Katalog</string>
+
+    <!-- Toast/Snackbar -->
+    <string name="toast_message_dir_created">Pomyślnie utworzono katalog</string>
+    <string name="toast_message_dir_failed">Nie udało się utworzyć katalogu</string>
+    <string name="toast_message_restore_success">Pomyślnie Przywrócono</string>
+    <string name="toast_message_restore_failed">Nie udało się przywrócić</string>
+    <string name="toast_message_copied_to_clipboard">Skopiowano do schowka</string>
+    <string name="toast_message_double_tap_to_exit">Wciśnij dwukrotnie, aby wyjść</string>
+    <string name="toast_message_must_contain">Musisz wybrać znaki, które hasło będzie zawierać</string>
+    <string name="toast_message_backup_fail">Nie udało się utworzyć kopii zapasowej</string>
+    <string name="toast_message_backup_success">Kopia zapasowa wykonana pomyślnie</string>
+    <string name="toast_message_autobackup_success">PassKeep: Wykonano automatyczną kopię zapasową</string>
+    <string name="toast_message_autobackup_failed">PassKeep: Nie udało się utworzyć automatycznej kopii zapasowej</string>
+    <string name="toast_message_autobackup_restarted">PassKeep: Wznowiono automatyczną kopię zapasową</string>
+    <string name="toast_message_no_backups">Nie utworzono żadnych kopii zapasowych</string>
+
+    <string name="snackbar_message_select_a_backup_to">Wybierz backup do %s</string>
+    <string name="snackbar_message_append_share">udostępnij</string>
+    <string name="snackbar_message_append_restore">przywróć</string>
+    <string name="snackbar_messgae_select_folder">Przytrzymaj folder, aby wybrać lokalizację</string>
+    <string name="snackbar_message_self_destruct_remaining">%d prób pozostało do autodestrukcji. Wszystkie hasła zostaną skasowane.</string>
+    <string name="snackbar_message_deleted_item">Usunięto %d pozycję</string>
+    <string name="snackbar_message_deleted_items">Usunięto %d pozycji</string>
+
+    <!--EditText/TIL -->
+    <string name="et_hint_confirm_masterkey">Potwierdź nowy Klucz Główny</string>
+    <string name="et_hint_backup_restore_loc">Lokalizacja Kopii Zapasowej/Przywracania</string>
+    <string name="et_hint_new_masterkey">Nowy Klucz Główny</string>
+    <string name="et_hint_name">Nazwa</string>
+    <string name="et_hint_password">Hasło</string>
+    <string name="et_hint_title">Tytuł</string>
+    <string name="et_hint_site">Strona</string>
+    <string name="et_hint_old_masterkey">Stary Klucz Główny</string>
+    <string name="et_hint_confirm_password">Potwierdź Hasło</string>
+    <string name="et_hint_username">Nazwa Użytkownika</string>
+    <string name="et_hint_description">Opis</string>
+    <string name="error_passwords_dont_match">hasła nie pasują</string>
+    <string name="error_incorrect_password">Błędne Hasło</string>
+    <string name="error_blank_pass_title">Tytuł nie może pozostać pusty</string>
+    <string name="error_blank_pass_username">Nazwa Użytkownika nie może pozostać pusta</string>
+    <string name="error_blank_password">Hasło nie może pozostać puste</string>
+    <string name="error_password_length_short">Hasło musi składać się z przynajmniej 6 znaków</string>
+    <string name="til_title_backup">Nazwa Kopii Zapasowej</string>
+
+    <!-- AlertDialogs -->
+    <string name="alert_title_self_destruct">Autodestrukcja</string>
+    <string name="alert_title_delete_password">Usuń Hasło</string>
+    <string name="alert_title_backup_from_csv">Kopia Zapasowa CSV</string>
+    <string name="alert_title_new_directory">Nowy Katalog</string>
+    <string name="alert_title_password_change">Zmień Hasło</string>
+    <string name="alert_title_backup_from_db">Kopia Zapasowa z Bazy Danych</string>
+    <string name="alert_title_backup_db">Kopia Zapasowa Bazy Danych</string>
+    <string name="alert_title_share_backup">Udostępnij Kopię Zapasową dla..</string>
+    <string name="alert_title_restart_app">Uruchom Ponownie Aplikację</string>
+    <string name="alert_message_donate">Dotację nie są konieczne, ale mile widziane. Dotacje mogą być dokonywane przez PayPal za pomocą poniższego przycisku "Wspomóż"</string>
+    <string name="alert_message_restart_app">Aplikacja musi zostać ponownie uruchomiona w celu blokowania/zezwolenia na zrzuty ekranu. Uruchomić ponownie PassKeep teraz?</string>
+    <string name="alert_message_delete_password_confirm">Czy aby na pewno chcesz usunąć %s. Nie będzie można tego cofnąć.</string>
+    <string name="alert_message_password_change">Wygenerowanie nowego hasła usunie poprzednie. Czy chcesz kontynuować?</string>
+    <string name="alert_message_save_changes">Czy chcesz zapisać dokonane zmiany?</string>
+    <string name="alert_message_discard_entry">Czy chcesz odrzucić dokonane zmiany?</string>
+    <string name="alert_message_self_destruct_activated">Maksymalna ilość prób została osiągnięta. Wszystkie hasła zostaną usunięte. Nie ma już odwrotu!</string>
+    <string name="alert_btn_yes">Tak</string>
+    <string name="alert_btn_cancel">Anuluj</string>
+    <string name="alert_btn_no">Nie</string>
+    <string name="alert_btn_ok">Ok</string>
+
+    <!--Preferences -->
+    <string name="pref_category_title_general">Ogólne</string>
+    <string name="pref_category_title_security">Zabezpieczenia</string>
+    <string name="pref_title_keep_screen_on">Utrzymuj Włączony Ekran</string>
+    <string name="pref_title_show_notification">Pokaż Powiadomienie</string>
+    <string name="pref_title_hide_passwords">Ukryj Hasła</string>
+    <string name="pref_title_rename_masterkey">Zresetuj Klucz Główny</string>
+    <string name="pref_title_delete_all_passwords">Usuń Bazę Danych</string>
+    <string name="pref_title_block_screenshots">Zablokuj Zrzuty Ekranu</string>
+    <string name="pref_title_auto_logout">Auto Wylogowywanie</string>
+    <string name="pref_title_auto_login">Auto Logowanie</string>
+    <string name="pref_summary_delete_all_passwords">**Ostrzeżenie** Usuń całą zawartość Bazy Danych włącznie z Kluczem Głównym. Nie będzie można tego cofnąć.</string>
+    <string name="pref_summary_reset_master_passkey">**Ostrzeżenie** Zresetuj Klucz Główny. Kopie Zapasowe utworzone ze starym kluczem nie będą więcej działać.</string>
+    <string name="pref_summary_self_destruct">Usuń wszystkie hasła po 5 nieudanych próbach za pomocą przycisku \"sign in\".</string>
+    <string name="pref_summary_auto_logout">Jeśli wyjdziesz z PassKeep do innej aplikacji, PassKeep wyloguje Cię po określonym czasie.</string>
+    <string name="pref_summary_disallow_screenshots">Nie zezwalaj na wykonywanie zrzutów ekranu.</string>
+    <string name="pref_summary_auto_login">Zaloguj automatycznie po wprowadzeniu poprawnego hasła.</string>
+    <string name="pref_summary_show_notification">Pokaż powiadomienie na pasku status po uruchomieniu i odblokowaniu aplikacji.</string>
+    <string name="pref_summary_keep_screen_on">Utrzymuj włączony ekran podczas pracy Passkeep</string>
+    <string name="pref_summary_hide_passwords">Pokaż ikonę \"eye\" aby przełączyć widoczność haseł.</string>
+    <string name="pref_default_backup_amount_unlimited">Nieograniczone</string>
+
+    <!-- Misc -->
+    <string name="title_last_edited">Ostatnio edytowano: %s</string>
+    <string name="title_autobackups">Automatyczna Kopia Zapasowa</string>
+    <string name="title_backup_every">Zapis Kopii Zapasowej</string>
+    <string name="title_backup_time">Czas Kopii Zapasowej</string>
+    <string name="title_max_backups">Maksymalna ilość Kopii Zapasowych</string>
+    <string name="title_attempts_remaining">Pozostało Prób: %d</string>
+    <string name="title_welcome">Witamy...</string>
+    <string name="title_bg_view_num_item">%1$d Pozycja</string>
+    <string name="title_bg_view_num_items">%1$d Pozycji</string>
+    <string name="title_bg_view_root">Katalog Główny</string>
+    <string name="title_first_start">Pierwsze Uruchomienie</string>
+    <string name="title_btn_sign_in">Zaloguj Się</string>
+    <string name="title_uppercase_az">Duże Litery A-Z</string>
+    <string name="title_lowercase_az">Małe Litery a-z</string>
+    <string name="title_numbers">Cyfry 0-9</string>
+    <string name="title_special_chars">Znaki Specjalne</string>
+    <string name="title_password_length">Długość Hasła</string>
+    <string name="title_can_contain">Może Zawierać</string>
+    <string name="title_backup_restore_db">Kopia Zapasowa/Przywracanie Bazy Danych</string>
+    <string name="title_backup_restore_csv">CSV Kopia Zapasowa/Przywracanie</string>
+
+    <string name="message_empty_passwords_recycler">Hasła pojawią się po dodaniu</string>
+    <string name="message_welcome_first_start">Aby zacząć musisz podać Klucz Główny. Klucz Główny będzie używany do odszyfrowywania Twoich haseł.\n\nGłównego hasła nie da się odzyskać i po jego zapomnieniu wszystkie hasła zostaną utracone.\n\nAby zapobiec utracie danych wykonuj często kopię zapasową bazy danych.</string>
+
+    <string name="notification_message">PassKeep pracuje...</string>
+
+    <string name="btn_generate_password">Wygeneruj Hasło</string>
+    <string name="btn_restore_db">Przywróć Bazę Danych</string>
+    <string name="btn_backup_db">Kopia Zapasowa Bazy Danych</string>
+    <string name="btn_restore_csv">Przywróć z CSV</string>
+    <string name="btn_backup_csv">Kopia Zapasowa do CSV</string>
+    <string name="btn_submit_master_password">Start</string>
+
+    <!-- Default title for color picker dialog [CHAR LIMIT=30] -->
+    <string name="color_picker_default_title">Wybierz Kolor</string>
+    <string name="color_swatch_description">Kolor <xliff:g example="14" id="color_index">%1$d</xliff:g></string>
+    <string name="color_swatch_description_selected">Kolor <xliff:g example="14" id="color_index">%1$d</xliff:g> wybrany</string>
+
+    <!-- Timer settings strings -->
+    <string name="timer_off">Automatyczne Wylogowywanie</string>
+    <string name="timer_on_exit">Przy Wyjściu</string>
+    <string name="timer_thirty_secs">30 sekund</string>
+    <string name="timer_one_minute">1 minuta</string>
+    <string name="timer_two_minutes">2 minuty</string>
+    <string name="timer_five_minutes">5 minut</string>
+    <string name="timer_ten_minutes">10 minut</string>
+    <string name="timer_fifteen_minutes">15 minut</string>
+</resources>
