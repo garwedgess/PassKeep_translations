@@ -1,0 +1,163 @@
+<resources xmlns:xliff="http://schemas.android.com/apk/res-auto">
+    <string name="app_name">PassKeep</string>
+ 
+    <!-- Main Titles -->
+    <string name="fragment_title_settings">Ajustes</string>
+    <string name="fragment_title_backup_restore">Copia de seguridad/Restaurar</string>
+    <string name="fragment_title_passwords">Contraseñas</string>
+    <string name="fragment_title_password_entry">Entrada de contraseña</string>
+    <string name="fragment_title_password_generator">Generador de contraseñas</string>
+    <string name="fragment_title_path_picker_default">Escoger ruta</string>
+    <string name="fragment_title_path_picker_share_backup">Compartir copia de seguridad</string>
+ 
+    <!--Actions -->
+    <string name="action_select_all">Selecionar todo</string>
+    <string name="action_delete">Borrar</string>
+    <string name="action_title_items_selected">%d selecionado</string>
+    <string name="action_donate">Donar</string>
+    <string name="action_settings">Ajustes</string>
+    <string name="action_edit_password">Editar contraseña</string>
+    <string name="action_logout">Salir</string>
+    <string name="action_delete_password">Borrar contraseña</string>
+    <string name="action_search">Buscar</string>
+    <string name="action_color_picker">Selector de color</string>
+    <string name="action_undo">Deshacer</string>
+    <string name="action_floating_window">Ventana flotante</string>
+    <string name="action_file_browser_new_dir">Nueva ruta</string>
+ 
+    <!-- Toast/Snackbar -->
+    <string name="toast_message_dir_created">Creación de ruta satisfactorio</string>
+    <string name="toast_message_dir_failed">Creación de ruta fallido</string>
+    <string name="toast_message_restore_success">Restaurar con éxito</string>
+    <string name="toast_message_restore_failed">Restauracion fallida</string>
+    <string name="toast_message_copied_to_clipboard">Copiado al portapapeles</string>
+    <string name="toast_message_double_tap_to_exit">Doble click para salir</string>
+    <string name="toast_message_must_contain">Debe elegir los caracteres que desea para la contraseña</string>
+    <string name="toast_message_backup_fail">Copia de seguridad fallida</string>
+    <string name="toast_message_backup_success">Copia de segurida satisfactorio</string>
+    <string name="toast_message_autobackup_success">GuardaContraseñas: Copia de seguridad automática completada</string>
+    <string name="toast_message_autobackup_failed">GuardaContraseñas: Copia de seguridad automática fallida</string>
+    <string name="toast_message_autobackup_restarted">GuardaContraseñas: Copia de seguridad automática reiniciada</string>
+    <string name="toast_message_no_backups">Todavia no existe copia de seguridad</string>
+ 
+    <string name="snackbar_message_select_a_backup_to">Seleccione una copia de seguridad %s</string>
+    <string name="snackbar_message_append_share">compartir</string>
+    <string name="snackbar_message_append_restore">restaurar</string>
+    <string name="snackbar_messgae_select_folder">Pulsacion larga sobre una carpeta para seleccionar la ubicación</string>
+    <string name="snackbar_message_self_destruct_remaining">%d intentos más quedan antes de autodestruirse. Serán eliminados Todas las contraseñas.</string>
+    <string name="snackbar_message_deleted_item">Borrado %d artículo</string>
+    <string name="snackbar_message_deleted_items">Borrados %d artículos</string>
+ 
+    <!--EditText/TIL -->
+    <string name="et_hint_confirm_masterkey">Confirmar el nuevo Masterkey</string>
+    <string name="et_hint_backup_restore_loc">Copia de seguridad/Restaurar Localizacion</string>
+    <string name="et_hint_new_masterkey">Masterkey nuevo</string>
+    <string name="et_hint_name">Nombre</string>
+    <string name="et_hint_password">Contraseña</string>
+    <string name="et_hint_title">Titulo</string>
+    <string name="et_hint_site">Sitio</string>
+    <string name="et_hint_old_masterkey">Masterkey antiguo</string>
+    <string name="et_hint_confirm_password">Confirmar contraseña</string>
+    <string name="et_hint_username">Nombre de usuario</string>
+    <string name="et_hint_description">Descripcion</string>
+    <string name="error_passwords_dont_match">Las contraseñas no coinciden</string>
+    <string name="error_incorrect_password">Contraseña incorrecta</string>
+    <string name="error_blank_pass_title">El titulo no puede estar en blanco</string>
+    <string name="error_blank_pass_username">El nombre de usuario no se puede dejar en blanco</string>
+    <string name="error_blank_password">La contraseña no se pude ejar en blanco</string>
+    <string name="error_password_length_short">La contraseña necesita minimum 6 caracteres</string>
+    <string name="til_title_backup">Nombre del archivo de la copia de seguridad</string>
+ 
+    <!-- AlertDialogs -->
+    <string name="alert_title_self_destruct">Auto destruccicon</string>
+    <string name="alert_title_delete_password">Borrar contraseña</string>
+    <string name="alert_title_backup_from_csv">Copia de seguridad de CSV</string>
+    <string name="alert_title_new_directory">Nueva ruta</string>
+    <string name="alert_title_password_change">Cambiar contraseña</string>
+    <string name="alert_title_backup_from_db">Copia de seguridad de DB</string>
+    <string name="alert_title_backup_db">Copia de seguridad de DB</string>
+    <string name="alert_title_share_backup">Compartir copia de seguridad con...</string>
+    <string name="alert_title_restart_app">Reiniciar la aplicacion</string>
+    <string name="alert_message_donate">Las donaciones no son necesarios, sin embargo son muy apreciadas. Las donaciones se pueden hacer a través de PayPal haciendo clic en el botón de donar a continuación.</string>
+    <string name="alert_message_restart_app">La aplicación debe ser reiniciada para bloquear / permitir capturas de pantalla. Reinicie GuardaContraseñas ahora?</string>
+    <string name="alert_message_delete_password_confirm">Estas seguro que quieres borrar %s. Esto no se puede deshacer.</string>
+    <string name="alert_message_password_change">La generación de una nueva contraseña eliminará la antigua. ¿Estás seguro que quieres continuar?</string>
+    <string name="alert_message_save_changes">¿Quieres guardar los cambios realizados?</string>
+    <string name="alert_message_discard_entry">¿Quieres descartar esta entrada?</string>
+    <string name="alert_message_self_destruct_activated">Se ha alcanzado el número máximo de intentos de contraseña. Todas las contraseñas borrados permanentemente. ¡No hay vuelta atrás!</string>
+    <string name="alert_btn_yes">Si</string>
+    <string name="alert_btn_cancel">Cancelar</string>
+    <string name="alert_btn_no">No</string>
+    <string name="alert_btn_ok">Ok</string>
+ 
+    <!--Preferences -->
+    <string name="pref_category_title_general">General</string>
+    <string name="pref_category_title_security">Seguridad</string>
+    <string name="pref_title_keep_screen_on">Dejar la pantalla encendida</string>
+    <string name="pref_title_show_notification">Mostrar notificaciones</string>
+    <string name="pref_title_hide_passwords">Esconder contraseña</string>
+    <string name="pref_title_rename_masterkey">Resetear Master Passkey</string>
+    <string name="pref_title_delete_all_passwords">Borrar la base de datos</string>
+    <string name="pref_title_block_screenshots">Bloquear Screenshots</string>
+    <string name="pref_title_auto_logout">Auto Entrada</string>
+    <string name="pref_title_auto_login">Auto Salida</string>
+    <string name="pref_summary_delete_all_passwords">** Aviso ** Eliminar todo el contenido de la base de datos, incluyendo la clave de acceso principal. Esto no se puede deshacer.</string>
+    <string name="pref_summary_reset_master_passkey">** Aviso ** Cambiar la contraseña maestra. Las copias de seguridad con la antigua contraseña no funcionarán más.</string>
+    <string name="pref_summary_self_destruct">Eliminar todas las contraseñas cuando 5 intentos fallidos se han introducido con el "signo de \" \ botón.</string>
+    <string name="pref_summary_auto_logout">Si sale de PassKeep para utilizar otra aplicación, PassKeep se cerrara después de un tiempo.</string>
+    <string name="pref_summary_disallow_screenshots">No permitir las capturas de pantalla de PassKeep.</string>
+    <string name="pref_summary_auto_login">Iniciar sesión automáticamente cuando se introduzca la contraseña válida.</string>
+    <string name="pref_summary_show_notification">Mostrar una notificación es la barra de estado cuando la aplicación se está ejecutando y esta desbloqueada.</string>
+    <string name="pref_summary_keep_screen_on">Mantenga la pantalla del dispositivo encendida mientras se visualiza Passkeep mientras</string>
+    <string name="pref_summary_hide_passwords">Mostrar el icono \ "ojo \" para cambiar la visibilidad de las contraseñas.</string>
+    <string name="pref_default_backup_amount_unlimited">Inlimitado</string>
+ 
+    <!-- Misc -->
+    <string name="title_last_edited">Ultima edicion: %s</string>
+    <string name="title_autobackups">Copia de seguridad automatica</string>
+    <string name="title_backup_every">Copia de seguridad de todos</string>
+    <string name="title_backup_time">Tiempo de la Copia de seguridad</string>
+    <string name="title_max_backups">Maximo Copias de seguridad</string>
+    <string name="title_attempts_remaining">Intentos restantes: %d</string>
+    <string name="title_welcome">Bienvenido...</string>
+    <string name="title_bg_view_num_item">%1$d artículo</string>
+    <string name="title_bg_view_num_items">%1$d artículos</string>
+    <string name="title_bg_view_root">Root</string>
+    <string name="title_first_start">Primer inicio</string>
+    <string name="title_btn_sign_in">Entrar</string>
+    <string name="title_uppercase_az">Mayúsculas A-Z</string>
+    <string name="title_lowercase_az">Minúsculas a-z</string>
+    <string name="title_numbers">Numeros 0-9</string>
+    <string name="title_special_chars">Caracteristicas especiales</string>
+    <string name="title_password_length">Longitud de la contraseña</string>
+    <string name="title_can_contain">Puede contener</string>
+    <string name="title_backup_restore_db">Base de datos Copia de seguridad/Restauracion</string>
+    <string name="title_backup_restore_csv">CSV Copia de seguridad/Restauracion</string>
+ 
+    <string name="message_empty_passwords_recycler">Las contraseñas aparecerán aquí cuando se añaden</string>
+    <string name="message_welcome_first_start">Para empezar, debe introducir una contraseña maestra. Esta contraseña se utiliza para cifrar todas las contraseñas.\n\nLa contraseña maestra es irrecuperable y en el caso de su olvido se perderán todas las demas contraseñas.\n\nPara evitar la pérdida de datos haga copias de seguridad con regularidad.</string>
+ 
+    <string name="notification_message">PassKeep está funcionando ...</string>
+ 
+    <string name="btn_generate_password">Generar contraseña</string>
+    <string name="btn_restore_db">Restauarar DB</string>
+    <string name="btn_backup_db">Copia de seguridad DB</string>
+    <string name="btn_restore_csv">Restaurar desde CSV</string>
+    <string name="btn_backup_csv">Copia de seguridad a CSV</string>
+    <string name="btn_submit_master_password">Start</string>
+ 
+    <!-- Default title for color picker dialog [CHAR LIMIT=30] -->
+    <string name="color_picker_default_title">Elegir color</string>
+    <string name="color_swatch_description">Color <xliff:g example="14" id="color_index">%1$d</xliff:g></string>
+    <string name="color_swatch_description_selected">Color <xliff:g example="14" id="color_index">%1$d</xliff:g> selecionado</string>
+ 
+    <!-- Timer settings strings -->
+    <string name="timer_off">Auto-Logout Off</string>
+    <string name="timer_on_exit">En Salida</string>
+    <string name="timer_thirty_secs">30 secundos</string>
+    <string name="timer_one_minute">1 minuto</string>
+    <string name="timer_two_minutes">2 minutos</string>
+    <string name="timer_five_minutes">5 minutos</string>
+    <string name="timer_ten_minutes">10 minutos</string>
+    <string name="timer_fifteen_minutes">15 minutos</string>
+</resources>
