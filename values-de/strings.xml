@@ -5,24 +5,24 @@
     <string name="fragment_title_settings">Einstellungen</string>
     <string name="fragment_title_backup_restore">Sichern/Wiederherstellen</string>
     <string name="fragment_title_passwords">Kennwörter</string>
-    <string name="fragment_title_password_entry">Kennwort Eingang</string>
+    <string name="fragment_title_password_entry">Kennworteingabe</string> <!-- ??? -->
     <string name="fragment_title_password_generator">Kennwort Generator</string>
     <string name="fragment_title_path_picker_default">Wähle einen Ordner</string>
-    <string name="fragment_title_path_picker_share_backup">Teile Sicherung</string>
+    <string name="fragment_title_path_picker_share_backup">Sicherung Freigeben</string>
 
     <!--Actions -->
     <string name="action_select_all">Wähle alle</string>
     <string name="action_delete">Lösche</string>
     <string name="action_title_items_selected">%d ausgewählt</string>
-    <string name="action_donate">spenden</string>
+    <string name="action_donate">Spenden</string>
     <string name="action_settings">Einstellungen</string>
-    <string name="action_edit_password">Ändere Kennwort</string>
-    <string name="action_logout">Logout</string>
-    <string name="action_delete_password">Lösche Kennwörter</string>
+    <string name="action_edit_password">Kennwort ändern</string>
+    <string name="action_logout">Abmelden</string>
+    <string name="action_delete_password">Kennwörter löschen</string>
     <string name="action_search">Suche</string>
-    <string name="action_color_picker">Farben Auswahl</string>
+    <string name="action_color_picker">Farben auswählen</string>
     <string name="action_undo">Rückgängig machen</string>
-    <string name="action_floating_window">fliegendes Fenster</string>
+    <string name="action_floating_window">schwebendes Fenster</string> <!-- ??? -->
     <string name="action_file_browser_new_dir">Neuer Ordner</string>
 
     <!-- Toast/Snackbar -->
@@ -31,60 +31,60 @@
     <string name="toast_message_restore_success">Wiederherstellen erfolgreich</string>
     <string name="toast_message_restore_failed">Fehler beim Wiederherstellen</string>
     <string name="toast_message_copied_to_clipboard">In die Zwischenablage kopiert</string>
-    <string name="toast_message_double_tap_to_exit">Doppelt tippen zum verlassen</string>
-    <string name="toast_message_must_contain">Du musst Zeichen wählen, die in deinem Passwort sein sollen</string>
+    <string name="toast_message_double_tap_to_exit">Doppelt tippen zum Verlassen</string>
+    <string name="toast_message_must_contain">Du musst erlaubte Zeichen wählen, die in deinem Passwort enthalten sein sollen</string>
     <string name="toast_message_backup_fail">Sicherung fehlgeschlagen</string>
     <string name="toast_message_backup_success">Sicherung erfolgreich</string>
     <string name="toast_message_autobackup_success">PassKeep: Automatische Sicherung erfolgreich</string>
     <string name="toast_message_autobackup_failed">PassKeep: Automatische Sicherung fehlgeschlagen</string>
     <string name="toast_message_autobackup_restarted">PassKeep: Automatische Sicherung gestartet</string>
-    <string name="toast_message_no_backups">Es wurden noch keine Sicherungen gemacht</string>
+    <string name="toast_message_no_backups">Es wurden noch keine Sicherungen erstellt</string>
 
     <string name="snackbar_message_select_a_backup_to">Wähle fürs Sichern in %s</string>
-    <string name="snackbar_message_append_share">teile</string>
-    <string name="snackbar_message_append_restore">wiederherstellen</string>
-    <string name="snackbar_messgae_select_folder">Drücke lange auf ein Eintrag um Ordner zu wählen</string>
-    <string name="snackbar_message_self_destruct_remaining">%d Versuche, vor Selbstzerstörung. Alle Kennwörter werden gelöscht.</string>
-    <string name="snackbar_message_deleted_item">Lösche %d Eintrag</string>
-    <string name="snackbar_message_deleted_items">Gelöscht %d Eintrag</string>
+    <string name="snackbar_message_append_share">Teilen</string>
+    <string name="snackbar_message_append_restore">Wiederherstellen</string>
+    <string name="snackbar_messgae_select_folder">Drücke lange auf ein Eintrag um den Speicherort auszuwählen</string>
+    <string name="snackbar_message_self_destruct_remaining">%d Versuche bis zur Selbstzerstörung. Alle Kennwörter werden gelöscht.</string>
+    <string name="snackbar_message_deleted_item">%d Eintrag gelöscht</string>
+    <string name="snackbar_message_deleted_items">%d Einträge gelöscht</string>
 
     <!--EditText/TIL -->
-    <string name="et_hint_confirm_masterkey">Bestätige neues Haupt-Kennwort</string>
-    <string name="et_hint_backup_restore_loc">Sicherung/Wiederherstellungs Ort</string>
-    <string name="et_hint_new_masterkey">Neues Haupt-Kennwort</string>
+    <string name="et_hint_confirm_masterkey">Bestätige neues Master-Kennwort</string>
+    <string name="et_hint_backup_restore_loc">Sicherungs/Wiederherstellungs-Ort</string>
+    <string name="et_hint_new_masterkey">Neues Master-Kennwort</string>
     <string name="et_hint_name">Name</string>
     <string name="et_hint_password">Kennwort</string>
     <string name="et_hint_title">Titel</string>
     <string name="et_hint_site">Seite</string>
-    <string name="et_hint_old_masterkey">Alter Hauptschlüssel</string>
-    <string name="et_hint_confirm_password">Bestätige Passwort</string>
+    <string name="et_hint_old_masterkey">Altes Master-Kennwort</string>
+    <string name="et_hint_confirm_password">Passwort bestätigen</string>
     <string name="et_hint_username">Nutzername</string>
     <string name="et_hint_description">Beschreibung</string>
-    <string name="error_passwords_dont_match">Kennwörter sind nicht gleich</string>
+    <string name="error_passwords_dont_match">Kennwörter stimmen nicht überein</string>
     <string name="error_incorrect_password">Falsches Kennwort</string>
     <string name="error_blank_pass_title">Titel darf nicht leer sein</string>
-    <string name="error_blank_pass_username">Nutzername darf nicht leer seib</string>
+    <string name="error_blank_pass_username">Nutzername darf nicht leer sein</string>
     <string name="error_blank_password">Kennwort darf nicht leer sein</string>
     <string name="error_password_length_short">Kennwort muss mindestens 6 Zeichen lang sein</string>
-    <string name="til_title_backup">Sicherung Datei Name</string>
+    <string name="til_title_backup">Name der Sicherungsdatei</string>
 
     <!-- AlertDialogs -->
     <string name="alert_title_self_destruct">Selbstzerstörung</string>
-    <string name="alert_title_delete_password">Lösche Kennwort</string>
-    <string name="alert_title_backup_from_csv">Sichere CSV</string>
+    <string name="alert_title_delete_password">Kennwort löschen</string>
+    <string name="alert_title_backup_from_csv">Als CSV sichern</string>
     <string name="alert_title_new_directory">Neuer Ordner</string>
-    <string name="alert_title_password_change">Ändere Passwort</string>
-    <string name="alert_title_backup_from_db">Sichere DB</string>
-    <string name="alert_title_backup_db">Sichere DB</string>
+    <string name="alert_title_password_change">Passwort ändern</string>
+    <string name="alert_title_backup_from_db">DB sichern</string>
+    <string name="alert_title_backup_db">DB sichern</string>
     <string name="alert_title_share_backup">Teile Sicherung mit..</string>
-    <string name="alert_title_restart_app">Starte App neu</string>
-    <string name="alert_message_donate">Spenden sind nicht nötig, aber werden gerne angenommen. Spenden können über den PayPal Link gemacht werden.</string>
-    <string name="alert_message_restart_app">Die Applikation muss neugestartet werden um Screenshots zu erlauben/verbieten . Starte PassKeep jetzt neu?</string>
-    <string name="alert_message_delete_password_confirm">Bist du sicher, dass du %s löschen willst. Das kann nicht rückgängig gemacht werden.</string>
-    <string name="alert_message_password_change">Generieren von einem neuem Kennwort wird das alte löschen. Bist du sicher, dass du weiter machen willst?</string>
+    <string name="alert_title_restart_app">App neu starten</string>
+    <string name="alert_message_donate">Spenden sind nicht nötig, aber werden gerne angenommen. Spenden können über den PayPal-Link getätigt werden.</string>
+    <string name="alert_message_restart_app">Die Applikation muss neu gestartet werden um Screenshots zu erlauben/verbieten. PassKeep jetzt neu starten?</string>
+    <string name="alert_message_delete_password_confirm">Bist du sicher, dass du %s löschen willst? Dies kann nicht rückgängig gemacht werden.</string>
+    <string name="alert_message_password_change">Generieren eines neuen Kennworts wird das alte löschen. Bist du sicher, dass du weitermachen willst?</string>
     <string name="alert_message_save_changes">Willst du die Änderungen speichern?</string>
     <string name="alert_message_discard_entry">Willst du den Eintrag verwerfen?</string>
-    <string name="alert_message_self_destruct_activated">Das Maxium von Eingaben wurde erreicht. Alle Kenwörter werden permanent gelöscht. Es gibt kein Zurück!</string>
+    <string name="alert_message_self_destruct_activated">Die maximale Anzahl von Eingabeversuchen wurde erreicht. Alle Kenwörter werden permanent gelöscht. Es gibt kein Zurück!</string>
     <string name="alert_btn_yes">Ja</string>
     <string name="alert_btn_cancel">Abbrechen</string>
     <string name="alert_btn_no">Nein</string>
@@ -93,29 +93,29 @@
     <!--Preferences -->
     <string name="pref_category_title_general">Standart</string>
     <string name="pref_category_title_security">Sicherheit</string>
-    <string name="pref_title_keep_screen_on">Lasse Display an</string>
+    <string name="pref_title_keep_screen_on">Display eingeschaltet lassen</string>
     <string name="pref_title_show_notification">Zeige Benachrichtigungen</string>
-    <string name="pref_title_hide_passwords">Verstecke Kennwort</string>
-    <string name="pref_title_rename_masterkey">Lösche Haupt-Kennwort</string>
-    <string name="pref_title_delete_all_passwords">Lösche Datenbank</string>
-    <string name="pref_title_block_screenshots">Blockiere Screenshots</string>
+    <string name="pref_title_hide_passwords">Kennwort verstecken</string>
+    <string name="pref_title_rename_masterkey">Lösche Master-Kennwort</string>
+    <string name="pref_title_delete_all_passwords">Datenbank löschen</string>
+    <string name="pref_title_block_screenshots">Screenshots blockieren</string>
     <string name="pref_title_auto_logout">Automatisches Logout</string>
     <string name="pref_title_auto_login">Automatisches Login</string>
-    <string name="pref_summary_delete_all_passwords">**Warnung** Löscht alles aus der Datenbank und das Haupt-Kennwort. Kann nicht rückgängig gemacht werden.</string>
-    <string name="pref_summary_reset_master_passkey">**Warnung** Reset Haupt-Kennwort. Sicherung mit dem altem Kennwort wird nicht mehr funktionieren.</string>
+    <string name="pref_summary_delete_all_passwords">**Warnung** Löscht alles aus der Datenbank und das Master-Kennwort. Dies kann nicht rückgängig gemacht werden.</string>
+    <string name="pref_summary_reset_master_passkey">**Warnung** Master-Kennwort zurücksetzen. Sicherung mit dem altem Kennwort wird nicht mehr funktionieren.</string>
     <string name="pref_summary_self_destruct">Lösche alle Kennwörter, wenn du das Kennwort 5 Mal falsch eingibst un den \"sign in\" Knopf nutzt.</string>
-    <string name="pref_summary_auto_logout">Falls du PassKeep verlässt, um eine andere Applikation zu starten, wirst du automatisch ausgeloggt.</string>
+    <string name="pref_summary_auto_logout">Wenn du PassKeep verlässt, um eine andere Applikation zu starten, wirst du automatisch ausgeloggt.</string>
     <string name="pref_summary_disallow_screenshots">Erlaube keine Screenshots in PassKeep.</string>
-    <string name="pref_summary_auto_login">Automatically sign in when the valid password is entered.</string>
+    <string name="pref_summary_auto_login">Automatisch einloggen, wenn das korrekte passwort eingegeben wurde.</string>
     <string name="pref_summary_show_notification">Zeige eine Benachrichtigung in der Statusleiste, wenn die App entsperrt ist.</string>
     <string name="pref_summary_keep_screen_on">Lasse das Display an, während PassKeep benutzt wird.</string>
-    <string name="pref_summary_hide_passwords">Zeige das \"eye\" Symbol zum einstellen der Sichtbarkeit.</string>
-    <string name="pref_default_backup_amount_unlimited">Unlimitiert</string>
+    <string name="pref_summary_hide_passwords">Zeige das \"Augen-Symbol\" zum einstellen der Sichtbarkeit.</string>
+    <string name="pref_default_backup_amount_unlimited">Unbegrenzt</string>
 
     <!-- Misc -->
     <string name="title_last_edited">Zuletzt geändert: %s</string>
     <string name="title_autobackups">Automatische Sicherung</string>
-    <string name="title_backup_every">Sichere immer</string>
+    <string name="title_backup_every">Sichere alle</string>
     <string name="title_backup_time">Sicherungszeit</string>
     <string name="title_max_backups">Maximale Sicherungen</string>
     <string name="title_attempts_remaining">Versuche verbleibend: %d</string>
@@ -128,21 +128,21 @@
     <string name="title_uppercase_az">Großes A-Z</string>
     <string name="title_lowercase_az">Kleines a-z</string>
     <string name="title_numbers">Zahlen 0-9</string>
-    <string name="title_special_chars">Spezielle Buchstaben</string>
-    <string name="title_password_length">Kennwort Länge</string>
-    <string name="title_can_contain">kann enthalten</string>
-    <string name="title_backup_restore_db">Database Backup/Restore</string>
+    <string name="title_special_chars">Sonderzeichen</string>
+    <string name="title_password_length">Kennwortlänge</string>
+    <string name="title_can_contain">Darf enthalten</string>
+    <string name="title_backup_restore_db">Datenbank-Sicherung/Wiederherstellung</string>
     <string name="title_backup_restore_csv">CSV Sicherung/Wiederherstellung</string>
 
-    <string name="message_empty_passwords_recycler">Kennwörter sind hier nach dem Speichern</string>
-    <string name="message_welcome_first_start">Zum Starten musst du . This master password will be used to encrypt your passwords.\n\nThe master password is unrecoverable and in the case of forgetting the master password all passwords will be lost.\n\nTo prevent data loss backup the database regularly.</string>
+    <string name="message_empty_passwords_recycler">Kennwörter werden nach dem Speichern hier angezeigt</string>
+    <string name="message_welcome_first_start">Zum Starten muss ein Master-Kennwort eingegeben werden. Mittels diesem Kennwort werden deine Kennwörter verschlüsselt.\n\nDieses Kennwort ist nicht wiederherstellbar und bei Vergessen des Master-Kennworts werden alle anderen Kennwörter verloren gehen.\n\nUm Datenverlust zu vermeiden sollten regelmäßige Sicherungen erstellt werden.</string>
 
     <string name="notification_message">PassKeep läuft...</string>
 
     <string name="btn_generate_password">Generiere Kennwort</string>
-    <string name="btn_restore_db">Stelle DB wiederher</string>
+    <string name="btn_restore_db">DB wiederherstellen</string>
     <string name="btn_backup_db">Sichere DB</string>
-    <string name="btn_restore_csv">Stellee von CSV wiederher</string>
+    <string name="btn_restore_csv">Von CSV wiederherstellen</string>
     <string name="btn_backup_csv">Sichere als CSV</string>
     <string name="btn_submit_master_password">Start</string>
 
@@ -152,12 +152,27 @@
     <string name="color_swatch_description_selected">Farbe<xliff:g example="14" id="color_index">%1$d</xliff:g> ausgewählt</string>
 
     <!-- Timer settings strings -->
-    <string name="timer_off">Automatisches Ausloggen ahh</string>   
-    <string name="timer_on_exit">Ausloggzeit</string>
+    <string name="timer_off">Automatisches Ausloggen aus</string>   
+    <string name="timer_on_exit">Beim Verlassen der App</string>
     <string name="timer_thirty_secs">30 Sekunden</string>
     <string name="timer_one_minute">1 Minute</string>
     <string name="timer_two_minutes">2 Minuten</string>
     <string name="timer_five_minutes">5 Minuten</string>
     <string name="timer_ten_minutes">10 Minuten</string>
     <string name="timer_fifteen_minutes">15 Minuten</string>
+    
+    <string name="backup_interval_one_day">1 Tag</string>
+    <string name="backup_interval_two_days">2 Tage</string>
+    <string name="backup_interval_three_days">3 Tage</string>
+    <string name="backup_interval_four_days">4 Tage</string>
+    <string name="backup_interval_five_days">5 Tage</string>
+    <string name="backup_interval_six_days">6 Tage</string>
+    <string name="backup_interval_one_week">1 Woche</string>
+    <string name="backup_interval_two_weeks">2 Wochen</string>
+    <string name="backup_interval_three_weeks">3 Wochen</string>
+    <string name="backup_interval_one_month">1 Monat</string>
+    
+    <string name="pref_category_title_appearance">Darstellung</string>
+    <string name="pref_title_dark_theme">Dunkles Thema</string>
+    <string name="pref_summary_dark_theme">Ändere PassKeep's Darstellung in ein dunkles Thema. (App wird neu starten)</string>
 </resources>
