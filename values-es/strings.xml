@@ -91,8 +91,10 @@
     <string name="alert_btn_ok">Ok</string>
  
     <!--Preferences -->
+	<string name="pref_category_title_appearance">Apariencia</string>
     <string name="pref_category_title_general">General</string>
     <string name="pref_category_title_security">Seguridad</string>
+	<string name="pref_title_dark_theme">Dark Theme</string>
     <string name="pref_title_keep_screen_on">Dejar la pantalla encendida</string>
     <string name="pref_title_show_notification">Mostrar notificaciones</string>
     <string name="pref_title_hide_passwords">Esconder contraseña</string>
@@ -101,6 +103,7 @@
     <string name="pref_title_block_screenshots">Bloquear Screenshots</string>
     <string name="pref_title_auto_logout">Auto Entrada</string>
     <string name="pref_title_auto_login">Auto Salida</string>
+	<string name="pref_summary_dark_theme">Cambie el interfaz de usuario de PassKeeps con un tema Material Oscuro. (La aplicación se reiniciará)</string>
     <string name="pref_summary_delete_all_passwords">** Aviso ** Eliminar todo el contenido de la base de datos, incluyendo la clave de acceso principal. Esto no se puede deshacer.</string>
     <string name="pref_summary_reset_master_passkey">** Aviso ** Cambiar la contraseña maestra. Las copias de seguridad con la antigua contraseña no funcionarán más.</string>
     <string name="pref_summary_self_destruct">Eliminar todas las contraseñas cuando 5 intentos fallidos se han introducido con el "signo de \" \ botón.</string>
