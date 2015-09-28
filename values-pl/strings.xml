@@ -91,8 +91,10 @@
     <string name="alert_btn_ok">Ok</string>
 
     <!--Preferences -->
+	<string name="pref_category_title_appearance">Wygląd</string>
     <string name="pref_category_title_general">Ogólne</string>
     <string name="pref_category_title_security">Zabezpieczenia</string>
+	<string name="pref_title_dark_theme">Ciemny Motyw</string>
     <string name="pref_title_keep_screen_on">Utrzymuj Włączony Ekran</string>
     <string name="pref_title_show_notification">Pokaż Powiadomienie</string>
     <string name="pref_title_hide_passwords">Ukryj Hasła</string>
@@ -101,6 +103,7 @@
     <string name="pref_title_block_screenshots">Zablokuj Zrzuty Ekranu</string>
     <string name="pref_title_auto_logout">Auto Wylogowywanie</string>
     <string name="pref_title_auto_login">Auto Logowanie</string>
+	<string name="pref_summary_dark_theme">Zmień temat PassKeeps na ciemny "material design". (Aplikacja będzie uruchomiona ponownie)</string>
     <string name="pref_summary_delete_all_passwords">**Ostrzeżenie** Usuń całą zawartość Bazy Danych włącznie z Kluczem Głównym. Nie będzie można tego cofnąć.</string>
     <string name="pref_summary_reset_master_passkey">**Ostrzeżenie** Zresetuj Klucz Główny. Kopie Zapasowe utworzone ze starym kluczem nie będą więcej działać.</string>
     <string name="pref_summary_self_destruct">Usuń wszystkie hasła po 5 nieudanych próbach za pomocą przycisku \"sign in\".</string>

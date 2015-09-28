@@ -163,5 +163,5 @@
 
     <string name="pref_category_title_appearance">Appearance</string>
     <string name="pref_title_dark_theme">Dark Theme</string>
-    <string name="pref_summary_dark_theme">Change the UI to a dark material theme.</string>
+    <string name="pref_summary_dark_theme">Change PassKeeps UI to a dark material theme. (Application will restart)</string>
 </resources>
