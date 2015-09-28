@@ -160,6 +160,17 @@
     <string name="timer_five_minutes">5 minutes</string>
     <string name="timer_ten_minutes">10 minutes</string>
     <string name="timer_fifteen_minutes">15 minutes</string>
+	
+	<string name="backup_interval_one_day">1 day</string>
+    <string name="backup_interval_two_days">2 days</string>
+    <string name="backup_interval_three_days">3 days</string>
+    <string name="backup_interval_four_days">4 days</string>
+    <string name="backup_interval_five_days">5 days</string>
+    <string name="backup_interval_six_days">6 days</string>
+    <string name="backup_interval_one_week">1 week</string>
+    <string name="backup_interval_two_weeks">2 weeks</string>
+    <string name="backup_interval_three_weeks">3 weeks</string>
+    <string name="backup_interval_one_month">1 month</string>
 
     <string name="pref_category_title_appearance">Appearance</string>
     <string name="pref_title_dark_theme">Dark Theme</string>
