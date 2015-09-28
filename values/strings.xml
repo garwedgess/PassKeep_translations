@@ -135,7 +135,7 @@
     <string name="title_backup_restore_csv">CSV Backup/Restore</string>
 
     <string name="message_empty_passwords_recycler">Passwords will appear here when added</string>
-    <string name="message_welcome_first_start">To start you must enter a master password. This master password will be used to encrypt your passwords.\n\nThe master password in unrecoverable and in the case of forgetting the master password all passwords will be lost.\n\nTo prevent data loss backup the database regularly.</string>
+    <string name="message_welcome_first_start">To start you must enter a master password. This master password will be used to encrypt your passwords.\n\nThe master password is unrecoverable and in the case of forgetting the master password all passwords will be lost.\n\nTo prevent data loss backup the database regularly.</string>
 
     <string name="notification_message">PassKeep is running...</string>
 
