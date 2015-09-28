@@ -161,6 +161,17 @@
     <string name="timer_ten_minutes">10 Minuten</string>
     <string name="timer_fifteen_minutes">15 Minuten</string>
     
+    <string name="backup_interval_one_day">1 Tag</string>
+    <string name="backup_interval_two_days">2 Tage</string>
+    <string name="backup_interval_three_days">3 Tage</string>
+    <string name="backup_interval_four_days">4 Tage</string>
+    <string name="backup_interval_five_days">5 Tage</string>
+    <string name="backup_interval_six_days">6 Tage</string>
+    <string name="backup_interval_one_week">1 Woche</string>
+    <string name="backup_interval_two_weeks">2 Wochen</string>
+    <string name="backup_interval_three_weeks">3 Wochen</string>
+    <string name="backup_interval_one_month">1 Monat</string>
+    
     <string name="pref_category_title_appearance">Darstellung</string>
     <string name="pref_title_dark_theme">Dunkles Thema</string>
     <string name="pref_summary_dark_theme">Ändere PassKeep's Darstellung in ein dunkles Thema. (App wird neu starten)</string>
