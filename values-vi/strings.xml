@@ -1,0 +1,178 @@
+<resources xmlns:xliff="http://schemas.android.com/apk/res-auto">
+    <string name="app_name">PassKeep</string>
+
+    <!-- Main Titles -->
+    <string name="fragment_title_settings">Cài đặt</string>
+    <string name="fragment_title_backup_restore">Sao lưu/Khôi phục</string>
+    <string name="fragment_title_passwords">Mật khẩu</string>
+    <string name="fragment_title_password_entry">Mục mật khẩu</string>
+    <string name="fragment_title_password_generator">Tạo mật khẩu</string>
+    <string name="fragment_title_path_picker_default">Chọn thư mục</string>
+    <string name="fragment_title_path_picker_share_backup">Chia sẻ sao lưu</string>
+
+    <!--Actions -->
+    <string name="action_select_all">Chọn tất cả</string>
+    <string name="action_delete">Hủy</string>
+    <string name="action_title_items_selected">Đã chọn %d</string>
+    <string name="action_donate">Quyên góp</string>
+    <string name="action_settings">Cài đặt</string>
+    <string name="action_edit_password">Chỉnh sửa mật khẩu</string>
+    <string name="action_logout">Đăng xuất</string>
+    <string name="action_delete_password">Hủy mật khẩu</string>
+    <string name="action_search">Tìm kiếm</string>
+    <string name="action_color_picker">Chọn màu</string>
+    <string name="action_undo">Hoàn tác</string>
+    <string name="action_floating_window">Cửa sổ nổi</string>
+    <string name="action_file_browser_new_dir">Thư mục mới</string>
+
+    <!-- Toast/Snackbar -->
+    <string name="toast_message_dir_created">Hoàn tất tạo thư mục</string>
+    <string name="toast_message_dir_failed">Tạo thư mục thất bại</string>
+    <string name="toast_message_restore_success">Hoàn tất khôi phục</string>
+    <string name="toast_message_restore_failed">Khôi phục thất bại</string>
+    <string name="toast_message_copied_to_clipboard">Đã chép vào clipboard</string>
+    <string name="toast_message_double_tap_to_exit">Nhấp đôi để thoát</string>
+    <string name="toast_message_must_contain">Bạn phải chọn các ký tự mong muốn cho mật khẩu</string>
+    <string name="toast_message_backup_fail">Sao lưu thất bại</string>
+    <string name="toast_message_backup_success">Hoàn tất sao lưu</string>
+    <string name="toast_message_autobackup_success">PassKeep: Hoàn tất tự động sao lưu</string>
+    <string name="toast_message_autobackup_failed">PassKeep: Tự động sao lưu thất bại</string>
+    <string name="toast_message_autobackup_restarted">PassKeep: Tự động sao lưu tái khởi động</string>
+    <string name="toast_message_no_backups">Chưa tạo bản sao lưu nào</string>
+
+    <string name="snackbar_message_select_a_backup_to">Chọn một bản sao lưu để %s</string>
+    <string name="snackbar_message_append_share">chia sẻ</string>
+    <string name="snackbar_message_append_restore">khôi phục</string>
+    <string name="snackbar_messgae_select_folder">Nhấp giữ một thư mục để chọn đường dẫn</string>
+    <string name="snackbar_message_self_destruct_remaining">chỉ còn %d lần nhập trước khi tự hủy. Tất cả mật khẩu sẽ bị xóa sạch.</string>
+    <string name="snackbar_message_deleted_item">Đã hủy %d mục</string>
+    <string name="snackbar_message_deleted_items">Đã hủy %d mục</string>
+
+    <!--EditText/TIL -->
+    <string name="et_hint_confirm_masterkey">Xác nhận Masterkey mới</string>
+    <string name="et_hint_backup_restore_loc">Vị trí sao lưu/khôi phục</string>
+    <string name="et_hint_new_masterkey">Masterkey mới</string>
+    <string name="et_hint_name">Tên</string>
+    <string name="et_hint_password">Mật khẩu</string>
+    <string name="et_hint_title">Tiêu đề</string>
+    <string name="et_hint_site">Trang</string>
+    <string name="et_hint_old_masterkey">Masterkey cũ</string>
+    <string name="et_hint_confirm_password">Xác nhận mật khẩu</string>
+    <string name="et_hint_username">Tên người dùng</string>
+    <string name="et_hint_description">Mô tả</string>
+    <string name="error_passwords_dont_match">Mật khẩu không trùng khớp</string>
+    <string name="error_incorrect_password">Sai mật khẩu</string>
+    <string name="error_blank_pass_title">Không thể để trống tiêu đề</string>
+    <string name="error_blank_pass_username">Không thể để trống tên người dùng</string>
+    <string name="error_blank_password">Không thể để trống mật khẩu</string>
+    <string name="error_password_length_short">Mật khẩu phải có ít nhất 6 ký tự</string>
+    <string name="til_title_backup">Tên tập tin sao lưu</string>
+
+    <!-- AlertDialogs -->
+    <string name="alert_title_self_destruct">Tự hủy</string>
+    <string name="alert_title_delete_password">Hủy mật khẩu</string>
+    <string name="alert_title_backup_from_csv">Sao lưu CSV</string>
+    <string name="alert_title_new_directory">Thư mục mới</string>
+    <string name="alert_title_password_change">Đổi mật khẩu</string>
+    <string name="alert_title_backup_from_db">Sao lưu CSDL</string>
+    <string name="alert_title_backup_db">Sao lưu CSDL</string>
+    <string name="alert_title_share_backup">Chia sẻ sao lưu với..</string>
+    <string name="alert_title_restart_app">Tái khởi động ứng dụng</string>
+    <string name="alert_message_donate">Không nhất thiết phải quyên góp nhưng chúng tôi rất trân trọng nếu bạn có nhã ý. Bạn có thể quyên góp thông qua PayPal bằng cách nhấp vào nút bên dưới.</string>
+    <string name="alert_message_restart_app">Phải tái khởi động ứng dụng để chặn/cho phép chụp màn hình. Tái khởi động PassKeep ngay?</string>
+    <string name="alert_message_delete_password_confirm">Có chắc là bạn muốn hủy %s? Không thể hoàn tác đâu.</string>
+    <string name="alert_message_password_change">Mật khẩu cũ sẽ bị hủy khi bạn tạo mới. Có chắc là bạn muốn tiếp tục?</string>
+    <string name="alert_message_save_changes">Bạn có muốn lưu các thay đổi?</string>
+    <string name="alert_message_discard_entry">Bạn có muốn bỏ mục này?</string>
+    <string name="alert_message_self_destruct_activated">Đã đạt đến số lần nhập mật khẩu tối đa. Tất cả mật khẩu đã bị hủy hoàn toàn. Không thể hoàn tác nữa!</string>
+    <string name="alert_btn_yes">Có</string>
+    <string name="alert_btn_cancel">Hủy bỏ</string>
+    <string name="alert_btn_no">Không</string>
+    <string name="alert_btn_ok">Ok</string>
+
+    <!--Preferences -->
+	<string name="pref_category_title_appearance">Giao diện</string>
+    <string name="pref_category_title_general">Tổng quát</string>
+    <string name="pref_category_title_security">An ninh</string>
+	<string name="pref_title_dark_theme">Nền tối</string>
+    <string name="pref_title_keep_screen_on">Giữ màn hình</string>
+    <string name="pref_title_show_notification">Hiển thị thông báo</string>
+    <string name="pref_title_hide_passwords">Ẩn mật khẩu</string>
+    <string name="pref_title_rename_masterkey">Tái thiết lập Master Passkey</string>
+    <string name="pref_title_delete_all_passwords">Hủy cơ sở dữ liệu</string>
+    <string name="pref_title_block_screenshots">Chặn chụp màn hình</string>
+    <string name="pref_title_auto_logout">Tự động đăng xuất</string>
+    <string name="pref_title_auto_login">Tự động đăng nhập</string>
+	<string name="pref_summary_dark_theme">Đổi giao diện PassKeep thành nền material tối. (Ứng dụng sẽ tái khởi động)</string>
+    <string name="pref_summary_delete_all_passwords">**Cảnh báo** Xóa hết tất cả nội dung cơ sở dữ liệu bao gồm cả Master Passkey. Không thể hoàn tác đâu.</string>
+    <string name="pref_summary_reset_master_passkey">**Cảnh báo** Tái thiết lập Master Passkey. Các sao lưu dùng Passkey cũ sẽ không còn hoạt động.</string>
+    <string name="pref_summary_self_destruct">Hủy tất cả mật khẩu sau 5 lần nhập thông qua nút \"đăng nhập\" thất bại.</string>
+    <string name="pref_summary_auto_logout">Khi thoát PassKeep để dùng ứng dụng khác, PassKeep sẽ đăng xuất sau một khoảng thời gian định sẵn.</string>
+    <string name="pref_summary_disallow_screenshots">Không cho phép chụp lại màn hình PassKeep.</string>
+    <string name="pref_summary_auto_login">Tự động đăng nhập khi mật khẩu được nhập chính xác.</string>
+    <string name="pref_summary_show_notification">Hiện thông báo trên thanh trạng thái khi ứng dụng đang chạy và mở khóa.</string>
+    <string name="pref_summary_keep_screen_on">Giữ màn hình khi xem PassKeep</string>
+    <string name="pref_summary_hide_passwords">Hiện biểu tượng \"con mắt\" để chuyển chế độ hiện mật khẩu.</string>
+    <string name="pref_default_backup_amount_unlimited">Không giới hạn</string>
+
+    <!-- Misc -->
+    <string name="title_last_edited">Lần chỉnh sửa cuối: %s</string>
+    <string name="title_autobackups">Tự động sao lưu</string>
+    <string name="title_backup_every">Sao lưu sau mỗi</string>
+    <string name="title_backup_time">Thời điểm sao lưu</string>
+    <string name="title_max_backups">Số sao lưu tối đa</string>
+    <string name="title_attempts_remaining">Số lần nhập còn lại: %d</string>
+    <string name="title_welcome">Chào mừng...</string>
+    <string name="title_bg_view_num_item">Mục thứ %1$d</string>
+    <string name="title_bg_view_num_items">Mục thứ %1$d</string>
+    <string name="title_bg_view_root">Root</string>
+    <string name="title_first_start">Lần khởi động đầu tiên</string>
+    <string name="title_btn_sign_in">Đăng nhập</string>
+    <string name="title_uppercase_az">A-Z hoa</string>
+    <string name="title_lowercase_az">a-z thường</string>
+    <string name="title_numbers">Số từ 0-9</string>
+    <string name="title_special_chars">Các ký tự đặc biệt</string>
+    <string name="title_password_length">Độ dài mật khẩu</string>
+    <string name="title_can_contain">Có thể chứa</string>
+    <string name="title_backup_restore_db">Sao lưu/Khôi phục cơ sở dữ liệu</string>
+    <string name="title_backup_restore_csv">Sao lưu/khôi phục CSV</string>
+
+    <string name="message_empty_passwords_recycler">Mật khẩu sẽ xuất hiện ở đây sau khi được thêm vào</string>
+    <string name="message_welcome_first_start">Để bắt đầu, bạn phải nhập mật khẩu chính. Nó được dùng để mã khóa các mật khẩu khác.\n\nĐừng bao giờ quên mật khẩu chính, không có cách nào khôi phục nó được và bạn sẽ mất tất cả các mật khẩu khác.\n\nĐể phòng ngừa, hãy thường xuyên sao lưu cơ sở dữ liệu.</string>
+
+    <string name="notification_message">PassKeep đang chạy...</string>
+
+    <string name="btn_generate_password">Tạo mật khẩu</string>
+    <string name="btn_restore_db">Khôi phục CSDL</string>
+    <string name="btn_backup_db">Sao lưu CSDL</string>
+    <string name="btn_restore_csv">Khôi phục từ CSV</string>
+    <string name="btn_backup_csv">Sao lưu vào CSV</string>
+    <string name="btn_submit_master_password">Bắt đầu</string>
+
+    <!-- Default title for color picker dialog [CHAR LIMIT=30] -->
+    <string name="color_picker_default_title">Chọn màu</string>
+    <string name="color_swatch_description">Màu <xliff:g example="14" id="color_index">%1$d</xliff:g></string>
+    <string name="color_swatch_description_selected">Màu <xliff:g example="14" id="color_index">%1$d</xliff:g> đã được chọn</string>
+
+    <!-- Timer settings strings -->
+    <string name="timer_off">Tự động đăng xuất Tắt</string>
+    <string name="timer_on_exit">Khi thoát</string>
+    <string name="timer_thirty_secs">30 giây</string>
+    <string name="timer_one_minute">1 phút</string>
+    <string name="timer_two_minutes">2 phút</string>
+    <string name="timer_five_minutes">5 phút</string>
+    <string name="timer_ten_minutes">10 phút</string>
+    <string name="timer_fifteen_minutes">15 phút</string>
+	
+	<string name="backup_interval_one_day">1 ngày</string>
+    <string name="backup_interval_two_days">2 ngày</string>
+    <string name="backup_interval_three_days">3 ngày</string>
+    <string name="backup_interval_four_days">4 ngày</string>
+    <string name="backup_interval_five_days">5 ngày</string>
+    <string name="backup_interval_six_days">6 ngày</string>
+    <string name="backup_interval_one_week">1 tuần</string>
+    <string name="backup_interval_two_weeks">2 tuần</string>
+    <string name="backup_interval_three_weeks">3 tuần</string>
+    <string name="backup_interval_one_month">1 tháng</string>
+
+</resources>
