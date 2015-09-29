@@ -103,7 +103,7 @@
     <string name="pref_title_block_screenshots">Zablokuj Zrzuty Ekranu</string>
     <string name="pref_title_auto_logout">Auto Wylogowywanie</string>
     <string name="pref_title_auto_login">Auto Logowanie</string>
-	<string name="pref_summary_dark_theme">Zmień temat PassKeeps na ciemny "material design". (Aplikacja będzie uruchomiona ponownie)</string>
+	<string name="pref_summary_dark_theme">Zmień temat PassKeeps na ciemny \"material design\". (Aplikacja będzie uruchomiona ponownie)</string>
     <string name="pref_summary_delete_all_passwords">**Ostrzeżenie** Usuń całą zawartość Bazy Danych włącznie z Kluczem Głównym. Nie będzie można tego cofnąć.</string>
     <string name="pref_summary_reset_master_passkey">**Ostrzeżenie** Zresetuj Klucz Główny. Kopie Zapasowe utworzone ze starym kluczem nie będą więcej działać.</string>
     <string name="pref_summary_self_destruct">Usuń wszystkie hasła po 5 nieudanych próbach za pomocą przycisku \"sign in\".</string>
@@ -174,8 +174,4 @@
     <string name="backup_interval_two_weeks">2 tygodnie</string>
     <string name="backup_interval_three_weeks">3 tygodnie</string>
     <string name="backup_interval_one_month">1 miesiąc</string>
-
-    <string name="pref_category_title_appearance">Wygląd</string>
-    <string name="pref_title_dark_theme">Ciemny Motyw</string>
-    <string name="pref_summary_dark_theme">Zmień temat PassKeeps na ciemny "material design". (Aplikacja będzie uruchomiona ponownie)</string>
 </resources>
