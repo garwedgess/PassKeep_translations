@@ -174,5 +174,5 @@
     
     <string name="pref_category_title_appearance">Darstellung</string>
     <string name="pref_title_dark_theme">Dunkles Thema</string>
-    <string name="pref_summary_dark_theme">Ändere PassKeep's Darstellung in ein dunkles Thema. (App wird neu starten)</string>
+    <string name="pref_summary_dark_theme">Ändere PassKeep\'s Darstellung in ein dunkles Thema. (App wird neu starten)</string>
 </resources>
