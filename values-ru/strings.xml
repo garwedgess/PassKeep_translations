@@ -91,8 +91,10 @@
     <string name="alert_btn_ok">Ok</string>
 
     <!--Preferences -->
+	<string name="pref_category_title_appearance">Внешний вид</string>
     <string name="pref_category_title_general">Основные</string>
     <string name="pref_category_title_security">Безопасность</string>
+	<string name="pref_title_dark_theme">Темный фон</string>
     <string name="pref_title_keep_screen_on">Бодрствование</string>
     <string name="pref_title_show_notification">Уведомление</string>
     <string name="pref_title_hide_passwords">Сокрытие паролей</string>
@@ -101,6 +103,7 @@
     <string name="pref_title_block_screenshots">Блокировка скриншотов</string>
     <string name="pref_title_auto_logout">Автовыход</string>
     <string name="pref_title_auto_login">Умный вход</string>
+	<string name="pref_summary_dark_theme">Применить темное оформление в стиле Material Design. (требуется перезапуск)</string>
     <string name="pref_summary_delete_all_passwords">**Предупреждение** Все пароли, включая мастер-пароль будут удалены. Это действие нельзя отменить.</string>
     <string name="pref_summary_reset_master_passkey">**Предупреждение** Сменить мастер-пароль. Резервные копии со старым мастер-паролем перестанут работать.</string>
     <string name="pref_summary_self_destruct">Удалять все пароли при достижении 5 неудачных попыток входа.</string>
@@ -160,8 +163,16 @@
     <string name="timer_five_minutes">Через 5 минут</string>
     <string name="timer_ten_minutes">Через 10 минут</string>
     <string name="timer_fifteen_minutes">Через 15 минут</string>
+	
+	<string name="backup_interval_one_day">Раз в день</string>
+    <string name="backup_interval_two_days">Раз в 2 дня</string>
+    <string name="backup_interval_three_days">Раз в 3 дня</string>
+    <string name="backup_interval_four_days">Раз в 4 дня</string>
+    <string name="backup_interval_five_days">Раз в 5 дней</string>
+    <string name="backup_interval_six_days">Раз в 6 дней</string>
+    <string name="backup_interval_one_week">Раз в неделю</string>
+    <string name="backup_interval_two_weeks">Раз в 2 недели</string>
+    <string name="backup_interval_three_weeks">Раз в 3 недели</string>
+    <string name="backup_interval_one_month">Раз в месяц</string>
 
-    <string name="pref_category_title_appearance">Внешний вид</string>
-    <string name="pref_title_dark_theme">Темный фон</string>
-    <string name="pref_summary_dark_theme">Применить темное оформление в стиле Material Design. (требуется перезапуск)</string>
 </resources>
