@@ -106,13 +106,13 @@
 	<string name="pref_summary_dark_theme">Zmień temat PassKeeps na ciemny \"material design\". (Aplikacja będzie uruchomiona ponownie)</string>
     <string name="pref_summary_delete_all_passwords">**Ostrzeżenie** Usuń całą zawartość Bazy Danych włącznie z Kluczem Głównym. Nie będzie można tego cofnąć.</string>
     <string name="pref_summary_reset_master_passkey">**Ostrzeżenie** Zresetuj Klucz Główny. Kopie Zapasowe utworzone ze starym kluczem nie będą więcej działać.</string>
-    <string name="pref_summary_self_destruct">Usuń wszystkie hasła po 5 nieudanych próbach za pomocą przycisku \"sign in\".</string>
+    <string name="pref_summary_self_destruct">Usuń wszystkie hasła po 5 nieudanych próbach logowania za pomocą przycisku \"zaloguj się\".</string>
     <string name="pref_summary_auto_logout">Jeśli wyjdziesz z PassKeep do innej aplikacji, PassKeep wyloguje Cię po określonym czasie.</string>
     <string name="pref_summary_disallow_screenshots">Nie zezwalaj na wykonywanie zrzutów ekranu.</string>
     <string name="pref_summary_auto_login">Zaloguj automatycznie po wprowadzeniu poprawnego hasła.</string>
     <string name="pref_summary_show_notification">Pokaż powiadomienie na pasku status po uruchomieniu i odblokowaniu aplikacji.</string>
     <string name="pref_summary_keep_screen_on">Utrzymuj włączony ekran podczas pracy Passkeep</string>
-    <string name="pref_summary_hide_passwords">Pokaż ikonę \"eye\" aby przełączyć widoczność haseł.</string>
+    <string name="pref_summary_hide_passwords">Pokaż ikonę \"oka\" aby przełączyć widoczność haseł.</string>
     <string name="pref_default_backup_amount_unlimited">Nieograniczone</string>
 
     <!-- Misc -->
