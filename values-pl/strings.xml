@@ -163,4 +163,19 @@
     <string name="timer_five_minutes">5 minut</string>
     <string name="timer_ten_minutes">10 minut</string>
     <string name="timer_fifteen_minutes">15 minut</string>
+    
+    <string name="backup_interval_one_day">1 dzień</string>
+    <string name="backup_interval_two_days">2 dni</string>
+    <string name="backup_interval_three_days">3 dni</string>
+    <string name="backup_interval_four_days">4 dni</string>
+    <string name="backup_interval_five_days">5 dni</string>
+    <string name="backup_interval_six_days">6 dni</string>
+    <string name="backup_interval_one_week">1 tydzień</string>
+    <string name="backup_interval_two_weeks">2 tygodnie</string>
+    <string name="backup_interval_three_weeks">3 tygodnie</string>
+    <string name="backup_interval_one_month">1 miesiąc</string>
+
+    <string name="pref_category_title_appearance">Wygląd</string>
+    <string name="pref_title_dark_theme">Ciemny Motyw</string>
+    <string name="pref_summary_dark_theme">Zmień temat PassKeeps na ciemny "material design". (Aplikacja będzie uruchomiona ponownie)</string>
 </resources>
