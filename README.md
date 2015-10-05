@@ -9,6 +9,7 @@ https://play.google.com/store/apps/details?id=eu.wedgess.passkeep
 
 # Completed Strings
 - English (me)
-- German (Trafalgar-Square)
-- Spanish (smstiv)
+- German (laufersteppenwolf/Trafalgar-Square)
 - Polish (Chamelleon)
+- Russian (DumF0rGaming)
+- Spanish (smstiv)
