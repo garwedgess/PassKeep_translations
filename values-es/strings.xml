@@ -14,7 +14,6 @@
     <string name="action_select_all">Selecionar todo</string>
     <string name="action_delete">Borrar</string>
     <string name="action_title_items_selected">%d selecionado</string>
-    <string name="action_donate">Donar</string>
     <string name="action_settings">Ajustes</string>
     <string name="action_edit_password">Editar contraseña</string>
     <string name="action_logout">Salir</string>
@@ -24,6 +23,7 @@
     <string name="action_undo">Deshacer</string>
     <string name="action_floating_window">Ventana flotante</string>
     <string name="action_file_browser_new_dir">Nueva ruta</string>
+	<string name="action_sort">Clase</string>
  
     <!-- Toast/Snackbar -->
     <string name="toast_message_dir_created">Creación de ruta satisfactorio</string>
@@ -39,6 +39,7 @@
     <string name="toast_message_autobackup_failed">GuardaContraseñas: Copia de seguridad automática fallida</string>
     <string name="toast_message_autobackup_restarted">GuardaContraseñas: Copia de seguridad automática reiniciada</string>
     <string name="toast_message_no_backups">Todavia no existe copia de seguridad</string>
+	<string name="toast_message_no_character">No se pueden introducir caracteres personalizados</string>
  
     <string name="snackbar_message_select_a_backup_to">Seleccione una copia de seguridad %s</string>
     <string name="snackbar_message_append_share">compartir</string>
@@ -60,6 +61,7 @@
     <string name="et_hint_confirm_password">Confirmar contraseña</string>
     <string name="et_hint_username">Nombre de usuario</string>
     <string name="et_hint_description">Descripcion</string>
+	<string name="et_hint_custom_characters">Introducir caracteres personalizados aqui</string>
     <string name="error_passwords_dont_match">Las contraseñas no coinciden</string>
     <string name="error_incorrect_password">Contraseña incorrecta</string>
     <string name="error_blank_pass_title">El titulo no puede estar en blanco</string>
@@ -78,7 +80,9 @@
     <string name="alert_title_backup_db">Copia de seguridad de DB</string>
     <string name="alert_title_share_backup">Compartir copia de seguridad con...</string>
     <string name="alert_title_restart_app">Reiniciar la aplicacion</string>
-    <string name="alert_message_donate">Las donaciones no son necesarios, sin embargo son muy apreciadas. Las donaciones se pueden hacer a través de PayPal haciendo clic en el botón de donar a continuación.</string>
+	<string name="alert_title_select_application">Seleccione una aplicación</string>
+    <string name="alert_title_sort_passwords">Ordenar contraseñas</string>
+    <string name="alert_message_loading_app_list">Cargando lista de aplicaciones</string>
     <string name="alert_message_restart_app">La aplicación debe ser reiniciada para bloquear / permitir capturas de pantalla. Reinicie GuardaContraseñas ahora?</string>
     <string name="alert_message_delete_password_confirm">Estas seguro que quieres borrar %s. Esto no se puede deshacer.</string>
     <string name="alert_message_password_change">La generación de una nueva contraseña eliminará la antigua. ¿Estás seguro que quieres continuar?</string>
@@ -136,10 +140,13 @@
     <string name="title_can_contain">Puede contener</string>
     <string name="title_backup_restore_db">Base de datos Copia de seguridad/Restauracion</string>
     <string name="title_backup_restore_csv">CSV Copia de seguridad/Restauracion</string>
+	<string name="title_custom_characters">Caracteres Personalizados</string>
  
     <string name="message_empty_passwords_recycler">Las contraseñas aparecerán aquí cuando se añaden</string>
     <string name="message_welcome_first_start">Para empezar, debe introducir una contraseña maestra. Esta contraseña se utiliza para cifrar todas las contraseñas.\n\nLa contraseña maestra es irrecuperable y en el caso de su olvido se perderán todas las demas contraseñas.\n\nPara evitar la pérdida de datos haga copias de seguridad con regularidad.</string>
- 
+    <string name="message_placeholder_app_name">Toque para añadir Aplicación</string>
+    <string name="message_placeholder_apk_package">Puede abrir la aplicación desde aquí</string>
+
     <string name="notification_message">PassKeep está funcionando ...</string>
  
     <string name="btn_generate_password">Generar contraseña</string>
@@ -163,4 +170,15 @@
     <string name="timer_five_minutes">5 minutos</string>
     <string name="timer_ten_minutes">10 minutos</string>
     <string name="timer_fifteen_minutes">15 minutos</string>
+	
+	<string name="sort_option_alphabetically_ascending">Alfabéticamente (ascendente)</string>
+    <string name="sort_option_alphabetically_descending">Alfabéticamente (descendente)</string>
+    <string name="sort_option_date_created_ascending">Fecha (ascendente)</string>
+    <string name="sort_option_date_created_descending">Fecha (descendente)</string>
+    <string name="sort_option_color">Color</string>
+
+    <string name="date_ending_st">%sro</string>
+    <string name="date_ending_nd">%sdo</string>
+    <string name="date_ending_rd">%sro</string>
+    <string name="date_ending_th">%sto</string>
 </resources>
