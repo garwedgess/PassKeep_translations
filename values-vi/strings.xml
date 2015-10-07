@@ -24,6 +24,7 @@
     <string name="action_undo">Hoàn tác</string>
     <string name="action_floating_window">Cửa sổ nổi</string>
     <string name="action_file_browser_new_dir">Thư mục mới</string>
+    <string name="action_sort">Sắp xếp</string>
 
     <!-- Toast/Snackbar -->
     <string name="toast_message_dir_created">Hoàn tất tạo thư mục</string>
@@ -39,6 +40,7 @@
     <string name="toast_message_autobackup_failed">PassKeep: Tự động sao lưu thất bại</string>
     <string name="toast_message_autobackup_restarted">PassKeep: Tự động sao lưu tái khởi động</string>
     <string name="toast_message_no_backups">Chưa tạo bản sao lưu nào</string>
+    <string name="toast_message_no_character">Không có ký tự tuỳ chọn nào được nhập</string>
 
     <string name="snackbar_message_select_a_backup_to">Chọn một bản sao lưu để %s</string>
     <string name="snackbar_message_append_share">chia sẻ</string>
@@ -60,6 +62,7 @@
     <string name="et_hint_confirm_password">Xác nhận mật khẩu</string>
     <string name="et_hint_username">Tên người dùng</string>
     <string name="et_hint_description">Mô tả</string>
+    <string name="et_hint_custom_characters">Enter custom characters here</string>
     <string name="error_passwords_dont_match">Mật khẩu không trùng khớp</string>
     <string name="error_incorrect_password">Sai mật khẩu</string>
     <string name="error_blank_pass_title">Không thể để trống tiêu đề</string>
@@ -78,6 +81,9 @@
     <string name="alert_title_backup_db">Sao lưu CSDL</string>
     <string name="alert_title_share_backup">Chia sẻ sao lưu với..</string>
     <string name="alert_title_restart_app">Tái khởi động ứng dụng</string>
+	<string name="alert_title_select_application">Chọn ứng dụng</string>
+    <string name="alert_title_sort_passwords">Sắp xếp mật khẩu</string>
+    <string name="alert_message_loading_app_list">Đang tải danh sách ứng dụng</string>
     <string name="alert_message_donate">Không nhất thiết phải quyên góp nhưng chúng tôi rất trân trọng nếu bạn có nhã ý. Bạn có thể quyên góp thông qua PayPal bằng cách nhấp vào nút bên dưới.</string>
     <string name="alert_message_restart_app">Phải tái khởi động ứng dụng để chặn/cho phép chụp màn hình. Tái khởi động PassKeep ngay?</string>
     <string name="alert_message_delete_password_confirm">Có chắc là bạn muốn hủy %s? Sẽ không thể hoàn tác.</string>
@@ -136,9 +142,12 @@
     <string name="title_can_contain">Có chứa</string>
     <string name="title_backup_restore_db">Sao lưu/Khôi phục CSDL</string>
     <string name="title_backup_restore_csv">Sao lưu/khôi phục CSV</string>
+    <string name="title_custom_characters">Ký tự tuỳ chọn</string>
 
     <string name="message_empty_passwords_recycler">Mật khẩu sẽ xuất hiện ở đây sau khi được thêm vào</string>
     <string name="message_welcome_first_start">Để bắt đầu, bạn phải tạo mật khẩu chính. Nó được dùng để mã khóa các mật khẩu khác.\n\nKhông có cách nào khôi phục mật khẩu chính, do đó đừng bao giờ quên nó nếu bạn không muốn mất tất cả các mật khẩu khác.\n\nĐể đề phòng, hãy thường xuyên sao lưu cơ sở dữ liệu.</string>
+    <string name="message_placeholder_app_name">Chạm để thêm ứng dụng</string>
+    <string name="message_placeholder_apk_package">Bạn có thể chạy ứng dụng từ đây</string>
 
     <string name="notification_message">PassKeep đang chạy...</string>
 
@@ -174,5 +183,10 @@
     <string name="backup_interval_two_weeks">2 tuần</string>
     <string name="backup_interval_three_weeks">3 tuần</string>
     <string name="backup_interval_one_month">1 tháng</string>
+	
+    <string name="sort_option_alphabetically_ascending">A-Z (Tăng dần)</string>
+    <string name="sort_option_alphabetically_descending">A-Z (Giảm dần)</string>
+    <string name="sort_option_date_created_ascending">Ngày tháng (Tăng dần)</string>
+    <string name="sort_option_date_created_descending">Ngày tháng (Giảm dần)</string>
 
 </resources>
