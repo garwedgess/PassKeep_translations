@@ -24,6 +24,7 @@
     <string name="action_undo">Cofnij</string>
     <string name="action_floating_window">Ruchome Okienko</string>
     <string name="action_file_browser_new_dir">Nowy Katalog</string>
+    <string name="action_sort">Sortuj</string>
 
     <!-- Toast/Snackbar -->
     <string name="toast_message_dir_created">Pomyślnie utworzono katalog</string>
@@ -39,6 +40,7 @@
     <string name="toast_message_autobackup_failed">PassKeep: Nie udało się utworzyć automatycznej kopii zapasowej</string>
     <string name="toast_message_autobackup_restarted">PassKeep: Wznowiono automatyczną kopię zapasową</string>
     <string name="toast_message_no_backups">Nie utworzono żadnych kopii zapasowych</string>
+    <string name="toast_message_no_character">Nie wprowadzono żadnych niestandardowych znaków</string>
 
     <string name="snackbar_message_select_a_backup_to">Wybierz backup do %s</string>
     <string name="snackbar_message_append_share">udostępnij</string>
@@ -60,6 +62,7 @@
     <string name="et_hint_confirm_password">Potwierdź Hasło</string>
     <string name="et_hint_username">Nazwa Użytkownika</string>
     <string name="et_hint_description">Opis</string>
+    <string name="et_hint_custom_characters">Tutaj wpisz niestandardowe znaki</string>
     <string name="error_passwords_dont_match">hasła nie pasują</string>
     <string name="error_incorrect_password">Błędne Hasło</string>
     <string name="error_blank_pass_title">Tytuł nie może pozostać pusty</string>
@@ -78,6 +81,9 @@
     <string name="alert_title_backup_db">Kopia Zapasowa Bazy Danych</string>
     <string name="alert_title_share_backup">Udostępnij Kopię Zapasową dla..</string>
     <string name="alert_title_restart_app">Uruchom Ponownie Aplikację</string>
+    <string name="alert_title_select_application">Wybierz Aplikację</string>
+    <string name="alert_title_sort_passwords">Sortuj Hasa</string>
+    <string name="alert_message_loading_app_list">Ładowanie listy aplikacji</string>
     <string name="alert_message_donate">Dotację nie są konieczne, ale mile widziane. Dotacje mogą być dokonywane przez PayPal za pomocą poniższego przycisku "Wspomóż"</string>
     <string name="alert_message_restart_app">Aplikacja musi zostać ponownie uruchomiona w celu blokowania/zezwolenia na zrzuty ekranu. Uruchomić ponownie PassKeep teraz?</string>
     <string name="alert_message_delete_password_confirm">Czy aby na pewno chcesz usunąć %s. Nie będzie można tego cofnąć.</string>
@@ -136,9 +142,12 @@
     <string name="title_can_contain">Może Zawierać</string>
     <string name="title_backup_restore_db">Kopia Zapasowa/Przywracanie Bazy Danych</string>
     <string name="title_backup_restore_csv">CSV Kopia Zapasowa/Przywracanie</string>
+    <string name="title_custom_characters">Znaki Niestandardowe</string>
 
     <string name="message_empty_passwords_recycler">Hasła pojawią się po dodaniu</string>
     <string name="message_welcome_first_start">Aby zacząć musisz podać Klucz Główny. Klucz Główny będzie używany do odszyfrowywania Twoich haseł.\n\nGłównego hasła nie da się odzyskać i po jego zapomnieniu wszystkie hasła zostaną utracone.\n\nAby zapobiec utracie danych wykonuj często kopię zapasową bazy danych.</string>
+    <string name="message_placeholder_app_name">Dotkinj aby dodać Aplikację</string>
+    <string name="message_placeholder_apk_package">Nastpnie możesz otworzyć aplikacje stąd</string>
 
     <string name="notification_message">PassKeep pracuje...</string>
 
@@ -174,4 +183,11 @@
     <string name="backup_interval_two_weeks">2 tygodnie</string>
     <string name="backup_interval_three_weeks">3 tygodnie</string>
     <string name="backup_interval_one_month">1 miesiąc</string>
+    
+    <string name="sort_option_alphabetically_ascending">Alfabetycznie (Rosnąco)</string>
+    <string name="sort_option_alphabetically_descending">Alfabetycznie (Malejąco)</string>
+    <string name="sort_option_date_created_ascending">Data (Rosnąco)</string>
+    <string name="sort_option_date_created_descending">Data (Malejąco)</string>
+    <string name="sort_option_color">Kolor</string>
+    
 </resources>
