@@ -188,5 +188,10 @@
     <string name="sort_option_alphabetically_descending">A-Z (Giảm dần)</string>
     <string name="sort_option_date_created_ascending">Ngày tháng (Tăng dần)</string>
     <string name="sort_option_date_created_descending">Ngày tháng (Giảm dần)</string>
+	
+	<string name="date_ending_st">%sst</string>
+    <string name="date_ending_nd">%snd</string>
+    <string name="date_ending_rd">%srd</string>
+    <string name="date_ending_th">%sth</string>
 
 </resources>
