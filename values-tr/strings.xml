@@ -1,0 +1,196 @@
+<resources xmlns:xliff="http://schemas.android.com/apk/res-auto">
+    <string name="app_name">PassKeep</string>
+
+    <!-- Main Titles -->
+    <string name="fragment_title_settings">Ayarlar</string>
+    <string name="fragment_title_backup_restore">Yedekle/Geri Yükle</string>
+    <string name="fragment_title_passwords">Şifreler</string>
+    <string name="fragment_title_password_entry">Şifre Verileri</string>
+    <string name="fragment_title_password_generator">Şifre Oluşturucu</string>
+    <string name="fragment_title_path_picker_default">Bir Dizin Seç</string>
+    <string name="fragment_title_path_picker_share_backup">Yedek Dosyasını Paylaş</string>
+
+    <!--Actions -->
+    <string name="action_select_all">Tümünü seç</string>
+    <string name="action_delete">Sil</string>
+    <string name="action_title_items_selected">%d seçildi</string>
+    <string name="action_settings">Ayarlar</string>
+    <string name="action_edit_password">Şifreyi Düzenle</string>
+    <string name="action_logout">Logout</string>
+    <string name="action_delete_password">Şifreyi Sil</string>
+    <string name="action_search">Ara</string>
+    <string name="action_color_picker">Renk Seçici</string>
+    <string name="action_undo">Geri Al</string>
+    <string name="action_floating_window">Kayan Pencere</string>
+    <string name="action_file_browser_new_dir">Yeni Dizin</string>
+    <string name="action_sort">Sırala</string>
+
+    <!-- Toast/Snackbar -->
+    <string name="toast_message_dir_created">Dizin başarıyla oluşturuldu</string>
+    <string name="toast_message_dir_failed">Dizin oluşturma başarısız</string>
+    <string name="toast_message_restore_success">Geri Yükleme Başarılı</string>
+    <string name="toast_message_restore_failed">Geri Yükleme Başarısız</string>
+    <string name="toast_message_copied_to_clipboard">Panoya kopyalandı</string>
+    <string name="toast_message_double_tap_to_exit">Çıkmak için çift dokun</string>
+    <string name="toast_message_must_contain">Şifrenin içermesini istediğiniz karakterleri seçmelisiniz.</string>
+    <string name="toast_message_backup_fail">Yedekleme başarısız</string>
+    <string name="toast_message_backup_success">Yedekleme başarılı</string>
+    <string name="toast_message_autobackup_success">PassKeep: Otomatik yedekleme tamamlandı</string>
+    <string name="toast_message_autobackup_failed">PassKeep: Otomatik yedekleme başarısız oldu</string>
+    <string name="toast_message_autobackup_restarted">PassKeep: Otomatik yedekleme yeniden başladı</string>
+    <string name="toast_message_no_backups">Henüz hiçbir yedek oluşturulmadı</string>
+    <string name="toast_message_no_character">Hiçbir özel karakter girilmedi.</string>
+
+    <string name="snackbar_message_select_a_backup_to">%s </string>
+    <string name="snackbar_message_append_share">paylaş</string>
+    <string name="snackbar_message_append_restore">geri yükle</string>
+    <string name="snackbar_messgae_select_folder">Konumu seçmek için bir klasöre uzun dokunun</string>
+    <string name="snackbar_message_self_destruct_remaining">Yok edilmeden önce %d oturum açma girişimi hakkınız kaldı. Tüm şifreler temizlenecektir.</string>
+    <string name="snackbar_message_deleted_item">%d öge silindi</string>
+    <string name="snackbar_message_deleted_items">%d öge silindi</string>
+
+    <!--EditText/TIL -->
+    <string name="et_hint_confirm_masterkey">Yeni Ana Şifreyi Doğrula</string>
+    <string name="et_hint_backup_restore_loc">Yedekleme/Geri Yükleme Konumu</string>
+    <string name="et_hint_new_masterkey">Yeni Ana Şifre</string>
+    <string name="et_hint_name">Ad</string>
+    <string name="et_hint_password">Şifre</string>
+    <string name="et_hint_title">Başlık</string>
+    <string name="et_hint_site">Site</string>
+    <string name="et_hint_old_masterkey">Eski Ana Şifre</string>
+    <string name="et_hint_confirm_password">Şifreyi Doğrula</string>
+    <string name="et_hint_username">Kullanıcı adı</string>
+    <string name="et_hint_description">Açıklama</string>
+    <string name="et_hint_custom_characters">Özel karakterleri girin.</string>
+    <string name="error_passwords_dont_match">Şifreler eşleşmiyor</string>
+    <string name="error_incorrect_password">Yanlış şifre</string>
+    <string name="error_blank_pass_title">Başlık boş bırakılamaz</string>
+    <string name="error_blank_pass_username">Kullanıcı adı boş bırakılamaz</string>
+    <string name="error_blank_password">Şifre boş bırakılamaz</string>
+    <string name="error_password_length_short">Şifre en az 6 karakter uzunluğunda olmalıdır</string>
+    <string name="til_title_backup">Yedek Dosyasının Adı</string>
+
+    <!-- AlertDialogs -->
+    <string name="alert_title_self_destruct">Kendini Sıfırla</string>
+    <string name="alert_title_delete_password">Şifreyi Sil</string>
+    <string name="alert_title_backup_from_csv">CSV Yedekle</string>
+    <string name="alert_title_new_directory">Yeni Dizin</string>
+    <string name="alert_title_password_change">Şifre Değiştir</string>
+    <string name="alert_title_backup_from_db">DB Yedekle</string>
+    <string name="alert_title_backup_db">DB Yedekle</string>
+    <string name="alert_title_share_backup">Şununla Paylaş...</string>
+    <string name="alert_title_restart_app">Uygulamayı Yeniden Başlat</string>
+    <string name="alert_message_restart_app">Ekran görüntülerinin kaydedilmesini engellemek/izin vermek için uygulama yeniden başlatılmalıdır. PassKeep şimdi yeniden başlatılsın mı?</string>
+    <string name="alert_title_select_application">Bir Uygulama Seç</string>
+    <string name="alert_title_sort_passwords">Şifreleri Sırala</string>
+    <string name="alert_message_loading_app_list">Uygulama listesi yükleniyor</string>
+    <string name="alert_message_delete_password_confirm">%s bilgilerini silmek istediğinizden emin misiniz? Bu işlem geri alınamaz.</string>
+    <string name="alert_message_password_change">Yeni bir şifre oluşturmak eskisini silecektir. Devam etmek istediğinizden emin misiniz?</string>
+    <string name="alert_message_save_changes">Yapılan değişiklikleri kaydetmek istiyor musunuz?</string>
+    <string name="alert_message_discard_entry">Bu girdiyi silmek istiyor musunuz?</string>
+    <string name="alert_message_self_destruct_activated">Maksimum oturum açma girişimine ulaşıldı. Tüm şifreler kalıcı olarak silindi. Artık geri dönüş yok!</string>
+    <string name="alert_btn_yes">Evet</string>
+    <string name="alert_btn_cancel">İptal</string>
+    <string name="alert_btn_no">Hayır</string>
+    <string name="alert_btn_ok">Tamam</string>
+
+    <!--Preferences -->
+    <string name="pref_category_title_appearance">Görünüm</string>
+    <string name="pref_category_title_general">Genel</string>
+    <string name="pref_category_title_security">Güvenlik</string>
+    <string name="pref_title_keep_screen_on">Ekranı Açık Tut</string>
+    <string name="pref_title_show_notification">Bildirim Göster</string>
+    <string name="pref_title_hide_passwords">Şifreleri Gizle</string>
+    <string name="pref_title_rename_masterkey">Ana Şifreyi Sıfırla</string>
+    <string name="pref_title_delete_all_passwords">Veritabanını Sil</string>
+    <string name="pref_title_block_screenshots">Ekran Görüntülerini Engelle</string>
+    <string name="pref_title_auto_logout">Otomatik Çıkış</string>
+    <string name="pref_title_auto_login">Otomatik Giriş</string>
+    <string name="pref_title_dark_theme">Koyu Tema</string>
+    <string name="pref_summary_delete_all_passwords">**Uyarı** Ana şifre de dahil olmak üzere veritabanının tüm içeriğini silecektir. Bu işlem geri alınamaz.</string>
+    <string name="pref_summary_reset_master_passkey">**Uyarı** Bu işlem ana şifreyi sıfırlayacaktır. Eski şifreyle yapılan yedeklemeler artık çalışmayacaktır.</string>
+    <string name="pref_summary_self_destruct">\"giriş yap\" butonu kullanılarak yapılan 5 başarısız oturum açma girişiminden sonra tüm şifreleri sil.</string>
+    <string name="pref_summary_auto_logout">Başka bir uygulamayı kullanmak için PassKeep'den çıkış yaparsanız, belirlediğiniz süreden sonra PassKeep hesabınızdan çıkış yapacaktır.</string>
+    <string name="pref_summary_disallow_screenshots">PassKeep\'in ekran görüntüsünün kaydedilmesine izin vermez.</string>
+    <string name="pref_summary_auto_login">Geçerli şifre girildiğinde otomatik olarak giriş yap.</string>
+    <string name="pref_summary_show_notification">Uygulama çalıştığında ve aynı zamanda ekran kilitlendiğinde durum çubuğunda bir bildirim göster.</string>
+    <string name="pref_summary_keep_screen_on">Passkeep görüntüleniyorken cihaz ekranını açık tut.</string>
+    <string name="pref_summary_hide_passwords">Şifreyi görüntülemek için \"göz\" simgesini kullan.</string>
+    <string name="pref_summary_dark_theme">Uygulamanın arayüzünü koyu materyal temayla değiştir. (Uygulama yeniden başlayacaktır)</string>
+    <string name="pref_default_backup_amount_unlimited">Sınırsız</string>
+
+    <!-- Misc -->
+    <string name="title_last_edited">Son düzenleme: %s</string>
+    <string name="title_autobackups">Otomatik yedekleme</string>
+    <string name="title_backup_every">Backup Every</string>
+    <string name="title_backup_time">Yedekleme Saati</string>
+    <string name="title_max_backups">Maksimum Yedek</string>
+    <string name="title_attempts_remaining">Kalan girişim: %d</string>
+    <string name="title_welcome">Hoş Geldin...</string>
+    <string name="title_bg_view_num_item">%1$d Öge</string>
+    <string name="title_bg_view_num_items">%1$d Öge</string>
+    <string name="title_bg_view_root">Root</string>
+    <string name="title_first_start">İlk Başlangıç</string>
+    <string name="title_btn_sign_in">Giriş Yap</string>
+    <string name="title_uppercase_az">Büyük Harf A&#8211;Z</string>
+    <string name="title_lowercase_az">Küçük Harf a&#8211;z</string>
+    <string name="title_numbers">Sayılar 0&#8211;9</string>
+    <string name="title_special_chars">Özel Karakterler</string>
+    <string name="title_password_length">Şifre Uzunluğu</string>
+    <string name="title_can_contain">Şifre Özellikleri</string>
+    <string name="title_backup_restore_db">Veritabanı Yedekle/Geri Yükle</string>
+    <string name="title_backup_restore_csv">CSV Yedekle/Geri Yükle</string>
+    <string name="title_custom_characters">Özel Karakterler</string>
+
+    <string name="message_empty_passwords_recycler">Şifreler eklendiğinde burada görüntülenecektir</string>
+    <string name="message_welcome_first_start">Başlatmak için bir ana şifre girmeniz gerekmektedir. Bu ana şifre, şifrelerinizi koruma altına almak için kullanılacaktır.\n\nAna şifrenin unutulması durumunda, bu ana şifre kurtarılamayacak ve tüm şifreler kaybedilecektir.\n\nVeri kayıplarını önlemek için veritabanını düzenli olarak yedekleyin.</string>
+    <string name="message_placeholder_app_name">Uygulama Eklemek İçin Dokun</string>
+    <string name="message_placeholder_apk_package">Daha sonra uygulamayı buradan açabilirsiniz</string>
+
+    <string name="notification_message">PassKeep çalışıyor&#8230;</string>
+
+    <string name="btn_generate_password">Şifre Oluştur</string>
+    <string name="btn_restore_db">DB Geri Yükle</string>
+    <string name="btn_backup_db">DB Yedekle</string>
+    <string name="btn_restore_csv">CSV dosyasından yükle</string>
+    <string name="btn_backup_csv">CSV dosyasına yedekle</string>
+    <string name="btn_submit_master_password">Başlat</string>
+
+    <!-- Default title for color picker dialog [CHAR LIMIT=30] -->
+    <string name="color_picker_default_title">Bir Renk Seç</string>
+    <string name="color_swatch_description"><xliff:g example="14" id="color_index">%1$d</xliff:g> renk</string>
+    <string name="color_swatch_description_selected"><xliff:g example="14" id="color_index">%1$d</xliff:g> renk seçildi</string>
+
+    <!-- Timer settings strings -->
+    <string name="timer_off">Otomatik Çıkış Kapalı</string>
+    <string name="timer_on_exit">Uygulama Kapatılınca</string>
+    <string name="timer_thirty_secs">30 saniye</string>
+    <string name="timer_one_minute">1 dakika</string>
+    <string name="timer_two_minutes">2 dakika</string>
+    <string name="timer_five_minutes">5 dakika</string>
+    <string name="timer_ten_minutes">10 dakika</string>
+    <string name="timer_fifteen_minutes">15 dakika</string>
+
+    <string name="backup_interval_one_day">1 gün</string>
+    <string name="backup_interval_two_days">2 gün</string>
+    <string name="backup_interval_three_days">3 gün</string>
+    <string name="backup_interval_four_days">4 gün</string>
+    <string name="backup_interval_five_days">5 gün</string>
+    <string name="backup_interval_six_days">6 gün</string>
+    <string name="backup_interval_one_week">1 hafta</string>
+    <string name="backup_interval_two_weeks">2 hafta</string>
+    <string name="backup_interval_three_weeks">3 hafta</string>
+    <string name="backup_interval_one_month">1 ay</string>
+
+    <string name="sort_option_alphabetically_ascending">Alfabetik (A&#8211;Z)</string>
+    <string name="sort_option_alphabetically_descending">Alfabetik (Z&#8211;A)</string>
+    <string name="sort_option_date_created_ascending">Tarih (Artan)</string>
+    <string name="sort_option_date_created_descending">Tarih (Azalan)</string>
+    <string name="sort_option_color">Renk</string>
+
+    <string name="date_ending_st">%sst</string>
+    <string name="date_ending_nd">%snd</string>
+    <string name="date_ending_rd">%srd</string>
+    <string name="date_ending_th">%sth</string>
+
+</resources>
