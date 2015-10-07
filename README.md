@@ -13,3 +13,4 @@ https://play.google.com/store/apps/details?id=eu.wedgess.passkeep
 - Polish (Chamelleon)
 - Russian (DumF0rGaming)
 - Spanish (smstiv)
+- Turkish (echelonx)
