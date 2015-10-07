@@ -5,7 +5,8 @@
     <string name="fragment_title_settings">Einstellungen</string>
     <string name="fragment_title_backup_restore">Sichern/Wiederherstellen</string>
     <string name="fragment_title_passwords">Kennwörter</string>
-    <string name="fragment_title_password_entry">Kennworteingabe</string> <!-- ??? -->
+    <string name="fragment_title_password_entry">Kennworteingabe</string>
+    <!-- ??? -->
     <string name="fragment_title_password_generator">Kennwort Generator</string>
     <string name="fragment_title_path_picker_default">Wähle einen Ordner</string>
     <string name="fragment_title_path_picker_share_backup">Sicherung Freigeben</string>
@@ -14,7 +15,6 @@
     <string name="action_select_all">Wähle alle</string>
     <string name="action_delete">Lösche</string>
     <string name="action_title_items_selected">%d ausgewählt</string>
-    <string name="action_donate">Spenden</string>
     <string name="action_settings">Einstellungen</string>
     <string name="action_edit_password">Kennwort ändern</string>
     <string name="action_logout">Abmelden</string>
@@ -22,7 +22,8 @@
     <string name="action_search">Suche</string>
     <string name="action_color_picker">Farben auswählen</string>
     <string name="action_undo">Rückgängig machen</string>
-    <string name="action_floating_window">schwebendes Fenster</string> <!-- ??? -->
+    <string name="action_floating_window">schwebendes Fenster</string>
+    <!-- ??? -->
     <string name="action_file_browser_new_dir">Neuer Ordner</string>
 
     <!-- Toast/Snackbar -->
@@ -78,7 +79,6 @@
     <string name="alert_title_backup_db">DB sichern</string>
     <string name="alert_title_share_backup">Teile Sicherung mit..</string>
     <string name="alert_title_restart_app">App neu starten</string>
-    <string name="alert_message_donate">Spenden sind nicht nötig, aber werden gerne angenommen. Spenden können über den PayPal-Link getätigt werden.</string>
     <string name="alert_message_restart_app">Die Applikation muss neu gestartet werden um Screenshots zu erlauben/verbieten. PassKeep jetzt neu starten?</string>
     <string name="alert_message_delete_password_confirm">Bist du sicher, dass du %s löschen willst? Dies kann nicht rückgängig gemacht werden.</string>
     <string name="alert_message_password_change">Generieren eines neuen Kennworts wird das alte löschen. Bist du sicher, dass du weitermachen willst?</string>
@@ -119,15 +119,15 @@
     <string name="title_backup_time">Sicherungszeit</string>
     <string name="title_max_backups">Maximale Sicherungen</string>
     <string name="title_attempts_remaining">Versuche verbleibend: %d</string>
-    <string name="title_welcome">Wilkommen...</string>
+    <string name="title_welcome">Wilkommen&#8230;</string>
     <string name="title_bg_view_num_item">%1$d Eintrag</string>
     <string name="title_bg_view_num_items">%1$d Einträge</string>
     <string name="title_bg_view_root">Root</string>
     <string name="title_first_start">Erster Start</string>
     <string name="title_btn_sign_in">Einloggen</string>
-    <string name="title_uppercase_az">Großes A-Z</string>
-    <string name="title_lowercase_az">Kleines a-z</string>
-    <string name="title_numbers">Zahlen 0-9</string>
+    <string name="title_uppercase_az">Großes A&#8211;Z</string>
+    <string name="title_lowercase_az">Kleines a&#8211;z</string>
+    <string name="title_numbers">Zahlen 0&#8211;9</string>
     <string name="title_special_chars">Sonderzeichen</string>
     <string name="title_password_length">Kennwortlänge</string>
     <string name="title_can_contain">Darf enthalten</string>
@@ -137,7 +137,7 @@
     <string name="message_empty_passwords_recycler">Kennwörter werden nach dem Speichern hier angezeigt</string>
     <string name="message_welcome_first_start">Zum Starten muss ein Master-Kennwort eingegeben werden. Mittels diesem Kennwort werden deine Kennwörter verschlüsselt.\n\nDieses Kennwort ist nicht wiederherstellbar und bei Vergessen des Master-Kennworts werden alle anderen Kennwörter verloren gehen.\n\nUm Datenverlust zu vermeiden sollten regelmäßige Sicherungen erstellt werden.</string>
 
-    <string name="notification_message">PassKeep läuft...</string>
+    <string name="notification_message">PassKeep läuft&#8230;</string>
 
     <string name="btn_generate_password">Generiere Kennwort</string>
     <string name="btn_restore_db">DB wiederherstellen</string>
@@ -152,7 +152,7 @@
     <string name="color_swatch_description_selected">Farbe<xliff:g example="14" id="color_index">%1$d</xliff:g> ausgewählt</string>
 
     <!-- Timer settings strings -->
-    <string name="timer_off">Automatisches Ausloggen aus</string>   
+    <string name="timer_off">Automatisches Ausloggen aus</string>
     <string name="timer_on_exit">Beim Verlassen der App</string>
     <string name="timer_thirty_secs">30 Sekunden</string>
     <string name="timer_one_minute">1 Minute</string>
@@ -160,7 +160,7 @@
     <string name="timer_five_minutes">5 Minuten</string>
     <string name="timer_ten_minutes">10 Minuten</string>
     <string name="timer_fifteen_minutes">15 Minuten</string>
-    
+
     <string name="backup_interval_one_day">1 Tag</string>
     <string name="backup_interval_two_days">2 Tage</string>
     <string name="backup_interval_three_days">3 Tage</string>
@@ -171,7 +171,7 @@
     <string name="backup_interval_two_weeks">2 Wochen</string>
     <string name="backup_interval_three_weeks">3 Wochen</string>
     <string name="backup_interval_one_month">1 Monat</string>
-    
+
     <string name="pref_category_title_appearance">Darstellung</string>
     <string name="pref_title_dark_theme">Dunkles Thema</string>
     <string name="pref_summary_dark_theme">Ändere PassKeep\'s Darstellung in ein dunkles Thema. (App wird neu starten)</string>

@@ -92,7 +92,7 @@
     <string name="alert_btn_yes">Yes</string>
     <string name="alert_btn_cancel">Cancel</string>
     <string name="alert_btn_no">No</string>
-    <string name="alert_btn_ok">Ok</string>
+    <string name="alert_btn_ok">OK</string>
 
     <!--Preferences -->
     <string name="pref_category_title_appearance">Appearance</string>
@@ -126,7 +126,7 @@
     <string name="title_backup_time">Backup Time</string>
     <string name="title_max_backups">Maximum Backups</string>
     <string name="title_attempts_remaining">Attempts remaining: %d</string>
-    <string name="title_welcome">Welcome...</string>
+    <string name="title_welcome">Welcome&#8230;</string>
     <string name="title_bg_view_num_item">%1$d Item</string>
     <string name="title_bg_view_num_items">%1$d Items</string>
     <string name="title_bg_view_root">Root</string>

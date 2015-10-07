@@ -1,6 +1,6 @@
 <resources xmlns:xliff="http://schemas.android.com/apk/res-auto">
     <string name="app_name">PassKeep</string>
- 
+
     <!-- Main Titles -->
     <string name="fragment_title_settings">Ajustes</string>
     <string name="fragment_title_backup_restore">Copia de seguridad/Restaurar</string>
@@ -9,7 +9,7 @@
     <string name="fragment_title_password_generator">Generador de contraseñas</string>
     <string name="fragment_title_path_picker_default">Escoger ruta</string>
     <string name="fragment_title_path_picker_share_backup">Compartir copia de seguridad</string>
- 
+
     <!--Actions -->
     <string name="action_select_all">Selecionar todo</string>
     <string name="action_delete">Borrar</string>
@@ -23,8 +23,8 @@
     <string name="action_undo">Deshacer</string>
     <string name="action_floating_window">Ventana flotante</string>
     <string name="action_file_browser_new_dir">Nueva ruta</string>
-	<string name="action_sort">Clase</string>
- 
+    <string name="action_sort">Clase</string>
+
     <!-- Toast/Snackbar -->
     <string name="toast_message_dir_created">Creación de ruta satisfactorio</string>
     <string name="toast_message_dir_failed">Creación de ruta fallido</string>
@@ -39,8 +39,8 @@
     <string name="toast_message_autobackup_failed">GuardaContraseñas: Copia de seguridad automática fallida</string>
     <string name="toast_message_autobackup_restarted">GuardaContraseñas: Copia de seguridad automática reiniciada</string>
     <string name="toast_message_no_backups">Todavia no existe copia de seguridad</string>
-	<string name="toast_message_no_character">No se pueden introducir caracteres personalizados</string>
- 
+    <string name="toast_message_no_character">No se pueden introducir caracteres personalizados</string>
+
     <string name="snackbar_message_select_a_backup_to">Seleccione una copia de seguridad %s</string>
     <string name="snackbar_message_append_share">compartir</string>
     <string name="snackbar_message_append_restore">restaurar</string>
@@ -48,7 +48,7 @@
     <string name="snackbar_message_self_destruct_remaining">%d intentos más quedan antes de autodestruirse. Serán eliminados Todas las contraseñas.</string>
     <string name="snackbar_message_deleted_item">Borrado %d artículo</string>
     <string name="snackbar_message_deleted_items">Borrados %d artículos</string>
- 
+
     <!--EditText/TIL -->
     <string name="et_hint_confirm_masterkey">Confirmar el nuevo Masterkey</string>
     <string name="et_hint_backup_restore_loc">Copia de seguridad/Restaurar Localizacion</string>
@@ -61,7 +61,7 @@
     <string name="et_hint_confirm_password">Confirmar contraseña</string>
     <string name="et_hint_username">Nombre de usuario</string>
     <string name="et_hint_description">Descripcion</string>
-	<string name="et_hint_custom_characters">Introducir caracteres personalizados aqui</string>
+    <string name="et_hint_custom_characters">Introducir caracteres personalizados aqui</string>
     <string name="error_passwords_dont_match">Las contraseñas no coinciden</string>
     <string name="error_incorrect_password">Contraseña incorrecta</string>
     <string name="error_blank_pass_title">El titulo no puede estar en blanco</string>
@@ -69,7 +69,7 @@
     <string name="error_blank_password">La contraseña no se pude ejar en blanco</string>
     <string name="error_password_length_short">La contraseña necesita minimum 6 caracteres</string>
     <string name="til_title_backup">Nombre del archivo de la copia de seguridad</string>
- 
+
     <!-- AlertDialogs -->
     <string name="alert_title_self_destruct">Auto destruccicon</string>
     <string name="alert_title_delete_password">Borrar contraseña</string>
@@ -78,9 +78,9 @@
     <string name="alert_title_password_change">Cambiar contraseña</string>
     <string name="alert_title_backup_from_db">Copia de seguridad de DB</string>
     <string name="alert_title_backup_db">Copia de seguridad de DB</string>
-    <string name="alert_title_share_backup">Compartir copia de seguridad con...</string>
+    <string name="alert_title_share_backup">Compartir copia de seguridad con&#8230;</string>
     <string name="alert_title_restart_app">Reiniciar la aplicacion</string>
-	<string name="alert_title_select_application">Seleccione una aplicación</string>
+    <string name="alert_title_select_application">Seleccione una aplicación</string>
     <string name="alert_title_sort_passwords">Ordenar contraseñas</string>
     <string name="alert_message_loading_app_list">Cargando lista de aplicaciones</string>
     <string name="alert_message_restart_app">La aplicación debe ser reiniciada para bloquear / permitir capturas de pantalla. Reinicie GuardaContraseñas ahora?</string>
@@ -93,12 +93,12 @@
     <string name="alert_btn_cancel">Cancelar</string>
     <string name="alert_btn_no">No</string>
     <string name="alert_btn_ok">Ok</string>
- 
+
     <!--Preferences -->
-	<string name="pref_category_title_appearance">Apariencia</string>
+    <string name="pref_category_title_appearance">Apariencia</string>
     <string name="pref_category_title_general">General</string>
     <string name="pref_category_title_security">Seguridad</string>
-	<string name="pref_title_dark_theme">Dark Theme</string>
+    <string name="pref_title_dark_theme">Dark Theme</string>
     <string name="pref_title_keep_screen_on">Dejar la pantalla encendida</string>
     <string name="pref_title_show_notification">Mostrar notificaciones</string>
     <string name="pref_title_hide_passwords">Esconder contraseña</string>
@@ -107,7 +107,7 @@
     <string name="pref_title_block_screenshots">Bloquear Screenshots</string>
     <string name="pref_title_auto_logout">Auto Entrada</string>
     <string name="pref_title_auto_login">Auto Salida</string>
-	<string name="pref_summary_dark_theme">Cambie el interfaz de usuario de PassKeeps con un tema Material Oscuro. (La aplicación se reiniciará)</string>
+    <string name="pref_summary_dark_theme">Cambie el interfaz de usuario de PassKeeps con un tema Material Oscuro. (La aplicación se reiniciará)</string>
     <string name="pref_summary_delete_all_passwords">** Aviso ** Eliminar todo el contenido de la base de datos, incluyendo la clave de acceso principal. Esto no se puede deshacer.</string>
     <string name="pref_summary_reset_master_passkey">** Aviso ** Cambiar la contraseña maestra. Las copias de seguridad con la antigua contraseña no funcionarán más.</string>
     <string name="pref_summary_self_destruct">Eliminar todas las contraseñas cuando 5 intentos fallidos se han introducido con el "signo de \" \ botón.</string>
@@ -118,7 +118,7 @@
     <string name="pref_summary_keep_screen_on">Mantenga la pantalla del dispositivo encendida mientras se visualiza Passkeep mientras</string>
     <string name="pref_summary_hide_passwords">Mostrar el icono \ "ojo \" para cambiar la visibilidad de las contraseñas.</string>
     <string name="pref_default_backup_amount_unlimited">Inlimitado</string>
- 
+
     <!-- Misc -->
     <string name="title_last_edited">Ultima edicion: %s</string>
     <string name="title_autobackups">Copia de seguridad automatica</string>
@@ -126,41 +126,41 @@
     <string name="title_backup_time">Tiempo de la Copia de seguridad</string>
     <string name="title_max_backups">Maximo Copias de seguridad</string>
     <string name="title_attempts_remaining">Intentos restantes: %d</string>
-    <string name="title_welcome">Bienvenido...</string>
+    <string name="title_welcome">Bienvenido&#8230;</string>
     <string name="title_bg_view_num_item">%1$d artículo</string>
     <string name="title_bg_view_num_items">%1$d artículos</string>
     <string name="title_bg_view_root">Root</string>
     <string name="title_first_start">Primer inicio</string>
     <string name="title_btn_sign_in">Entrar</string>
-    <string name="title_uppercase_az">Mayúsculas A-Z</string>
-    <string name="title_lowercase_az">Minúsculas a-z</string>
-    <string name="title_numbers">Numeros 0-9</string>
+    <string name="title_uppercase_az">Mayúsculas A&#8211;Z</string>
+    <string name="title_lowercase_az">Minúsculas a&#8211;z</string>
+    <string name="title_numbers">Numeros 0&#8211;9</string>
     <string name="title_special_chars">Caracteristicas especiales</string>
     <string name="title_password_length">Longitud de la contraseña</string>
     <string name="title_can_contain">Puede contener</string>
     <string name="title_backup_restore_db">Base de datos Copia de seguridad/Restauracion</string>
     <string name="title_backup_restore_csv">CSV Copia de seguridad/Restauracion</string>
-	<string name="title_custom_characters">Caracteres Personalizados</string>
- 
+    <string name="title_custom_characters">Caracteres Personalizados</string>
+
     <string name="message_empty_passwords_recycler">Las contraseñas aparecerán aquí cuando se añaden</string>
     <string name="message_welcome_first_start">Para empezar, debe introducir una contraseña maestra. Esta contraseña se utiliza para cifrar todas las contraseñas.\n\nLa contraseña maestra es irrecuperable y en el caso de su olvido se perderán todas las demas contraseñas.\n\nPara evitar la pérdida de datos haga copias de seguridad con regularidad.</string>
     <string name="message_placeholder_app_name">Toque para añadir Aplicación</string>
     <string name="message_placeholder_apk_package">Puede abrir la aplicación desde aquí</string>
 
-    <string name="notification_message">PassKeep está funcionando ...</string>
- 
+    <string name="notification_message">PassKeep está funcionando&#8230;</string>
+
     <string name="btn_generate_password">Generar contraseña</string>
     <string name="btn_restore_db">Restauarar DB</string>
     <string name="btn_backup_db">Copia de seguridad DB</string>
     <string name="btn_restore_csv">Restaurar desde CSV</string>
     <string name="btn_backup_csv">Copia de seguridad a CSV</string>
     <string name="btn_submit_master_password">Start</string>
- 
+
     <!-- Default title for color picker dialog [CHAR LIMIT=30] -->
     <string name="color_picker_default_title">Elegir color</string>
     <string name="color_swatch_description">Color <xliff:g example="14" id="color_index">%1$d</xliff:g></string>
     <string name="color_swatch_description_selected">Color <xliff:g example="14" id="color_index">%1$d</xliff:g> selecionado</string>
- 
+
     <!-- Timer settings strings -->
     <string name="timer_off">Auto-Logout Off</string>
     <string name="timer_on_exit">En Salida</string>
@@ -170,8 +170,8 @@
     <string name="timer_five_minutes">5 minutos</string>
     <string name="timer_ten_minutes">10 minutos</string>
     <string name="timer_fifteen_minutes">15 minutos</string>
-	
-	<string name="sort_option_alphabetically_ascending">Alfabéticamente (ascendente)</string>
+
+    <string name="sort_option_alphabetically_ascending">Alfabéticamente (ascendente)</string>
     <string name="sort_option_alphabetically_descending">Alfabéticamente (descendente)</string>
     <string name="sort_option_date_created_ascending">Fecha (ascendente)</string>
     <string name="sort_option_date_created_descending">Fecha (descendente)</string>

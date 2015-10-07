@@ -78,7 +78,7 @@
     <string name="alert_title_password_change">Şifre Değiştir</string>
     <string name="alert_title_backup_from_db">DB Yedekle</string>
     <string name="alert_title_backup_db">DB Yedekle</string>
-    <string name="alert_title_share_backup">Şununla Paylaş...</string>
+    <string name="alert_title_share_backup">Şununla Paylaş&#8230;</string>
     <string name="alert_title_restart_app">Uygulamayı Yeniden Başlat</string>
     <string name="alert_message_restart_app">Ekran görüntülerinin kaydedilmesini engellemek/izin vermek için uygulama yeniden başlatılmalıdır. PassKeep şimdi yeniden başlatılsın mı?</string>
     <string name="alert_title_select_application">Bir Uygulama Seç</string>
@@ -126,7 +126,7 @@
     <string name="title_backup_time">Yedekleme Saati</string>
     <string name="title_max_backups">Maksimum Yedek</string>
     <string name="title_attempts_remaining">Kalan girişim: %d</string>
-    <string name="title_welcome">Hoş Geldin...</string>
+    <string name="title_welcome">Hoş Geldin&#8230;</string>
     <string name="title_bg_view_num_item">%1$d Öge</string>
     <string name="title_bg_view_num_items">%1$d Öge</string>
     <string name="title_bg_view_root">Root</string>

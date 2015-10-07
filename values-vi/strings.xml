@@ -14,7 +14,6 @@
     <string name="action_select_all">Chọn tất cả</string>
     <string name="action_delete">Hủy</string>
     <string name="action_title_items_selected">Đã chọn %d</string>
-    <string name="action_donate">Quyên góp</string>
     <string name="action_settings">Cài đặt</string>
     <string name="action_edit_password">Chỉnh sửa mật khẩu</string>
     <string name="action_logout">Đăng xuất</string>
@@ -81,10 +80,9 @@
     <string name="alert_title_backup_db">Sao lưu CSDL</string>
     <string name="alert_title_share_backup">Chia sẻ sao lưu với..</string>
     <string name="alert_title_restart_app">Tái khởi động ứng dụng</string>
-	<string name="alert_title_select_application">Chọn ứng dụng</string>
+    <string name="alert_title_select_application">Chọn ứng dụng</string>
     <string name="alert_title_sort_passwords">Sắp xếp mật khẩu</string>
     <string name="alert_message_loading_app_list">Đang tải danh sách ứng dụng</string>
-    <string name="alert_message_donate">Không nhất thiết phải quyên góp nhưng chúng tôi rất trân trọng nếu bạn có nhã ý. Bạn có thể quyên góp thông qua PayPal bằng cách nhấp vào nút bên dưới.</string>
     <string name="alert_message_restart_app">Phải tái khởi động ứng dụng để chặn/cho phép chụp màn hình. Tái khởi động PassKeep ngay?</string>
     <string name="alert_message_delete_password_confirm">Có chắc là bạn muốn hủy %s? Sẽ không thể hoàn tác.</string>
     <string name="alert_message_password_change">Mật khẩu cũ sẽ bị hủy khi bạn tạo mới. Có chắc là bạn muốn tiếp tục?</string>
@@ -128,15 +126,15 @@
     <string name="title_backup_time">Thời điểm sao lưu</string>
     <string name="title_max_backups">Số sao lưu tối đa</string>
     <string name="title_attempts_remaining">Số lần nhập còn lại: %d</string>
-    <string name="title_welcome">Chào bạn...</string>
+    <string name="title_welcome">Chào bạn&#8230;</string>
     <string name="title_bg_view_num_item">%1$d thư mục</string>
     <string name="title_bg_view_num_items">%1$d thư mục</string>
     <string name="title_bg_view_root">Root</string>
     <string name="title_first_start">Lần khởi động đầu tiên</string>
     <string name="title_btn_sign_in">Đăng nhập</string>
-    <string name="title_uppercase_az">A-Z hoa</string>
-    <string name="title_lowercase_az">a-z thường</string>
-    <string name="title_numbers">Số từ 0-9</string>
+    <string name="title_uppercase_az">A&#8211;Z hoa</string>
+    <string name="title_lowercase_az">a&#8211;z thường</string>
+    <string name="title_numbers">Số từ 0&#8211;9</string>
     <string name="title_special_chars">Ký tự đặc biệt</string>
     <string name="title_password_length">Độ dài mật khẩu</string>
     <string name="title_can_contain">Có chứa</string>
@@ -149,7 +147,7 @@
     <string name="message_placeholder_app_name">Chạm để thêm ứng dụng</string>
     <string name="message_placeholder_apk_package">Bạn có thể chạy ứng dụng từ đây</string>
 
-    <string name="notification_message">PassKeep đang chạy...</string>
+    <string name="notification_message">PassKeep đang chạy&#8230;</string>
 
     <string name="btn_generate_password">Tạo mật khẩu</string>
     <string name="btn_restore_db">Khôi phục CSDL</string>
@@ -172,8 +170,8 @@
     <string name="timer_five_minutes">5 phút</string>
     <string name="timer_ten_minutes">10 phút</string>
     <string name="timer_fifteen_minutes">15 phút</string>
-	
-	<string name="backup_interval_one_day">1 ngày</string>
+
+    <string name="backup_interval_one_day">1 ngày</string>
     <string name="backup_interval_two_days">2 ngày</string>
     <string name="backup_interval_three_days">3 ngày</string>
     <string name="backup_interval_four_days">4 ngày</string>
@@ -183,13 +181,13 @@
     <string name="backup_interval_two_weeks">2 tuần</string>
     <string name="backup_interval_three_weeks">3 tuần</string>
     <string name="backup_interval_one_month">1 tháng</string>
-	
+
     <string name="sort_option_alphabetically_ascending">A-Z (Tăng dần)</string>
     <string name="sort_option_alphabetically_descending">A-Z (Giảm dần)</string>
     <string name="sort_option_date_created_ascending">Ngày tháng (Tăng dần)</string>
     <string name="sort_option_date_created_descending">Ngày tháng (Giảm dần)</string>
-	
-	<string name="date_ending_st">%sst</string>
+
+    <string name="date_ending_st">%sst</string>
     <string name="date_ending_nd">%snd</string>
     <string name="date_ending_rd">%srd</string>
     <string name="date_ending_th">%sth</string>

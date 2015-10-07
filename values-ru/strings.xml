@@ -14,7 +14,6 @@
     <string name="action_select_all">Выбрать все</string>
     <string name="action_delete">Удалить</string>
     <string name="action_title_items_selected">Выбрано %d</string>
-    <string name="action_donate">Пожертвования</string>
     <string name="action_settings">Настройки</string>
     <string name="action_edit_password">Редактировать</string>
     <string name="action_logout">Выйти</string>
@@ -78,7 +77,6 @@
     <string name="alert_title_backup_db">Сохранение паролей</string>
     <string name="alert_title_share_backup">Отправить копию через..</string>
     <string name="alert_title_restart_app">Перезапуск приложения</string>
-    <string name="alert_message_donate">Пожертвования не являются обязательными, но весьма приветствуются. Вы можете внести пожертвования через PayPal, нажав на кнопку ниже.</string>
     <string name="alert_message_restart_app">Приложение должно быть перезапущено для вступления настройки в силу. Сделать это сейчас?</string>
     <string name="alert_message_delete_password_confirm">Вы действительно хотите удалить %s? Это действие необратимо.</string>
     <string name="alert_message_password_change">Использование нового пароля приведет к утрате старого. Продолжить?</string>
@@ -91,10 +89,10 @@
     <string name="alert_btn_ok">Ok</string>
 
     <!--Preferences -->
-	<string name="pref_category_title_appearance">Внешний вид</string>
+    <string name="pref_category_title_appearance">Внешний вид</string>
     <string name="pref_category_title_general">Основные</string>
     <string name="pref_category_title_security">Безопасность</string>
-	<string name="pref_title_dark_theme">Темный фон</string>
+    <string name="pref_title_dark_theme">Темный фон</string>
     <string name="pref_title_keep_screen_on">Бодрствование</string>
     <string name="pref_title_show_notification">Уведомление</string>
     <string name="pref_title_hide_passwords">Сокрытие паролей</string>
@@ -103,7 +101,7 @@
     <string name="pref_title_block_screenshots">Блокировка скриншотов</string>
     <string name="pref_title_auto_logout">Автовыход</string>
     <string name="pref_title_auto_login">Умный вход</string>
-	<string name="pref_summary_dark_theme">Применить темное оформление в стиле Material Design. (требуется перезапуск)</string>
+    <string name="pref_summary_dark_theme">Применить темное оформление в стиле Material Design. (требуется перезапуск)</string>
     <string name="pref_summary_delete_all_passwords">**Предупреждение** Все пароли, включая мастер-пароль будут удалены. Это действие нельзя отменить.</string>
     <string name="pref_summary_reset_master_passkey">**Предупреждение** Сменить мастер-пароль. Резервные копии со старым мастер-паролем перестанут работать.</string>
     <string name="pref_summary_self_destruct">Удалять все пароли при достижении 5 неудачных попыток входа.</string>
@@ -122,15 +120,15 @@
     <string name="title_backup_time">Время копирования</string>
     <string name="title_max_backups">Всего копий</string>
     <string name="title_attempts_remaining">Осталось попыток: %d</string>
-    <string name="title_welcome">Добро пожаловать...</string>
+    <string name="title_welcome">Добро пожаловать&#8230;</string>
     <string name="title_bg_view_num_item">%1$d элемент</string>
     <string name="title_bg_view_num_items">%1$d элементов</string>
     <string name="title_bg_view_root">В корень</string>
     <string name="title_first_start">Первый запуск</string>
     <string name="title_btn_sign_in">Войти</string>
-    <string name="title_uppercase_az">Прописные A-Z</string>
-    <string name="title_lowercase_az">Строчные a-z</string>
-    <string name="title_numbers">Числа 0-9</string>
+    <string name="title_uppercase_az">Прописные A&#8211;Z</string>
+    <string name="title_lowercase_az">Строчные a&#8211;z</string>
+    <string name="title_numbers">Числа 0&#8211;9</string>
     <string name="title_special_chars">Специальные символы</string>
     <string name="title_password_length">Длина</string>
     <string name="title_can_contain">Состоит из</string>
@@ -140,7 +138,7 @@
     <string name="message_empty_passwords_recycler">Добавленные пароли появятся здесь</string>
     <string name="message_welcome_first_start">Для начала Вам потребуется придумать мастер-пароль. С его помощью шифруются все остальные пароли.\n\nМастер-пароль нельзя восстановить и в случае его утраты все сохраненные пароли будут удалены.\n\nРегулярно создавайте резервные копии во избежание потери данных.</string>
 
-    <string name="notification_message">PassKeep запущен...</string>
+    <string name="notification_message">PassKeep запущен&#8230;</string>
 
     <string name="btn_generate_password">Создать пароль</string>
     <string name="btn_restore_db">Восст БД</string>
@@ -163,8 +161,8 @@
     <string name="timer_five_minutes">Через 5 минут</string>
     <string name="timer_ten_minutes">Через 10 минут</string>
     <string name="timer_fifteen_minutes">Через 15 минут</string>
-	
-	<string name="backup_interval_one_day">Раз в день</string>
+
+    <string name="backup_interval_one_day">Раз в день</string>
     <string name="backup_interval_two_days">Раз в 2 дня</string>
     <string name="backup_interval_three_days">Раз в 3 дня</string>
     <string name="backup_interval_four_days">Раз в 4 дня</string>
