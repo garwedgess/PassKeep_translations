@@ -188,9 +188,9 @@
     <string name="sort_option_date_created_descending">Data (Malejąco)</string>
     <string name="sort_option_color">Kolor</string>
 
-    <string name="date_ending_st">%sst</string>
-    <string name="date_ending_nd">%snd</string>
-    <string name="date_ending_rd">%srd</string>
-    <string name="date_ending_th">%sth</string>
+    <string name="date_ending_st">%s.</string>
+    <string name="date_ending_nd">%s.</string>
+    <string name="date_ending_rd">%s.</string>
+    <string name="date_ending_th">%s.</string>
 
 </resources>
