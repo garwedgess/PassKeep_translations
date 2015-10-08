@@ -107,8 +107,8 @@
     <string name="pref_title_auto_logout">Otomatik Çıkış</string>
     <string name="pref_title_auto_login">Otomatik Giriş</string>
     <string name="pref_title_dark_theme">Koyu Tema</string>
-    <string name="pref_summary_delete_all_passwords">**Uyarı** Ana şifre de dahil olmak üzere veritabanının tüm içeriğini silecektir. Bu işlem geri alınamaz.</string>
-    <string name="pref_summary_reset_master_passkey">**Uyarı** Bu işlem ana şifreyi sıfırlayacaktır. Eski şifreyle yapılan yedeklemeler artık çalışmayacaktır.</string>
+    <string name="pref_summary_delete_all_passwords">** Uyarı ** Ana şifre de dahil olmak üzere veritabanının tüm içeriğini silecektir. Bu işlem geri alınamaz.</string>
+    <string name="pref_summary_reset_master_passkey">** Uyarı ** Bu işlem ana şifreyi sıfırlayacaktır. Eski şifreyle yapılan yedeklemeler artık çalışmayacaktır.</string>
     <string name="pref_summary_self_destruct">\"giriş yap\" butonu kullanılarak yapılan 5 başarısız oturum açma girişiminden sonra tüm şifreleri sil.</string>
     <string name="pref_summary_auto_logout">Başka bir uygulamayı kullanmak için PassKeep\'den çıkış yaparsanız, belirlediğiniz süreden sonra PassKeep hesabınızdan çıkış yapacaktır.</string>
     <string name="pref_summary_disallow_screenshots">PassKeep\'in ekran görüntüsünün kaydedilmesine izin vermez.</string>
