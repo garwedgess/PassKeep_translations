@@ -37,7 +37,7 @@
     <string name="toast_message_backup_success">Hoàn tất sao lưu</string>
     <string name="toast_message_autobackup_success">PassKeep: Hoàn tất tự động sao lưu</string>
     <string name="toast_message_autobackup_failed">PassKeep: Tự động sao lưu thất bại</string>
-    <string name="toast_message_autobackup_restarted">PassKeep: Tự động sao lưu tái khởi động</string>
+    <string name="toast_message_autobackup_restarted">PassKeep: Tự động sao lưu đã khởi động lại</string>
     <string name="toast_message_no_backups">Chưa tạo bản sao lưu nào</string>
     <string name="toast_message_no_character">Không có ký tự tuỳ chọn nào được nhập</string>
 
@@ -61,7 +61,7 @@
     <string name="et_hint_confirm_password">Xác nhận mật khẩu</string>
     <string name="et_hint_username">Tên người dùng</string>
     <string name="et_hint_description">Mô tả</string>
-    <string name="et_hint_custom_characters">Enter custom characters here</string>
+    <string name="et_hint_custom_characters">Nhập ký tự tuỳ chỉnh tại đây</string>
     <string name="error_passwords_dont_match">Mật khẩu không trùng khớp</string>
     <string name="error_incorrect_password">Sai mật khẩu</string>
     <string name="error_blank_pass_title">Không thể để trống tiêu đề</string>
@@ -78,20 +78,20 @@
     <string name="alert_title_password_change">Đổi mật khẩu</string>
     <string name="alert_title_backup_from_db">Sao lưu CSDL</string>
     <string name="alert_title_backup_db">Sao lưu CSDL</string>
-    <string name="alert_title_share_backup">Chia sẻ sao lưu với..</string>
-    <string name="alert_title_restart_app">Tái khởi động ứng dụng</string>
+    <string name="alert_title_share_backup">Chia sẻ sao lưu thông qua&#8230;</string>
+    <string name="alert_title_restart_app">Khởi động lại ứng dụng</string>
     <string name="alert_title_select_application">Chọn ứng dụng</string>
     <string name="alert_title_sort_passwords">Sắp xếp mật khẩu</string>
     <string name="alert_message_loading_app_list">Đang tải danh sách ứng dụng</string>
-    <string name="alert_message_restart_app">Phải tái khởi động ứng dụng để chặn/cho phép chụp màn hình. Tái khởi động PassKeep ngay?</string>
+    <string name="alert_message_restart_app">Phải khởi động lại ứng dụng để chặn/cho phép chụp màn hình. Khởi động lại PassKeep ngay?</string>
     <string name="alert_message_delete_password_confirm">Có chắc là bạn muốn hủy %s? Sẽ không thể hoàn tác.</string>
     <string name="alert_message_password_change">Mật khẩu cũ sẽ bị hủy khi bạn tạo mới. Có chắc là bạn muốn tiếp tục?</string>
     <string name="alert_message_save_changes">Bạn có muốn lưu các thay đổi?</string>
     <string name="alert_message_discard_entry">Bạn có muốn bỏ mục này?</string>
     <string name="alert_message_self_destruct_activated">Đã đạt đến số lần nhập mật khẩu tối đa. Tất cả mật khẩu đã bị hủy hoàn toàn. Không thể hoàn tác nữa!</string>
-    <string name="alert_btn_yes">Có</string>
+    <string name="alert_btn_yes">Đồng ý</string>
     <string name="alert_btn_cancel">Từ chối</string>
-    <string name="alert_btn_no">Không</string>
+    <string name="alert_btn_no">Từ chối</string>
     <string name="alert_btn_ok">Đồng ý</string>
 
     <!--Preferences -->
@@ -99,23 +99,23 @@
     <string name="pref_category_title_general">Tổng quát</string>
     <string name="pref_category_title_security">Bảo mật</string>
     <string name="pref_title_dark_theme">Nền tối</string>
-    <string name="pref_title_keep_screen_on">Giữ màn hình</string>
+    <string name="pref_title_keep_screen_on">Giữ sáng màn hình</string>
     <string name="pref_title_show_notification">Hiển thị thông báo</string>
     <string name="pref_title_hide_passwords">Ẩn mật khẩu</string>
-    <string name="pref_title_rename_masterkey">Tái thiết lập mật khẩu chính</string>
+    <string name="pref_title_rename_masterkey">Tạo mật khẩu chính mới</string>
     <string name="pref_title_delete_all_passwords">Hủy cơ sở dữ liệu</string>
     <string name="pref_title_block_screenshots">Chặn chụp màn hình</string>
     <string name="pref_title_auto_logout">Tự động đăng xuất</string>
     <string name="pref_title_auto_login">Tự động đăng nhập</string>
-    <string name="pref_summary_dark_theme">Đổi giao diện PassKeep thành nền material tối. (Ứng dụng sẽ tái khởi động)</string>
+    <string name="pref_summary_dark_theme">Đổi giao diện PassKeep thành nền material tối. (Ứng dụng sẽ khởi động lại)</string>
     <string name="pref_summary_delete_all_passwords">**Cảnh báo** Xóa hết tất cả nội dung cơ sở dữ liệu bao gồm cả mật khẩu chính. Sẽ không thể hoàn tác.</string>
-    <string name="pref_summary_reset_master_passkey">**Cảnh báo** Đặt lại mật khẩu chính. Các sao lưu dùng mật khẩu cũ sẽ không còn hoạt động.</string>
+    <string name="pref_summary_reset_master_passkey">**Cảnh báo** Tạo mật khẩu chính mới. Các sao lưu dùng mật khẩu cũ sẽ không còn hoạt động.</string>
     <string name="pref_summary_self_destruct">Hủy tất cả mật khẩu sau 5 lần nhập thông qua nút \"đăng nhập\" bị thất bại.</string>
     <string name="pref_summary_auto_logout">Khi thoát PassKeep để dùng ứng dụng khác, PassKeep sẽ đăng xuất sau một khoảng thời gian định sẵn.</string>
     <string name="pref_summary_disallow_screenshots">Không cho phép chụp lại màn hình PassKeep.</string>
     <string name="pref_summary_auto_login">Tự động đăng nhập khi mật khẩu được nhập chính xác.</string>
     <string name="pref_summary_show_notification">Hiển thị thông báo trên thanh trạng thái khi ứng dụng đang chạy và được mở khóa.</string>
-    <string name="pref_summary_keep_screen_on">Giữ màn hình khi xem PassKeep</string>
+    <string name="pref_summary_keep_screen_on">Giữ sáng màn hình khi đang dùng PassKeep</string>
     <string name="pref_summary_hide_passwords">Hiện biểu tượng \"con mắt\" để chuyển chế độ hiển thị mật khẩu.</string>
     <string name="pref_default_backup_amount_unlimited">Không giới hạn</string>
 
@@ -127,8 +127,8 @@
     <string name="title_max_backups">Số sao lưu tối đa</string>
     <string name="title_attempts_remaining">Số lần nhập còn lại: %d</string>
     <string name="title_welcome">Chào bạn&#8230;</string>
-    <string name="title_bg_view_num_item">%1$d thư mục</string>
-    <string name="title_bg_view_num_items">%1$d thư mục</string>
+    <string name="title_bg_view_num_item">%1$d mục</string>
+    <string name="title_bg_view_num_items">%1$d mục</string>
     <string name="title_bg_view_root">Root</string>
     <string name="title_first_start">Lần khởi động đầu tiên</string>
     <string name="title_btn_sign_in">Đăng nhập</string>
@@ -143,7 +143,7 @@
     <string name="title_custom_characters">Ký tự tuỳ chọn</string>
 
     <string name="message_empty_passwords_recycler">Mật khẩu sẽ xuất hiện ở đây sau khi được thêm vào</string>
-    <string name="message_welcome_first_start">Để bắt đầu, bạn phải tạo mật khẩu chính. Nó được dùng để mã khóa các mật khẩu khác.\n\nKhông có cách nào khôi phục mật khẩu chính, do đó đừng bao giờ quên nó nếu bạn không muốn mất tất cả các mật khẩu khác.\n\nĐể đề phòng, hãy thường xuyên sao lưu cơ sở dữ liệu.</string>
+    <string name="message_welcome_first_start">Để bắt đầu, bạn phải tạo mật khẩu chính. Nó được dùng để mã khóa các mật khẩu khác.\n\nKhông có cách nào khôi phục mật khẩu chính, do đó hãy luôn ghi nhớ nó nếu bạn không muốn mất tất cả các mật khẩu khác.\n\nĐể đề phòng, hãy thường xuyên sao lưu cơ sở dữ liệu.</string>
     <string name="message_placeholder_app_name">Chạm để thêm ứng dụng</string>
     <string name="message_placeholder_apk_package">Bạn có thể chạy ứng dụng từ đây</string>
 
@@ -188,9 +188,9 @@
     <string name="sort_option_date_created_descending">Ngày tháng (Giảm dần)</string>
     <string name="sort_option_color">Màu sắc</string>
 
-    <string name="date_ending_st">%sst</string>
-    <string name="date_ending_nd">%snd</string>
-    <string name="date_ending_rd">%srd</string>
-    <string name="date_ending_th">%sth</string>
+    <string name="date_ending_st">%s.</string>
+    <string name="date_ending_nd">%s.</string>
+    <string name="date_ending_rd">%s.</string>
+    <string name="date_ending_th">%s.</string>
 
 </resources>
