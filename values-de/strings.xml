@@ -22,9 +22,10 @@
     <string name="action_search">Suche</string>
     <string name="action_color_picker">Farben auswählen</string>
     <string name="action_undo">Rückgängig machen</string>
+	<!-- ??? -->
     <string name="action_floating_window">schwebendes Fenster</string>
-    <!-- ??? -->
     <string name="action_file_browser_new_dir">Neuer Ordner</string>
+	<string name="action_sort">Sortiere</string>
 
     <!-- Toast/Snackbar -->
     <string name="toast_message_dir_created">Ordner erfolgreich erstellt</string>
@@ -40,6 +41,7 @@
     <string name="toast_message_autobackup_failed">PassKeep: Automatische Sicherung fehlgeschlagen</string>
     <string name="toast_message_autobackup_restarted">PassKeep: Automatische Sicherung gestartet</string>
     <string name="toast_message_no_backups">Es wurden noch keine Sicherungen erstellt</string>
+    <string name="toast_message_no_character">Keine eigenen Buchstaben wurden eingegeben</string>
 
     <string name="snackbar_message_select_a_backup_to">Wähle fürs Sichern in %s</string>
     <string name="snackbar_message_append_share">Teilen</string>
@@ -61,6 +63,7 @@
     <string name="et_hint_confirm_password">Passwort bestätigen</string>
     <string name="et_hint_username">Nutzername</string>
     <string name="et_hint_description">Beschreibung</string>
+    <string name="et_hint_custom_characters">Trage Deine eigenen Buchstaben hier ein</string>
     <string name="error_passwords_dont_match">Kennwörter stimmen nicht überein</string>
     <string name="error_incorrect_password">Falsches Kennwort</string>
     <string name="error_blank_pass_title">Titel darf nicht leer sein</string>
@@ -79,6 +82,9 @@
     <string name="alert_title_backup_db">DB sichern</string>
     <string name="alert_title_share_backup">Teile Sicherung mit..</string>
     <string name="alert_title_restart_app">App neu starten</string>
+    <string name="alert_title_select_application">Wähle eine Anwendung</string>
+    <string name="alert_title_sort_passwords">Sortiere Passwörter </string>
+    <string name="alert_message_loading_app_list">Lade Anwendungsliste</string>
     <string name="alert_message_restart_app">Die Applikation muss neu gestartet werden um Screenshots zu erlauben/verbieten. PassKeep jetzt neu starten?</string>
     <string name="alert_message_delete_password_confirm">Bist du sicher, dass du %s löschen willst? Dies kann nicht rückgängig gemacht werden.</string>
     <string name="alert_message_password_change">Generieren eines neuen Kennworts wird das alte löschen. Bist du sicher, dass du weitermachen willst?</string>
@@ -133,9 +139,12 @@
     <string name="title_can_contain">Darf enthalten</string>
     <string name="title_backup_restore_db">Datenbank-Sicherung/Wiederherstellung</string>
     <string name="title_backup_restore_csv">CSV Sicherung/Wiederherstellung</string>
+    <string name="title_custom_characters">Eigene Buchstaben</string>
 
     <string name="message_empty_passwords_recycler">Kennwörter werden nach dem Speichern hier angezeigt</string>
     <string name="message_welcome_first_start">Zum Starten muss ein Master-Kennwort eingegeben werden. Mittels diesem Kennwort werden deine Kennwörter verschlüsselt.\n\nDieses Kennwort ist nicht wiederherstellbar und bei Vergessen des Master-Kennworts werden alle anderen Kennwörter verloren gehen.\n\nUm Datenverlust zu vermeiden sollten regelmäßige Sicherungen erstellt werden.</string>
+    <string name="message_placeholder_app_name">Tippe, um eine Anwendung hinzuzufügen</string>
+    <string name="message_placeholder_apk_package">Du kannst die Anwendung dann von hier aus öffnen</string>
 
     <string name="notification_message">PassKeep läuft&#8230;</string>
 
@@ -175,4 +184,10 @@
     <string name="pref_category_title_appearance">Darstellung</string>
     <string name="pref_title_dark_theme">Dunkles Thema</string>
     <string name="pref_summary_dark_theme">Ändere PassKeep\'s Darstellung in ein dunkles Thema. (App wird neu starten)</string>
+	
+    <string name="sort_option_alphabetically_ascending">Alphabetisch (Aufsteigend)</string>
+    <string name="sort_option_alphabetically_descending">Alphabetisch (Absteigend)</string>
+    <string name="sort_option_date_created_ascending">Datum (Aufsteigend)</string>
+    <string name="sort_option_date_created_descending">Datum (Absteigend)</string>
+    <string name="sort_option_color">Farbe</string>
 </resources>
