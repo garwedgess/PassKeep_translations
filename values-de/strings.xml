@@ -23,7 +23,7 @@
     <string name="action_color_picker">Farben auswählen</string>
     <string name="action_undo">Rückgängig machen</string>
 	<!-- ??? -->
-    <string name="action_floating_window">schwebendes Fenster</string>
+    <string name="action_floating_window">Schwebendes Fenster</string>
     <string name="action_file_browser_new_dir">Neuer Ordner</string>
 	<string name="action_sort">Sortiere</string>
 
