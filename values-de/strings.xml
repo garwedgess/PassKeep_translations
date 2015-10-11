@@ -190,4 +190,9 @@
     <string name="sort_option_date_created_ascending">Datum (Aufsteigend)</string>
     <string name="sort_option_date_created_descending">Datum (Absteigend)</string>
     <string name="sort_option_color">Farbe</string>
+	
+    <string name="date_ending_st">%s.</string>
+    <string name="date_ending_nd">%s.</string>
+    <string name="date_ending_rd">%s.</string>
+    <string name="date_ending_th">%s.</string>
 </resources>
