@@ -61,7 +61,7 @@
     <string name="et_hint_confirm_password">Xác nhận mật khẩu</string>
     <string name="et_hint_username">Tên người dùng</string>
     <string name="et_hint_description">Mô tả</string>
-    <string name="et_hint_custom_characters">Nhập ký tự tuỳ chỉnh tại đây</string>
+    <string name="et_hint_custom_characters">Nhập ký tự tuỳ chọn tại đây</string>
     <string name="error_passwords_dont_match">Mật khẩu không trùng khớp</string>
     <string name="error_incorrect_password">Sai mật khẩu</string>
     <string name="error_blank_pass_title">Không thể để trống tiêu đề</string>
