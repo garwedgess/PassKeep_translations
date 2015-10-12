@@ -16,7 +16,7 @@
     <string name="action_title_items_selected">%d seçildi</string>
     <string name="action_settings">Ayarlar</string>
     <string name="action_edit_password">Şifreyi Düzenle</string>
-    <string name="action_logout">Logout</string>
+    <string name="action_logout">Çıkış Yap</string>
     <string name="action_delete_password">Şifreyi Sil</string>
     <string name="action_search">Ara</string>
     <string name="action_color_picker">Renk Seçici</string>
@@ -78,7 +78,7 @@
     <string name="alert_title_password_change">Şifre Değiştir</string>
     <string name="alert_title_backup_from_db">DB Yedekle</string>
     <string name="alert_title_backup_db">DB Yedekle</string>
-    <string name="alert_title_share_backup">Şununla Paylaş&#8230;</string>
+    <string name="alert_title_share_backup">Şununla Paylaş...</string>
     <string name="alert_title_restart_app">Uygulamayı Yeniden Başlat</string>
     <string name="alert_message_restart_app">Ekran görüntülerinin kaydedilmesini engellemek/izin vermek için uygulama yeniden başlatılmalıdır. PassKeep şimdi yeniden başlatılsın mı?</string>
     <string name="alert_title_select_application">Bir Uygulama Seç</string>
@@ -107,10 +107,10 @@
     <string name="pref_title_auto_logout">Otomatik Çıkış</string>
     <string name="pref_title_auto_login">Otomatik Giriş</string>
     <string name="pref_title_dark_theme">Koyu Tema</string>
-    <string name="pref_summary_delete_all_passwords">** Uyarı ** Ana şifre de dahil olmak üzere veritabanının tüm içeriğini silecektir. Bu işlem geri alınamaz.</string>
-    <string name="pref_summary_reset_master_passkey">** Uyarı ** Bu işlem ana şifreyi sıfırlayacaktır. Eski şifreyle yapılan yedeklemeler artık çalışmayacaktır.</string>
-    <string name="pref_summary_self_destruct">\"giriş yap\" butonu kullanılarak yapılan 5 başarısız oturum açma girişiminden sonra tüm şifreleri sil.</string>
-    <string name="pref_summary_auto_logout">Başka bir uygulamayı kullanmak için PassKeep\'den çıkış yaparsanız, belirlediğiniz süreden sonra PassKeep hesabınızdan çıkış yapacaktır.</string>
+    <string name="pref_summary_delete_all_passwords">**Uyarı** Ana şifre de dahil olmak üzere veritabanının tüm içeriğini silecektir. Bu işlem geri alınamaz.</string>
+    <string name="pref_summary_reset_master_passkey">**Uyarı** Bu işlem ana şifreyi sıfırlayacaktır. Eski şifreyle yapılan yedeklemeler artık çalışmayacaktır.</string>
+    <string name="pref_summary_self_destruct">\"Giriş Yap\" butonu kullanılarak yapılan 5 başarısız oturum açma girişiminden sonra tüm şifreleri sil.</string>
+    <string name="pref_summary_auto_logout">Başka bir uygulamayı kullanmak için PassKeep'den çıkış yaparsanız, belirlediğiniz süreden sonra PassKeep hesabınızdan çıkış yapacaktır.</string>
     <string name="pref_summary_disallow_screenshots">PassKeep\'in ekran görüntüsünün kaydedilmesine izin vermez.</string>
     <string name="pref_summary_auto_login">Geçerli şifre girildiğinde otomatik olarak giriş yap.</string>
     <string name="pref_summary_show_notification">Uygulama çalıştığında ve aynı zamanda ekran kilitlendiğinde durum çubuğunda bir bildirim göster.</string>
@@ -122,11 +122,11 @@
     <!-- Misc -->
     <string name="title_last_edited">Son düzenleme: %s</string>
     <string name="title_autobackups">Otomatik yedekleme</string>
-    <string name="title_backup_every">Backup Every</string>
+    <string name="title_backup_every">Yedekleme Aralığı</string>
     <string name="title_backup_time">Yedekleme Saati</string>
     <string name="title_max_backups">Maksimum Yedek</string>
     <string name="title_attempts_remaining">Kalan girişim: %d</string>
-    <string name="title_welcome">Hoş Geldin&#8230;</string>
+    <string name="title_welcome">Hoş Geldin...</string>
     <string name="title_bg_view_num_item">%1$d Öge</string>
     <string name="title_bg_view_num_items">%1$d Öge</string>
     <string name="title_bg_view_root">Root</string>
@@ -140,7 +140,7 @@
     <string name="title_can_contain">Şifre Özellikleri</string>
     <string name="title_backup_restore_db">Veritabanı Yedekle/Geri Yükle</string>
     <string name="title_backup_restore_csv">CSV Yedekle/Geri Yükle</string>
-    <string name="title_custom_characters">Özel Karakterler</string>
+    <string name="title_custom_characters">Bu Karakterlerden Oluştur</string>
 
     <string name="message_empty_passwords_recycler">Şifreler eklendiğinde burada görüntülenecektir</string>
     <string name="message_welcome_first_start">Başlatmak için bir ana şifre girmeniz gerekmektedir. Bu ana şifre, şifrelerinizi koruma altına almak için kullanılacaktır.\n\nAna şifrenin unutulması durumunda, bu ana şifre kurtarılamayacak ve tüm şifreler kaybedilecektir.\n\nVeri kayıplarını önlemek için veritabanını düzenli olarak yedekleyin.</string>
