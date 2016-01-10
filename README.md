@@ -7,10 +7,11 @@ Translations for PassKeep - Password Manager Android Aplication
 https://play.google.com/store/apps/details?id=eu.wedgess.passkeep
 
 
-# Completed Strings
-- English (me)
+# Completed Strings, thanks to:
 - German (laufersteppenwolf/Trafalgar-Square/mythos234)
 - Polish (Chamelleon)
 - Russian (DumF0rGaming)
 - Spanish (smstiv)
 - Turkish (echelonx)
+- Czech (phsnake)
+- Slovak (phsnake)
