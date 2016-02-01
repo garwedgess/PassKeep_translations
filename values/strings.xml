@@ -215,5 +215,9 @@
     <string name="date_ending_nd">%snd</string>
     <string name="date_ending_rd">%srd</string>
     <string name="date_ending_th">%sth</string>
+	
+	<string name="action_delete_category_passwords">Delete Category And Passwords</string>
+    <string name="action_delete_category">Delete Category</string>
+    <string name="action_rename_category">Rename Category</string>
 
 </resources>
