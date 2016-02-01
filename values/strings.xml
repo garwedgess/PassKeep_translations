@@ -67,6 +67,7 @@
     <string name="et_hint_description">Description</string>
     <string name="et_hint_custom_characters">Enter custom characters here</string>
     <string name="error_passwords_dont_match">Passwords do not match</string>
+	<string name="error_blank_entry">Cannot be blank</string>
     <string name="error_incorrect_password">Incorrect password</string>
     <string name="error_blank_pass_title">Title cannot be blank</string>
     <string name="error_blank_pass_username">Username cannot be left blank</string>
