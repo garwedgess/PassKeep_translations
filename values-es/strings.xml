@@ -9,6 +9,7 @@
     <string name="fragment_title_password_generator">Generador de contraseñas</string>
     <string name="fragment_title_path_picker_default">Escoger ruta</string>
     <string name="fragment_title_path_picker_share_backup">Compartir copia de seguridad</string>
+    <string name="fragment_title_cat_manager">Administrador de categorias</string>
 
     <!--Actions -->
     <string name="action_select_all">Selecionar todo</string>
@@ -24,6 +25,9 @@
     <string name="action_floating_window">Ventana flotante</string>
     <string name="action_file_browser_new_dir">Nueva ruta</string>
     <string name="action_sort">Clase</string>
+    <string name="action_delete_category_passwords">Eliminar Categoría y Contraseñas</string>
+    <string name="action_delete_category">Borar Categoria</string>
+    <string name="action_rename_category">Renombrar Categoria</string>
 
     <!-- Toast/Snackbar -->
     <string name="toast_message_dir_created">Creación de ruta satisfactorio</string>
@@ -40,6 +44,7 @@
     <string name="toast_message_autobackup_restarted">GuardaContraseñas: Copia de seguridad automática reiniciada</string>
     <string name="toast_message_no_backups">Todavia no existe copia de seguridad</string>
     <string name="toast_message_no_character">No se pueden introducir caracteres personalizados</string>
+    <string name="toast_message_no_change_in_categoryname">Sin cambios en el nombre de categoria</string>
 
     <string name="snackbar_message_select_a_backup_to">Seleccione una copia de seguridad %s</string>
     <string name="snackbar_message_append_share">compartir</string>
@@ -62,15 +67,18 @@
     <string name="et_hint_username">Nombre de usuario</string>
     <string name="et_hint_description">Descripcion</string>
     <string name="et_hint_custom_characters">Introducir caracteres personalizados aqui</string>
+    <string name="et_hint_password_2">Contraseña 2</string>
     <string name="error_passwords_dont_match">Las contraseñas no coinciden</string>
     <string name="error_incorrect_password">Contraseña incorrecta</string>
     <string name="error_blank_pass_title">El titulo no puede estar en blanco</string>
     <string name="error_blank_pass_username">El nombre de usuario no se puede dejar en blanco</string>
     <string name="error_blank_password">La contraseña no se pude ejar en blanco</string>
     <string name="error_password_length_short">La contraseña necesita minimum 6 caracteres</string>
+    <string name="error_blank_entry">No puede estar en blanco</string>
     <string name="til_title_backup">Nombre del archivo de la copia de seguridad</string>
 
     <!-- AlertDialogs -->
+    <string name="alert_title_rename_category">Cambiar el nombre de categoria</string>
     <string name="alert_title_self_destruct">Auto destruccicon</string>
     <string name="alert_title_delete_password">Borrar contraseña</string>
     <string name="alert_title_backup_from_csv">Copia de seguridad de CSV</string>
@@ -82,6 +90,11 @@
     <string name="alert_title_restart_app">Reiniciar la aplicacion</string>
     <string name="alert_title_select_application">Seleccione una aplicación</string>
     <string name="alert_title_sort_passwords">Ordenar contraseñas</string>
+    <string name="alert_title_permissions">Permisos</string>
+    <string name="et_hint_category">Categoria</string>
+    <string name="alert_message_permission_system_alert">Esta aplicación requiere permiso SYSTEM_ALERT_WINDOW con el fin de llamar la ventana flotante sobre otras aplicaciones. Sin el permiso la ventana flotante no funcionará.</string>
+    <string name="alert_message_read_write_permissions">A PassKeep no se le concedió permiso para escribir en su almacenamiento. Por lo tanto, la copia de seguridad no funcionará. Por favor considera la concesión de esta autorización</string>
+    <string name="alert_message_grant_drawoverapps_permission">A PassKeep no se concedió el permiso para dibujar sobre otras aplicaciones. Por lo tanto la funcionalidad ventana flotante no funcionará. Por favor considerar la concesión de esta autorización</string>
     <string name="alert_message_loading_app_list">Cargando lista de aplicaciones</string>
     <string name="alert_message_restart_app">La aplicación debe ser reiniciada para bloquear / permitir capturas de pantalla. Reinicie GuardaContraseñas ahora?</string>
     <string name="alert_message_delete_password_confirm">Estas seguro que quieres borrar %s. Esto no se puede deshacer.</string>
@@ -93,6 +106,7 @@
     <string name="alert_btn_cancel">Cancelar</string>
     <string name="alert_btn_no">No</string>
     <string name="alert_btn_ok">Ok</string>
+    <string name="alert_btn_grant_permissions">Conceder permiso</string>
 
     <!--Preferences -->
     <string name="pref_category_title_appearance">Apariencia</string>
@@ -107,6 +121,12 @@
     <string name="pref_title_block_screenshots">Bloquear Screenshots</string>
     <string name="pref_title_auto_logout">Auto Entrada</string>
     <string name="pref_title_auto_login">Auto Salida</string>
+    <string name="pref_title_show_system_apps">Mostrar Aplicaciones de sistema</string>
+    <string name="pref_title_use_pass_gen_options">Ajustes del generador de contraseñas</string>
+    <string name="pref_title_hide_usernames">Ocultar los nombres de usuario</string>
+    <string name="pref_summary_show_system_apps">Mostrar las aplicaciones de sistema en la lista de aplicaciones para las entradas de contraseñas</string>
+    <string name="pref_summary_hide_usernames">Ocultar los nombres de usuario de la lista de contraseñas</string>
+    <string name="pref_summary_use_pass_gen_options">Utilice los ajustes del generadore de contraseñas al generar contraseñas para las entradas</string>
     <string name="pref_summary_dark_theme">Cambie el interfaz de usuario de PassKeeps con un tema Material Oscuro. (La aplicación se reiniciará)</string>
     <string name="pref_summary_delete_all_passwords">** Aviso ** Eliminar todo el contenido de la base de datos, incluyendo la clave de acceso principal. Esto no se puede deshacer.</string>
     <string name="pref_summary_reset_master_passkey">** Aviso ** Cambiar la contraseña maestra. Las copias de seguridad con la antigua contraseña no funcionarán más.</string>
@@ -141,11 +161,18 @@
     <string name="title_backup_restore_db">Base de datos Copia de seguridad/Restauracion</string>
     <string name="title_backup_restore_csv">CSV Copia de seguridad/Restauracion</string>
     <string name="title_custom_characters">Caracteres Personalizados</string>
+    <string name="title_category_none">Ninguna</string>
+    <string name="title_category">Categoria</string>
+    <string name="title_category_all">Todo</string>
+    <string name="title_no_category">Sin Categoria</string>
+    <string name="title_category_new">Nueva Categoria</string>
+    <string name="title_add_new_category">Añadir nueva Categoria</string>
 
     <string name="message_empty_passwords_recycler">Las contraseñas aparecerán aquí cuando se añaden</string>
     <string name="message_welcome_first_start">Para empezar, debe introducir una contraseña maestra. Esta contraseña se utiliza para cifrar todas las contraseñas.\n\nLa contraseña maestra es irrecuperable y en el caso de su olvido se perderán todas las demas contraseñas.\n\nPara evitar la pérdida de datos haga copias de seguridad con regularidad.</string>
     <string name="message_placeholder_app_name">Toque para añadir Aplicación</string>
     <string name="message_placeholder_apk_package">Puede abrir la aplicación desde aquí</string>
+    <string name="message_no_categories_available">No hay categorías disponibles ..</string>
 
     <string name="notification_message">PassKeep está funcionando&#8230;</string>
 
