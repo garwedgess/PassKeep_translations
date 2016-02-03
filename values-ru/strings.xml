@@ -9,6 +9,7 @@
     <string name="fragment_title_password_generator">Генератор паролей</string>
     <string name="fragment_title_path_picker_default">Выберите путь</string>
     <string name="fragment_title_path_picker_share_backup">Поделиться копией</string>
+    <string name="fragment_title_cat_manager">Управление категориями</string>
 
     <!--Actions -->
     <string name="action_select_all">Выбрать все</string>
@@ -24,6 +25,9 @@
     <string name="action_floating_window">Всплывающее окно</string>
     <string name="action_file_browser_new_dir">Создать папку</string>
     <string name="action_sort">Сортировать</string>
+    <string name="action_delete_category_passwords">Удалить категорию вместе с паролями</string>
+    <string name="action_delete_category">Удалить категорию</string>
+    <string name="action_rename_category">Переименовать категорию</string>
 
     <!-- Toast/Snackbar -->
     <string name="toast_message_dir_created">Путь создан</string>
@@ -40,6 +44,7 @@
     <string name="toast_message_autobackup_restarted">PassKeep: Перезапуск авторезервирования</string>
     <string name="toast_message_no_backups">Резервные копии ранее не создавались</string>
     <string name="toast_message_no_character">Символы не были заданы</string>
+    <string name="toast_message_no_change_in_categoryname">Имя категории не изменялось</string>
 
     <string name="snackbar_message_select_a_backup_to">Выберите копию для %s</string>
     <string name="snackbar_message_append_share">отправки</string>
@@ -62,12 +67,14 @@
     <string name="et_hint_username">Имя пользователя</string>
     <string name="et_hint_description">Описание</string>
     <string name="et_hint_custom_characters">Задайте символы</string>
+    <string name="et_hint_password_2">Пароль 2</string>
     <string name="error_passwords_dont_match">Пароли не совпадают</string>
     <string name="error_incorrect_password">Неправильный пароль</string>
     <string name="error_blank_pass_title">Название должно быть заполнено</string>
     <string name="error_blank_pass_username">Имя пользователя должно быть введено</string>
     <string name="error_blank_password">Пароль должен быть введен</string>
     <string name="error_password_length_short">Пароль должен содержать не менее 6 символов</string>
+    <string name="error_blank_entry">Поле не может быть пустым</string>
     <string name="til_title_backup">Имя резервной копии</string>
 
     <!-- AlertDialogs -->
@@ -82,6 +89,12 @@
     <string name="alert_title_restart_app">Перезапуск приложения</string>
     <string name="alert_title_select_application">Выберите приложение</string>
     <string name="alert_title_sort_passwords">Сортировка паролей</string>
+    <string name="alert_title_rename_category">Переименовать категорию</string>
+    <string name="alert_title_permissions">Разрешения</string>
+    <string name="et_hint_category">Категория</string>
+    <string name="alert_message_permission_system_alert">Приложению требуется разрешение SYSTEM_ALERT_WINDOW для показа всплывающего окна поверх других приложений. Без него всплывающее окно не появится.</string>
+    <string name="alert_message_read_write_permissions">PassKeep не получил разрешение на запись в память. Следовательно, резервирование и восстановление не будут работать. Пожалуйста, предоставьте это разрешение</string>
+    <string name="alert_message_grant_drawoverapps_permission">PassKeep не получил разрешение на отображение поверх других приложений. Следовательно, всплывающее окно не будет работать. Пожалуйста, предоставьте это разрешение</string>
     <string name="alert_message_loading_app_list">Загрузка списка приложений</string>
     <string name="alert_message_restart_app">Приложение должно быть перезапущено для вступления настройки в силу. Сделать это сейчас?</string>
     <string name="alert_message_delete_password_confirm">Вы действительно хотите удалить %s? Это действие необратимо.</string>
@@ -93,6 +106,7 @@
     <string name="alert_btn_cancel">Отмена</string>
     <string name="alert_btn_no">Нет</string>
     <string name="alert_btn_ok">Ok</string>
+    <string name="alert_btn_grant_permissions">Предоставить</string>
 
     <!--Preferences -->
     <string name="pref_category_title_appearance">Внешний вид</string>
@@ -107,6 +121,12 @@
     <string name="pref_title_block_screenshots">Блокировка скриншотов</string>
     <string name="pref_title_auto_logout">Автовыход</string>
     <string name="pref_title_auto_login">Умный вход</string>
+    <string name="pref_title_show_system_apps">Системные приложения</string>
+    <string name="pref_title_use_pass_gen_options">Опции генератора</string>
+    <string name="pref_title_hide_usernames">Сокрытие логинов</string>
+    <string name="pref_summary_show_system_apps">Отображать системные приложения в списке для добавления паролей</string>
+    <string name="pref_summary_hide_usernames">Скрывать имена пользователя в списке паролей</string>
+    <string name="pref_summary_use_pass_gen_options">Применять опции генератора паролей при создании паролей</string>
     <string name="pref_summary_dark_theme">Применить темное оформление в стиле Material Design. (требуется перезапуск)</string>
     <string name="pref_summary_delete_all_passwords">**Предупреждение** Все пароли, включая мастер-пароль будут удалены. Это действие нельзя отменить.</string>
     <string name="pref_summary_reset_master_passkey">**Предупреждение** Сменить мастер-пароль. Резервные копии со старым мастер-паролем перестанут работать.</string>
@@ -141,11 +161,18 @@
     <string name="title_backup_restore_db">Резервирование базы данных</string>
     <string name="title_backup_restore_csv">Резервирование CSV</string>
     <string name="title_custom_characters">Польз. символы</string>
-    
+    <string name="title_category_none">Отсутствует</string>
+    <string name="title_category">Категория</string>
+    <string name="title_category_all">Все</string>
+    <string name="title_no_category">Категории нет</string>
+    <string name="title_category_new">Новая категория</string>
+    <string name="title_add_new_category">Создать категорию</string>
+
     <string name="message_placeholder_app_name">Нажмите, чтобы добавить приложение</string>
     <string name="message_placeholder_apk_package">Приложение можно открывать отсюда</string>
     <string name="message_empty_passwords_recycler">Добавленные пароли появятся здесь</string>
     <string name="message_welcome_first_start">Для начала Вам потребуется придумать мастер-пароль. С его помощью шифруются все остальные пароли.\n\nМастер-пароль нельзя восстановить и в случае его утраты все сохраненные пароли будут удалены.\n\nРегулярно создавайте резервные копии во избежание потери данных.</string>
+    <string name="message_no_categories_available">Доступных категорий нет..</string>
 
     <string name="notification_message">PassKeep запущен&#8230;</string>
 
@@ -192,5 +219,5 @@
     <string name="date_ending_nd">%sой</string>
     <string name="date_ending_rd">%sий</string>
     <string name="date_ending_th">%sый</string>
-	
+
 </resources>
