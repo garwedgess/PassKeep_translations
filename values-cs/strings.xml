@@ -9,6 +9,7 @@
     <string name="fragment_title_password_generator">Generátor hesel</string>
     <string name="fragment_title_path_picker_default">Zvolte složku</string>
     <string name="fragment_title_path_picker_share_backup">Sdílet zálohy</string>
+    <string name="fragment_title_cat_manager">Správce kategorií</string>
 
     <!--Actions -->
     <string name="action_select_all">Vybrat vše</string>
@@ -24,6 +25,9 @@
     <string name="action_floating_window">Plávajíci okno</string>
     <string name="action_file_browser_new_dir">Nová složka</string>
     <string name="action_sort">Seřadit</string>
+    <string name="action_delete_category_passwords">Smazat kategorii a hesla</string>
+    <string name="action_delete_category">Smazat kategorii</string>
+    <string name="action_rename_category">Přejmenovat kategorii</string>
 
     <!-- Toast/Snackbar -->
     <string name="toast_message_dir_created">Složka úspěšně vytvořená</string>
@@ -40,6 +44,7 @@
     <string name="toast_message_autobackup_restarted">PassKeep: Automatická záloha znovu spuštěna</string>
     <string name="toast_message_no_backups">Zatím žádné zálohy</string>
     <string name="toast_message_no_character">Nebyli zadané vlastní znaky</string>
+    <string name="toast_message_no_change_in_categoryname">Žádná změna v názvu kategorie</string>
 
     <string name="snackbar_message_select_a_backup_to">Vyberte zálohu pro %s</string>
     <string name="snackbar_message_append_share">sdílení</string>
@@ -62,6 +67,9 @@
     <string name="et_hint_username">Užívatelské jméno</string>
     <string name="et_hint_description">Popis</string>
     <string name="et_hint_custom_characters">Tu zadejte vlastní znaky</string>
+    <string name="et_hint_password_2">Heslo 2</string>
+    <string name="et_hint_category">Kategorie</string>
+    <string name="error_blank_entry">Povinné pole</string>
     <string name="error_passwords_dont_match">Hesla se nezhodujú</string>
     <string name="error_incorrect_password">Špatné heslo</string>
     <string name="error_blank_pass_title">Název nesmí být prázdny</string>
@@ -80,15 +88,21 @@
     <string name="alert_title_backup_db">Zálohovat DB</string>
     <string name="alert_title_share_backup">Sdílet zálohu s..</string>
     <string name="alert_title_restart_app">Restartovat aplikaci</string>
-    <string name="alert_message_restart_app">Chcete-li povolit/zakázat snímky obrazovky, musí se aplikace restartovat. Restartovat PassKeep teď?</string>
     <string name="alert_title_select_application">Vyberte aplikaci</string>
     <string name="alert_title_sort_passwords">Seřadit hesla</string>
+    <string name="alert_title_rename_category">Přejmenovat kategorii</string>
+    <string name="alert_title_permissions">Oprávnění</string>
+    <string name="alert_message_restart_app">Chcete-li povolit/zakázat snímky obrazovky, musí se aplikace restartovat. Restartovat PassKeep teď?</string>
     <string name="alert_message_loading_app_list">Načítava se seznam aplikaci</string>
     <string name="alert_message_delete_password_confirm">Opravdu chcete smazat %s. Smazání je nevratné.</string>
     <string name="alert_message_password_change">Vygenerování nového hesla odstraní současné. Chcete pokračovat?</string>
     <string name="alert_message_save_changes">Chcete uložit vykonané změny?</string>
     <string name="alert_message_discard_entry">Chcete smazat tuto položku?</string>
     <string name="alert_message_self_destruct_activated">Překročit maximální počet pokusů o zadání hesla. Všechny hesla byli trvale odstráněné. Není cesty spátky</string>
+    <string name="alert_message_permission_system_alert">Má-li se tahle aplikace zobrazovat nad jinými aplikacemi, musí mít oprávnění SYSTEM_ALERT_WINDOW, jinak bude plovoucí okno nefunkční.</string>
+    <string name="alert_message_read_write_permissions">Neudělili jste PassKeep-u právo zapisovat do úložiště, proto nebude zálohovaní/obnova funkční. Prosím zvažte udělení tohoto oprávnění.</string>
+    <string name="alert_message_grant_drawoverapps_permission">Neudělili jste PassKeep-u právo se zobrazovat nad jinými aplikacemi, proto nebude plovoucí okno funkční. Prosím zvažte udělení tohoto oprávnění..</string>
+    <string name="alert_btn_grant_permissions">Udělit oprávnění</string>
     <string name="alert_btn_yes">Ano</string>
     <string name="alert_btn_cancel">Storno</string>
     <string name="alert_btn_no">Ne</string>
@@ -107,6 +121,12 @@
     <string name="pref_title_auto_logout">Automatické odhlášení</string>
     <string name="pref_title_auto_login">Automatické prihlášení</string>
     <string name="pref_title_dark_theme">Tmavá téma</string>
+    <string name="pref_title_show_system_apps">Zobrazit systémové aplikace</string>
+    <string name="pref_title_use_pass_gen_options">Nastavení generátora hesel</string>
+    <string name="pref_title_hide_usernames">Skrýt uživatelské jména</string>
+    <string name="pref_summary_show_system_apps">Zobrazit systémové aplikace v seznamu aplikací s povoleným zadáváním hesel</string>
+    <string name="pref_summary_hide_usernames">Skrýt uživatelské jména</string>
+    <string name="pref_summary_use_pass_gen_options">Při generování hesel použít nastavení generátora hesel</string>
     <string name="pref_summary_delete_all_passwords">**Upozornění** Smazat obsah databázy včetně hlavního hesla. Smazání je nevratné.</string>
     <string name="pref_summary_reset_master_passkey">**Upozornění** Resetovat hlavní heslo. Zálohy se starým hlavním heslem nebudou funkční.</string>
     <string name="pref_summary_self_destruct">Smazat všechny hesla po 5 neuspěšných pokusech o přihlášení.</string>
@@ -141,7 +161,14 @@
     <string name="title_backup_restore_db">Záloha/Obnova databázy</string>
     <string name="title_backup_restore_csv">Záloha/Obnova CSV</string>
     <string name="title_custom_characters">Vlastní znaky</string>
+    <string name="title_category_none">Žádna</string>
+    <string name="title_category">Kategorie</string>
+    <string name="title_category_all">Všechny</string>
+    <string name="title_no_category">Bez kategorie</string>
+    <string name="title_category_new">Nová kategorie</string>
+    <string name="title_add_new_category">Přidat kategorii</string>
 
+    <string name="message_no_categories_available">Žádné dostupné kategorie..</string>
     <string name="message_empty_passwords_recycler">Zde se zobrazí hesla po přidání</string>
     <string name="message_welcome_first_start">Nejdřív musíte zadat hlavní heslo. Tohle heslo se použije na ochranu Vašich hesel.\n\nHlavní heslo je neobnovitelné a ˇjestli ho zapomenete, stratíte všechny hesla.\n\nChcete predejít stratě dat pravidelně databázi zálohujte.</string>
     <string name="message_placeholder_app_name">Dotekem přidáte aplikaci</string>

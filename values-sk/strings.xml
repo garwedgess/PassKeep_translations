@@ -9,6 +9,7 @@
     <string name="fragment_title_password_generator">Generátor hesiel</string>
     <string name="fragment_title_path_picker_default">Vyberte priečinok</string>
     <string name="fragment_title_path_picker_share_backup">Zdielať zálohy</string>
+    <string name="fragment_title_cat_manager">Správca kategórií</string>
 
     <!--Actions -->
     <string name="action_select_all">Vybrať všetko</string>
@@ -24,6 +25,9 @@
     <string name="action_floating_window">Plávajúce okno</string>
     <string name="action_file_browser_new_dir">Nový priečinok</string>
     <string name="action_sort">Usporiadať</string>
+    <string name="action_delete_category_passwords">Zmazať kategóriu a heslá</string>
+    <string name="action_delete_category">Zmazať kategóriu</string>
+    <string name="action_rename_category">Premenovať kategóriu</string>
 
     <!-- Toast/Snackbar -->
     <string name="toast_message_dir_created">Priečinok úspešne vytvorený</string>
@@ -40,6 +44,7 @@
     <string name="toast_message_autobackup_restarted">PassKeep: Automatická záloha opätovne spustená</string>
     <string name="toast_message_no_backups">Zatiaľ žiadne zálohy</string>
     <string name="toast_message_no_character">Neboli zadané vlastné znaky</string>
+    <string name="toast_message_no_change_in_categoryname">Žiadna zmena v názve kategórie</string>
 
     <string name="snackbar_message_select_a_backup_to">Vyberte zálohu na %s</string>
     <string name="snackbar_message_append_share">zdielanie</string>
@@ -62,12 +67,15 @@
     <string name="et_hint_username">Užívateľské meno</string>
     <string name="et_hint_description">Popis</string>
     <string name="et_hint_custom_characters">Tu zadajte vlastné znaky</string>
+    <string name="et_hint_category">Kategória</string>
+    <string name="et_hint_password_2">Heslo 2</string>
     <string name="error_passwords_dont_match">Heslá sa nezhodujú</string>
     <string name="error_incorrect_password">Nesprávne heslo</string>
     <string name="error_blank_pass_title">Názov nesmie byť prázdny</string>
     <string name="error_blank_pass_username">Užívateľské meno nesmie byť prázdne</string>
     <string name="error_blank_password">Heslo nesmie byť prázdne</string>
     <string name="error_password_length_short">Heslo musí byť dlhé najmenej 6 znakov</string>
+    <string name="error_blank_entry">Nemôže ostať nevyplnené</string>
     <string name="til_title_backup">Názov súboru zálohy</string>
 
     <!-- AlertDialogs -->
@@ -80,15 +88,21 @@
     <string name="alert_title_backup_db">Zálohovať DB</string>
     <string name="alert_title_share_backup">Zdielať zálohu s..</string>
     <string name="alert_title_restart_app">Reštartovať aplikáciu</string>
-    <string name="alert_message_restart_app">Ak chcete povoliť/zakázať snímky obrazovky, musí sa aplikácia reštartovať. Reštartovať PassKeep teraz?</string>
+    <string name="alert_title_rename_category">Premenovať kategóriu</string>
+    <string name="alert_title_permissions">Oprávnenia</string>
     <string name="alert_title_select_application">Vyberte aplikáciu</string>
     <string name="alert_title_sort_passwords">Zoradiť heslá</string>
+    <string name="alert_message_restart_app">Ak chcete povoliť/zakázať snímky obrazovky, musí sa aplikácia reštartovať. Reštartovať PassKeep teraz?</string>
     <string name="alert_message_loading_app_list">Načítava sa zoznam aplikácii</string>
     <string name="alert_message_delete_password_confirm">Naozaj chcete zmazať %s. Zmazanie je nevratné.</string>
     <string name="alert_message_password_change">Vygenerovanie nového hesla odstráni súčasné. Chcete pokračovať?</string>
     <string name="alert_message_save_changes">Chcete uložiť vykonané zmeny?</string>
     <string name="alert_message_discard_entry">Chcete vymazať túto položku?</string>
     <string name="alert_message_self_destruct_activated">Prekročený maximálny počet pokusov o zadanie hesla. Všetky heslá boli trvalo odstránené. Nie je cesty späť!</string>
+    <string name="alert_message_permission_system_alert">Aby sa táto aplikácia mohla zobraziť nad inými aplikáciami, musí mať oprávnenia SYSTEM_ALERT_WINDOW, bez toho nebude plávajúce okno fungovať.</string>
+    <string name="alert_message_read_write_permissions">Neudelili ste PassKeep-u právo zapisovať do úložiska, preto nebude zálohovanie/obnova funkčné. Prosím zvážte udelenie tohoto oprávnenia.</string>
+    <string name="alert_message_grant_drawoverapps_permission">Neudelili ste PassKeep-u právo sa zobrazovať nad inými aplikáciami, preto bez toho nebude plávajúce okno fungovať. Prosím zvážte udelenie tohoto oprávnenia.</string>
+    <string name="alert_btn_grant_permissions">Udeliť oprávnenia</string>
     <string name="alert_btn_yes">Áno</string>
     <string name="alert_btn_cancel">Storno</string>
     <string name="alert_btn_no">Nie</string>
@@ -107,6 +121,12 @@
     <string name="pref_title_auto_logout">Automatické odhlásenie</string>
     <string name="pref_title_auto_login">Automatické prihlásenie</string>
     <string name="pref_title_dark_theme">Tmavá téma</string>
+    <string name="pref_title_show_system_apps">Zobraziť systémové aplikácie</string>
+    <string name="pref_title_use_pass_gen_options">Nastavenia generátora hesiel</string>
+    <string name="pref_title_hide_usernames">Skryť užívateľské mená</string>
+    <string name="pref_summary_show_system_apps">Zobraziť systémové aplikácie v zozname aplikácií s povoleným zadávaním hesiel</string>
+    <string name="pref_summary_hide_usernames">Skryť užívateľské mená zo zoznamu hesiel</string>
+    <string name="pref_summary_use_pass_gen_options">Pri generovaní hesiel použiť nastavenia generátora hesiel</string>
     <string name="pref_summary_delete_all_passwords">**Upozornenie** Zmazať obsah databázy vrátane hlavného hesla. Zmazanie je nevratné.</string>
     <string name="pref_summary_reset_master_passkey">**Upozornenie** Resetovať hlavné heslo. Zálohy so starým hlavným heslom nebudú fungovať.</string>
     <string name="pref_summary_self_destruct">Zmazať všetky heslá po 5 neuspešných pokusoch o prihlásenie.</string>
@@ -141,7 +161,14 @@
     <string name="title_backup_restore_db">Záloha/Obnova databázy</string>
     <string name="title_backup_restore_csv">Záloha/Obnova CSV</string>
     <string name="title_custom_characters">Vlastné znaky</string>
+    <string name="title_category_none">Žiadna</string>
+    <string name="title_category">Kategória</string>
+    <string name="title_category_all">Všetky</string>
+    <string name="title_no_category">Bez kategórie</string>
+    <string name="title_category_new">Nová kategória</string>
+    <string name="title_add_new_category">Pridať kategóriu</string>
 
+    <string name="message_no_categories_available">Žiadne dostupné kategórie..</string>
     <string name="message_empty_passwords_recycler">Tu sa zobrazia heslá po pridaní</string>
     <string name="message_welcome_first_start">Na začiatku musíte zadať hlavné heslo. Toto heslo sa použije na ochranu Vašich hesiel.\n\nHlavné heslo je neobnoviteľné a v prípade ak ho zabudnete, prídete o všetky heslá.\n\nAk chcete zabrániť strate dát pravidelne databázu zálohujte.</string>
     <string name="message_placeholder_app_name">Dotykom pridáte aplikáciu</string>
