@@ -167,6 +167,7 @@
     <string name="title_no_category">Категории нет</string>
     <string name="title_category_new">Новая категория</string>
     <string name="title_add_new_category">Создать категорию</string>
+    <string name="title_category_toolbar">категорию:</string>
 
     <string name="message_placeholder_app_name">Нажмите, чтобы добавить приложение</string>
     <string name="message_placeholder_apk_package">Приложение можно открывать отсюда</string>
@@ -210,10 +211,11 @@
     <string name="backup_interval_one_month">Раз в месяц</string>
 
     <string name="sort_option_alphabetically_ascending">По алфавиту (возр.)</string>
-    <string name="sort_option_alphabetically_descending">По алфавиту  (убыв.)</string>
+    <string name="sort_option_alphabetically_descending">По алфавиту (убыв.)</string>
     <string name="sort_option_date_created_ascending">По дате (возр.)</string>
     <string name="sort_option_date_created_descending">По дате (убыв.)</string>
-    <string name="sort_option_color">Цвет</string>
+    <string name="sort_option_color_ascending">Цвет (возр.)</string>
+    <string name="sort_option_color_descending">Цвет (убыв.)</string>
 
     <string name="date_ending_st">%sый</string>
     <string name="date_ending_nd">%sой</string>

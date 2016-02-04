@@ -167,6 +167,7 @@
     <string name="title_no_category">Sin Categoria</string>
     <string name="title_category_new">Nueva Categoria</string>
     <string name="title_add_new_category">Añadir nueva Categoria</string>
+    <string name="title_category_toolbar">Categoria:</string>
 
     <string name="message_empty_passwords_recycler">Las contraseñas aparecerán aquí cuando se añaden</string>
     <string name="message_welcome_first_start">Para empezar, debe introducir una contraseña maestra. Esta contraseña se utiliza para cifrar todas las contraseñas.\n\nLa contraseña maestra es irrecuperable y en el caso de su olvido se perderán todas las demas contraseñas.\n\nPara evitar la pérdida de datos haga copias de seguridad con regularidad.</string>
@@ -202,7 +203,8 @@
     <string name="sort_option_alphabetically_descending">Alfabéticamente (descendente)</string>
     <string name="sort_option_date_created_ascending">Fecha (ascendente)</string>
     <string name="sort_option_date_created_descending">Fecha (descendente)</string>
-    <string name="sort_option_color">Color</string>
+    <string name="sort_option_color_ascending">Color (ascendente)</string>
+    <string name="sort_option_color_descending">Color (descendente)</string>
 
     <string name="date_ending_st">%sro</string>
     <string name="date_ending_nd">%sdo</string>

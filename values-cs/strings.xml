@@ -167,6 +167,7 @@
     <string name="title_no_category">Bez kategorie</string>
     <string name="title_category_new">Nová kategorie</string>
     <string name="title_add_new_category">Přidat kategorii</string>
+    <string name="title_category_toolbar">Kategorie:</string>
 
     <string name="message_no_categories_available">Žádné dostupné kategorie..</string>
     <string name="message_empty_passwords_recycler">Zde se zobrazí hesla po přidání</string>
@@ -213,7 +214,8 @@
     <string name="sort_option_alphabetically_descending">Podle abecedy (Zestupně)</string>
     <string name="sort_option_date_created_ascending">Podle data (Vzestupně)</string>
     <string name="sort_option_date_created_descending">Podle data (Zestupně)</string>
-    <string name="sort_option_color">Color</string>
+    <string name="sort_option_color_ascending">Color (Vzestupně)</string>
+    <string name="sort_option_color_descending">Color (Zestupně)</string>
 
     <string name="date_ending_st">%s.</string>
     <string name="date_ending_nd">%s.</string>
