@@ -48,7 +48,7 @@
 
     <string name="snackbar_message_select_a_backup_to">Wybierz backup do %s</string>
     <string name="snackbar_message_append_share">udostępnij</string>
-    <string name="snackbar_message_append_restore">przywróć</string>
+    <string name="snackbar_message_append_restore">przywrócenia</string>
     <string name="snackbar_messgae_select_folder">Przytrzymaj folder, aby wybrać lokalizację</string>
     <string name="snackbar_message_self_destruct_remaining">%d prób pozostało do autodestrukcji. Wszystkie hasła zostaną skasowane.</string>
     <string name="snackbar_message_deleted_item">Usunięto %d pozycję</string>
@@ -89,7 +89,7 @@
     <string name="alert_title_share_backup">Udostępnij Kopię Zapasową dla..</string>
     <string name="alert_title_restart_app">Uruchom Ponownie Aplikację</string>
     <string name="alert_title_select_application">Wybierz Aplikację</string>
-    <string name="alert_title_sort_passwords">Sortuj Hasa</string>
+    <string name="alert_title_sort_passwords">Sortuj Hasła</string>
     <string name="alert_title_rename_category">Zmień Nazwę Kategorii</string>
     <string name="alert_title_permissions">Uprawnienia</string>
     <string name="alert_message_loading_app_list">Ładowanie listy aplikacji</string>
@@ -124,10 +124,10 @@
     <string name="pref_title_show_system_apps">Pokaż Aplikacje Systemowe</string>
     <string name="pref_title_use_pass_gen_options">Opcje Generatora Haseł</string>
     <string name="pref_title_hide_usernames">Ukryj Nazwy Użytkowników</string>
-    <string name="pref_summary_show_system_apps">Pokaż aplikacje systemowe na liście aplikacji z hasłami</string>
+    <string name="pref_summary_show_system_apps">Pokaż również aplikacje systemowe podczas dodawania hasła</string>
     <string name="pref_summary_hide_usernames">Ukryj nazwy użytkownika na liście haseł</string>
     <string name="pref_summary_use_pass_gen_options">Używaj opcji generatora haseł podczas ich generowania</string>
-    <string name="pref_summary_dark_theme">Zmień temat PassKeeps na ciemny \"material design\". (Aplikacja będzie uruchomiona ponownie)</string>
+    <string name="pref_summary_dark_theme">Zmień temat PassKeep na ciemny \"material design\". (Aplikacja będzie uruchomiona ponownie)</string>
     <string name="pref_summary_delete_all_passwords">**Ostrzeżenie** Usuń całą zawartość Bazy Danych włącznie z Kluczem Głównym. Nie będzie można tego cofnąć.</string>
     <string name="pref_summary_reset_master_passkey">**Ostrzeżenie** Zresetuj Klucz Główny. Kopie Zapasowe utworzone ze starym kluczem nie będą więcej działać.</string>
     <string name="pref_summary_self_destruct">Usuń wszystkie hasła po 5 nieudanych próbach logowania za pomocą przycisku \"zaloguj się\".</string>
@@ -161,17 +161,18 @@
     <string name="title_backup_restore_db">Kopia Zapasowa/Przywracanie Bazy Danych</string>
     <string name="title_backup_restore_csv">CSV Kopia Zapasowa/Przywracanie</string>
     <string name="title_custom_characters">Znaki Niestandardowe</string>
-    <string name="title_category_none">Żaden</string>
+    <string name="title_category_none">Brak</string>
     <string name="title_category">Kategoria</string>
     <string name="title_category_all">Wszystkie</string>
     <string name="title_no_category">Brak Kategorii</string>
     <string name="title_category_new">Nowa Kategoria</string>
     <string name="title_add_new_category">Dodaj Nową Kategorię</string>
+    <string name="title_category_toolbar">Kategória:</string>
 
     <string name="message_empty_passwords_recycler">Hasła pojawią się po dodaniu</string>
     <string name="message_welcome_first_start">Aby zacząć musisz podać Klucz Główny. Klucz Główny będzie używany do odszyfrowywania Twoich haseł.\n\nGłównego hasła nie da się odzyskać i po jego zapomnieniu wszystkie hasła zostaną utracone.\n\nAby zapobiec utracie danych wykonuj często kopię zapasową bazy danych.</string>
     <string name="message_placeholder_app_name">Dotkinj aby dodać Aplikację</string>
-    <string name="message_placeholder_apk_package">Nastpnie możesz otworzyć aplikacje stąd</string>
+    <string name="message_placeholder_apk_package">Będziesz mógł ją stąd otworzyć</string>
     <string name="message_no_categories_available">Brak Dostępnych Kategorii.</string>
 
     <string name="notification_message">PassKeep pracuje&#8230;</string>
@@ -213,7 +214,8 @@
     <string name="sort_option_alphabetically_descending">Alfabetycznie (Malejąco)</string>
     <string name="sort_option_date_created_ascending">Data (Rosnąco)</string>
     <string name="sort_option_date_created_descending">Data (Malejąco)</string>
-    <string name="sort_option_color">Kolor</string>
+    <string name="sort_option_color_ascending">Kolor (Rosnąco)</string>
+    <string name="sort_option_color_descending">Kolor (Malejąco)</string>
 
     <string name="date_ending_st">%s.</string>
     <string name="date_ending_nd">%s.</string>
