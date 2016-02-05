@@ -50,3 +50,23 @@
 - Fix CSV Backup/Restoring (CSV Backups on version 7 are broken)
 - Update Vietnamese translations  @dd721411
 - Update Turkish Translations @echelonx
+
+##v1.8
+- Fix Android Marshmallows permissions
+- Add auto complete for usernames
+
+##v1.9
+- Added Navigation Drawer
+- Added Categories
+- Added 2nd Password Field (and in floating window)
+- Added Fastscroller
+- Added Category Manager/Statistics
+- Add option to hide passwords username in the passwords list (Settings)
+- Add option to show system apps in a password entries list of applications. (Settings)
+- Add option to use password generators options when generating passwords for entries (Settings)
+- Minor UI changes/fixes
+- Add copy to clipboard button for usernames and passwords
+- Fix Hide Passwords (Settings Option)
+- Bug fixes
+- Updated Russian, Spanish, Polish (More to come)
+- Added Czech and Slovak translations thanks @phsnake
