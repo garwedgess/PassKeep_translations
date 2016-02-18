@@ -42,6 +42,7 @@
     <string name="toast_message_autobackup_restarted">PassKeep: Automatische Sicherung gestartet</string>
     <string name="toast_message_no_backups">Es wurden noch keine Sicherungen erstellt</string>
     <string name="toast_message_no_character">Keine eigenen Buchstaben wurden eingegeben</string>
+    <string name="toast_message_no_change_in_categoryname">Keine Änderungen im Kategorie Namen</string>
 
     <string name="snackbar_message_select_a_backup_to">Wähle fürs Sichern in %s</string>
     <string name="snackbar_message_append_share">Teilen</string>
@@ -117,6 +118,9 @@
     <string name="pref_summary_keep_screen_on">Lasse das Display an, während PassKeep benutzt wird.</string>
     <string name="pref_summary_hide_passwords">Zeige das \"Augen-Symbol\" zum einstellen der Sichtbarkeit.</string>
     <string name="pref_default_backup_amount_unlimited">Unbegrenzt</string>
+    <string name="pref_summary_show_system_apps">Zeige alle System-Aktualisierungen in der Liste der Applikationen für Password Einträge</string>
+    <string name="pref_summary_hide_usernames">Verstecke Passwort Nutzernamen von der Passwordliste</string>
+    <string name="pref_summary_use_pass_gen_options">Use the password generators options when generating passwords for entries</string>
 
     <!-- Misc -->
     <string name="title_last_edited">Zuletzt geändert: %s</string>
@@ -195,4 +199,9 @@
     <string name="date_ending_nd">%s.</string>
     <string name="date_ending_rd">%s.</string>
     <string name="date_ending_th">%s.</string>
+    
+    <string name="action_delete_category_passwords">Kategorie und Passwörter löschen</string>
+    <string name="action_delete_category">Kategorie löschen</string>
+    <string name="action_rename_category">Kategorie umbennenen</string>
+
 </resources>
