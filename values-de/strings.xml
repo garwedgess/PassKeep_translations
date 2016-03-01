@@ -41,13 +41,13 @@
     <string name="toast_message_autobackup_failed">PassKeep: Automatische Sicherung fehlgeschlagen</string>
     <string name="toast_message_autobackup_restarted">PassKeep: Automatische Sicherung gestartet</string>
     <string name="toast_message_no_backups">Es wurden noch keine Sicherungen erstellt</string>
-    <string name="toast_message_no_character">Keine eigenen Buchstaben wurden eingegeben</string>
+    <string name="toast_message_no_character">Keine eigenen Zeichen wurden eingegeben</string>
     <string name="toast_message_no_change_in_categoryname">Keine Änderungen im Kategorie Namen</string>
 
     <string name="snackbar_message_select_a_backup_to">Wähle fürs Sichern in %s</string>
     <string name="snackbar_message_append_share">Teilen</string>
     <string name="snackbar_message_append_restore">Wiederherstellen</string>
-    <string name="snackbar_messgae_select_folder">Drücke lange auf ein Eintrag um den Speicherort auszuwählen</string>
+    <string name="snackbar_messgae_select_folder">Drücke lange auf einen Eintrag, um den Speicherort auszuwählen</string>
     <string name="snackbar_message_self_destruct_remaining">%d Versuche bis zur Selbstzerstörung. Alle Kennwörter werden gelöscht.</string>
     <string name="snackbar_message_deleted_item">%d Eintrag gelöscht</string>
     <string name="snackbar_message_deleted_items">%d Einträge gelöscht</string>
@@ -86,7 +86,7 @@
     <string name="alert_title_select_application">Wähle eine Anwendung</string>
     <string name="alert_title_sort_passwords">Sortiere Passwörter </string>
     <string name="alert_message_loading_app_list">Lade Anwendungsliste</string>
-    <string name="alert_message_restart_app">Die Applikation muss neu gestartet werden um Screenshots zu erlauben/verbieten. PassKeep jetzt neu starten?</string>
+    <string name="alert_message_restart_app">Die Applikation muss neu gestartet werden, um Screenshots zu erlauben/verbieten. PassKeep jetzt neu starten?</string>
     <string name="alert_message_delete_password_confirm">Bist du sicher, dass du %s löschen willst? Dies kann nicht rückgängig gemacht werden.</string>
     <string name="alert_message_password_change">Generieren eines neuen Kennworts wird das alte löschen. Bist du sicher, dass du weitermachen willst?</string>
     <string name="alert_message_save_changes">Willst du die Änderungen speichern?</string>
@@ -106,11 +106,11 @@
     <string name="pref_title_rename_masterkey">Lösche Master-Kennwort</string>
     <string name="pref_title_delete_all_passwords">Datenbank löschen</string>
     <string name="pref_title_block_screenshots">Screenshots blockieren</string>
-    <string name="pref_title_auto_logout">Automatisches Logout</string>
-    <string name="pref_title_auto_login">Automatisches Login</string>
+    <string name="pref_title_auto_logout">Automatischer Logout</string>
+    <string name="pref_title_auto_login">Automatischer Login</string>
     <string name="pref_summary_delete_all_passwords">**Warnung** Löscht alles aus der Datenbank und das Master-Kennwort. Dies kann nicht rückgängig gemacht werden.</string>
     <string name="pref_summary_reset_master_passkey">**Warnung** Master-Kennwort zurücksetzen. Sicherung mit dem altem Kennwort wird nicht mehr funktionieren.</string>
-    <string name="pref_summary_self_destruct">Lösche alle Kennwörter, wenn du das Kennwort 5 Mal falsch eingibst un den \"sign in\" Knopf nutzt.</string>
+    <string name="pref_summary_self_destruct">Lösche alle Kennwörter, wenn du das Kennwort 5 Mal falsch eingibst und den \"sign in\" Knopf nutzt.</string>
     <string name="pref_summary_auto_logout">Wenn du PassKeep verlässt, um eine andere Applikation zu starten, wirst du automatisch ausgeloggt.</string>
     <string name="pref_summary_disallow_screenshots">Erlaube keine Screenshots in PassKeep.</string>
     <string name="pref_summary_auto_login">Automatisch einloggen, wenn das korrekte passwort eingegeben wurde.</string>
@@ -120,7 +120,7 @@
     <string name="pref_default_backup_amount_unlimited">Unbegrenzt</string>
     <string name="pref_summary_show_system_apps">Zeige alle System-Aktualisierungen in der Liste der Applikationen für Password Einträge</string>
     <string name="pref_summary_hide_usernames">Verstecke Passwort Nutzernamen von der Passwordliste</string>
-    <string name="pref_summary_use_pass_gen_options">Use the password generators options when generating passwords for entries</string>
+    <string name="pref_summary_use_pass_gen_options">Wende die Einstellungen des Kennwortgenerators beim Generieren eines neuen Kennwortes an</string>
 
     <!-- Misc -->
     <string name="title_last_edited">Zuletzt geändert: %s</string>
