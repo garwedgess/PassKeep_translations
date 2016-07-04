@@ -167,7 +167,7 @@
     <string name="title_no_category">Brak Kategorii</string>
     <string name="title_category_new">Nowa Kategoria</string>
     <string name="title_add_new_category">Dodaj Nową Kategorię</string>
-    <string name="title_category_toolbar">Kategória:</string>
+    <string name="title_category_toolbar">Kategoria:</string>
 
     <string name="message_empty_passwords_recycler">Hasła pojawią się po dodaniu</string>
     <string name="message_welcome_first_start">Aby zacząć musisz podać Klucz Główny. Klucz Główny będzie używany do odszyfrowywania Twoich haseł.\n\nGłównego hasła nie da się odzyskać i po jego zapomnieniu wszystkie hasła zostaną utracone.\n\nAby zapobiec utracie danych wykonuj często kopię zapasową bazy danych.</string>

@@ -1,0 +1,227 @@
+<resources xmlns:xliff="http://schemas.android.com/apk/res-auto">
+    <string name="app_name">PassKeep</string>
+
+    <!-- Main Titles -->
+    <string name="fragment_title_settings">Configurações</string>
+    <string name="fragment_title_backup_restore">Backup/Restaurar</string>
+    <string name="fragment_title_cat_manager">Gerenciar Categorias</string>
+    <string name="fragment_title_passwords">Senhas</string>
+    <string name="fragment_title_password_entry">Senha de Acesso</string>
+    <string name="fragment_title_password_generator">Gerador de Senha</string>
+    <string name="fragment_title_path_picker_default">Escolha Um Diretório</string>
+    <string name="fragment_title_path_picker_share_backup">Compartilhar Backup</string>
+
+    <!--Actions -->
+    <string name="action_select_all">Selecionar Tudo</string>
+    <string name="action_delete">Excluído</string>
+    <string name="action_title_items_selected">%d selecionado</string>
+    <string name="action_settings">Configurações</string>
+    <string name="action_edit_password">Editar Senha</string>
+    <string name="action_logout">Sair</string>
+    <string name="action_delete_password">Excluir Senha</string>
+    <string name="action_search">Pesquisar</string>
+    <string name="action_color_picker">Seletor de Cor</string>
+    <string name="action_undo">Desfazer</string>
+    <string name="action_floating_window">Janela Flutuante</string>
+    <string name="action_file_browser_new_dir">Novo Diretório</string>
+    <string name="action_sort">Ordenar</string>
+
+    <!-- Toast/Snackbar -->
+    <string name="toast_message_dir_created">Diretório criado com sucesso</string>
+    <string name="toast_message_dir_failed">Falha ao criar diretório</string>
+    <string name="toast_message_restore_success">Restaurado com Sucesso</string>
+    <string name="toast_message_restore_failed">Falha na Restauração</string>
+    <string name="toast_message_copied_to_clipboard">Copiado para a prancheta</string>
+    <string name="toast_message_double_tap_to_exit">Toque duas vezes para sair</string>
+    <string name="toast_message_must_contain">Você deve escolher os caracteres que você quer que a senha contenha</string>
+    <string name="toast_message_backup_fail">O backup falhou</string>
+    <string name="toast_message_backup_success">Backup bem-sucedido</string>
+    <string name="toast_message_autobackup_success">PassKeep: Backup automático completo</string>
+    <string name="toast_message_autobackup_failed">PassKeep: Backup automático falhou</string>
+    <string name="toast_message_autobackup_restarted">PassKeep: Backup automático reiniciou</string>
+    <string name="toast_message_no_backups">Ainda não há backups criados</string>
+    <string name="toast_message_no_character">Nenhum caracter personalizado foi inserido</string>
+    <string name="toast_message_no_change_in_categoryname">Nenhuma mudança no nome da categoria</string>
+
+    <string name="snackbar_message_select_a_backup_to">Selecione um backup para %s</string>
+    <string name="snackbar_message_append_share">compartilhar</string>
+    <string name="snackbar_message_append_restore">restaurar</string>
+    <string name="snackbar_messgae_select_folder">Pressione longamente uma pasta para selecionar o local</string>
+    <string name="snackbar_message_self_destruct_remaining">%d mais tentativas restantes antes da autodestruição. Todas as senhas serão eliminadas.</string>
+    <string name="snackbar_message_deleted_item">Excluído %d item</string>
+    <string name="snackbar_message_deleted_items">Excluído %d itens</string>
+
+    <!--EditText/TIL -->
+    <string name="et_hint_confirm_masterkey">Confirmar Nova Senha Mestra</string>
+    <string name="et_hint_backup_restore_loc">Backup/Restaurar Localização</string>
+    <string name="et_hint_new_masterkey">Nova Senha Mestra</string>
+    <string name="et_hint_name">Nome</string>
+    <string name="et_hint_password">Senha</string>
+    <string name="et_hint_password_2">Senha 2</string>
+    <string name="et_hint_category">Categoria</string>
+    <string name="et_hint_title">Título</string>
+    <string name="et_hint_site">Site</string>
+    <string name="et_hint_old_masterkey">Senha Mestra Antiga</string>
+    <string name="et_hint_confirm_password">Confirmar Senha</string>
+    <string name="et_hint_username">Nome de Usuário</string>
+    <string name="et_hint_description">Descrição</string>
+    <string name="et_hint_custom_characters">Insira caracteres personalizados aqui</string>
+    <string name="error_passwords_dont_match">As senhas não correspondem</string>
+    <string name="error_incorrect_password">Senha Incorreta</string>
+    <string name="error_blank_pass_title">O título não pode ficar em branco</string>
+    <string name="error_blank_entry">Não pode estar em branco</string>
+    <string name="error_blank_pass_username">O nome de usuário não pode ser deixado em branco</string>
+    <string name="error_blank_password">A senha não pode ser deixada em branco</string>
+    <string name="error_password_length_short">A senha deve ter pelo menos 6 caracteres</string>
+    <string name="til_title_backup">Nome do Arquivo de Backup</string>
+
+    <!-- AlertDialogs -->
+    <string name="alert_title_self_destruct">Autodestruir</string>
+    <string name="alert_title_delete_password">Excluir Senha</string>
+    <string name="alert_title_backup_from_csv">Backup de CSV</string>
+    <string name="alert_title_new_directory">Novo Diretório</string>
+    <string name="alert_title_password_change">Mudar Senha</string>
+    <string name="alert_title_backup_from_db">Backup de DB</string>
+    <string name="alert_title_backup_db">Backup de DB</string>
+    <string name="alert_title_share_backup">Compartilhar Backup Com...</string>
+    <string name="alert_title_restart_app">Reiniciar Aplicativo</string>
+    <string name="alert_title_select_application">Selecionar um Aplicativo</string>
+    <string name="alert_title_sort_passwords">Ordenar Senhas</string>
+    <string name="alert_title_rename_category">Renomear Categoria</string>
+    <string name="alert_title_permissions">Permissões</string>
+    <string name="alert_message_restart_app">O aplicativo precisa ser reiniciado para bloquear/permitir capturas de tela. Reiniciar PassKeep agora?</string>
+    <string name="alert_message_loading_app_list">Carregando lista de aplicativos</string>
+    <string name="alert_message_delete_password_confirm">Você tem certeza de que deseja excluir %s? Isto não pode ser desfeito.</string>
+    <string name="alert_message_password_change">Gerar uma nova senha removerá a antiga. Você tem certeza que quer continuar?</string>
+    <string name="alert_message_save_changes">Você quer salvar as mudanças feitas?</string>
+    <string name="alert_message_discard_entry">Você quer descartar este acesso?</string>
+    <string name="alert_message_self_destruct_activated">O máximo de tentativas de senha foi atingido. Todas as senhas foram permanentemente excluídas. Não há retorno!</string>
+    <string name="alert_message_permission_system_alert">Esta aplicação requer permissão SYSTEM_ALERT_WINDOW a fim de chamar a janela flutuante sobre outras aplicações. Sem a permissão a janela flutuante não funcionará.</string>
+    <string name="alert_message_read_write_permissions">Não foi concedida permissão para PassKeep escrever no seu armazenamento. Por isso, a função de restauração de backup não funcionará. Por favor, considere conceder esta permissão.</string>
+    <string name="alert_message_grant_drawoverapps_permission">Não foi concedida permissão para PassKeep sobrescrever outras aplicações. Portanto, a função janela flutuante não funcionará. Por favor, considere conceder esta permissão.</string>
+    <string name="alert_btn_grant_permissions">Conceder Permissão</string>
+    <string name="alert_btn_yes">Sim</string>
+    <string name="alert_btn_cancel">Cancelar</string>
+    <string name="alert_btn_no">Não</string>
+    <string name="alert_btn_ok">OK</string>
+
+    <!--Preferences -->
+    <string name="pref_category_title_appearance">Aparência</string>
+    <string name="pref_category_title_general">Geral</string>
+    <string name="pref_category_title_security">Segurança</string>
+    <string name="pref_title_keep_screen_on">Mantenha a Tela Acesa</string>
+    <string name="pref_title_show_notification">Mostrar Notificações</string>
+    <string name="pref_title_hide_passwords">Esconder Senhas</string>
+    <string name="pref_title_rename_masterkey">Redefinir Senha Mestra</string>
+    <string name="pref_title_delete_all_passwords">Excluir Banco de Dados</string>
+    <string name="pref_title_block_screenshots">Bloquear Capturas de Tela</string>
+    <string name="pref_title_auto_logout">Saída Automática</string>
+    <string name="pref_title_auto_login">Entrada Automática</string>
+    <string name="pref_title_dark_theme">Tema Escuro</string>
+    <string name="pref_title_show_system_apps">Mostrar Aplicativos do Sistema</string>
+    <string name="pref_title_use_pass_gen_options">Opções de Gerador de Senha</string>
+    <string name="pref_title_hide_usernames">Esconder Nomes de Usuário</string>
+    <string name="pref_summary_delete_all_passwords">**Atenção** Excluir todo o conteúdo do banco de dados, incluindo a senha mestra. Isto não poderá ser desfeito.</string>
+    <string name="pref_summary_reset_master_passkey">**Atenção** Redefinir a senha mestra. Os backups com a senha mestra antiga não funcionarão mais.</string>
+    <string name="pref_summary_self_destruct">Excluir todas as senhas quando 5 tentativas erradas forem feitas usando o botão \"Entrar\".</string>
+    <string name="pref_summary_auto_logout">Se você sair do PassKeep para usar outro aplicativo, você será desconectado do PassKeep após o período de tempo selecionado.</string>
+    <string name="pref_summary_disallow_screenshots">Não permita que capturas de tela do PassKeep sejam feitas.</string>
+    <string name="pref_summary_auto_login">Iniciar sessão automaticamente quando a senha válida for digitada.</string>
+    <string name="pref_summary_show_notification">Mostrar uma notificação na barrra de status quando o aplicativo estiver sendo executado e estiver desbloqueado.</string>
+    <string name="pref_summary_keep_screen_on">Mantenha a tela do dispositivo acesa enquanto visualiza o PassKeep.</string>
+    <string name="pref_summary_hide_passwords">Mostrar o ícone \"olho\" para alternar a visibilidade das senhas.</string>
+    <string name="pref_summary_dark_theme">Mudar a interface UI do PassKeep para um tema material escuro. (O aplicativo será reiniciado)</string>
+    <string name="pref_default_backup_amount_unlimited">Ilimitado</string>
+    <string name="pref_summary_show_system_apps">Mostrar aplicativos do sistema na lista de aplicativos de acesso por senha</string>
+    <string name="pref_summary_hide_usernames">Esconder os nomes de usuário das senhas da lista de senhas</string>
+    <string name="pref_summary_use_pass_gen_options">Usar as opções de geradores de senha ao gerar senhas de acesso</string>
+
+    <!-- Misc -->
+    <string name="title_last_edited">Editado pela última vez: %s</string>
+    <string name="title_autobackups">Backup automático</string>
+    <string name="title_backup_every">Frequência de Backup</string>
+    <string name="title_backup_time">Período de Backup</string>
+    <string name="title_max_backups">Máximo de Backups</string>
+    <string name="title_attempts_remaining">Tentativas restantes: %d</string>
+    <string name="title_welcome">Bem Vindo(a)&#8230;</string>
+    <string name="title_bg_view_num_item">%1$d Item</string>
+    <string name="title_bg_view_num_items">%1$d Itens</string>
+    <string name="title_bg_view_root">Root</string>
+    <string name="title_first_start">Primeiro Acesso</string>
+    <string name="title_btn_sign_in">Entrar</string>
+    <string name="title_uppercase_az">Maiúsculas A&#8211;Z</string>
+    <string name="title_lowercase_az">Minúsculas a&#8211;z</string>
+    <string name="title_numbers">Números 0&#8211;9</string>
+    <string name="title_special_chars">Caracteres Especiais</string>
+    <string name="title_password_length">Tamanho da Senha</string>
+    <string name="title_can_contain">Pode Conter</string>
+    <string name="title_backup_restore_db">Backup do Banco de Dados/Restaurar</string>
+    <string name="title_backup_restore_csv">Backup de CSV/Restaurar</string>
+    <string name="title_custom_characters">Caracteres Personalizados</string>
+    <string name="title_category_none">Nenhuma</string>
+    <string name="title_category">Categoria</string>
+    <string name="title_category_all">Tudo</string>
+    <string name="title_no_category">Sem Categoria</string>
+    <string name="title_category_new">Nova Categoria</string>
+    <string name="title_add_new_category">Adicionar Nova Categoria</string>
+    <string name="title_category_toolbar">Categoria:</string>
+
+
+    <string name="message_empty_passwords_recycler">As senhas aparecerão aqui quando adicionadas.</string>
+    <string name="message_welcome_first_start">Para começar, você deve digitar uma senha mestra. Esta senha mestra será usada para criptografar as suas senhas.\n\nA senha mestra é irrecuperável e, no caso de esquecer-se da senha mestra, todas as senhas serão perdidas.\n\nPara prevenir a perda de dados faça o backup do banco de dados regularmente.</string>
+    <string name="message_placeholder_app_name">Toque para Adicionar Aplicativo</string>
+    <string name="message_placeholder_apk_package">Você pode, então, abrir o aplicativo a partir daqui</string>
+    <string name="message_no_categories_available">Sem categorias disponíveis.</string>
+
+    <string name="notification_message">PassKeep está em execução&#8230;</string>
+
+    <string name="btn_generate_password">Gerar Senha</string>
+    <string name="btn_restore_db">Restaurar DB</string>
+    <string name="btn_backup_db">Backup de DB</string>
+    <string name="btn_restore_csv">Restaurar do CSV</string>
+    <string name="btn_backup_csv">Backup para CSV</string>
+    <string name="btn_submit_master_password">Começar</string>
+
+    <!-- Default title for color picker dialog [CHAR LIMIT=30] -->
+    <string name="color_picker_default_title">Selecione uma Cor</string>
+    <string name="color_swatch_description">Cor <xliff:g example="14" id="color_index">%1$d</xliff:g></string>
+    <string name="color_swatch_description_selected">Cor <xliff:g example="14" id="color_index">%1$d</xliff:g> selecionado</string>
+
+    <!-- Timer settings strings -->
+    <string name="timer_off">Saída Automática Desligada</string>
+    <string name="timer_on_exit">Ao Sair</string>
+    <string name="timer_thirty_secs">30 segundos</string>
+    <string name="timer_one_minute">1 minuto</string>
+    <string name="timer_two_minutes">2 minutos</string>
+    <string name="timer_five_minutes">5 minutos</string>
+    <string name="timer_ten_minutes">10 minutos</string>
+    <string name="timer_fifteen_minutes">15 minutos</string>
+
+    <string name="backup_interval_one_day">1 dia</string>
+    <string name="backup_interval_two_days">2 dias</string>
+    <string name="backup_interval_three_days">3 dias</string>
+    <string name="backup_interval_four_days">4 dias</string>
+    <string name="backup_interval_five_days">5 dias</string>
+    <string name="backup_interval_six_days">6 dias</string>
+    <string name="backup_interval_one_week">1 semana</string>
+    <string name="backup_interval_two_weeks">2 semanas</string>
+    <string name="backup_interval_three_weeks">3 semanas</string>
+    <string name="backup_interval_one_month">1 mês</string>
+
+    <string name="sort_option_alphabetically_ascending">Alfabética (Crescente)</string>
+    <string name="sort_option_alphabetically_descending">Alfabética (Decrescente)</string>
+    <string name="sort_option_date_created_ascending">Data (Crescente)</string>
+    <string name="sort_option_date_created_descending">Data (Decrescente)</string>
+    <string name="sort_option_color_ascending">Cor (Crescente)</string>
+    <string name="sort_option_color_descending">Cor (Decrescente)</string>
+
+    <string name="date_ending_st">%sst</string>
+    <string name="date_ending_nd">%snd</string>
+    <string name="date_ending_rd">%srd</string>
+    <string name="date_ending_th">%sth</string>
+
+    <string name="action_delete_category_passwords">Excluir Categoria e Senhas</string>
+    <string name="action_delete_category">Excluir Categoria</string>
+    <string name="action_rename_category">Renomear Categoria</string>
+
+</resources>
