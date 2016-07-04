@@ -23,7 +23,7 @@
     <string name="action_color_picker">Выбрать цвет</string>
     <string name="action_undo">Отмена</string>
     <string name="action_floating_window">Всплывающее окно</string>
-    <string name="action_file_browser_new_dir">Создать папку</string>
+    <string name="alert_title_new_folder">Создать папку</string>
     <string name="action_sort">Сортировать</string>
     <string name="action_delete_category_passwords">Удалить категорию вместе с паролями</string>
     <string name="action_delete_category">Удалить категорию</string>
@@ -175,7 +175,7 @@
     <string name="message_welcome_first_start">Для начала Вам потребуется придумать мастер-пароль. С его помощью шифруются все остальные пароли.\n\nМастер-пароль нельзя восстановить и в случае его утраты все сохраненные пароли будут удалены.\n\nРегулярно создавайте резервные копии во избежание потери данных.</string>
     <string name="message_no_categories_available">Доступных категорий нет..</string>
 
-    <string name="notification_message">PassKeep запущен&#8230;</string>
+    <string name="message_notification">PassKeep запущен&#8230;</string>
 
     <string name="btn_generate_password">Создать пароль</string>
     <string name="btn_restore_db">Восст БД</string>

@@ -23,7 +23,7 @@
     <string name="action_color_picker">Výběr barvy</string>
     <string name="action_undo">Vrátit spět</string>
     <string name="action_floating_window">Plávajíci okno</string>
-    <string name="action_file_browser_new_dir">Nová složka</string>
+    <string name="alert_title_new_folder">Nová složka</string>
     <string name="action_sort">Seřadit</string>
     <string name="action_delete_category_passwords">Smazat kategorii a hesla</string>
     <string name="action_delete_category">Smazat kategorii</string>
@@ -175,7 +175,7 @@
     <string name="message_placeholder_app_name">Dotekem přidáte aplikaci</string>
     <string name="message_placeholder_apk_package">Zde můžete spustiť aplikaci</string>
 
-    <string name="notification_message">PassKeep je spušten&#8230;</string>
+    <string name="message_notification">PassKeep je spušten&#8230;</string>
 
     <string name="btn_generate_password">Generovat heslo</string>
     <string name="btn_restore_db">Obnovit DB</string>

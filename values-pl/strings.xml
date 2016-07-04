@@ -23,7 +23,7 @@
     <string name="action_color_picker">Narzędzie do Wybierania Kolorów</string>
     <string name="action_undo">Cofnij</string>
     <string name="action_floating_window">Ruchome Okienko</string>
-    <string name="action_file_browser_new_dir">Nowy Katalog</string>
+    <string name="alert_title_new_folder">Nowy Katalog</string>
     <string name="action_sort">Sortuj</string>
     <string name="action_delete_category_passwords">Usuń Kategorie i Hasła</string>
     <string name="action_delete_category">Usuń Kategorię</string>
@@ -175,7 +175,7 @@
     <string name="message_placeholder_apk_package">Będziesz mógł ją stąd otworzyć</string>
     <string name="message_no_categories_available">Brak Dostępnych Kategorii.</string>
 
-    <string name="notification_message">PassKeep pracuje&#8230;</string>
+    <string name="message_notification">PassKeep pracuje&#8230;</string>
 
     <string name="btn_generate_password">Wygeneruj Hasło</string>
     <string name="btn_restore_db">Przywróć Bazę Danych</string>

@@ -23,7 +23,7 @@
     <string name="action_color_picker">Selector de color</string>
     <string name="action_undo">Deshacer</string>
     <string name="action_floating_window">Ventana flotante</string>
-    <string name="action_file_browser_new_dir">Nueva ruta</string>
+    <string name="alert_title_new_folder">Nueva ruta</string>
     <string name="action_sort">Clase</string>
     <string name="action_delete_category_passwords">Eliminar Categoría y Contraseñas</string>
     <string name="action_delete_category">Borar Categoria</string>
@@ -175,7 +175,7 @@
     <string name="message_placeholder_apk_package">Puede abrir la aplicación desde aquí</string>
     <string name="message_no_categories_available">No hay categorías disponibles ..</string>
 
-    <string name="notification_message">PassKeep está funcionando&#8230;</string>
+    <string name="message_notification">PassKeep está funcionando&#8230;</string>
 
     <string name="btn_generate_password">Generar contraseña</string>
     <string name="btn_restore_db">Restauarar DB</string>

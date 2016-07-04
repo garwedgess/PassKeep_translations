@@ -23,7 +23,7 @@
     <string name="action_color_picker">Seletor de Cor</string>
     <string name="action_undo">Desfazer</string>
     <string name="action_floating_window">Janela Flutuante</string>
-    <string name="action_file_browser_new_dir">Novo Diretório</string>
+    <string name="alert_title_new_folder">Novo Diretório</string>
     <string name="action_sort">Ordenar</string>
 
     <!-- Toast/Snackbar -->
@@ -173,7 +173,7 @@
     <string name="message_placeholder_apk_package">Você pode, então, abrir o aplicativo a partir daqui</string>
     <string name="message_no_categories_available">Sem categorias disponíveis.</string>
 
-    <string name="notification_message">PassKeep está em execução&#8230;</string>
+    <string name="message_notification">PassKeep está em execução&#8230;</string>
 
     <string name="btn_generate_password">Gerar Senha</string>
     <string name="btn_restore_db">Restaurar DB</string>
