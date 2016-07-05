@@ -1,16 +1,15 @@
+<?xml version="1.0"?>
 <resources xmlns:xliff="http://schemas.android.com/apk/res-auto">
     <string name="app_name">PassKeep</string>
-
     <!-- Main Titles -->
     <string name="fragment_title_settings">Nastavení</string>
     <string name="fragment_title_backup_restore">Záloha/Obnova</string>
+    <string name="fragment_title_cat_manager">Správce kategorií</string>
     <string name="fragment_title_passwords">Hesla</string>
     <string name="fragment_title_password_entry">Položka hesla</string>
     <string name="fragment_title_password_generator">Generátor hesel</string>
     <string name="fragment_title_path_picker_default">Zvolte složku</string>
     <string name="fragment_title_path_picker_share_backup">Sdílet zálohy</string>
-    <string name="fragment_title_cat_manager">Správce kategorií</string>
-
     <!--Actions -->
     <string name="action_select_all">Vybrat vše</string>
     <string name="action_delete">Smazat</string>
@@ -25,17 +24,14 @@
     <string name="action_floating_window">Plávajíci okno</string>
     <string name="alert_title_new_folder">Nová složka</string>
     <string name="action_sort">Seřadit</string>
-    <string name="action_delete_category_passwords">Smazat kategorii a hesla</string>
-    <string name="action_delete_category">Smazat kategorii</string>
-    <string name="action_rename_category">Přejmenovat kategorii</string>
-
     <!-- Toast/Snackbar -->
-    <string name="toast_message_dir_created">Složka úspěšně vytvořená</string>
-    <string name="toast_message_dir_failed">Složku se nepovedlo vytvořit</string>
+    <string name="toast_message_dir_created">Vytvoření %s uspěšné</string>
+    <string name="toast_message_dir_failed">%s se nepovedlo vytvořit</string>
     <string name="toast_message_restore_success">Obnova úspěšná</string>
     <string name="toast_message_restore_failed">Obnova neúspěšná</string>
     <string name="toast_message_copied_to_clipboard">Zkopírované do schránky</string>
     <string name="toast_message_double_tap_to_exit">Dvojitým poklepáním ukončíte</string>
+    <string name="toast_message_double_tap_to_exit_file_picker">Dvojitým poklepáním ukončíte výběr souboru</string>
     <string name="toast_message_must_contain">Musíte vybrat znaky, které chcete aby se vyskytovali v hesle</string>
     <string name="toast_message_backup_fail">Zálohování neúspěšné</string>
     <string name="toast_message_backup_success">Zálohování úspěšné</string>
@@ -45,21 +41,25 @@
     <string name="toast_message_no_backups">Zatím žádné zálohy</string>
     <string name="toast_message_no_character">Nebyli zadané vlastní znaky</string>
     <string name="toast_message_no_change_in_categoryname">Žádná změna v názvu kategorie</string>
-
+    <string name="toast_message_secure_lock_not_set"><![CDATA[Nebyl nastaven bezpečný zámek obrazovky.\nNastavte otisk prstu v \'Nastavení->Zabezpečení->Otisk prstu\']]></string>
+    <string name="toast_message_no_fingerprint_setup"><![CDATA[Nastavte alespoň jeden otisk prstu v \'Nastavení->Zabezpečení->Otisk prstu\']]></string>
+    <string name="toast_message_fingerprint_disabled">Přihlašování pomocí otisků je zakázáno</string>
     <string name="snackbar_message_select_a_backup_to">Vyberte zálohu pro %s</string>
     <string name="snackbar_message_append_share">sdílení</string>
-    <string name="snackbar_message_append_restore">obnovu</string>
-    <string name="snackbar_messgae_select_folder">Dlhým stisknutím na složku vyberte umístnění</string>
+    <string name="snackbar_message_append_restore">obnova</string>
+    <string name="snackbar_messgae_select_folder">Dlouhým stisknutím na složku vyberte umístnění</string>
     <string name="snackbar_message_self_destruct_remaining">%d pokusů zůstáva do seba-destrukce. Všechny hesla budou smazané.</string>
     <string name="snackbar_message_deleted_item">Smazáná %d položka</string>
     <string name="snackbar_message_deleted_items">Smazáno %d položek</string>
-
     <!--EditText/TIL -->
     <string name="et_hint_confirm_masterkey">Potvrďte nové hlavní heslo</string>
     <string name="et_hint_backup_restore_loc">Umístnění záloh</string>
     <string name="et_hint_new_masterkey">Nové hlavní heslo</string>
     <string name="et_hint_name">Jméno</string>
+    <string name="et_hint_folder_name">Jméno složky</string>
     <string name="et_hint_password">Heslo</string>
+    <string name="et_hint_password_2">Heslo 2</string>
+    <string name="et_hint_category">Kategorie</string>
     <string name="et_hint_title">Název</string>
     <string name="et_hint_site">Stránka</string>
     <string name="et_hint_old_masterkey">Staré hlavní heslo</string>
@@ -67,18 +67,17 @@
     <string name="et_hint_username">Užívatelské jméno</string>
     <string name="et_hint_description">Popis</string>
     <string name="et_hint_custom_characters">Tu zadejte vlastní znaky</string>
-    <string name="et_hint_password_2">Heslo 2</string>
-    <string name="et_hint_category">Kategorie</string>
-    <string name="error_blank_entry">Povinné pole</string>
-    <string name="error_passwords_dont_match">Hesla se nezhodujú</string>
+    <string name="error_passwords_dont_match">Hesla se neshodujú</string>
     <string name="error_incorrect_password">Špatné heslo</string>
     <string name="error_blank_pass_title">Název nesmí být prázdny</string>
+    <string name="error_blank_entry">Povinné pole</string>
     <string name="error_blank_pass_username">Užívatelské jméno nesmí být prázdne</string>
     <string name="error_blank_password">Heslo nesmí být prázdne</string>
     <string name="error_password_length_short">Heslo musí být dlhé nejmíň 6 znaků</string>
+    <string name="error_alert_et_name_required">Je vyžadován název</string>
     <string name="til_title_backup">Název souboru zálohy</string>
-
     <!-- AlertDialogs -->
+    <string name="alert_title_confirm_selection">Potvrdit výběr</string>
     <string name="alert_title_self_destruct">Sebezničení</string>
     <string name="alert_title_delete_password">Smazat heslo</string>
     <string name="alert_title_backup_from_csv">Zálohovat CSV</string>
@@ -92,9 +91,10 @@
     <string name="alert_title_sort_passwords">Seřadit hesla</string>
     <string name="alert_title_rename_category">Přejmenovat kategorii</string>
     <string name="alert_title_permissions">Oprávnění</string>
+    <string name="alert_message_selected_file">Vybrán soubor: %s</string>
     <string name="alert_message_restart_app">Chcete-li povolit/zakázat snímky obrazovky, musí se aplikace restartovat. Restartovat PassKeep teď?</string>
-    <string name="alert_message_loading_app_list">Načítava se seznam aplikaci</string>
-    <string name="alert_message_delete_password_confirm">Opravdu chcete smazat %s. Smazání je nevratné.</string>
+    <string name="alert_message_loading_app_list">Načítáva se seznam aplikaci</string>
+    <string name="alert_message_delete_password_confirm">Opravdu chcete smazat %s? Smazání je nevratné.</string>
     <string name="alert_message_password_change">Vygenerování nového hesla odstraní současné. Chcete pokračovat?</string>
     <string name="alert_message_save_changes">Chcete uložit vykonané změny?</string>
     <string name="alert_message_discard_entry">Chcete smazat tuto položku?</string>
@@ -107,12 +107,11 @@
     <string name="alert_btn_cancel">Storno</string>
     <string name="alert_btn_no">Ne</string>
     <string name="alert_btn_ok">OK</string>
-
     <!--Preferences -->
     <string name="pref_category_title_appearance">Vzhled</string>
     <string name="pref_category_title_general">Obecné</string>
-    <string name="pref_category_title_security">Bezpečnost</string>
-    <string name="pref_title_keep_screen_on">Nechat zapnutou obrazovku</string>
+    <string name="pref_category_title_security">Zabezpečení</string>
+    <string name="pref_title_keep_screen_on">Ponechat zapnutou obrazovku</string>
     <string name="pref_title_show_notification">Zobrazit upozornění</string>
     <string name="pref_title_hide_passwords">Skrýt hesla</string>
     <string name="pref_title_rename_masterkey">Resetovat hlavní heslo</string>
@@ -124,11 +123,8 @@
     <string name="pref_title_show_system_apps">Zobrazit systémové aplikace</string>
     <string name="pref_title_use_pass_gen_options">Nastavení generátora hesel</string>
     <string name="pref_title_hide_usernames">Skrýt uživatelské jména</string>
-    <string name="pref_summary_show_system_apps">Zobrazit systémové aplikace v seznamu aplikací s povoleným zadáváním hesel</string>
-    <string name="pref_summary_hide_usernames">Skrýt uživatelské jména</string>
-    <string name="pref_summary_use_pass_gen_options">Při generování hesel použít nastavení generátora hesel</string>
-    <string name="pref_summary_delete_all_passwords">**Upozornění** Smazat obsah databázy včetně hlavního hesla. Smazání je nevratné.</string>
-    <string name="pref_summary_reset_master_passkey">**Upozornění** Resetovat hlavní heslo. Zálohy se starým hlavním heslem nebudou funkční.</string>
+    <string name="pref_summary_delete_all_passwords">**Upozornění** Smazat obsah databázy včetně hlavního hesla? Smazání je nevratné.</string>
+    <string name="pref_summary_reset_master_passkey">**Upozornění** Resetovat hlavní heslo? Zálohy se starým hlavním heslem nebudou funkční.</string>
     <string name="pref_summary_self_destruct">Smazat všechny hesla po 5 neuspěšných pokusech o přihlášení.</string>
     <string name="pref_summary_auto_logout">Přepnete-li PassKeep na jinou aplikaci, PassKeep Vás odhlási po vybraném čase.</string>
     <string name="pref_summary_disallow_screenshots">Zakázat dělat snímky obrazovky.</string>
@@ -138,7 +134,9 @@
     <string name="pref_summary_hide_passwords">Chcete-li přepnout zobrazení hesel, klikněte na ikonu \"oka\".</string>
     <string name="pref_summary_dark_theme">Změnit UI PassKeep-u na tmavou material tému. (Aplikace se restartuje)</string>
     <string name="pref_default_backup_amount_unlimited">Neomezené</string>
-
+    <string name="pref_summary_show_system_apps">Zobrazit systémové aplikace v seznamu aplikací s povoleným zadáváním hesel</string>
+    <string name="pref_summary_hide_usernames">Skrýt uživatelské jména</string>
+    <string name="pref_summary_use_pass_gen_options">Při generování hesel použít nastavení generátora hesel</string>
     <!-- Misc -->
     <string name="title_last_edited">Naposled upraveno: %s</string>
     <string name="title_autobackups">Automatická záloha</string>
@@ -168,27 +166,33 @@
     <string name="title_category_new">Nová kategorie</string>
     <string name="title_add_new_category">Přidat kategorii</string>
     <string name="title_category_toolbar">Kategorie:</string>
-
-    <string name="message_no_categories_available">Žádné dostupné kategorie..</string>
+    <string name="title_select_destination_folder">Vybrat cílový adresář</string>
+    <string name="title_files">Soubory</string>
+    <string name="title_use_fingerprint_to_authenticate_title">Přihlasovat se otiskem prstu</string>
+    <string name="title_fingerprint_description">Pro pokračování potvrďte otisk prstu</string>
+    <string name="title_fingerprint_hint">Dotekový sensor</string>
+    <string name="title_folders">Složky</string>
+    <string name="title_sort_type">Název</string>
     <string name="message_empty_passwords_recycler">Zde se zobrazí hesla po přidání</string>
     <string name="message_welcome_first_start">Nejdřív musíte zadat hlavní heslo. Tohle heslo se použije na ochranu Vašich hesel.\n\nHlavní heslo je neobnovitelné a ˇjestli ho zapomenete, stratíte všechny hesla.\n\nChcete predejít stratě dat pravidelně databázi zálohujte.</string>
     <string name="message_placeholder_app_name">Dotekem přidáte aplikaci</string>
     <string name="message_placeholder_apk_package">Zde můžete spustiť aplikaci</string>
-
-    <string name="message_notification">PassKeep je spušten&#8230;</string>
-
+    <string name="message_no_categories_available">Žádné dostupné kategorie..</string>
+    <string name="message_fingerprint_not_recognized">Otisk nerozoznán. Skuste opět</string>
+    <string name="message_fingerprint_success">Otisk rozeznán</string>
+    <string name="message_empty_folder">Složka je prázdná&#8230;</string>
+    <string name="message_notification">PassKeep je spuštěn&#8230;</string>
     <string name="btn_generate_password">Generovat heslo</string>
     <string name="btn_restore_db">Obnovit DB</string>
     <string name="btn_backup_db">Zálohovat DB</string>
     <string name="btn_restore_csv">Obnovit z CSV</string>
     <string name="btn_backup_csv">Zálohovat do CSV</string>
     <string name="btn_submit_master_password">Start</string>
-
+    <string name="btn_use_password">Použít heslo</string>
     <!-- Default title for color picker dialog [CHAR LIMIT=30] -->
     <string name="color_picker_default_title">Vybrat barvu</string>
     <string name="color_swatch_description">Barva <xliff:g example="14" id="color_index">%1$d</xliff:g></string>
     <string name="color_swatch_description_selected">Barva <xliff:g example="14" id="color_index">%1$d</xliff:g> vybrána</string>
-
     <!-- Timer settings strings -->
     <string name="timer_off">Automaticky odhlásit</string>
     <string name="timer_on_exit">Při ukončení</string>
@@ -198,7 +202,6 @@
     <string name="timer_five_minutes">5 minut</string>
     <string name="timer_ten_minutes">10 minut</string>
     <string name="timer_fifteen_minutes">15 minut</string>
-
     <string name="backup_interval_one_day">1 den</string>
     <string name="backup_interval_two_days">2 dni</string>
     <string name="backup_interval_three_days">3 dni</string>
@@ -209,17 +212,17 @@
     <string name="backup_interval_two_weeks">2 týdny</string>
     <string name="backup_interval_three_weeks">3 týdny</string>
     <string name="backup_interval_one_month">1 měsíc</string>
-
     <string name="sort_option_alphabetically_ascending">Podle abecedy (Vzestupně)</string>
     <string name="sort_option_alphabetically_descending">Podle abecedy (Zestupně)</string>
     <string name="sort_option_date_created_ascending">Podle data (Vzestupně)</string>
     <string name="sort_option_date_created_descending">Podle data (Zestupně)</string>
     <string name="sort_option_color_ascending">Color (Vzestupně)</string>
-    <string name="sort_option_color_descending">Color (Zestupně)</string>
-
+    <string name="sort_option_color_descending">Barva (Zestupně)</string>
     <string name="date_ending_st">%s.</string>
     <string name="date_ending_nd">%s.</string>
     <string name="date_ending_rd">%s.</string>
     <string name="date_ending_th">%s.</string>
-
+    <string name="action_delete_category_passwords">Smazat kategorii a hesla</string>
+    <string name="action_delete_category">Smazat kategorii</string>
+    <string name="action_rename_category">Přejmenovat kategorii</string>
 </resources>

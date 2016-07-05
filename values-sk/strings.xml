@@ -1,16 +1,15 @@
+<?xml version="1.0"?>
 <resources xmlns:xliff="http://schemas.android.com/apk/res-auto">
     <string name="app_name">PassKeep</string>
-
     <!-- Main Titles -->
     <string name="fragment_title_settings">Nastavenia</string>
     <string name="fragment_title_backup_restore">Záloha/Obnova</string>
+    <string name="fragment_title_cat_manager">Správca kategórií</string>
     <string name="fragment_title_passwords">Heslá</string>
     <string name="fragment_title_password_entry">Položka hesla</string>
     <string name="fragment_title_password_generator">Generátor hesiel</string>
     <string name="fragment_title_path_picker_default">Vyberte priečinok</string>
     <string name="fragment_title_path_picker_share_backup">Zdielať zálohy</string>
-    <string name="fragment_title_cat_manager">Správca kategórií</string>
-
     <!--Actions -->
     <string name="action_select_all">Vybrať všetko</string>
     <string name="action_delete">Zmazať</string>
@@ -25,17 +24,14 @@
     <string name="action_floating_window">Plávajúce okno</string>
     <string name="alert_title_new_folder">Nový priečinok</string>
     <string name="action_sort">Usporiadať</string>
-    <string name="action_delete_category_passwords">Zmazať kategóriu a heslá</string>
-    <string name="action_delete_category">Zmazať kategóriu</string>
-    <string name="action_rename_category">Premenovať kategóriu</string>
-
     <!-- Toast/Snackbar -->
-    <string name="toast_message_dir_created">Priečinok úspešne vytvorený</string>
-    <string name="toast_message_dir_failed">Priečinok sa nepodarilo vytvoriť</string>
+    <string name="toast_message_dir_created">%s úspešne vytvorený</string>
+    <string name="toast_message_dir_failed">%s sa nepodarilo vytvoriť</string>
     <string name="toast_message_restore_success">Obnova úspešná</string>
     <string name="toast_message_restore_failed">Obnova neúspešná</string>
     <string name="toast_message_copied_to_clipboard">Skopírované do schránky</string>
     <string name="toast_message_double_tap_to_exit">Dvojitým ťuknutím ukončíte</string>
+    <string name="toast_message_double_tap_to_exit_file_picker">Dvojitým ťuknutím ukončíte výber súborov</string>
     <string name="toast_message_must_contain">Musíte vybrať znaky, ktoré chcete aby sa vyskytovali v hesle</string>
     <string name="toast_message_backup_fail">Zálohovanie neúspešné</string>
     <string name="toast_message_backup_success">Zálohovanie úspešné</string>
@@ -45,21 +41,25 @@
     <string name="toast_message_no_backups">Zatiaľ žiadne zálohy</string>
     <string name="toast_message_no_character">Neboli zadané vlastné znaky</string>
     <string name="toast_message_no_change_in_categoryname">Žiadna zmena v názve kategórie</string>
-
+    <string name="toast_message_secure_lock_not_set"><![CDATA[Nebol nastavený bezpečný zámok obrazovky.\nNastavte odtlačok prsta v \'Nastavenia->Zabezpečenie->Odtlačok prsta\']]></string>
+    <string name="toast_message_no_fingerprint_setup"><![CDATA[Nastavte aspoň 1 odtlačok prsta v \'Nastavenia->Zabezpečenie->Odtlačok prsta\']]></string>
+    <string name="toast_message_fingerprint_disabled">Prihlásenie odtlačkom prsta je zakázané</string>
     <string name="snackbar_message_select_a_backup_to">Vyberte zálohu na %s</string>
-    <string name="snackbar_message_append_share">zdielanie</string>
-    <string name="snackbar_message_append_restore">obnovu</string>
-    <string name="snackbar_messgae_select_folder">Dlhým stlačením na priečinok vyberiete umiestnenie</string>
-    <string name="snackbar_message_self_destruct_remaining">%d pokusov zostáva do seba-deštrukcie. Všetky heslá budú zmazané.</string>
-    <string name="snackbar_message_deleted_item">Zmazaná %d položka</string>
+    <string name="snackbar_message_append_share">zdielať</string>
+    <string name="snackbar_message_append_restore">obnoviť</string>
+    <string name="snackbar_messgae_select_folder">Dlhým stlačením priečinoku vyberiete umiestnenie</string>
+    <string name="snackbar_message_self_destruct_remaining">Ostáva ešte %d pokusov do seba-deštrukcie. Všetky heslá budú zmazané.</string>
+    <string name="snackbar_message_deleted_item">%d zmazaná položka</string>
     <string name="snackbar_message_deleted_items">Zmazaných %d položiek</string>
-
     <!--EditText/TIL -->
     <string name="et_hint_confirm_masterkey">Potvrďte nové hlavné heslo</string>
     <string name="et_hint_backup_restore_loc">Umiestnenie záloh</string>
     <string name="et_hint_new_masterkey">Nové hlavné heslo</string>
     <string name="et_hint_name">Meno</string>
+    <string name="et_hint_folder_name">Názov zložky</string>
     <string name="et_hint_password">Heslo</string>
+    <string name="et_hint_password_2">Heslo 2</string>
+    <string name="et_hint_category">Kategória</string>
     <string name="et_hint_title">Názov</string>
     <string name="et_hint_site">Stránka</string>
     <string name="et_hint_old_masterkey">Staré hlavné heslo</string>
@@ -67,18 +67,17 @@
     <string name="et_hint_username">Užívateľské meno</string>
     <string name="et_hint_description">Popis</string>
     <string name="et_hint_custom_characters">Tu zadajte vlastné znaky</string>
-    <string name="et_hint_category">Kategória</string>
-    <string name="et_hint_password_2">Heslo 2</string>
     <string name="error_passwords_dont_match">Heslá sa nezhodujú</string>
     <string name="error_incorrect_password">Nesprávne heslo</string>
     <string name="error_blank_pass_title">Názov nesmie byť prázdny</string>
+    <string name="error_blank_entry">Nemôže ostať nevyplnené</string>
     <string name="error_blank_pass_username">Užívateľské meno nesmie byť prázdne</string>
     <string name="error_blank_password">Heslo nesmie byť prázdne</string>
     <string name="error_password_length_short">Heslo musí byť dlhé najmenej 6 znakov</string>
-    <string name="error_blank_entry">Nemôže ostať nevyplnené</string>
+    <string name="error_alert_et_name_required">Musíte zadať meno</string>
     <string name="til_title_backup">Názov súboru zálohy</string>
-
     <!-- AlertDialogs -->
+    <string name="alert_title_confirm_selection">Potvrdiť výber</string>
     <string name="alert_title_self_destruct">Samozničenie</string>
     <string name="alert_title_delete_password">Zmazať heslo</string>
     <string name="alert_title_backup_from_csv">Zálohovať CSV</string>
@@ -88,10 +87,11 @@
     <string name="alert_title_backup_db">Zálohovať DB</string>
     <string name="alert_title_share_backup">Zdielať zálohu s..</string>
     <string name="alert_title_restart_app">Reštartovať aplikáciu</string>
-    <string name="alert_title_rename_category">Premenovať kategóriu</string>
-    <string name="alert_title_permissions">Oprávnenia</string>
     <string name="alert_title_select_application">Vyberte aplikáciu</string>
     <string name="alert_title_sort_passwords">Zoradiť heslá</string>
+    <string name="alert_title_rename_category">Premenovať kategóriu</string>
+    <string name="alert_title_permissions">Oprávnenia</string>
+    <string name="alert_message_selected_file">Vybraný súbor: %s</string>
     <string name="alert_message_restart_app">Ak chcete povoliť/zakázať snímky obrazovky, musí sa aplikácia reštartovať. Reštartovať PassKeep teraz?</string>
     <string name="alert_message_loading_app_list">Načítava sa zoznam aplikácii</string>
     <string name="alert_message_delete_password_confirm">Naozaj chcete zmazať %s. Zmazanie je nevratné.</string>
@@ -107,7 +107,6 @@
     <string name="alert_btn_cancel">Storno</string>
     <string name="alert_btn_no">Nie</string>
     <string name="alert_btn_ok">OK</string>
-
     <!--Preferences -->
     <string name="pref_category_title_appearance">Vzhľad</string>
     <string name="pref_category_title_general">Všeobecné</string>
@@ -124,9 +123,6 @@
     <string name="pref_title_show_system_apps">Zobraziť systémové aplikácie</string>
     <string name="pref_title_use_pass_gen_options">Nastavenia generátora hesiel</string>
     <string name="pref_title_hide_usernames">Skryť užívateľské mená</string>
-    <string name="pref_summary_show_system_apps">Zobraziť systémové aplikácie v zozname aplikácií s povoleným zadávaním hesiel</string>
-    <string name="pref_summary_hide_usernames">Skryť užívateľské mená zo zoznamu hesiel</string>
-    <string name="pref_summary_use_pass_gen_options">Pri generovaní hesiel použiť nastavenia generátora hesiel</string>
     <string name="pref_summary_delete_all_passwords">**Upozornenie** Zmazať obsah databázy vrátane hlavného hesla. Zmazanie je nevratné.</string>
     <string name="pref_summary_reset_master_passkey">**Upozornenie** Resetovať hlavné heslo. Zálohy so starým hlavným heslom nebudú fungovať.</string>
     <string name="pref_summary_self_destruct">Zmazať všetky heslá po 5 neuspešných pokusoch o prihlásenie.</string>
@@ -138,7 +134,9 @@
     <string name="pref_summary_hide_passwords">Ak chcete prepnúť zobrazenie hesiel, kliknite na ikonu \"oka\".</string>
     <string name="pref_summary_dark_theme">Zmeniť UI PassKeep-u na tmavú material tému. (Aplikácia sa reštartuje)</string>
     <string name="pref_default_backup_amount_unlimited">Neobmedzené</string>
-
+    <string name="pref_summary_show_system_apps">Zobraziť systémové aplikácie v zozname aplikácií s povoleným zadávaním hesiel</string>
+    <string name="pref_summary_hide_usernames">Skryť užívateľské mená zo zoznamu hesiel</string>
+    <string name="pref_summary_use_pass_gen_options">Pri generovaní hesiel použiť nastavenia generátora hesiel</string>
     <!-- Misc -->
     <string name="title_last_edited">Naposledy upravené: %s</string>
     <string name="title_autobackups">Automatická záloha</string>
@@ -168,27 +166,33 @@
     <string name="title_category_new">Nová kategória</string>
     <string name="title_add_new_category">Pridať kategóriu</string>
     <string name="title_category_toolbar">Kategóriu:</string>
-
-    <string name="message_no_categories_available">Žiadne dostupné kategórie..</string>
+    <string name="title_select_destination_folder">Vyberte cieľový priečinok</string>
+    <string name="title_files">Súbory</string>
+    <string name="title_use_fingerprint_to_authenticate_title">Použiť odtlačok prsta pre prihlásenie</string>
+    <string name="title_fingerprint_description">Potvrdťe odtlačok prsta pre pokračovanie</string>
+    <string name="title_fingerprint_hint">Dotykový senzor</string>
+    <string name="title_folders">Priečinky</string>
+    <string name="title_sort_type">Názov</string>
     <string name="message_empty_passwords_recycler">Tu sa zobrazia heslá po pridaní</string>
     <string name="message_welcome_first_start">Na začiatku musíte zadať hlavné heslo. Toto heslo sa použije na ochranu Vašich hesiel.\n\nHlavné heslo je neobnoviteľné a v prípade ak ho zabudnete, prídete o všetky heslá.\n\nAk chcete zabrániť strate dát pravidelne databázu zálohujte.</string>
     <string name="message_placeholder_app_name">Dotykom pridáte aplikáciu</string>
     <string name="message_placeholder_apk_package">Odtiaľto môžete spustiť aplikáciu</string>
-
+    <string name="message_no_categories_available">Žiadne dostupné kategórie..</string>
+    <string name="message_fingerprint_not_recognized">Odtlačok nerozpoznaný. Skúste znova</string>
+    <string name="message_fingerprint_success">Odtlačok rozpoznaný</string>
+    <string name="message_empty_folder">Priečinok je prázdny&#8230;</string>
     <string name="message_notification">PassKeep je spustený&#8230;</string>
-
     <string name="btn_generate_password">Generovať heslo</string>
     <string name="btn_restore_db">Obnoviť DB</string>
     <string name="btn_backup_db">Zálohovať DB</string>
     <string name="btn_restore_csv">Obnoviť z CSV</string>
     <string name="btn_backup_csv">Zálohovať do CSV</string>
     <string name="btn_submit_master_password">Štart</string>
-
+    <string name="btn_use_password">Použiť heslo</string>
     <!-- Default title for color picker dialog [CHAR LIMIT=30] -->
     <string name="color_picker_default_title">Vybrať farbu</string>
     <string name="color_swatch_description">Farba <xliff:g example="14" id="color_index">%1$d</xliff:g></string>
     <string name="color_swatch_description_selected">Farba <xliff:g example="14" id="color_index">%1$d</xliff:g> vybraná</string>
-
     <!-- Timer settings strings -->
     <string name="timer_off">Automaticky odhlásiť</string>
     <string name="timer_on_exit">Pri ukončení</string>
@@ -198,7 +202,6 @@
     <string name="timer_five_minutes">5 minút</string>
     <string name="timer_ten_minutes">10 minút</string>
     <string name="timer_fifteen_minutes">15 minút</string>
-
     <string name="backup_interval_one_day">1 deň</string>
     <string name="backup_interval_two_days">2 dni</string>
     <string name="backup_interval_three_days">3 dni</string>
@@ -209,17 +212,17 @@
     <string name="backup_interval_two_weeks">2 týždne</string>
     <string name="backup_interval_three_weeks">3 týždne</string>
     <string name="backup_interval_one_month">1 mesiac</string>
-
     <string name="sort_option_alphabetically_ascending">Podľa abecedy (Vzostupne)</string>
     <string name="sort_option_alphabetically_descending">Podľa abecedy (Zostupne)</string>
     <string name="sort_option_date_created_ascending">Podľa dátumu (Vzostupne)</string>
     <string name="sort_option_date_created_descending">Podľa dátumu (Zostupne)</string>
-    <string name="sort_option_color_ascending">Color (Vzostupne)</string>
-    <string name="sort_option_color_descending">Color (Zostupne)</string>
-
+    <string name="sort_option_color_ascending">Farba (Vzostupne)</string>
+    <string name="sort_option_color_descending">Farba (Zostupne)</string>
     <string name="date_ending_st">%s.</string>
     <string name="date_ending_nd">%s.</string>
     <string name="date_ending_rd">%s.</string>
     <string name="date_ending_th">%s.</string>
-
+    <string name="action_delete_category_passwords">Zmazať kategóriu a heslá</string>
+    <string name="action_delete_category">Zmazať kategóriu</string>
+    <string name="action_rename_category">Premenovať kategóriu</string>
 </resources>
