@@ -8,10 +8,11 @@ https://play.google.com/store/apps/details?id=eu.wedgess.passkeep
 
 
 # Completed Strings, thanks to:
-- German (laufersteppenwolf/Trafalgar-Square/mythos234)
+- German (laufersteppenwolf/Trafalgar-Square/mythos234/noc.jfcbs)
 - Polish (Chamelleon)
-- Russian (DumF0rGaming)
+- Russian (DumF0rGaming/gaich)
 - Spanish (smstiv)
 - Turkish (echelonx)
 - Czech (phsnake)
 - Slovak (phsnake)
+- Portuguese - Brazilian (LeandritoG)
