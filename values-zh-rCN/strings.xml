@@ -1,0 +1,243 @@
+<resources xmlns:xliff="http://schemas.android.com/apk/res-auto">
+    <string name="app_name">PassKeep</string>
+
+    <!-- Main Titles -->
+    <string name="fragment_title_settings">设置</string>
+    <string name="fragment_title_backup_restore">备份/恢复</string>
+    <string name="fragment_title_cat_manager">类别管理器</string>
+    <string name="fragment_title_passwords">密码</string>
+    <string name="fragment_title_password_entry">密码项</string>
+    <string name="fragment_title_password_generator">密码生成器</string>
+    <string name="fragment_title_path_picker_default">选择路径</string>
+    <string name="fragment_title_path_picker_share_backup">分享备份</string>
+
+    <!--Actions -->
+    <string name="action_select_all">全选</string>
+    <string name="action_delete">删除</string>
+    <string name="action_title_items_selected">%d 已选择</string>
+    <string name="action_settings">设置</string>
+    <string name="action_edit_password">编辑密码</string>
+    <string name="action_logout">退出</string>
+    <string name="action_delete_password">删除密码</string>
+    <string name="action_search">搜索</string>
+    <string name="action_color_picker">拾色器</string>
+    <string name="action_undo">撤销</string>
+    <string name="action_floating_window">浮动窗口</string>
+    <string name="alert_title_new_folder">新文件夹</string>
+    <string name="action_sort">排序</string>
+
+    <!-- Toast/Snackbar -->
+    <string name="toast_message_dir_created">已成功创建 %s</string>
+    <string name="toast_message_dir_failed">创建 %s 失败</string>
+    <string name="toast_message_restore_success">已成功恢复</string>
+    <string name="toast_message_restore_failed">恢复失败</string>
+    <string name="toast_message_copied_to_clipboard">已复制至剪贴板</string>
+    <string name="toast_message_double_tap_to_exit">双击以退出</string>
+    <string name="toast_message_double_tap_to_exit_file_picker">双击退出文件选择器</string>
+    <string name="toast_message_must_contain">您必须选择您希望在密码中包含的字符</string>
+    <string name="toast_message_backup_fail">备份失败</string>
+    <string name="toast_message_backup_success">备份成功</string>
+    <string name="toast_message_autobackup_success">PassKeep: 自动备份完成</string>
+    <string name="toast_message_autobackup_failed">PassKeep: 自动备份失败</string>
+    <string name="toast_message_autobackup_restarted">PassKeep: 重新开始自动备份</string>
+    <string name="toast_message_no_backups">尚未创建任何备份</string>
+    <string name="toast_message_no_character">未输入自定义字符</string>
+    <string name="toast_message_no_change_in_categoryname">未修改分类名称</string>
+    <string name="toast_message_secure_lock_not_set"><![CDATA[未设置锁屏.\n 请前往 \'设置 -> 安全 -> 指纹\' 以设置指纹]]></string>
+    <string name="toast_message_no_fingerprint_setup"><![CDATA[前往 \'设置 -> 安全 -> 指纹\' 并录入至少一枚指纹]]></string>
+    <string name="toast_message_fingerprint_disabled">已禁用指纹登录</string>
+
+    <string name="snackbar_message_select_a_backup_to">选择备份以 %s</string>
+    <string name="snackbar_message_append_share">分享</string>
+    <string name="snackbar_message_append_restore">恢复</string>
+    <string name="snackbar_messgae_select_folder">长按文件夹以选择位置</string>
+    <string name="snackbar_message_self_destruct_remaining">剩余尝试 %d 次后将自毁. 所有密码将被清除.</string>
+    <string name="snackbar_message_deleted_item">已删除 %d 项</string>
+    <string name="snackbar_message_deleted_items">已删除 %d 项</string>
+
+    <!--EditText/TIL -->
+    <string name="et_hint_confirm_masterkey">确认新主密码</string>
+    <string name="et_hint_backup_restore_loc">备份/恢复 位置</string>
+    <string name="et_hint_new_masterkey">新主密码</string>
+    <string name="et_hint_name">名称</string>
+    <string name="et_hint_folder_name">文件夹名称</string>
+    <string name="et_hint_password">密码</string>
+    <string name="et_hint_password_2">密码 2</string>
+    <string name="et_hint_category">分类</string>
+    <string name="et_hint_title">标题</string>
+    <string name="et_hint_site">站点</string>
+    <string name="et_hint_old_masterkey">旧主密码</string>
+    <string name="et_hint_confirm_password">确认密码</string>
+    <string name="et_hint_username">用户名</string>
+    <string name="et_hint_description">描述</string>
+    <string name="et_hint_custom_characters">在此输入自定义字符</string>
+    <string name="error_passwords_dont_match">密码不匹配</string>
+    <string name="error_incorrect_password">密码错误</string>
+    <string name="error_blank_pass_title">标题不可为空</string>
+    <string name="error_blank_entry">不可为空</string>
+    <string name="error_blank_pass_username">用户名不可留空</string>
+    <string name="error_blank_password">密码不可留空</string>
+    <string name="error_password_length_short">密码长度需为至少6个字符</string>
+    <string name="error_alert_et_name_required">需要名称</string>
+    <string name="til_title_backup">备份文件名</string>
+
+    <!-- AlertDialogs -->
+    <string name="alert_title_confirm_selection">确认选择</string>
+    <string name="alert_title_self_destruct">自毁</string>
+    <string name="alert_title_delete_password">删除密码</string>
+    <string name="alert_title_backup_from_csv">备份 CSV</string>
+    <string name="alert_title_new_directory">新路径</string>
+    <string name="alert_title_password_change">修改密码</string>
+    <string name="alert_title_backup_from_db">备份数据库</string>
+    <string name="alert_title_backup_db">备份至数据库</string>
+    <string name="alert_title_share_backup">分享备份至..</string>
+    <string name="alert_title_restart_app">重启应用</string>
+    <string name="alert_title_select_application">选择一个应用</string>
+    <string name="alert_title_sort_passwords">密码排序</string>
+    <string name="alert_title_rename_category">重命名分类</string>
+    <string name="alert_title_permissions">权限</string>
+    <string name="alert_message_selected_file">选择文件: %s</string>
+    <string name="alert_message_restart_app">需重启应用以阻止/允许截屏. 是否现在重启 PassKeep?</string>
+    <string name="alert_message_loading_app_list">加载应用列表</string>
+    <string name="alert_message_delete_password_confirm">是否确认删除 %s. 此操作不可逆.</string>
+    <string name="alert_message_password_change">生成新密码将导致旧密码被移除. 您是否确认继续?</string>
+    <string name="alert_message_save_changes">是否保存修改?</string>
+    <string name="alert_message_discard_entry">是否放弃此项?</string>
+    <string name="alert_message_self_destruct_activated">已达到最大密码尝试次数. 所有密码将被永久删除. 此操作不可逆!</string>
+    <string name="alert_message_permission_system_alert">本应用需要 SYSTEM_ALERT_WINDOW 权限以在其他应用上方创建浮动窗口. 无此权限时浮动窗口将无法工作.</string>
+    <string name="alert_message_read_write_permissions">PassKeep 未获得写入储存的权限. 因此无法使用备份和恢复功能. 请考虑给予此项权限</string>
+    <string name="alert_message_grant_drawoverapps_permission">PassKeep 未获得在其他应用上方创建窗口的权限. 因此无法使用浮动窗口功能. 请考虑给予此项权限</string>
+    <string name="alert_btn_grant_permissions">给予权限</string>
+    <string name="alert_btn_yes">确定</string>
+    <string name="alert_btn_cancel">取消</string>
+    <string name="alert_btn_no">否</string>
+    <string name="alert_btn_ok">是</string>
+
+    <!--Preferences -->
+    <string name="pref_category_title_appearance">外观</string>
+    <string name="pref_category_title_general">常规</string>
+    <string name="pref_category_title_security">安全</string>
+    <string name="pref_title_keep_screen_on">保持屏幕常亮</string>
+    <string name="pref_title_show_notification">显示通知</string>
+    <string name="pref_title_hide_passwords">隐藏密码</string>
+    <string name="pref_title_rename_masterkey">重置主密码</string>
+    <string name="pref_title_delete_all_passwords">删除数据库</string>
+    <string name="pref_title_block_screenshots">禁止截屏</string>
+    <string name="pref_title_auto_logout">自动退出</string>
+    <string name="pref_title_auto_login">自动登陆</string>
+    <string name="pref_title_dark_theme">暗色主题</string>
+    <string name="pref_title_show_system_apps">显示系统应用</string>
+    <string name="pref_title_use_pass_gen_options">密码生成器选项</string>
+    <string name="pref_title_hide_usernames">隐藏用户名</string>
+    <string name="pref_summary_delete_all_passwords">**警告** 删除数据库包括主密码在内的所有内容. 此操作不可逆.</string>
+    <string name="pref_summary_reset_master_passkey">**警告** 重置主密码. 使用旧主密码的备份将无法再被正常使用.</string>
+    <string name="pref_summary_self_destruct">使用 \"登录\" 按钮输入错误5次后删除所有密码.</string>
+    <string name="pref_summary_auto_logout">如果您使用另一个应用关闭 PassKeep, PassKeep 将在设定的时间后退出.</string>
+    <string name="pref_summary_disallow_screenshots">禁止对 PassKeep 截屏.</string>
+    <string name="pref_summary_auto_login">输入有效密码时自动登录.</string>
+    <string name="pref_summary_show_notification">应用运行且解锁时在状态栏显示通知.</string>
+    <string name="pref_summary_keep_screen_on">浏览 Passkeep 时保持屏幕常亮</string>
+    <string name="pref_summary_hide_passwords">显示 \"眼睛\" 图标以切换密码可见性.</string>
+    <string name="pref_summary_dark_theme">将 PassKeeps 界面切换为暗色 material 主题. (应用将重启)</string>
+    <string name="pref_default_backup_amount_unlimited">无限次</string>
+    <string name="pref_summary_show_system_apps">在应用列表用显示系统应用</string>
+    <string name="pref_summary_hide_usernames">在密码列表中隐藏用户名</string>
+    <string name="pref_summary_use_pass_gen_options">在创建密码时使用密码生成器</string>
+
+    <!-- Misc -->
+    <string name="title_last_edited">最后编辑: %s</string>
+    <string name="title_autobackups">自动备份</string>
+    <string name="title_backup_every">备份所有</string>
+    <string name="title_backup_time">备份时间</string>
+    <string name="title_max_backups">最大备份次数</string>
+    <string name="title_attempts_remaining">剩余尝试次数: %d</string>
+    <string name="title_welcome">欢迎&#8230;</string>
+    <string name="title_bg_view_num_item">%1$d 项</string>
+    <string name="title_bg_view_num_items">%1$d 项</string>
+    <string name="title_bg_view_root">Root</string>
+    <string name="title_first_start">首次启动</string>
+    <string name="title_btn_sign_in">登录</string>
+    <string name="title_uppercase_az">大写字母 A&#8211;Z</string>
+    <string name="title_lowercase_az">小写字母 a&#8211;z</string>
+    <string name="title_numbers">数字 0&#8211;9</string>
+    <string name="title_special_chars">特殊字符</string>
+    <string name="title_password_length">密码长度</string>
+    <string name="title_can_contain">可包含</string>
+    <string name="title_backup_restore_db">数据库 备份/恢复</string>
+    <string name="title_backup_restore_csv">CSV 备份/恢复</string>
+    <string name="title_custom_characters">自定义字符</string>
+    <string name="title_category_none">无</string>
+    <string name="title_category">分类</string>
+    <string name="title_category_all">所有</string>
+    <string name="title_no_category">无分类</string>
+    <string name="title_category_new">新分类</string>
+    <string name="title_add_new_category">新建分类</string>
+    <string name="title_category_toolbar">分类:</string>
+    <string name="title_select_destination_folder">选择目标文件夹</string>
+    <string name="title_files">文件</string>
+    <string name="title_use_fingerprint_to_authenticate_title">使用指纹认证</string>
+    <string name="title_fingerprint_description">确认指纹以继续</string>
+    <string name="title_fingerprint_hint">指纹传感器</string>
+    <string name="title_folders">文件夹</string>
+    <string name="title_sort_type">名称</string>
+
+    <string name="message_empty_passwords_recycler">密码被添加后将在此处显示</string>
+    <string name="message_welcome_first_start">开始使用前您必须设置一个主密码. 主密码将被用来加密您的其他密码.\n\n主密码不可恢复. 因此如主密码丢失您将失去所有的密码.\n\n请定时备份数据库以防止密码丢失.</string>
+    <string name="message_placeholder_app_name">点击添加应用</string>
+    <string name="message_placeholder_apk_package">然后您可以从此处打开应用</string>
+    <string name="message_no_categories_available">无可用分类..</string>
+    <string name="message_fingerprint_not_recognized">指纹未被识别. 请重试</string>
+    <string name="message_fingerprint_success">指纹已识别</string>
+    <string name="message_empty_folder">文件夹为空&#8230;</string>
+    <string name="message_notification">PassKeep 正在运行&#8230;</string>
+
+    <string name="btn_generate_password">生成密码</string>
+    <string name="btn_restore_db">从数据库恢复</string>
+    <string name="btn_backup_db">备份至数据库</string>
+    <string name="btn_restore_csv">从 CSV 恢复</string>
+    <string name="btn_backup_csv">备份至 CSV</string>
+    <string name="btn_submit_master_password">开始</string>
+    <string name="btn_use_password">使用密码</string>
+
+    <!-- Default title for color picker dialog [CHAR LIMIT=30] -->
+    <string name="color_picker_default_title">请选择一种颜色</string>
+    <string name="color_swatch_description">颜色 <xliff:g example="14" id="color_index">%1$d</xliff:g></string>
+    <string name="color_swatch_description_selected">颜色 <xliff:g example="14" id="color_index">%1$d</xliff:g> 已选择</string>
+
+    <!-- Timer settings strings -->
+    <string name="timer_off">关闭自动退出</string>
+    <string name="timer_on_exit">应用关闭时</string>
+    <string name="timer_thirty_secs">30 秒</string>
+    <string name="timer_one_minute">1 分钟</string>
+    <string name="timer_two_minutes">2 分钟</string>
+    <string name="timer_five_minutes">5 分钟</string>
+    <string name="timer_ten_minutes">10 分钟</string>
+    <string name="timer_fifteen_minutes">15 分钟</string>
+
+    <string name="backup_interval_one_day">1 天</string>
+    <string name="backup_interval_two_days">2 天</string>
+    <string name="backup_interval_three_days">3 天</string>
+    <string name="backup_interval_four_days">4 天</string>
+    <string name="backup_interval_five_days">5 天</string>
+    <string name="backup_interval_six_days">6 天</string>
+    <string name="backup_interval_one_week">1 周</string>
+    <string name="backup_interval_two_weeks">2 周</string>
+    <string name="backup_interval_three_weeks">3 周</string>
+    <string name="backup_interval_one_month">1 个月</string>
+
+    <string name="sort_option_alphabetically_ascending">按字母 (升序)</string>
+    <string name="sort_option_alphabetically_descending">按字母 (降序)</string>
+    <string name="sort_option_date_created_ascending">按日期 (升序)</string>
+    <string name="sort_option_date_created_descending">按日期 (降序)</string>
+    <string name="sort_option_color_ascending">按颜色 (升序)</string>
+    <string name="sort_option_color_descending">按颜色 (降序)</string>
+
+    <string name="date_ending_st">%s日</string>
+    <string name="date_ending_nd">%s日</string>
+    <string name="date_ending_rd">%s日</string>
+    <string name="date_ending_th">%s日</string>
+
+    <string name="action_delete_category_passwords">删除分类和密码</string>
+    <string name="action_delete_category">删除分类</string>
+    <string name="action_rename_category">重命名分类</string>
+</resources>
