@@ -25,10 +25,13 @@
     <string name="action_floating_window">Floating Window</string>
     <string name="alert_title_new_folder">New Folder</string>
     <string name="action_sort">Sort</string>
+    <string name="action_delete_category_passwords">Delete Category And Passwords</string>
+    <string name="action_delete_category">Delete Category</string>
+    <string name="action_rename_category">Rename Category</string>
 
-    <!-- Toast/Snackbar -->
-    <string name="toast_message_dir_created">Created %s successfully</string>
-    <string name="toast_message_dir_failed">Failed to create %s</string>
+    <!-- Toast Messages -->
+    <string name="toast_message_dir_created">Created folder successfully</string>
+    <string name="toast_message_dir_failed">Failed to create folder</string>
     <string name="toast_message_restore_success">Restore Success</string>
     <string name="toast_message_restore_failed">Restore Failed</string>
     <string name="toast_message_copied_to_clipboard">Copied to clipboard</string>
@@ -46,7 +49,9 @@
     <string name="toast_message_secure_lock_not_set"><![CDATA[Secure lock screen hasn\'t been set up.\n Go to \'Settings -> Security -> Fingerprint\' to set up a fingerprint]]></string>
     <string name="toast_message_no_fingerprint_setup"><![CDATA[Go to \'Settings -> Security -> Fingerprint\' and register at least one fingerprint]]></string>
     <string name="toast_message_fingerprint_disabled">Fingerprint sign in disabled</string>
+    <string name="toast_message_use_password">Use your password to sign in</string>
 
+    <!-- Snackbar Messages -->
     <string name="snackbar_message_select_a_backup_to">Select a backup to %s</string>
     <string name="snackbar_message_append_share">share</string>
     <string name="snackbar_message_append_restore">restore</string>
@@ -108,6 +113,7 @@
     <string name="alert_message_read_write_permissions">PassKeep was not granted permission to write to your storage. Hence, backup restore functionality will not work. Please consider granting it this permission</string>
     <string name="alert_message_grant_drawoverapps_permission">PassKeep was not granted permission to draw over other applications. Therefore the floating window functionality will not work. Please consider granting it this permission</string>
     <string name="alert_btn_grant_permissions">Grant Permission</string>
+    <string name="alert_btn_select_folder">Select Folder</string>
     <string name="alert_btn_yes">Yes</string>
     <string name="alert_btn_cancel">Cancel</string>
     <string name="alert_btn_no">No</string>
@@ -144,7 +150,7 @@
     <string name="pref_summary_hide_usernames">Hide passwords usernames from the list of passwords</string>
     <string name="pref_summary_use_pass_gen_options">Use the password generators options when generating passwords for entries</string>
 
-    <!-- Misc -->
+    <!-- Misc Titles-->
     <string name="title_last_edited">Last edited: %s</string>
     <string name="title_autobackups">Automatic backup</string>
     <string name="title_backup_every">Backup Every</string>
@@ -180,7 +186,18 @@
     <string name="title_fingerprint_hint">Touch sensor</string>
     <string name="title_folders">Folders</string>
     <string name="title_sort_type">Name</string>
+    <string name="title_signin_fingerprint">Sign in with fingerprint</string>
+    <string name="title_login_failed">Sign In Failed</string>
+    <string name="title_failed_attempts">Too many failed attempts, try sign in using your password</string>
+    <string name="title_confirmation_failed">Confirmation Failed</string>
+    <string name="title_too_many_failed_try_again">Too many failed attempts, try again later</string>
+    <string name="title_file_picker_select_restore_csv">Select CSV to restore</string>
+    <string name="title_file_picker_select_restore_db">Select DB to restore</string>
+    <string name="title_file_picker_select_file_share">Select file to share</string>
+    <string name="title_file_picker_select_csv_dest">Select CSV backup destination</string>
+    <string name="title_file_picker_select_db_dest">Select DB backup destination</string>
 
+    <!-- Misc Messages-->
     <string name="message_empty_passwords_recycler">Passwords will appear here when added</string>
     <string name="message_welcome_first_start">To start you must enter a master password. This master password will be used to encrypt your passwords.\n\nThe master password is unrecoverable and in the case of forgetting the master password all passwords will be lost.\n\nTo prevent data loss backup the database regularly.</string>
     <string name="message_placeholder_app_name">Touch To Add Application</string>
@@ -237,7 +254,4 @@
     <string name="date_ending_rd">%srd</string>
     <string name="date_ending_th">%sth</string>
 
-    <string name="action_delete_category_passwords">Delete Category And Passwords</string>
-    <string name="action_delete_category">Delete Category</string>
-    <string name="action_rename_category">Rename Category</string>
 </resources>
