@@ -16,3 +16,4 @@ https://play.google.com/store/apps/details?id=eu.wedgess.passkeep
 - Czech (phsnake)
 - Slovak (phsnake)
 - Portuguese - Brazilian (LeandritoG)
+- Simplified Chinese (China) (ContactFront) 
