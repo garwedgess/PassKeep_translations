@@ -25,10 +25,13 @@
     <string name="action_floating_window">浮动窗口</string>
     <string name="alert_title_new_folder">新文件夹</string>
     <string name="action_sort">排序</string>
+    <string name="action_delete_category_passwords">删除分类和密码</string>
+    <string name="action_delete_category">删除分类</string>
+    <string name="action_rename_category">重命名分类</string>
 
-    <!-- Toast/Snackbar -->
-    <string name="toast_message_dir_created">已成功创建 %s</string>
-    <string name="toast_message_dir_failed">创建 %s 失败</string>
+    <!-- Toast Messages -->
+    <string name="toast_message_dir_created">成功创建文件夹</string>
+    <string name="toast_message_dir_failed">创建文件夹失败</string>
     <string name="toast_message_restore_success">已成功恢复</string>
     <string name="toast_message_restore_failed">恢复失败</string>
     <string name="toast_message_copied_to_clipboard">已复制至剪贴板</string>
@@ -46,7 +49,9 @@
     <string name="toast_message_secure_lock_not_set"><![CDATA[未设置锁屏.\n 请前往 \'设置 -> 安全 -> 指纹\' 以设置指纹]]></string>
     <string name="toast_message_no_fingerprint_setup"><![CDATA[前往 \'设置 -> 安全 -> 指纹\' 并录入至少一枚指纹]]></string>
     <string name="toast_message_fingerprint_disabled">已禁用指纹登录</string>
+    <string name="toast_message_use_password">使用您的密码登录</string>
 
+    <!-- Snackbar Messages -->
     <string name="snackbar_message_select_a_backup_to">选择备份以 %s</string>
     <string name="snackbar_message_append_share">分享</string>
     <string name="snackbar_message_append_restore">恢复</string>
@@ -108,6 +113,7 @@
     <string name="alert_message_read_write_permissions">PassKeep 未获得写入储存的权限. 因此无法使用备份和恢复功能. 请考虑给予此项权限</string>
     <string name="alert_message_grant_drawoverapps_permission">PassKeep 未获得在其他应用上方创建窗口的权限. 因此无法使用浮动窗口功能. 请考虑给予此项权限</string>
     <string name="alert_btn_grant_permissions">给予权限</string>
+    <string name="alert_btn_select_folder">选择文件夹</string>
     <string name="alert_btn_yes">确定</string>
     <string name="alert_btn_cancel">取消</string>
     <string name="alert_btn_no">否</string>
@@ -144,7 +150,7 @@
     <string name="pref_summary_hide_usernames">在密码列表中隐藏用户名</string>
     <string name="pref_summary_use_pass_gen_options">在创建密码时使用密码生成器</string>
 
-    <!-- Misc -->
+    <!-- Misc Titles-->
     <string name="title_last_edited">最后编辑: %s</string>
     <string name="title_autobackups">自动备份</string>
     <string name="title_backup_every">备份所有</string>
@@ -180,7 +186,18 @@
     <string name="title_fingerprint_hint">指纹传感器</string>
     <string name="title_folders">文件夹</string>
     <string name="title_sort_type">名称</string>
-
+    <string name="title_signin_fingerprint">使用指纹登录</string>
+    <string name="title_login_failed">登录失败</string>
+    <string name="title_failed_attempts">失败尝试次数过多, 请使用密码登录</string>
+    <string name="title_confirmation_failed">确认失败</string>
+    <string name="title_too_many_failed_try_again">失败尝试次数过多, 请稍后重试</string>
+    <string name="title_file_picker_select_restore_csv">选择 CSV 以恢复</string>
+    <string name="title_file_picker_select_restore_db">选择数据库以恢复</string>
+    <string name="title_file_picker_select_file_share">选择文件以共享</string>
+    <string name="title_file_picker_select_csv_dest">选择目标 CSV 备份</string>
+    <string name="title_file_picker_select_db_dest">选择目标数据库备份</string>
+    
+     <!-- Misc Messages-->
     <string name="message_empty_passwords_recycler">密码被添加后将在此处显示</string>
     <string name="message_welcome_first_start">开始使用前您必须设置一个主密码. 主密码将被用来加密您的其他密码.\n\n主密码不可恢复. 因此如主密码丢失您将失去所有的密码.\n\n请定时备份数据库以防止密码丢失.</string>
     <string name="message_placeholder_app_name">点击添加应用</string>
@@ -237,7 +254,4 @@
     <string name="date_ending_rd">%s日</string>
     <string name="date_ending_th">%s日</string>
 
-    <string name="action_delete_category_passwords">删除分类和密码</string>
-    <string name="action_delete_category">删除分类</string>
-    <string name="action_rename_category">重命名分类</string>
 </resources>
