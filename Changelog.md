@@ -70,3 +70,18 @@
 - Bug fixes
 - Updated Russian, Spanish, Polish (More to come)
 - Added Czech and Slovak translations thanks @phsnake
+
+##v2.0
+- Added fingerprint sign in (Android 6.0+)
+- Bug fixes
+- Performance improvements
+- Re-designed file browser
+- Improved animations + other UI elements
+- Add option to view category from category manager
+- Reduced apk size
+- Fixed category names not displaying correctly
+- Updated German translations (Thanks to noc.jfcbs)
+- Updated Czech and Slovak translations (Thanks to phsnake)
+- Updated Russian translations (Thanks to gaich)
+- Updated Vietnamese translations (Thanks to Soft Phan)
+- Added Simplified Chinese translations (Thanks to ContactFront)
