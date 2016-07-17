@@ -25,15 +25,15 @@
     <string name="action_floating_window">Floating Window</string>
     <string name="alert_title_new_folder">New Folder</string>
     <string name="action_sort">Sort</string>
-    <string name="action_delete_category_passwords">Delete Category And Passwords</string>
-    <string name="action_delete_category">Delete Category</string>
-    <string name="action_rename_category">Rename Category</string>
+    <string name="action_delete_category_passwords">Delete category and passwords</string>
+    <string name="action_delete_category">Delete category</string>
+    <string name="action_rename_category">Rename category</string>
 
     <!-- Toast Messages -->
     <string name="toast_message_dir_created">Created folder successfully</string>
     <string name="toast_message_dir_failed">Failed to create folder</string>
-    <string name="toast_message_restore_success">Restore Success</string>
-    <string name="toast_message_restore_failed">Restore Failed</string>
+    <string name="toast_message_restore_success">Restore success</string>
+    <string name="toast_message_restore_failed">Restore failed</string>
     <string name="toast_message_copied_to_clipboard">Copied to clipboard</string>
     <string name="toast_message_double_tap_to_exit">Double tap to exit</string>
     <string name="toast_message_double_tap_to_exit_file_picker">Double tap to exit file picker</string>
@@ -99,7 +99,7 @@
     <string name="alert_title_restart_app">Restart Application</string>
     <string name="alert_title_select_application">Select an Application</string>
     <string name="alert_title_sort_passwords">Sort Passwords</string>
-    <string name="alert_title_rename_category">Rename Category</string>
+    <string name="alert_title_rename_category">Rename category</string>
     <string name="alert_title_permissions">Permissions</string>
     <string name="alert_message_selected_file">Selected file: %s</string>
     <string name="alert_message_restart_app">The application must be restarted for blocking/allowing screenshots. Restart PassKeep now?</string>
@@ -249,9 +249,9 @@
     <string name="sort_option_color_ascending">Color (Ascending)</string>
     <string name="sort_option_color_descending">Color (Descending)</string>
 
-    <string name="date_ending_st">%sst</string>
-    <string name="date_ending_nd">%snd</string>
-    <string name="date_ending_rd">%srd</string>
-    <string name="date_ending_th">%sth</string>
+    <string name="date_ending_st">%dst</string>
+    <string name="date_ending_nd">%dnd</string>
+    <string name="date_ending_rd">%drd</string>
+    <string name="date_ending_th">%dth</string>
 
 </resources>

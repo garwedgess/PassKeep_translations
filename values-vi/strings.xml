@@ -1,8 +1,8 @@
 <?xml version="1.0"?>
 <resources xmlns:xliff="http://schemas.android.com/apk/res-auto">
-    
+
     <string name="app_name">PassKeep</string>
-    
+
     <!-- Main Titles -->
     <string name="fragment_title_settings">Cài đặt</string>
     <string name="fragment_title_backup_restore">Sao lưu/Khôi phục</string>
@@ -12,7 +12,7 @@
     <string name="fragment_title_password_generator">Tạo mật khẩu</string>
     <string name="fragment_title_path_picker_default">Chọn thư mục</string>
     <string name="fragment_title_path_picker_share_backup">Chia sẻ sao lưu</string>
-    
+
     <!--Actions -->
     <string name="action_select_all">Chọn tất cả</string>
     <string name="action_delete">Hủy</string>
@@ -30,7 +30,7 @@
     <string name="action_delete_category_passwords">Xoá danh mục và mật khẩu</string>
     <string name="action_delete_category">Xoá danh mục</string>
     <string name="action_rename_category">Đổi tên danh mục</string>
-    
+
     <!-- Toast Messages -->
     <string name="toast_message_dir_created">Hoàn tất tạo thư mục</string>
     <string name="toast_message_dir_failed">Tạo thư mục thất bại</string>
@@ -52,7 +52,7 @@
     <string name="toast_message_no_fingerprint_setup"><![CDATA[Đi đến \'Cài đặt - Bảo mật - Vân tay\' để đăng kí ít nhất một dấu vân tay]]></string>
     <string name="toast_message_fingerprint_disabled">Đăng nhập bằng vân tay không khả dụng</string>
     <string name="toast_message_use_password">Sử dụng mật khẩu để đăng nhập</string>
-    
+
     <!-- Snackbar Messages -->
     <string name="snackbar_message_select_a_backup_to">Chọn một bản sao lưu để %s</string>
     <string name="snackbar_message_append_share">chia sẻ</string>
@@ -61,7 +61,7 @@
     <string name="snackbar_message_self_destruct_remaining">chỉ còn %d lần nhập trước khi tự hủy. Tất cả mật khẩu sẽ bị xóa sạch.</string>
     <string name="snackbar_message_deleted_item">Đã hủy %d mục</string>
     <string name="snackbar_message_deleted_items">Đã hủy %d mục</string>
-    
+
     <!--EditText/TIL -->
     <string name="et_hint_confirm_masterkey">Xác nhận mật khẩu chính mới</string>
     <string name="et_hint_backup_restore_loc">Vị trí sao lưu/khôi phục</string>
@@ -87,7 +87,7 @@
     <string name="error_password_length_short">Mật khẩu phải có ít nhất 6 ký tự</string>
     <string name="error_alert_et_name_required">Yêu cầu nhập tên</string>
     <string name="til_title_backup">Tên tập tin sao lưu</string>
-    
+
     <!-- AlertDialogs -->
     <string name="alert_title_confirm_selection">Xác nhận lựa chọn</string>
     <string name="alert_title_self_destruct">Tự hủy</string>
@@ -120,7 +120,7 @@
     <string name="alert_btn_cancel">Từ chối</string>
     <string name="alert_btn_no">Từ chối</string>
     <string name="alert_btn_ok">Đồng ý</string>
-    
+
     <!--Preferences -->
     <string name="pref_category_title_appearance">Giao diện</string>
     <string name="pref_category_title_general">Tổng quát</string>
@@ -151,7 +151,7 @@
     <string name="pref_summary_show_system_apps">Hiện các ứng dụng hệ thống trong danh sách ứng dụng cho các mục mật khẩu</string>
     <string name="pref_summary_hide_usernames">Ẩn tên người dùng mật khẩu từ danh sách mật khẩu</string>
     <string name="pref_summary_use_pass_gen_options">Dùng tuỳ chọn trình tạo mật khẩu khi tạo mật khẩu cho các mục</string>
-    
+
     <!-- Misc Titles-->
     <string name="title_last_edited">Lần chỉnh sửa cuối: %s</string>
     <string name="title_autobackups">Tự động sao lưu</string>
@@ -198,7 +198,7 @@
     <string name="title_file_picker_select_file_share">Chọn file để chia sẻ</string>
     <string name="title_file_picker_select_csv_dest">Chọn thư mục lưu file CSV backup</string>
     <string name="title_file_picker_select_db_dest">Chọn thư mục lưu CSDL backup</string>
-    
+
     <!-- Misc Messages-->
     <string name="message_empty_passwords_recycler">Mật khẩu sẽ xuất hiện ở đây sau khi được thêm vào</string>
     <string name="message_welcome_first_start">Để bắt đầu, bạn phải tạo mật khẩu chính. Nó được dùng để mã khóa các mật khẩu khác.\n\nKhông có cách nào khôi phục mật khẩu chính, do đó hãy luôn ghi nhớ nó nếu bạn không muốn mất tất cả các mật khẩu khác.\n\nĐể đề phòng, hãy thường xuyên sao lưu cơ sở dữ liệu.</string>
@@ -216,12 +216,12 @@
     <string name="btn_backup_csv">Sao lưu vào CSV</string>
     <string name="btn_submit_master_password">Bắt đầu</string>
     <string name="btn_use_password">Sử dụng mật khẩu</string>
-    
+
     <!-- Default title for color picker dialog [CHAR LIMIT=30] -->
     <string name="color_picker_default_title">Chọn màu</string>
     <string name="color_swatch_description">Màu <xliff:g example="14" id="color_index">%1$d</xliff:g></string>
     <string name="color_swatch_description_selected">Màu <xliff:g example="14" id="color_index">%1$d</xliff:g> đã được chọn</string>
-    
+
     <!-- Timer settings strings -->
     <string name="timer_off">Tắt Tự động đăng xuất</string>
     <string name="timer_on_exit">Khi thoát</string>
@@ -241,14 +241,16 @@
     <string name="backup_interval_two_weeks">2 tuần</string>
     <string name="backup_interval_three_weeks">3 tuần</string>
     <string name="backup_interval_one_month">1 tháng</string>
+
     <string name="sort_option_alphabetically_ascending">A-Z (Tăng dần)</string>
     <string name="sort_option_alphabetically_descending">A-Z (Giảm dần)</string>
     <string name="sort_option_date_created_ascending">Ngày tháng (Tăng dần)</string>
     <string name="sort_option_date_created_descending">Ngày tháng (Giảm dần)</string>
     <string name="sort_option_color_ascending">Màu sắc (Tăng dần)</string>
     <string name="sort_option_color_descending">Màu sắc (Giảm dần)</string>
-    <string name="date_ending_st">%s.</string>
-    <string name="date_ending_nd">%s.</string>
-    <string name="date_ending_rd">%s.</string>
-    <string name="date_ending_th">%s.</string>
+
+    <string name="date_ending_st">%d.</string>
+    <string name="date_ending_nd">%d.</string>
+    <string name="date_ending_rd">%d.</string>
+    <string name="date_ending_th">%d.</string>
 </resources>

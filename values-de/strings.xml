@@ -24,7 +24,10 @@
     <string name="action_floating_window">Schwebendes Fenster</string>
     <string name="alert_title_new_folder">Neuer Ordner</string>
     <string name="action_sort">Sortiere</string>
-    <!-- Toast/Snackbar -->
+    <string name="action_delete_category_passwords">Kategorie und Kennwörter löschen</string>
+    <string name="action_delete_category">Kategorie löschen</string>
+    <string name="action_rename_category">Kategorie umbenennen</string>
+    <!-- Toast Messages -->
     <string name="toast_message_dir_created">Ordner erfolgreich erstellt</string>
     <string name="toast_message_dir_failed">Fehler beim Erstellen eines Ordners</string>
     <string name="toast_message_restore_success">Wiederherstellen erfolgreich</string>
@@ -44,6 +47,8 @@
     <string name="toast_message_secure_lock_not_set"><![CDATA[Es wurde noch kein sicherer Sperrbildschirm eingerichtet.\nGehe zu \'Einstellungen -> Sicherheit -> Fingerabdruck\', um einen Fingerabdruck einzurichten]]></string>
     <string name="toast_message_no_fingerprint_setup"><![CDATA[Gehe zu \'Einstellungen -> Sicherheit -> Fingerabdruck\' und registriere mindestens einen Fingerabdruck]]></string>
     <string name="toast_message_fingerprint_disabled">Anmelden mittels Fingerabdruck ausgeschaltet</string>
+    <string name="toast_message_use_password">Benutze Dein Kennwort, um Dich anzumelden</string>
+    <!-- Snackbar Messages -->
     <string name="snackbar_message_select_a_backup_to">Wähle eine Sicherung nach %s</string>
     <string name="snackbar_message_append_share">Teilen</string>
     <string name="snackbar_message_append_restore">Wiederherstellen</string>
@@ -103,6 +108,7 @@
     <string name="alert_message_read_write_permissions">PassKeep hat keine Berechtigung erhalten, den Speicher zu beschreiben. Daher wird die Sicherungs-/Wiederherstellungsfunktion nicht funktionieren. Bitte ziehe in Erwägung, diese Berechtigung zu erteilen</string>
     <string name="alert_message_grant_drawoverapps_permission">PassKeep hat keine Berechtigung erhalten, etwas über andere Anwendungen zu legen. Daher wird die Funktionalität \'Schwebendes Fenster\' nicht funktionieren. Bitte ziehe in Erwägung, diese Berechtigung zu erteilen</string>
     <string name="alert_btn_grant_permissions">Berechtigung erteilen</string>
+    <string name="alert_btn_select_folder">Ordner auswählen</string>
     <string name="alert_btn_yes">Ja</string>
     <string name="alert_btn_cancel">Abbrechen</string>
     <string name="alert_btn_no">Nein</string>
@@ -137,7 +143,7 @@
     <string name="pref_summary_show_system_apps">Zeige Systemanwendungen in der Anwendungsliste zum Zwecke von Kennworteingaben</string>
     <string name="pref_summary_hide_usernames">Verstecke Benutzernamen in der Kennwortliste</string>
     <string name="pref_summary_use_pass_gen_options">Benutze den Kennwort-Generator zum Generieren von Kennworteinträgen</string>
-    <!-- Misc -->
+    <!-- Misc Titles-->
     <string name="title_last_edited">Zuletzt geändert: %s</string>
     <string name="title_autobackups">Automatische Sicherung</string>
     <string name="title_backup_every">Sichere alle</string>
@@ -173,6 +179,17 @@
     <string name="title_fingerprint_hint">Berührungssensor</string>
     <string name="title_folders">Ordner</string>
     <string name="title_sort_type">Name</string>
+    <string name="title_signin_fingerprint">Anmeldung mit Fingerabdruck</string>
+    <string name="title_login_failed">Anmeldung fehlgeschlagen</string>
+    <string name="title_failed_attempts">Zu viele Fehlversuche, versuche Dich mittels Deines Kennworts anzumelden</string>
+    <string name="title_confirmation_failed">Bestätigung fehlgeschlagen</string>
+    <string name="title_too_many_failed_try_again">Zu viele Fehlversuche, versuche es später nochmals</string>
+    <string name="title_file_picker_select_restore_csv">CSV zur Wiederherstellung auswählen</string>
+    <string name="title_file_picker_select_restore_db">DB zur Wiederherstellung auswählen</string>
+    <string name="title_file_picker_select_file_share">Datei zum Teilen auswählen</string>
+    <string name="title_file_picker_select_csv_dest">CSV Sicherungsort auswählen</string>
+    <string name="title_file_picker_select_db_dest">DB Sicherungsort auswählen</string>
+    <!-- Misc Messages-->
     <string name="message_empty_passwords_recycler">Kennwörter erscheinen hier nach dem Zufügen</string>
     <string name="message_welcome_first_start">Um zu beginnen musst Du ein Haupt-Kennwort eingegeben. Mittels dieses Haupt-Kennworts werden deine Kennwörter verschlüsselt.\n\nDas Haupt-Kennwort ist nicht wiederherstellbar, und im Falle des Vergessens des Haupt-Kennworts sind alle anderen Kennwörter verloren.\n\nUm Datenverlust zu vermeiden, sichere regelmäßig die Datenbank.</string>
     <string name="message_placeholder_app_name">Tippe, um eine Anwendung hinzuzufügen</string>
@@ -212,17 +229,16 @@
     <string name="backup_interval_two_weeks">2 Wochen</string>
     <string name="backup_interval_three_weeks">3 Wochen</string>
     <string name="backup_interval_one_month">1 Monat</string>
+
     <string name="sort_option_alphabetically_ascending">Alphabetisch (Aufsteigend)</string>
     <string name="sort_option_alphabetically_descending">Alphabetisch (Absteigend)</string>
     <string name="sort_option_date_created_ascending">Datum (Aufsteigend)</string>
     <string name="sort_option_date_created_descending">Datum (Absteigend)</string>
     <string name="sort_option_color_ascending">Farbe (Aufsteigend)</string>
     <string name="sort_option_color_descending">Farbe (Absteigend)</string>
-    <string name="date_ending_st">%s1.</string>
-    <string name="date_ending_nd">%s2.</string>
-    <string name="date_ending_rd">%s3.</string>
-    <string name="date_ending_th">%s5.</string>
-    <string name="action_delete_category_passwords">Kategorie und Kennwörter löschen</string>
-    <string name="action_delete_category">Kategorie löschen</string>
-    <string name="action_rename_category">Kategorie umbenennen</string>
+
+    <string name="date_ending_st">%d.</string>
+    <string name="date_ending_nd">%d.</string>
+    <string name="date_ending_rd">%d.</string>
+    <string name="date_ending_th">%d.</string>
 </resources>

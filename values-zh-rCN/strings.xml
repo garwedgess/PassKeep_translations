@@ -249,9 +249,9 @@
     <string name="sort_option_color_ascending">按颜色 (升序)</string>
     <string name="sort_option_color_descending">按颜色 (降序)</string>
 
-    <string name="date_ending_st">%s日</string>
-    <string name="date_ending_nd">%s日</string>
-    <string name="date_ending_rd">%s日</string>
-    <string name="date_ending_th">%s日</string>
+    <string name="date_ending_st">%d日</string>
+    <string name="date_ending_nd">%d日</string>
+    <string name="date_ending_rd">%d日</string>
+    <string name="date_ending_th">%d日</string>
 
 </resources>

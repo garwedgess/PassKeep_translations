@@ -1,15 +1,16 @@
+<?xml version="1.0"?>
 <resources xmlns:xliff="http://schemas.android.com/apk/res-auto">
     <string name="app_name">PassKeep</string>
 
     <!-- Main Titles -->
     <string name="fragment_title_settings">Ayarlar</string>
     <string name="fragment_title_backup_restore">Yedekle/Geri Yükle</string>
+    <string name="fragment_title_cat_manager">Kategori Yöneticisi</string>
     <string name="fragment_title_passwords">Şifreler</string>
     <string name="fragment_title_password_entry">Şifre Verileri</string>
     <string name="fragment_title_password_generator">Şifre Oluşturucu</string>
     <string name="fragment_title_path_picker_default">Bir Dizin Seç</string>
     <string name="fragment_title_path_picker_share_backup">Yedek Dosyasını Paylaş</string>
-    <string name="fragment_title_cat_manager">Kategori Yöneticisi</string>
 
     <!--Actions -->
     <string name="action_select_all">Tümünü seç</string>
@@ -29,13 +30,13 @@
     <string name="action_delete_category">Kategoriyi Sil</string>
     <string name="action_rename_category">Kategori Adını Değiştir</string>
 
-    <!-- Toast/Snackbar -->
+    <!-- Toast Messages -->
     <string name="toast_message_dir_created">Dizin başarıyla oluşturuldu</string>
-    <string name="toast_message_dir_failed">Dizin oluşturma başarısız</string>
     <string name="toast_message_restore_success">Geri Yükleme Başarılı</string>
     <string name="toast_message_restore_failed">Geri Yükleme Başarısız</string>
     <string name="toast_message_copied_to_clipboard">Panoya kopyalandı</string>
     <string name="toast_message_double_tap_to_exit">Çıkmak için çift dokun</string>
+    <string name="toast_message_double_tap_to_exit_file_picker">Dosya seçiçiden çıkmak için iki kez dokunun</string>
     <string name="toast_message_must_contain">Şifrenin içermesini istediğiniz karakterleri seçmelisiniz.</string>
     <string name="toast_message_backup_fail">Yedekleme başarısız</string>
     <string name="toast_message_backup_success">Yedekleme başarılı</string>
@@ -45,8 +46,13 @@
     <string name="toast_message_no_backups">Henüz hiçbir yedek oluşturulmadı</string>
     <string name="toast_message_no_character">Hiçbir özel karakter girilmedi.</string>
     <string name="toast_message_no_change_in_categoryname">Kategori adında değişiklik yok</string>
+    <string name="toast_message_secure_lock_not_set"><![CDATA[Güvenli kilit ekranı ayarlanmadı.\nBir parmak izi ayarlamak için \'Ayarlar -> Güvenlik -> Parmak izi\' yolunu izleyin]]></string>
+    <string name="toast_message_no_fingerprint_setup"><![CDATA[\'Ayarlar -> Güvenlik -> Parmak izi\' yolunu izleyin ve en az bir parmak izi kayıt edin]]></string>
+    <string name="toast_message_fingerprint_disabled">Parmak izi ile giriş devre dışı</string>
+    <string name="toast_message_use_password">Giriş yapmak için şifrenizi kullanın</string>
 
-    <string name="snackbar_message_select_a_backup_to">%s </string>
+    <!-- Snackbar Messages -->
+    <string name="snackbar_message_select_a_backup_to">%s</string>
     <string name="snackbar_message_append_share">paylaş</string>
     <string name="snackbar_message_append_restore">geri yükle</string>
     <string name="snackbar_messgae_select_folder">Konumu seçmek için bir klasöre uzun dokunun</string>
@@ -59,7 +65,10 @@
     <string name="et_hint_backup_restore_loc">Yedekleme/Geri Yükleme Konumu</string>
     <string name="et_hint_new_masterkey">Yeni Ana Şifre</string>
     <string name="et_hint_name">Ad</string>
+    <string name="et_hint_folder_name">Klasör Adı</string>
     <string name="et_hint_password">Şifre</string>
+    <string name="et_hint_password_2">2. Şifre</string>
+    <string name="et_hint_category">Kategori</string>
     <string name="et_hint_title">Başlık</string>
     <string name="et_hint_site">Site</string>
     <string name="et_hint_old_masterkey">Eski Ana Şifre</string>
@@ -67,18 +76,18 @@
     <string name="et_hint_username">Kullanıcı adı</string>
     <string name="et_hint_description">Açıklama</string>
     <string name="et_hint_custom_characters">Özel karakterleri girin.</string>
-    <string name="et_hint_category">Kategori</string>
-    <string name="et_hint_password_2">2. Şifre</string>
-    <string name="error_blank_entry">Boş bırakılamaz</string>
     <string name="error_passwords_dont_match">Şifreler eşleşmiyor</string>
     <string name="error_incorrect_password">Yanlış şifre</string>
     <string name="error_blank_pass_title">Başlık boş bırakılamaz</string>
+    <string name="error_blank_entry">Boş bırakılamaz</string>
     <string name="error_blank_pass_username">Kullanıcı adı boş bırakılamaz</string>
     <string name="error_blank_password">Şifre boş bırakılamaz</string>
     <string name="error_password_length_short">Şifre en az 6 karakter uzunluğunda olmalıdır</string>
+    <string name="error_alert_et_name_required">İsim gerekiyor</string>
     <string name="til_title_backup">Yedek Dosyasının Adı</string>
 
     <!-- AlertDialogs -->
+    <string name="alert_title_confirm_selection">Seçimi Doğrulayın</string>
     <string name="alert_title_self_destruct">Kendini Sıfırla</string>
     <string name="alert_title_delete_password">Şifreyi Sil</string>
     <string name="alert_title_backup_from_csv">CSV Yedekle</string>
@@ -92,17 +101,19 @@
     <string name="alert_title_sort_passwords">Şifreleri Sırala</string>
     <string name="alert_title_rename_category">Kategori Adını Değiştir</string>
     <string name="alert_title_permissions">Permissions</string>
+    <string name="alert_message_selected_file">Seçilen dosya: %s</string>
     <string name="alert_message_restart_app">Ekran görüntülerinin kaydedilmesini engellemek/izin vermek için uygulama yeniden başlatılmalıdır. PassKeep şimdi yeniden başlatılsın mı?</string>
-    <string name="alert_message_permission_system_alert">Yüzen pencere özelliği için SYSTEM_ALERT_WINDOW iznini gerektirmektedir. Bu izin olmadan yüzen pencere özelliği çalışmayacaktır.</string>
-    <string name="alert_message_read_write_permissions">PassKeep depolama alanınıza yazmak için izinli değil. Bu nedenle, yedeği geri yükleme özelliği çalışmayacaktır. Lütfen buna izin vermeyi göz önünde bulundurun</string>
-    <string name="alert_message_grant_drawoverapps_permission">PassKeep diğer uygulamaların üzerine yazmak için izinli değil. Bu yüzden yüzen pencere özelliği çalışmayacaktır. Lütfen buna izin vermeyi göz önünde bulundurun</string>
-    <string name="alert_btn_grant_permissions">İzin Ver</string>
     <string name="alert_message_loading_app_list">Uygulama listesi yükleniyor</string>
     <string name="alert_message_delete_password_confirm">%s bilgilerini silmek istediğinizden emin misiniz? Bu işlem geri alınamaz.</string>
     <string name="alert_message_password_change">Yeni bir şifre oluşturmak eskisini silecektir. Devam etmek istediğinizden emin misiniz?</string>
     <string name="alert_message_save_changes">Yapılan değişiklikleri kaydetmek istiyor musunuz?</string>
     <string name="alert_message_discard_entry">Bu girdiyi silmek istiyor musunuz?</string>
     <string name="alert_message_self_destruct_activated">Maksimum oturum açma girişimine ulaşıldı. Tüm şifreler kalıcı olarak silindi. Artık geri dönüş yok!</string>
+    <string name="alert_message_permission_system_alert">Yüzen pencere özelliği için SYSTEM_ALERT_WINDOW iznini gerektirmektedir. Bu izin olmadan yüzen pencere özelliği çalışmayacaktır.</string>
+    <string name="alert_message_read_write_permissions">PassKeep depolama alanınıza yazmak için izinli değil. Bu nedenle, yedeği geri yükleme özelliği çalışmayacaktır. Lütfen buna izin vermeyi göz önünde bulundurun</string>
+    <string name="alert_message_grant_drawoverapps_permission">PassKeep diğer uygulamaların üzerine yazmak için izinli değil. Bu yüzden yüzen pencere özelliği çalışmayacaktır. Lütfen buna izin vermeyi göz önünde bulundurun</string>
+    <string name="alert_btn_grant_permissions">İzin Ver</string>
+    <string name="alert_btn_select_folder">Klasör Seç</string>
     <string name="alert_btn_yes">Evet</string>
     <string name="alert_btn_cancel">İptal</string>
     <string name="alert_btn_no">Hayır</string>
@@ -124,9 +135,6 @@
     <string name="pref_title_show_system_apps">Sistem Uygulamalarını Göster</string>
     <string name="pref_title_use_pass_gen_options">Sistem Oluşturucu Seçenekleri</string>
     <string name="pref_title_hide_usernames">Kullanıcı Adlarını Gizle</string>
-    <string name="pref_summary_show_system_apps">Şifre verileri için uygulama listesinde sistem uygulamalarını göster</string>
-    <string name="pref_summary_hide_usernames">Şifreler listesinden kullanıcı adlarını gizle</string>
-    <string name="pref_summary_use_pass_gen_options">Veriler için şifre oluşturulurken şifre oluşturucu seçeneklerini kullan</string>
     <string name="pref_summary_delete_all_passwords">** Uyarı ** Ana şifre de dahil olmak üzere veritabanının tüm içeriğini silecektir. Bu işlem geri alınamaz.</string>
     <string name="pref_summary_reset_master_passkey">** Uyarı ** Bu işlem ana şifreyi sıfırlayacaktır. Eski şifreyle yapılan yedeklemeler artık çalışmayacaktır.</string>
     <string name="pref_summary_self_destruct">\"Giriş Yap\" butonu kullanılarak yapılan 5 başarısız oturum açma girişiminden sonra tüm şifreleri sil.</string>
@@ -138,8 +146,11 @@
     <string name="pref_summary_hide_passwords">Şifreyi görüntülemek için \"göz\" simgesini kullan.</string>
     <string name="pref_summary_dark_theme">Uygulamanın arayüzünü koyu materyal temayla değiştir. (Uygulama yeniden başlayacaktır)</string>
     <string name="pref_default_backup_amount_unlimited">Sınırsız</string>
+    <string name="pref_summary_show_system_apps">Şifre verileri için uygulama listesinde sistem uygulamalarını göster</string>
+    <string name="pref_summary_hide_usernames">Şifreler listesinden kullanıcı adlarını gizle</string>
+    <string name="pref_summary_use_pass_gen_options">Veriler için şifre oluşturulurken şifre oluşturucu seçeneklerini kullan</string>
 
-    <!-- Misc -->
+    <!-- Misc Titles-->
     <string name="title_last_edited">Son düzenleme: %s</string>
     <string name="title_autobackups">Otomatik yedekleme</string>
     <string name="title_backup_every">Yedekleme Aralığı</string>
@@ -167,21 +178,42 @@
     <string name="title_no_category">Kategori Yok</string>
     <string name="title_category_new">Yeni Kategori</string>
     <string name="title_add_new_category">Yeni Kategori Ekle</string>
+    <string name="title_category_toolbar">Kategori:</string>
+    <string name="title_select_destination_folder">Hedef klasörü seçin</string>
+    <string name="title_files">Dosyalar</string>
+    <string name="title_use_fingerprint_to_authenticate_title">Yetkilendirmek için parmak izini kullanın</string>
+    <string name="title_fingerprint_description">Devam etmek için parmak izini doğrulayın</string>
+    <string name="title_fingerprint_hint">Dokunmatik sensörü</string>
+    <string name="title_folders">Klasörler</string>
+    <string name="title_sort_type">İsim</string>
+    <string name="title_signin_fingerprint">Parmak izi ile giriş yap</string>
+    <string name="title_login_failed">Giriş Başarısız</string>
+    <string name="title_failed_attempts">Çok fazla başarısız girişim, şifrenizi kullanarak giriş yapmayı tekrar deneyin</string>
+    <string name="title_confirmation_failed">Doğrulama Başarısız</string>
+    <string name="title_too_many_failed_try_again">Çok fazla başarısız girişim, daha sonra tekrar deneyin</string>
+    <string name="title_file_picker_select_restore_csv">Geri yüklemek için CSV seçin</string>
+    <string name="title_file_picker_select_restore_db">Geri yüklemek için DB seçin</string>
+    <string name="title_file_picker_select_file_share">Paylaşmak için dosya seçin</string>
+    <string name="title_file_picker_select_csv_dest">CSV yedekleme konumunu seçin</string>
+    <string name="title_file_picker_select_db_dest">DB yedekleme konumunu seçin</string>
 
-    <string name="message_no_categories_available">Hiçbir kategori mevcut değil.</string>
+    <!-- Misc Messages-->
     <string name="message_empty_passwords_recycler">Şifreler eklendiğinde burada görüntülenecektir</string>
     <string name="message_welcome_first_start">Başlatmak için bir ana şifre girmeniz gerekmektedir. Bu ana şifre, şifrelerinizi koruma altına almak için kullanılacaktır.\n\nAna şifrenin unutulması durumunda, bu ana şifre kurtarılamayacak ve tüm şifreler kaybedilecektir.\n\nVeri kayıplarını önlemek için veritabanını düzenli olarak yedekleyin.</string>
     <string name="message_placeholder_app_name">Uygulama Eklemek İçin Dokun</string>
     <string name="message_placeholder_apk_package">Daha sonra uygulamayı buradan açabilirsiniz</string>
-
+    <string name="message_no_categories_available">Hiçbir kategori mevcut değil.</string>
+    <string name="message_fingerprint_not_recognized">Parmak izi algılanmadı. Tekrar deneyin</string>
+    <string name="message_fingerprint_success">Parmak izi algılandı</string>
+    <string name="message_empty_folder">Klasör boş&#8230;</string>
     <string name="message_notification">PassKeep çalışıyor&#8230;</string>
-
     <string name="btn_generate_password">Şifre Oluştur</string>
     <string name="btn_restore_db">DB Geri Yükle</string>
     <string name="btn_backup_db">DB Yedekle</string>
     <string name="btn_restore_csv">CSV dosyasından yükle</string>
     <string name="btn_backup_csv">CSV dosyasına yedekle</string>
     <string name="btn_submit_master_password">Başlat</string>
+    <string name="btn_use_password">Şifre kullan</string>
 
     <!-- Default title for color picker dialog [CHAR LIMIT=30] -->
     <string name="color_picker_default_title">Bir Renk Seç</string>
@@ -197,7 +229,6 @@
     <string name="timer_five_minutes">5 dakika</string>
     <string name="timer_ten_minutes">10 dakika</string>
     <string name="timer_fifteen_minutes">15 dakika</string>
-
     <string name="backup_interval_one_day">1 gün</string>
     <string name="backup_interval_two_days">2 gün</string>
     <string name="backup_interval_three_days">3 gün</string>
@@ -216,9 +247,8 @@
     <string name="sort_option_color_ascending">Renk (yükselen)</string>
     <string name="sort_option_color_descending">Renk (inme)</string>
 
-    <string name="date_ending_st">%sst</string>
-    <string name="date_ending_nd">%snd</string>
-    <string name="date_ending_rd">%srd</string>
-    <string name="date_ending_th">%sth</string>
-
+    <string name="date_ending_st">%dst</string>
+    <string name="date_ending_nd">%dnd</string>
+    <string name="date_ending_rd">%drd</string>
+    <string name="date_ending_th">%dth</string>
 </resources>

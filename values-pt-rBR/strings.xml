@@ -1,3 +1,4 @@
+<?xml version="1.0"?>
 <resources xmlns:xliff="http://schemas.android.com/apk/res-auto">
     <string name="app_name">PassKeep</string>
 
@@ -25,14 +26,17 @@
     <string name="action_floating_window">Janela Flutuante</string>
     <string name="alert_title_new_folder">Novo Diretório</string>
     <string name="action_sort">Ordenar</string>
+    <string name="action_delete_category_passwords">Excluir Categoria e Senhas</string>
+    <string name="action_delete_category">Excluir Categoria</string>
+    <string name="action_rename_category">Renomear Categoria</string>
 
-    <!-- Toast/Snackbar -->
+    <!-- Toast Messages -->
     <string name="toast_message_dir_created">Diretório criado com sucesso</string>
-    <string name="toast_message_dir_failed">Falha ao criar diretório</string>
     <string name="toast_message_restore_success">Restaurado com Sucesso</string>
     <string name="toast_message_restore_failed">Falha na Restauração</string>
     <string name="toast_message_copied_to_clipboard">Copiado para a prancheta</string>
     <string name="toast_message_double_tap_to_exit">Toque duas vezes para sair</string>
+    <string name="toast_message_double_tap_to_exit_file_picker">Toque duas vezes para sair do seletor de arquivos</string>
     <string name="toast_message_must_contain">Você deve escolher os caracteres que você quer que a senha contenha</string>
     <string name="toast_message_backup_fail">O backup falhou</string>
     <string name="toast_message_backup_success">Backup bem-sucedido</string>
@@ -42,7 +46,12 @@
     <string name="toast_message_no_backups">Ainda não há backups criados</string>
     <string name="toast_message_no_character">Nenhum caracter personalizado foi inserido</string>
     <string name="toast_message_no_change_in_categoryname">Nenhuma mudança no nome da categoria</string>
+    <string name="toast_message_secure_lock_not_set"><![CDATA[Bloqueio de tela seguro não foi configurado. \nVá para \'Configurações -> Segurança -> impressão digital\' para configurar uma impressão digital]]></string>
+    <string name="toast_message_no_fingerprint_setup"><![CDATA[Vá para \'Configurações -> Segurança -> impressão digital\' e registre pelo menos uma impressão digital]]></string>
+    <string name="toast_message_fingerprint_disabled">Login por impressão digital desativado</string>
+    <string name="toast_message_use_password">Use sua senha para entrar</string>
 
+    <!-- Snackbar Messages -->
     <string name="snackbar_message_select_a_backup_to">Selecione um backup para %s</string>
     <string name="snackbar_message_append_share">compartilhar</string>
     <string name="snackbar_message_append_restore">restaurar</string>
@@ -56,6 +65,7 @@
     <string name="et_hint_backup_restore_loc">Backup/Restaurar Localização</string>
     <string name="et_hint_new_masterkey">Nova Senha Mestra</string>
     <string name="et_hint_name">Nome</string>
+    <string name="et_hint_folder_name">Nome da pasta</string>
     <string name="et_hint_password">Senha</string>
     <string name="et_hint_password_2">Senha 2</string>
     <string name="et_hint_category">Categoria</string>
@@ -73,9 +83,11 @@
     <string name="error_blank_pass_username">O nome de usuário não pode ser deixado em branco</string>
     <string name="error_blank_password">A senha não pode ser deixada em branco</string>
     <string name="error_password_length_short">A senha deve ter pelo menos 6 caracteres</string>
+    <string name="error_alert_et_name_required">O nome é requerido</string>
     <string name="til_title_backup">Nome do Arquivo de Backup</string>
 
     <!-- AlertDialogs -->
+    <string name="alert_title_confirm_selection">Confirme a seleção</string>
     <string name="alert_title_self_destruct">Autodestruir</string>
     <string name="alert_title_delete_password">Excluir Senha</string>
     <string name="alert_title_backup_from_csv">Backup de CSV</string>
@@ -89,6 +101,7 @@
     <string name="alert_title_sort_passwords">Ordenar Senhas</string>
     <string name="alert_title_rename_category">Renomear Categoria</string>
     <string name="alert_title_permissions">Permissões</string>
+    <string name="alert_message_selected_file">Arquivo selecionado: %s</string>
     <string name="alert_message_restart_app">O aplicativo precisa ser reiniciado para bloquear/permitir capturas de tela. Reiniciar PassKeep agora?</string>
     <string name="alert_message_loading_app_list">Carregando lista de aplicativos</string>
     <string name="alert_message_delete_password_confirm">Você tem certeza de que deseja excluir %s? Isto não pode ser desfeito.</string>
@@ -100,6 +113,7 @@
     <string name="alert_message_read_write_permissions">Não foi concedida permissão para PassKeep escrever no seu armazenamento. Por isso, a função de restauração de backup não funcionará. Por favor, considere conceder esta permissão.</string>
     <string name="alert_message_grant_drawoverapps_permission">Não foi concedida permissão para PassKeep sobrescrever outras aplicações. Portanto, a função janela flutuante não funcionará. Por favor, considere conceder esta permissão.</string>
     <string name="alert_btn_grant_permissions">Conceder Permissão</string>
+    <string name="alert_btn_select_folder">Selecione a pasta</string>
     <string name="alert_btn_yes">Sim</string>
     <string name="alert_btn_cancel">Cancelar</string>
     <string name="alert_btn_no">Não</string>
@@ -136,7 +150,7 @@
     <string name="pref_summary_hide_usernames">Esconder os nomes de usuário das senhas da lista de senhas</string>
     <string name="pref_summary_use_pass_gen_options">Usar as opções de geradores de senha ao gerar senhas de acesso</string>
 
-    <!-- Misc -->
+    <!-- Misc Titles-->
     <string name="title_last_edited">Editado pela última vez: %s</string>
     <string name="title_autobackups">Backup automático</string>
     <string name="title_backup_every">Frequência de Backup</string>
@@ -165,22 +179,41 @@
     <string name="title_category_new">Nova Categoria</string>
     <string name="title_add_new_category">Adicionar Nova Categoria</string>
     <string name="title_category_toolbar">Categoria:</string>
+    <string name="title_select_destination_folder">Selecione a pasta de destino</string>
+    <string name="title_files">Arquivos</string>
+    <string name="title_use_fingerprint_to_authenticate_title">Use sua impressão digital para autenticar</string>
+    <string name="title_fingerprint_description">Confirme a impressão digital para continuar</string>
+    <string name="title_fingerprint_hint">Sensor de toque</string>
+    <string name="title_folders">Pastas</string>
+    <string name="title_sort_type">Nome</string>
+    <string name="title_signin_fingerprint">Entre com sua impressão digital</string>
+    <string name="title_login_failed">Falha ao entrar</string>
+    <string name="title_failed_attempts">Muitas tentativas falharam, tente entrar usando sua senha</string>
+    <string name="title_confirmation_failed">Falha na confirmação</string>
+    <string name="title_too_many_failed_try_again">Muitas tentativas falhadas, tente novamente mais tarde</string>
+    <string name="title_file_picker_select_restore_csv">Selecione o CSV a restaurar</string>
+    <string name="title_file_picker_select_restore_db">Selecione o BD a restaurar</string>
+    <string name="title_file_picker_select_file_share">Selecione o arquivo a compartilhar</string>
+    <string name="title_file_picker_select_csv_dest">Selecione o destino do backup CSV</string>
+    <string name="title_file_picker_select_db_dest">Selecione o destino do backup DB</string>
 
-
+    <!-- Misc Messages-->
     <string name="message_empty_passwords_recycler">As senhas aparecerão aqui quando adicionadas.</string>
     <string name="message_welcome_first_start">Para começar, você deve digitar uma senha mestra. Esta senha mestra será usada para criptografar as suas senhas.\n\nA senha mestra é irrecuperável e, no caso de esquecer-se da senha mestra, todas as senhas serão perdidas.\n\nPara prevenir a perda de dados faça o backup do banco de dados regularmente.</string>
     <string name="message_placeholder_app_name">Toque para Adicionar Aplicativo</string>
     <string name="message_placeholder_apk_package">Você pode, então, abrir o aplicativo a partir daqui</string>
     <string name="message_no_categories_available">Sem categorias disponíveis.</string>
-
+    <string name="message_fingerprint_not_recognized">Impressão digital não reconhecida. Tente novamente</string>
+    <string name="message_fingerprint_success">Impressão digital reconhecida</string>
+    <string name="message_empty_folder">Pasta vazia&#8230;</string>
     <string name="message_notification">PassKeep está em execução&#8230;</string>
-
     <string name="btn_generate_password">Gerar Senha</string>
     <string name="btn_restore_db">Restaurar DB</string>
     <string name="btn_backup_db">Backup de DB</string>
     <string name="btn_restore_csv">Restaurar do CSV</string>
     <string name="btn_backup_csv">Backup para CSV</string>
     <string name="btn_submit_master_password">Começar</string>
+    <string name="btn_use_password">Use a senha</string>
 
     <!-- Default title for color picker dialog [CHAR LIMIT=30] -->
     <string name="color_picker_default_title">Selecione uma Cor</string>
@@ -196,7 +229,6 @@
     <string name="timer_five_minutes">5 minutos</string>
     <string name="timer_ten_minutes">10 minutos</string>
     <string name="timer_fifteen_minutes">15 minutos</string>
-
     <string name="backup_interval_one_day">1 dia</string>
     <string name="backup_interval_two_days">2 dias</string>
     <string name="backup_interval_three_days">3 dias</string>
@@ -215,13 +247,8 @@
     <string name="sort_option_color_ascending">Cor (Crescente)</string>
     <string name="sort_option_color_descending">Cor (Decrescente)</string>
 
-    <string name="date_ending_st">%sst</string>
-    <string name="date_ending_nd">%snd</string>
-    <string name="date_ending_rd">%srd</string>
-    <string name="date_ending_th">%sth</string>
-
-    <string name="action_delete_category_passwords">Excluir Categoria e Senhas</string>
-    <string name="action_delete_category">Excluir Categoria</string>
-    <string name="action_rename_category">Renomear Categoria</string>
-
+    <string name="date_ending_st">%dst</string>
+    <string name="date_ending_nd">%dnd</string>
+    <string name="date_ending_rd">%drd</string>
+    <string name="date_ending_th">%dth</string>
 </resources>

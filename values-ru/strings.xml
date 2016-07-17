@@ -1,6 +1,7 @@
 <?xml version="1.0"?>
 <resources xmlns:xliff="http://schemas.android.com/apk/res-auto">
     <string name="app_name">PassKeep</string>
+
     <!-- Main Titles -->
     <string name="fragment_title_settings">Настройки</string>
     <string name="fragment_title_backup_restore">Резервное копирование</string>
@@ -10,6 +11,7 @@
     <string name="fragment_title_password_generator">Генератор паролей</string>
     <string name="fragment_title_path_picker_default">Выберите путь</string>
     <string name="fragment_title_path_picker_share_backup">Поделиться копией</string>
+
     <!--Actions -->
     <string name="action_select_all">Выбрать все</string>
     <string name="action_delete">Удалить</string>
@@ -24,7 +26,11 @@
     <string name="action_floating_window">Всплывающее окно</string>
     <string name="alert_title_new_folder">Создать папку</string>
     <string name="action_sort">Сортировать</string>
-    <!-- Toast/Snackbar -->
+    <string name="action_delete_category_passwords">Удалить категорию вместе с паролями</string>
+    <string name="action_delete_category">Удалить категорию</string>
+    <string name="action_rename_category">Переименовать категорию</string>
+
+    <!-- Toast Messages -->
     <string name="toast_message_dir_created">Путь создан</string>
     <string name="toast_message_dir_failed">Не удалось использовать данный путь</string>
     <string name="toast_message_restore_success">Восстановление завершено</string>
@@ -44,6 +50,9 @@
     <string name="toast_message_secure_lock_not_set"><![CDATA[Защита экрана блокировки не установлена.\nПерейдите в \'Настройки -> Безопасность-> Отпечаток пальца\' для настройки отпечатка]]></string>
     <string name="toast_message_no_fingerprint_setup"><![CDATA[Перейдите в \'Настройки -> Безопасность-> Отпечаток пальца\' и установите хотя бы один отпечаток]]></string>
     <string name="toast_message_fingerprint_disabled">Вход по отпечатку отключен</string>
+    <string name="toast_message_use_password">Используйте Ваш пароль для входа</string>
+
+    <!-- Snackbar Messages -->
     <string name="snackbar_message_select_a_backup_to">Выберите копию для %s</string>
     <string name="snackbar_message_append_share">отправки</string>
     <string name="snackbar_message_append_restore">восстановления</string>
@@ -51,6 +60,7 @@
     <string name="snackbar_message_self_destruct_remaining">Осталось %d попыток до самоликвидации. Все пароли будут уничтожены.</string>
     <string name="snackbar_message_deleted_item">Удален %d объект</string>
     <string name="snackbar_message_deleted_items">Удалено %d объектов</string>
+
     <!--EditText/TIL -->
     <string name="et_hint_confirm_masterkey">Подтвердите новый мастер-пароль</string>
     <string name="et_hint_backup_restore_loc">Расположение копий</string>
@@ -76,6 +86,7 @@
     <string name="error_password_length_short">Пароль должен содержать не менее 6 символов</string>
     <string name="error_alert_et_name_required">Необходимо заполнить имя</string>
     <string name="til_title_backup">Имя резервной копии</string>
+
     <!-- AlertDialogs -->
     <string name="alert_title_confirm_selection">Подтвердить выбор</string>
     <string name="alert_title_self_destruct">Самоликвидация</string>
@@ -103,10 +114,12 @@
     <string name="alert_message_read_write_permissions">PassKeep не получил разрешение на запись в память. Следовательно, резервирование и восстановление не будут работать. Пожалуйста, предоставьте это разрешение</string>
     <string name="alert_message_grant_drawoverapps_permission">PassKeep не получил разрешение на отображение поверх других приложений. Следовательно, всплывающее окно не будет работать. Пожалуйста, предоставьте это разрешение</string>
     <string name="alert_btn_grant_permissions">Предоставить</string>
+    <string name="alert_btn_select_folder">Выберите папку</string>
     <string name="alert_btn_yes">Да</string>
     <string name="alert_btn_cancel">Отмена</string>
     <string name="alert_btn_no">Нет</string>
     <string name="alert_btn_ok">Ok</string>
+
     <!--Preferences -->
     <string name="pref_category_title_appearance">Внешний вид</string>
     <string name="pref_category_title_general">Основные</string>
@@ -137,7 +150,8 @@
     <string name="pref_summary_show_system_apps">Отображать системные приложения в списке для добавления паролей</string>
     <string name="pref_summary_hide_usernames">Скрывать имена пользователя в списке паролей</string>
     <string name="pref_summary_use_pass_gen_options">Применять опции генератора паролей при создании паролей</string>
-    <!-- Misc -->
+
+    <!-- Misc Titles-->
     <string name="title_last_edited">Последнее изменение: %s</string>
     <string name="title_autobackups">Авторезервирование</string>
     <string name="title_backup_every">Создавать копии каждые:</string>
@@ -173,6 +187,18 @@
     <string name="title_fingerprint_hint">Датчик касаний</string>
     <string name="title_folders">Папки</string>
     <string name="title_sort_type">Имя</string>
+    <string name="title_signin_fingerprint">Войдите с отпечатком пальца</string>
+    <string name="title_login_failed">Ошибка входа</string>
+    <string name="title_failed_attempts">Слишком много ошибок, попробуйте войти с помощью пароля</string>
+    <string name="title_confirmation_failed">Ошибка подтверждения</string>
+    <string name="title_too_many_failed_try_again">Слишком много ошибок, попробуйте войти позже</string>
+    <string name="title_file_picker_select_restore_csv">Выберите CSV для восстановления</string>
+    <string name="title_file_picker_select_restore_db">Выберите базу данных для востановления</string>
+    <string name="title_file_picker_select_file_share">Выберите файл, чтобы поделиться</string>
+    <string name="title_file_picker_select_csv_dest">Выберите расположение копии CSV</string>
+    <string name="title_file_picker_select_db_dest">Выберите расположение копии базы данных</string>
+
+    <!-- Misc Messages-->
     <string name="message_empty_passwords_recycler">Добавленные пароли появятся здесь</string>
     <string name="message_welcome_first_start">Для начала Вам потребуется придумать мастер-пароль. С его помощью шифруются все остальные пароли.\n\nМастер-пароль нельзя восстановить и в случае его утраты все сохраненные пароли будут удалены.\n\nРегулярно создавайте резервные копии во избежание потери данных.</string>
     <string name="message_placeholder_app_name">Нажмите, чтобы добавить приложение</string>
@@ -189,10 +215,12 @@
     <string name="btn_backup_csv">Сохр в CSV</string>
     <string name="btn_submit_master_password">Приступить</string>
     <string name="btn_use_password">Использовать пароль</string>
+
     <!-- Default title for color picker dialog [CHAR LIMIT=30] -->
     <string name="color_picker_default_title">Выберите окрас</string>
     <string name="color_swatch_description"><xliff:g example="14" id="color_index">%1$d</xliff:g> цвет</string>
     <string name="color_swatch_description_selected">Выбран <xliff:g example="14" id="color_index">%1$d</xliff:g> цвет</string>
+
     <!-- Timer settings strings -->
     <string name="timer_off">Отключен</string>
     <string name="timer_on_exit">При выходе из прил.</string>
@@ -212,17 +240,16 @@
     <string name="backup_interval_two_weeks">Раз в 2 недели</string>
     <string name="backup_interval_three_weeks">Раз в 3 недели</string>
     <string name="backup_interval_one_month">Раз в месяц</string>
+
     <string name="sort_option_alphabetically_ascending">По алфавиту (возр.)</string>
     <string name="sort_option_alphabetically_descending">По алфавиту (убыв.)</string>
     <string name="sort_option_date_created_ascending">По дате (возр.)</string>
     <string name="sort_option_date_created_descending">По дате (убыв.)</string>
     <string name="sort_option_color_ascending">Цвет (возр.)</string>
     <string name="sort_option_color_descending">Цвет (убыв.)</string>
-    <string name="date_ending_st">%sый</string>
-    <string name="date_ending_nd">%sой</string>
-    <string name="date_ending_rd">%sий</string>
-    <string name="date_ending_th">%sый</string>
-    <string name="action_delete_category_passwords">Удалить категорию вместе с паролями</string>
-    <string name="action_delete_category">Удалить категорию</string>
-    <string name="action_rename_category">Переименовать категорию</string>
+
+    <string name="date_ending_st">%dый</string>
+    <string name="date_ending_nd">%dой</string>
+    <string name="date_ending_rd">%dий</string>
+    <string name="date_ending_th">%dый</string>
 </resources>

@@ -1,15 +1,16 @@
+<?xml version="1.0"?>
 <resources xmlns:xliff="http://schemas.android.com/apk/res-auto">
     <string name="app_name">PassKeep</string>
 
     <!-- Main Titles -->
     <string name="fragment_title_settings">Ustawienia</string>
     <string name="fragment_title_backup_restore">Kopia Zapasowa/Przywracanie</string>
+    <string name="fragment_title_cat_manager">Menadżer Kategorii</string>
     <string name="fragment_title_passwords">Hasła</string>
     <string name="fragment_title_password_entry">Wprowadzanie Hasła</string>
     <string name="fragment_title_password_generator">Generator Haseł</string>
     <string name="fragment_title_path_picker_default">Wybierz Katalog</string>
     <string name="fragment_title_path_picker_share_backup">Udostępnij Backup</string>
-    <string name="fragment_title_cat_manager">Menadżer Kategorii</string>
 
     <!--Actions -->
     <string name="action_select_all">Wybierz Wszystkie</string>
@@ -29,13 +30,14 @@
     <string name="action_delete_category">Usuń Kategorię</string>
     <string name="action_rename_category">Zmień Nazwę Kategorii</string>
 
-    <!-- Toast/Snackbar -->
+    <!-- Toast Messages -->
     <string name="toast_message_dir_created">Pomyślnie utworzono katalog</string>
     <string name="toast_message_dir_failed">Nie udało się utworzyć katalogu</string>
     <string name="toast_message_restore_success">Pomyślnie Przywrócono</string>
     <string name="toast_message_restore_failed">Nie udało się przywrócić</string>
     <string name="toast_message_copied_to_clipboard">Skopiowano do schowka</string>
     <string name="toast_message_double_tap_to_exit">Wciśnij dwukrotnie, aby wyjść</string>
+    <string name="toast_message_double_tap_to_exit_file_picker">Kliknij dwukrotnie aby zamknąć wybieranie pliku</string>
     <string name="toast_message_must_contain">Musisz wybrać znaki, które hasło będzie zawierać</string>
     <string name="toast_message_backup_fail">Nie udało się utworzyć kopii zapasowej</string>
     <string name="toast_message_backup_success">Kopia zapasowa wykonana pomyślnie</string>
@@ -45,7 +47,12 @@
     <string name="toast_message_no_backups">Nie utworzono żadnych kopii zapasowych</string>
     <string name="toast_message_no_character">Nie wprowadzono żadnych niestandardowych znaków</string>
     <string name="toast_message_no_change_in_categoryname">Brak zmian w nazwie kategorii</string>
+    <string name="toast_message_secure_lock_not_set"><![CDATA[Zabezpieczenie nie zostało ustawione.\nAby ustawić odcisk palca idź do \'Ustawienia -> Zabezpieczenia -> Odcisk Palca\']]></string>
+    <string name="toast_message_no_fingerprint_setup"><![CDATA[Idź do \'Ustawienia -> Zabezpieczenia -> Odcisk Palca\' i zarejestruj choć jeden odcisk palca]]></string>
+    <string name="toast_message_fingerprint_disabled">Logowanie za pomocą odcisku palca wyłączone</string>
+    <string name="toast_message_use_password">Użyj swojego hasła aby się zalogować</string>
 
+    <!-- Snackbar Messages -->
     <string name="snackbar_message_select_a_backup_to">Wybierz backup do %s</string>
     <string name="snackbar_message_append_share">udostępnij</string>
     <string name="snackbar_message_append_restore">przywrócenia</string>
@@ -59,7 +66,10 @@
     <string name="et_hint_backup_restore_loc">Lokalizacja Kopii Zapasowej/Przywracania</string>
     <string name="et_hint_new_masterkey">Nowy Klucz Główny</string>
     <string name="et_hint_name">Nazwa</string>
+    <string name="et_hint_folder_name">Nazwa Folderu</string>
     <string name="et_hint_password">Hasło</string>
+    <string name="et_hint_password_2">Hasło 2</string>
+    <string name="et_hint_category">Kategoria</string>
     <string name="et_hint_title">Tytuł</string>
     <string name="et_hint_site">Strona</string>
     <string name="et_hint_old_masterkey">Stary Klucz Główny</string>
@@ -67,18 +77,18 @@
     <string name="et_hint_username">Nazwa Użytkownika</string>
     <string name="et_hint_description">Opis</string>
     <string name="et_hint_custom_characters">Tutaj wpisz niestandardowe znaki</string>
-    <string name="et_hint_password_2">Hasło 2</string>
-    <string name="et_hint_category">Kategoria</string>
     <string name="error_passwords_dont_match">hasła nie pasują</string>
     <string name="error_incorrect_password">Błędne Hasło</string>
     <string name="error_blank_pass_title">Tytuł nie może pozostać pusty</string>
+    <string name="error_blank_entry">Nie może być puste</string>
     <string name="error_blank_pass_username">Nazwa Użytkownika nie może pozostać pusta</string>
     <string name="error_blank_password">Hasło nie może pozostać puste</string>
     <string name="error_password_length_short">Hasło musi składać się z przynajmniej 6 znaków</string>
-    <string name="error_blank_entry">Nie może być puste</string>
+    <string name="error_alert_et_name_required">Nazwa jest wymagana</string>
     <string name="til_title_backup">Nazwa Kopii Zapasowej</string>
 
     <!-- AlertDialogs -->
+    <string name="alert_title_confirm_selection">Potwierdź Wybór</string>
     <string name="alert_title_self_destruct">Autodestrukcja</string>
     <string name="alert_title_delete_password">Usuń Hasło</string>
     <string name="alert_title_backup_from_csv">Kopia Zapasowa CSV</string>
@@ -92,8 +102,9 @@
     <string name="alert_title_sort_passwords">Sortuj Hasła</string>
     <string name="alert_title_rename_category">Zmień Nazwę Kategorii</string>
     <string name="alert_title_permissions">Uprawnienia</string>
-    <string name="alert_message_loading_app_list">Ładowanie listy aplikacji</string>
+    <string name="alert_message_selected_file">Wybierz plik: %s</string>
     <string name="alert_message_restart_app">Aplikacja musi zostać ponownie uruchomiona w celu blokowania/zezwolenia na zrzuty ekranu. Uruchomić ponownie PassKeep teraz?</string>
+    <string name="alert_message_loading_app_list">Ładowanie listy aplikacji</string>
     <string name="alert_message_delete_password_confirm">Czy aby na pewno chcesz usunąć %s. Nie będzie można tego cofnąć.</string>
     <string name="alert_message_password_change">Wygenerowanie nowego hasła usunie poprzednie. Czy chcesz kontynuować?</string>
     <string name="alert_message_save_changes">Czy chcesz zapisać dokonane zmiany?</string>
@@ -102,17 +113,17 @@
     <string name="alert_message_permission_system_alert">Ta aplikacja wymaga uprawnienia SYSTEM_ALERT_WINDOW aby tworzyć ruchome okienka na innych aplikacjach. Bez tego uprawnienia, ruchome okienko nie będzie działać.</string>
     <string name="alert_message_read_write_permissions">PassKeep nie uzyskał pozwolenia na zapis. Dlatego funkcje kopii zapasowej i przywracanie nie będą działać. Proszę rozważyć udzielenie tego uprawnienia.</string>
     <string name="alert_message_grant_drawoverapps_permission">PassKeep nie uzyskał pozwolenia na nakładanie okienek na inne aplikacje. Dlatego ruchome okienka nie będą działać. Proszę rozważyć udzielenie tego uprawnienia.</string>
+    <string name="alert_btn_grant_permissions">Przyznaj Uprawnienie</string>
+    <string name="alert_btn_select_folder">Wybierz Folder</string>
     <string name="alert_btn_yes">Tak</string>
     <string name="alert_btn_cancel">Anuluj</string>
     <string name="alert_btn_no">Nie</string>
     <string name="alert_btn_ok">Ok</string>
-    <string name="alert_btn_grant_permissions">Przyznaj Uprawnienie</string>
 
     <!--Preferences -->
     <string name="pref_category_title_appearance">Wygląd</string>
     <string name="pref_category_title_general">Ogólne</string>
     <string name="pref_category_title_security">Zabezpieczenia</string>
-    <string name="pref_title_dark_theme">Ciemny Motyw</string>
     <string name="pref_title_keep_screen_on">Utrzymuj Włączony Ekran</string>
     <string name="pref_title_show_notification">Pokaż Powiadomienie</string>
     <string name="pref_title_hide_passwords">Ukryj Hasła</string>
@@ -121,13 +132,10 @@
     <string name="pref_title_block_screenshots">Zablokuj Zrzuty Ekranu</string>
     <string name="pref_title_auto_logout">Auto Wylogowywanie</string>
     <string name="pref_title_auto_login">Auto Logowanie</string>
+    <string name="pref_title_dark_theme">Ciemny Motyw</string>
     <string name="pref_title_show_system_apps">Pokaż Aplikacje Systemowe</string>
     <string name="pref_title_use_pass_gen_options">Opcje Generatora Haseł</string>
     <string name="pref_title_hide_usernames">Ukryj Nazwy Użytkowników</string>
-    <string name="pref_summary_show_system_apps">Pokaż również aplikacje systemowe podczas dodawania hasła</string>
-    <string name="pref_summary_hide_usernames">Ukryj nazwy użytkownika na liście haseł</string>
-    <string name="pref_summary_use_pass_gen_options">Używaj opcji generatora haseł podczas ich generowania</string>
-    <string name="pref_summary_dark_theme">Zmień temat PassKeep na ciemny \"material design\". (Aplikacja będzie uruchomiona ponownie)</string>
     <string name="pref_summary_delete_all_passwords">**Ostrzeżenie** Usuń całą zawartość Bazy Danych włącznie z Kluczem Głównym. Nie będzie można tego cofnąć.</string>
     <string name="pref_summary_reset_master_passkey">**Ostrzeżenie** Zresetuj Klucz Główny. Kopie Zapasowe utworzone ze starym kluczem nie będą więcej działać.</string>
     <string name="pref_summary_self_destruct">Usuń wszystkie hasła po 5 nieudanych próbach logowania za pomocą przycisku \"zaloguj się\".</string>
@@ -137,9 +145,13 @@
     <string name="pref_summary_show_notification">Pokaż powiadomienie na pasku status po uruchomieniu i odblokowaniu aplikacji.</string>
     <string name="pref_summary_keep_screen_on">Utrzymuj włączony ekran podczas pracy Passkeep</string>
     <string name="pref_summary_hide_passwords">Pokaż ikonę \"oka\" aby przełączyć widoczność haseł.</string>
+    <string name="pref_summary_dark_theme">Zmień temat PassKeep na ciemny \"material design\". (Aplikacja będzie uruchomiona ponownie)</string>
     <string name="pref_default_backup_amount_unlimited">Nieograniczone</string>
+    <string name="pref_summary_show_system_apps">Pokaż również aplikacje systemowe podczas dodawania hasła</string>
+    <string name="pref_summary_hide_usernames">Ukryj nazwy użytkownika na liście haseł</string>
+    <string name="pref_summary_use_pass_gen_options">Używaj opcji generatora haseł podczas ich generowania</string>
 
-    <!-- Misc -->
+    <!-- Misc Titles-->
     <string name="title_last_edited">Ostatnio edytowano: %s</string>
     <string name="title_autobackups">Automatyczna Kopia Zapasowa</string>
     <string name="title_backup_every">Zapis Kopii Zapasowej</string>
@@ -168,21 +180,41 @@
     <string name="title_category_new">Nowa Kategoria</string>
     <string name="title_add_new_category">Dodaj Nową Kategorię</string>
     <string name="title_category_toolbar">Kategoria:</string>
+    <string name="title_select_destination_folder">Wybierz folder docelowy</string>
+    <string name="title_files">Pliki</string>
+    <string name="title_use_fingerprint_to_authenticate_title">Użyj odcisku palca do autoryzacji</string>
+    <string name="title_fingerprint_description">Aby kontynuować potwierdź odcisk palca</string>
+    <string name="title_fingerprint_hint">Czujnik dotyku</string>
+    <string name="title_folders">Foldery</string>
+    <string name="title_sort_type">Nazwa</string>
+    <string name="title_signin_fingerprint">Zaloguj się za pomocą odcisku palca</string>
+    <string name="title_login_failed">Logowanie Nieudane</string>
+    <string name="title_failed_attempts">Zbyt wiele nieudanych prób, spróbuj zalogować się używając hasła</string>
+    <string name="title_confirmation_failed">Potwierdzenie Nieudane</string>
+    <string name="title_too_many_failed_try_again">Zbyt wiele nieudanych prób, spróbuj później</string>
+    <string name="title_file_picker_select_restore_csv">Wybierz CSV do przywrócenia</string>
+    <string name="title_file_picker_select_restore_db">Wybierz DB do przywrócenia</string>
+    <string name="title_file_picker_select_file_share">Wybierz plik do udostępnienia</string>
+    <string name="title_file_picker_select_csv_dest">Wybierz miejsce docelowe kopii CSV</string>
+    <string name="title_file_picker_select_db_dest">Wybierz miejsce docelowe kopii DB</string>
 
+    <!-- Misc Messages-->
     <string name="message_empty_passwords_recycler">Hasła pojawią się po dodaniu</string>
     <string name="message_welcome_first_start">Aby zacząć musisz podać Klucz Główny. Klucz Główny będzie używany do odszyfrowywania Twoich haseł.\n\nGłównego hasła nie da się odzyskać i po jego zapomnieniu wszystkie hasła zostaną utracone.\n\nAby zapobiec utracie danych wykonuj często kopię zapasową bazy danych.</string>
     <string name="message_placeholder_app_name">Dotkinj aby dodać Aplikację</string>
     <string name="message_placeholder_apk_package">Będziesz mógł ją stąd otworzyć</string>
     <string name="message_no_categories_available">Brak Dostępnych Kategorii.</string>
-
+    <string name="message_fingerprint_not_recognized">Odcisk palca nierozpoznany. Spróbuj ponownie</string>
+    <string name="message_fingerprint_success">Odcisk palca rozpoznany</string>
+    <string name="message_empty_folder">Folder jest pusty&#8230;</string>
     <string name="message_notification">PassKeep pracuje&#8230;</string>
-
     <string name="btn_generate_password">Wygeneruj Hasło</string>
     <string name="btn_restore_db">Przywróć Bazę Danych</string>
     <string name="btn_backup_db">Kopia Zapasowa Bazy Danych</string>
     <string name="btn_restore_csv">Przywróć z CSV</string>
     <string name="btn_backup_csv">Kopia Zapasowa do CSV</string>
     <string name="btn_submit_master_password">Start</string>
+    <string name="btn_use_password">Użyj hasła</string>
 
     <!-- Default title for color picker dialog [CHAR LIMIT=30] -->
     <string name="color_picker_default_title">Wybierz Kolor</string>
@@ -198,7 +230,6 @@
     <string name="timer_five_minutes">5 minut</string>
     <string name="timer_ten_minutes">10 minut</string>
     <string name="timer_fifteen_minutes">15 minut</string>
-
     <string name="backup_interval_one_day">1 dzień</string>
     <string name="backup_interval_two_days">2 dni</string>
     <string name="backup_interval_three_days">3 dni</string>
@@ -217,9 +248,8 @@
     <string name="sort_option_color_ascending">Kolor (Rosnąco)</string>
     <string name="sort_option_color_descending">Kolor (Malejąco)</string>
 
-    <string name="date_ending_st">%s.</string>
-    <string name="date_ending_nd">%s.</string>
-    <string name="date_ending_rd">%s.</string>
-    <string name="date_ending_th">%s.</string>
-
+    <string name="date_ending_st">%d.</string>
+    <string name="date_ending_nd">%d.</string>
+    <string name="date_ending_rd">%d.</string>
+    <string name="date_ending_th">%d.</string>
 </resources>
