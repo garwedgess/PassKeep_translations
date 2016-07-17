@@ -32,6 +32,7 @@
 
     <!-- Toast Messages -->
     <string name="toast_message_dir_created">Dizin başarıyla oluşturuldu</string>
+    <string name="toast_message_dir_failed">Dizin oluşturma başarısız</string>
     <string name="toast_message_restore_success">Geri Yükleme Başarılı</string>
     <string name="toast_message_restore_failed">Geri Yükleme Başarısız</string>
     <string name="toast_message_copied_to_clipboard">Panoya kopyalandı</string>
