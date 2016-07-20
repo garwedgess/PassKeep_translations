@@ -3,53 +3,53 @@
 
     <!-- Main Titles -->
     <string name="fragment_title_settings">Pengaturan</string>
-    <string name="fragment_title_backup_restore">Backup/Restore</string>
-    <string name="fragment_title_cat_manager">Category Manager</string>
-    <string name="fragment_title_passwords">Password</string>
-    <string name="fragment_title_password_entry">Password Entry</string>
-    <string name="fragment_title_password_generator">Password Generator</string>
+    <string name="fragment_title_backup_restore">Cadangkan/Kembalikan</string>
+    <string name="fragment_title_cat_manager">Manajer Kategori</string>
+    <string name="fragment_title_passwords">Kata Sandi</string>
+    <string name="fragment_title_password_entry">Entri Kata Sandi</string>
+    <string name="fragment_title_password_generator">Generator Kata Sandi</string>
     <string name="fragment_title_path_picker_default">Pilih Lokasi</string>
-    <string name="fragment_title_path_picker_share_backup">Bagi Backup</string>
+    <string name="fragment_title_path_picker_share_backup">Bagi Cadangan</string>
 
     <!--Actions -->
     <string name="action_select_all">Pilih semua</string>
     <string name="action_delete">Hapus</string>
     <string name="action_title_items_selected">%d terpilih</string>
     <string name="action_settings">Pengaturan</string>
-    <string name="action_edit_password">Ubah Password</string>
+    <string name="action_edit_password">Ubah Kata Sandi</string>
     <string name="action_logout">Keluar</string>
-    <string name="action_delete_password">Hapus Password</string>
+    <string name="action_delete_password">Hapus Kata Sandi</string>
     <string name="action_search">Cari</string>
     <string name="action_color_picker">Pilihan Warna</string>
     <string name="action_undo">Undo</string>
-    <string name="action_floating_window">Floating Window</string>
+    <string name="action_floating_window">Jendela Melayang</string>
     <string name="alert_title_new_folder">Folder Baru</string>
     <string name="action_sort">Urut</string>
-    <string name="action_delete_category_passwords">Hapus kategori and password</string>
+    <string name="action_delete_category_passwords">Hapus kategori and kata sandi</string>
     <string name="action_delete_category">Hapus kategori</string>
-    <string name="action_rename_category">Ubah nama category</string>
+    <string name="action_rename_category">Ubah nama kategori</string>
 
     <!-- Toast Messages -->
-    <string name="toast_message_dir_created">Folder berhasil dibuat</string>
+    <string name="toast_message_dir_created">Berhasil membuat folder</string>
     <string name="toast_message_dir_failed">Gagal membuat folder</string>
-    <string name="toast_message_restore_success">Restore sukses</string>
-    <string name="toast_message_restore_failed">Restore gagal</string>
-    <string name="toast_message_copied_to_clipboard">Copied to clipboard</string>
+    <string name="toast_message_restore_success">Pengembalian sukses</string>
+    <string name="toast_message_restore_failed">Pengembalian gagal</string>
+    <string name="toast_message_copied_to_clipboard">Terduplikat ke papan</string>
     <string name="toast_message_double_tap_to_exit">Dua kali ketuk untuk keluar</string>
-    <string name="toast_message_double_tap_to_exit_file_picker">Double tap to exit file picker</string>
+    <string name="toast_message_double_tap_to_exit_file_picker">Dua kali ketuk untuk keluar dari pilihan berkas</string>
     <string name="toast_message_must_contain">You must choose characters you want the password to contain</string>
-    <string name="toast_message_backup_fail">Backup gagal</string>
-    <string name="toast_message_backup_success">Backup sukses</string>
-    <string name="toast_message_autobackup_success">PassKeep: Backup otomatis selesai</string>
-    <string name="toast_message_autobackup_failed">PassKeep: Backup otomatis gagal</string>
-    <string name="toast_message_autobackup_restarted">PassKeep: AutoBackup restarted</string>
-    <string name="toast_message_no_backups">There are no backups yet created</string>
+    <string name="toast_message_backup_fail">Cadangan gagal dibuat</string>
+    <string name="toast_message_backup_success">Cadangan berhasil dibuat</string>
+    <string name="toast_message_autobackup_success">PassKeep: Cadangan otomatis selesai</string>
+    <string name="toast_message_autobackup_failed">PassKeep: Cadangan otomatis gagal</string>
+    <string name="toast_message_autobackup_restarted">PassKeep: Memulai ulang cadangan otomatis</string>
+    <string name="toast_message_no_backups">Belum ada cadangan yang dibuat</string>
     <string name="toast_message_no_character">No custom characters have been entered</string>
-    <string name="toast_message_no_change_in_categoryname">No change in category name</string>
+    <string name="toast_message_no_change_in_categoryname">Tidak ada perubahan di nama kategori</string>
     <string name="toast_message_secure_lock_not_set"><![CDATA[Secure lock screen hasn\'t been set up.\n Go to \'Settings -> Security -> Fingerprint\' to set up a fingerprint]]></string>
     <string name="toast_message_no_fingerprint_setup"><![CDATA[Go to \'Settings -> Security -> Fingerprint\' and register at least one fingerprint]]></string>
-    <string name="toast_message_fingerprint_disabled">Fingerprint sign in disabled</string>
-    <string name="toast_message_use_password">Use your password to sign in</string>
+    <string name="toast_message_fingerprint_disabled">Masuk menggunakan sidik jari dimatikan</string>
+    <string name="toast_message_use_password">Gunakan password anda untuk masuk</string>
 
     <!-- Snackbar Messages -->
     <string name="snackbar_message_select_a_backup_to">Select a backup to %s</string>
