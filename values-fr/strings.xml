@@ -1,0 +1,257 @@
+<resources xmlns:xliff="http://schemas.android.com/apk/res-auto">
+    <string name="app_name">PassKeep</string>
+
+    <!-- Main Titles -->
+    <string name="fragment_title_settings">Paramètres</string>
+    <string name="fragment_title_backup_restore">Sauvegarder/Restaurer</string>
+    <string name="fragment_title_cat_manager">Liste des Catégories</string>
+    <string name="fragment_title_passwords">Liste des Fiches</string>
+    <string name="fragment_title_password_entry">Créer la Fiche</string>
+    <string name="fragment_title_password_generator">Générateur de Clé</string>
+    <string name="fragment_title_path_picker_default">Choisir un Dossier</string>
+    <string name="fragment_title_path_picker_share_backup">Partager la Sauvegarde</string>
+
+    <!--Actions -->
+    <string name="action_select_all">Sélectionner Tout</string>
+    <string name="action_delete">Supprimer</string>
+    <string name="action_title_items_selected">%d sélectionné</string>
+    <string name="action_settings">Paramètres</string>
+    <string name="action_edit_password">Editer la Fiche</string>
+    <string name="action_logout">Déconnexion</string>
+    <string name="action_delete_password">Supprimer la Fiche</string>
+    <string name="action_search">Rechercher</string>
+    <string name="action_color_picker">Palette de Couleurs</string>
+    <string name="action_undo">Annuler</string>
+    <string name="action_floating_window">Fenêtre Flottante</string>
+    <string name="alert_title_new_folder">Nouveau Dossier</string>
+    <string name="action_sort">Tri</string>
+    <string name="action_delete_category_passwords">Supprimer Catégories et Fiches</string>
+    <string name="action_delete_category">Supprimer Catégorie</string>
+    <string name="action_rename_category">Renommer Catégorie</string>
+
+    <!-- Toast Messages -->
+    <string name="toast_message_dir_created">Dossier créé</string>
+    <string name="toast_message_dir_failed">Dossier non créé</string>
+    <string name="toast_message_restore_success">Restauration réussie</string>
+    <string name="toast_message_restore_failed">Restauration échouée</string>
+    <string name="toast_message_copied_to_clipboard">Copié dans le presse-papier</string>
+    <string name="toast_message_double_tap_to_exit">Taper deux fois pour quitter</string>
+    <string name="toast_message_double_tap_to_exit_file_picker">Taper deux fois pour sortir de la sélection de fichier</string>
+    <string name="toast_message_must_contain">Choisissez les caractères que clé doit contenir</string>
+    <string name="toast_message_backup_fail">Sauvegarde échouée</string>
+    <string name="toast_message_backup_success">Sauvegarde réussie</string>
+    <string name="toast_message_autobackup_success">PassKeep : Sauvegarde automatique terminée</string>
+    <string name="toast_message_autobackup_failed">PassKeep : Sauvegarde automatique échouée</string>
+    <string name="toast_message_autobackup_restarted">PassKeep : Sauvegarde automatique redémarrée</string>
+    <string name="toast_message_no_backups">Aucune sauvegarde encore créée</string>
+    <string name="toast_message_no_character">Aucun caractère spécial n'a été renseigné</string>
+    <string name="toast_message_no_change_in_categoryname">Aucun changement dans le nom de catégorie</string>
+    <string name="toast_message_secure_lock_not_set"><![CDATA[L'écran de verrouillage n'a pas été paramétré.\n Allez à \'Paramètres -> Sécurité -> Empreinte\' pour définir une empreinte]]></string>
+    <string name="toast_message_no_fingerprint_setup"><![CDATA[Allez à \'Paramètres -> Sécurité -> Empreinte\' et enregistrez au moins une empreinte]]></string>
+    <string name="toast_message_fingerprint_disabled">Accès par empreinte désactivé</string>
+    <string name="toast_message_use_password">Utilisez votre mot de passe pour vous authentifier</string>
+
+    <!-- Snackbar Messages -->
+    <string name="snackbar_message_select_a_backup_to">Sélectionner une sauvegarde dans %s</string>
+    <string name="snackbar_message_append_share">partager</string>
+    <string name="snackbar_message_append_restore">restaurer</string>
+    <string name="snackbar_messgae_select_folder">Appui long sur un dossier pour sélectionner l'emplacement</string>
+    <string name="snackbar_message_self_destruct_remaining">Plus que %d tentavive(s) avant l'autodestruction. Tous les fiches seront effacées.</string>
+    <string name="snackbar_message_deleted_item">%d objet supprimé</string>
+    <string name="snackbar_message_deleted_items">%d objets supprimés</string>
+
+    <!--EditText/TIL -->
+    <string name="et_hint_confirm_masterkey">Confirmer nouvelle clé principale</string>
+    <string name="et_hint_backup_restore_loc">Emplacement Sauvegarde/Restauration</string>
+    <string name="et_hint_new_masterkey">Nouvelle clé principale</string>
+    <string name="et_hint_name">Nom</string>
+    <string name="et_hint_folder_name">Nom du dossier</string>
+    <string name="et_hint_password">Clé 1</string>
+    <string name="et_hint_password_2">Clé 2</string>
+    <string name="et_hint_category">Catégorie</string>
+    <string name="et_hint_title">Titre</string>
+    <string name="et_hint_site">Site</string>
+    <string name="et_hint_old_masterkey">Ancienne clé principale</string>
+    <string name="et_hint_confirm_password">Confirmer la clé</string>
+    <string name="et_hint_username">Nom d'utilisateur</string>
+    <string name="et_hint_description">Description</string>
+    <string name="et_hint_custom_characters">Entrez des caractères spécifiques ici</string>
+    <string name="error_passwords_dont_match">Les clés ne correspondent pas</string>
+    <string name="error_incorrect_password">Clé incorrecte</string>
+    <string name="error_blank_pass_title">Le titre ne peut pas être vide</string>
+    <string name="error_blank_entry">Ne peut pas être vide</string>
+    <string name="error_blank_pass_username">Le nom d'utilisateur ne peut pas être vide</string>
+    <string name="error_blank_password">Clé ne peut pas être vide</string>
+    <string name="error_password_length_short">La clé doit comporter au moins 6 caractères</string>
+    <string name="error_alert_et_name_required">Un nom est requis</string>
+    <string name="til_title_backup">Nom de la sauvegarde</string>
+
+    <!-- AlertDialogs -->
+    <string name="alert_title_confirm_selection">Confirmer la Sélection</string>
+    <string name="alert_title_self_destruct">Autodestruction</string>
+    <string name="alert_title_delete_password">Supprimer la Fiche</string>
+    <string name="alert_title_backup_from_csv">Sauvegarder CSV</string>
+    <string name="alert_title_new_directory">Nouveau Répertoire</string>
+    <string name="alert_title_password_change">Changer la Clé</string>
+    <string name="alert_title_backup_from_db">Sauvegarder DB</string>
+    <string name="alert_title_backup_db">Sauvegarder DB</string>
+    <string name="alert_title_share_backup">Partager la Sauvegarde avec ...</string>
+    <string name="alert_title_restart_app">Redémarrer l'Application</string>
+    <string name="alert_title_select_application">Sélectionner une Application</string>
+    <string name="alert_title_sort_passwords">Trier les Fiches</string>
+    <string name="alert_title_rename_category">Renommer la Catégorie</string>
+    <string name="alert_title_permissions">Permissions</string>
+    <string name="alert_message_selected_file">Sélectionner le fichier : %s</string>
+    <string name="alert_message_restart_app">L'application doit redémarrer pour bloquer/autoriser les captures d'écran. Redémarrer PassKeep ?</string>
+    <string name="alert_message_loading_app_list">Chargement de la liste d'applications</string>
+    <string name="alert_message_delete_password_confirm">Supprimer %s ? Ceci est irréversible.</string>
+    <string name="alert_message_password_change">Générer une nouvelle clé supprimera l'ancienne. Continuer ?</string>
+    <string name="alert_message_save_changes">Sauvegarder les modifications ?</string>
+    <string name="alert_message_discard_entry">Abandonner la création de cette fiche ?</string>
+    <string name="alert_message_self_destruct_activated">Nombre maximum de tentatives de connexion atteint. Toutes les fiches ont été supprimées !</string>
+    <string name="alert_message_permission_system_alert">PassKeep nécessite la permission SYSTEM_ALERT_WINDOW pour autoriser l'utilisation de la fenêtre flottante par dessus d'autres applications. Sans cette permission la fenêtre flottante ne fonctionnera pas.</string>
+    <string name="alert_message_read_write_permissions">PassKeep n'a pas la permission d'écrire dans la mémoire de stockage. Par conséquent, sauvegardes et restaurations ne fonctionneront pas. Autoriser cette permission.</string>
+    <string name="alert_message_grant_drawoverapps_permission">PassKeep n'a pas la permission d'utiliser la fenêtre flottante par dessus d'autres applications. Par conséquent, la fenêtre flottante ne fonctionnera pas. Autoriser cette permission.</string>
+    <string name="alert_btn_grant_permissions">Autoriser la Permission</string>
+    <string name="alert_btn_select_folder">Sélectionner un Dossier</string>
+    <string name="alert_btn_yes">Oui</string>
+    <string name="alert_btn_cancel">Annuler</string>
+    <string name="alert_btn_no">Non</string>
+    <string name="alert_btn_ok">OK</string>
+
+    <!--Preferences -->
+    <string name="pref_category_title_appearance">Apparence</string>
+    <string name="pref_category_title_general">Général</string>
+    <string name="pref_category_title_security">Sécurité</string>
+    <string name="pref_title_keep_screen_on">Garder l'Ecran Allumé</string>
+    <string name="pref_title_show_notification">Icone de Notification</string>
+    <string name="pref_title_hide_passwords">Masquer les Clés</string>
+    <string name="pref_title_rename_masterkey">Modifier la Clé Principale</string>
+    <string name="pref_title_delete_all_passwords">Supprimer la Base de Données</string>
+    <string name="pref_title_block_screenshots">Bloquer les Captures d'Ecran</string>
+    <string name="pref_title_auto_logout">Déconnexion Automatique</string>
+    <string name="pref_title_auto_login">Connexion Automatique</string>
+    <string name="pref_title_dark_theme">Thème Sombre</string>
+    <string name="pref_title_show_system_apps">Montrer les Applications Système</string>
+    <string name="pref_title_use_pass_gen_options">Options Générateur de Clés</string>
+    <string name="pref_title_hide_usernames">Masquer les Noms d'Utilisateur</string>
+    <string name="pref_summary_delete_all_passwords">**Attention** Supprime tout le contenu de la base de données ainsi que la clé principale. Ceci est irréversible.</string>
+    <string name="pref_summary_reset_master_passkey">**Attention** Modifie la clé principale. Les sauvegardes créées avec l'ancienne clé principale ne fonctionneront plus.</string>
+    <string name="pref_summary_self_destruct">Supprime toutes les fiches après 5 tentaives de connexions échouées.</string>
+    <string name="pref_summary_auto_logout">Déconnecte automatiquement PassKeep après la durée sélectionnée si l'application est masquée.</string>
+    <string name="pref_summary_disallow_screenshots">Interdit les captures d'écran de PassKeep.</string>
+    <string name="pref_summary_auto_login">Connecte automatiquement si la clé principale est valide.</string>
+    <string name="pref_summary_show_notification">Montre une icône dans la barre de notification quand PassKeep fonctionne et est déverrouillé.</string>
+    <string name="pref_summary_keep_screen_on">Garde l'écran allumé tant Passkeep est affiché.</string>
+    <string name="pref_summary_hide_passwords">Montre l'icône \"oeil\" pour basculer l'affichage des clés.</string>
+    <string name="pref_summary_dark_theme">Change l'interface de PassKeeps thème Material sombre. L'application redémarrera.</string>
+    <string name="pref_default_backup_amount_unlimited">Illimité</string>
+    <string name="pref_summary_show_system_apps">Montre les applications système dans la liste des applications lors de la création de la fiche.</string>
+    <string name="pref_summary_hide_usernames">Masque les noms d'utilisateur dans la liste des fiches.</string>
+    <string name="pref_summary_use_pass_gen_options">Utilise les options personnalisées du générateur de clé lors de la création d'une fiche.</string>
+
+    <!-- Misc Titles-->
+    <string name="title_last_edited">Dernière modification : %s</string>
+    <string name="title_autobackups">Sauvegarde automatique</string>
+    <string name="title_backup_every">Sauvegarder tous les</string>
+    <string name="title_backup_time">Heure de sauvegarde</string>
+    <string name="title_max_backups">Nombre de sauvegardes</string>
+    <string name="title_attempts_remaining">Tentative(s) restante(s) : %d</string>
+    <string name="title_welcome">Bienvenue &#8230;</string>
+    <string name="title_bg_view_num_item">%1$d Objet</string>
+    <string name="title_bg_view_num_items">%1$d Objets</string>
+    <string name="title_bg_view_root">Racine</string>
+    <string name="title_first_start">Premier démarrage</string>
+    <string name="title_btn_sign_in">Connexion</string>
+    <string name="title_uppercase_az">Majuscules A&#8211;Z</string>
+    <string name="title_lowercase_az">Minuscules a&#8211;z</string>
+    <string name="title_numbers">Nombres 0&#8211;9</string>
+    <string name="title_special_chars">Caractères spéciaux</string>
+    <string name="title_password_length">Nombre de caractères</string>
+    <string name="title_can_contain">Peut contenir</string>
+    <string name="title_backup_restore_db">Database Sauvegarder/Restaurer</string>
+    <string name="title_backup_restore_csv">CSV Sauvegarder/Restaurer</string>
+    <string name="title_custom_characters">Caractères spécifiques</string>
+    <string name="title_category_none">Aucune</string>
+    <string name="title_category">Catégorie</string>
+    <string name="title_category_all">Toutes</string>
+    <string name="title_no_category">Pas de catégorie</string>
+    <string name="title_category_new">Nouvelle catégorie</string>
+    <string name="title_add_new_category">Ajouter une nouvelle catégorie</string>
+    <string name="title_category_toolbar">Catégorie :</string>
+    <string name="title_select_destination_folder">Sélectionner le dossier de destination</string>
+    <string name="title_files">Fichiers</string>
+    <string name="title_use_fingerprint_to_authenticate_title">Utiliser empreinte pour se connecter</string>
+    <string name="title_fingerprint_description">Confirmer l'empreinte pour continuer</string>
+    <string name="title_fingerprint_hint">Toucher le capteur</string>
+    <string name="title_folders">Dossiers</string>
+    <string name="title_sort_type">Nom</string>
+    <string name="title_signin_fingerprint">Se connecter avec l'empreinte</string>
+    <string name="title_login_failed">Connexion échouée</string>
+    <string name="title_failed_attempts">Trop de tentatives échouées, essayez de vous connecter en utilisant la clé</string>
+    <string name="title_confirmation_failed">Confirmation échouée</string>
+    <string name="title_too_many_failed_try_again">Trop de tentatives échouées, essayez plus tard</string>
+    <string name="title_file_picker_select_restore_csv">Sélectionner CSV à restaurer</string>
+    <string name="title_file_picker_select_restore_db">Sélectionner DB à restaurer</string>
+    <string name="title_file_picker_select_file_share">Sélectionner le fichier à partager</string>
+    <string name="title_file_picker_select_csv_dest">Sélectionner emplacement sauvegarde CSV</string>
+    <string name="title_file_picker_select_db_dest">Sélectionner emplacement sauvegarde DB</string>
+
+    <!-- Misc Messages-->
+    <string name="message_empty_passwords_recycler">Aucune fiche crée</string>
+    <string name="message_welcome_first_start">Pour commencer, vous devez enregistrer une clé principale. Cette clé principale sera utilisée pour chiffrer vos fiches.\n\nLa clé principale est irrécupérable. Si vous l'oubliez tous les fiches seront perdues.\n\nPour éviter toute perte de données, sauvegardez régulièrement la base de données de vos fiches.</string>
+    <string name="message_placeholder_app_name">Associer une Application</string>
+    <string name="message_placeholder_apk_package">Ouvrir l'application à partir d'ici</string>
+    <string name="message_no_categories_available">Aucune catégorie disponible</string>
+    <string name="message_fingerprint_not_recognized">Empreinte non reconnue, essayez encore</string>
+    <string name="message_fingerprint_success">Empreinte reconnue</string>
+    <string name="message_empty_folder">Dossier vide &#8230;</string>
+    <string name="message_notification">PassKeep connecté &#8230;</string>
+
+    <string name="btn_generate_password">Générer une clé</string>
+    <string name="btn_restore_db">Restaurer DB</string>
+    <string name="btn_backup_db">Sauvegarder DB</string>
+    <string name="btn_restore_csv">Restaurer CSV</string>
+    <string name="btn_backup_csv">Sauvegarder CSV</string>
+    <string name="btn_submit_master_password">Démarrer</string>
+    <string name="btn_use_password">Utiliser la clé</string>
+
+    <!-- Default title for color picker dialog [CHAR LIMIT=30] -->
+    <string name="color_picker_default_title">Sélectionner une couleur</string>
+    <string name="color_swatch_description">Couleur <xliff:g example="14" id="color_index">%1$d</xliff:g></string>
+    <string name="color_swatch_description_selected">Couleur <xliff:g example="14" id="color_index">%1$d</xliff:g> sélectionnée</string>
+
+    <!-- Timer settings strings -->
+    <string name="timer_off">En quittant</string>
+    <string name="timer_on_exit">En masquant</string>
+    <string name="timer_thirty_secs">30 secondes</string>
+    <string name="timer_one_minute">1 minute</string>
+    <string name="timer_two_minutes">2 minutes</string>
+    <string name="timer_five_minutes">5 minutes</string>
+    <string name="timer_ten_minutes">10 minutes</string>
+    <string name="timer_fifteen_minutes">15 minutes</string>
+
+    <string name="backup_interval_one_day">1 jour</string>
+    <string name="backup_interval_two_days">2 jours</string>
+    <string name="backup_interval_three_days">3 jours</string>
+    <string name="backup_interval_four_days">4 jours</string>
+    <string name="backup_interval_five_days">5 jours</string>
+    <string name="backup_interval_six_days">6 jours</string>
+    <string name="backup_interval_one_week">1 semaine</string>
+    <string name="backup_interval_two_weeks">2 semaines</string>
+    <string name="backup_interval_three_weeks">3 semaines</string>
+    <string name="backup_interval_one_month">1 mois</string>
+
+    <string name="sort_option_alphabetically_ascending">Alphabet (Montant)</string>
+    <string name="sort_option_alphabetically_descending">Alphabet (Descendant)</string>
+    <string name="sort_option_date_created_ascending">Date (Montant)</string>
+    <string name="sort_option_date_created_descending">Date (Descendant)</string>
+    <string name="sort_option_color_ascending">Couleur (Montant)</string>
+    <string name="sort_option_color_descending">Couleur (Descendant)</string>
+
+    <string name="date_ending_st">%der</string>
+    <string name="date_ending_nd">%dème</string>
+    <string name="date_ending_rd">%dème</string>
+    <string name="date_ending_th">%dème</string>
+
+</resources>
