@@ -1,1 +1,257 @@
-asd
+<resources xmlns:xliff="http://schemas.android.com/apk/res-auto">
+    <string name="app_name">PassKeep</string>
+
+    <!-- Main Titles -->
+    <string name="fragment_title_settings">Settings</string>
+    <string name="fragment_title_backup_restore">Backup/Restore</string>
+    <string name="fragment_title_cat_manager">Category Manager</string>
+    <string name="fragment_title_passwords">Passwords</string>
+    <string name="fragment_title_password_entry">Password Entry</string>
+    <string name="fragment_title_password_generator">Password Generator</string>
+    <string name="fragment_title_path_picker_default">Choose A Directory</string>
+    <string name="fragment_title_path_picker_share_backup">Share Backup</string>
+
+    <!--Actions -->
+    <string name="action_select_all">Select All</string>
+    <string name="action_delete">Delete</string>
+    <string name="action_title_items_selected">%d selected</string>
+    <string name="action_settings">Settings</string>
+    <string name="action_edit_password">Edit Password</string>
+    <string name="action_logout">Logout</string>
+    <string name="action_delete_password">Delete Password</string>
+    <string name="action_search">Search</string>
+    <string name="action_color_picker">Color Picker</string>
+    <string name="action_undo">Undo</string>
+    <string name="action_floating_window">Floating Window</string>
+    <string name="alert_title_new_folder">New Folder</string>
+    <string name="action_sort">Sort</string>
+    <string name="action_delete_category_passwords">Delete category and passwords</string>
+    <string name="action_delete_category">Delete category</string>
+    <string name="action_rename_category">Rename category</string>
+
+    <!-- Toast Messages -->
+    <string name="toast_message_dir_created">Created folder successfully</string>
+    <string name="toast_message_dir_failed">Failed to create folder</string>
+    <string name="toast_message_restore_success">Restore success</string>
+    <string name="toast_message_restore_failed">Restore failed</string>
+    <string name="toast_message_copied_to_clipboard">Copied to clipboard</string>
+    <string name="toast_message_double_tap_to_exit">Double tap to exit</string>
+    <string name="toast_message_double_tap_to_exit_file_picker">Double tap to exit file picker</string>
+    <string name="toast_message_must_contain">You must choose characters you want the password to contain</string>
+    <string name="toast_message_backup_fail">Backup failed</string>
+    <string name="toast_message_backup_success">Backup successful</string>
+    <string name="toast_message_autobackup_success">PassKeep: Auto backup completed</string>
+    <string name="toast_message_autobackup_failed">PassKeep: Auto backup failed</string>
+    <string name="toast_message_autobackup_restarted">PassKeep: AutoBackup restarted</string>
+    <string name="toast_message_no_backups">There are no backups yet created</string>
+    <string name="toast_message_no_character">No custom characters have been entered</string>
+    <string name="toast_message_no_change_in_categoryname">No change in category name</string>
+    <string name="toast_message_secure_lock_not_set"><![CDATA[Secure lock screen hasn\'t been set up.\n Go to \'Settings -> Security -> Fingerprint\' to set up a fingerprint]]></string>
+    <string name="toast_message_no_fingerprint_setup"><![CDATA[Go to \'Settings -> Security -> Fingerprint\' and register at least one fingerprint]]></string>
+    <string name="toast_message_fingerprint_disabled">Fingerprint sign in disabled</string>
+    <string name="toast_message_use_password">Use your password to sign in</string>
+
+    <!-- Snackbar Messages -->
+    <string name="snackbar_message_select_a_backup_to">Select a backup to %s</string>
+    <string name="snackbar_message_append_share">share</string>
+    <string name="snackbar_message_append_restore">restore</string>
+    <string name="snackbar_messgae_select_folder">Long-press a folder to select the location</string>
+    <string name="snackbar_message_self_destruct_remaining">%d more attempts remaining before self-destruct. All passwords will be wiped.</string>
+    <string name="snackbar_message_deleted_item">Deleted %d item</string>
+    <string name="snackbar_message_deleted_items">Deleted %d items</string>
+
+    <!--EditText/TIL -->
+    <string name="et_hint_confirm_masterkey">Confirm New Masterkey</string>
+    <string name="et_hint_backup_restore_loc">Backup/Restore Location</string>
+    <string name="et_hint_new_masterkey">New Masterkey</string>
+    <string name="et_hint_name">Name</string>
+    <string name="et_hint_folder_name">Folder Name</string>
+    <string name="et_hint_password">Password</string>
+    <string name="et_hint_password_2">Password 2</string>
+    <string name="et_hint_category">Category</string>
+    <string name="et_hint_title">Title</string>
+    <string name="et_hint_site">Site</string>
+    <string name="et_hint_old_masterkey">Old Masterkey</string>
+    <string name="et_hint_confirm_password">Confirm Password</string>
+    <string name="et_hint_username">Username</string>
+    <string name="et_hint_description">Description</string>
+    <string name="et_hint_custom_characters">Enter custom characters here</string>
+    <string name="error_passwords_dont_match">Passwords do not match</string>
+    <string name="error_incorrect_password">Incorrect password</string>
+    <string name="error_blank_pass_title">Title cannot be blank</string>
+    <string name="error_blank_entry">Cannot be blank</string>
+    <string name="error_blank_pass_username">Username cannot be left blank</string>
+    <string name="error_blank_password">Password cannot be left blank</string>
+    <string name="error_password_length_short">Password must be at least 6 characters long</string>
+    <string name="error_alert_et_name_required">Name is required</string>
+    <string name="til_title_backup">Backup File Name</string>
+
+    <!-- AlertDialogs -->
+    <string name="alert_title_confirm_selection">Confirm Selection</string>
+    <string name="alert_title_self_destruct">Self Destruct</string>
+    <string name="alert_title_delete_password">Delete Password</string>
+    <string name="alert_title_backup_from_csv">Backup CSV</string>
+    <string name="alert_title_new_directory">New Directory</string>
+    <string name="alert_title_password_change">Change Password</string>
+    <string name="alert_title_backup_from_db">Backup DB</string>
+    <string name="alert_title_backup_db">Backup DB</string>
+    <string name="alert_title_share_backup">Share Backup With..</string>
+    <string name="alert_title_restart_app">Restart Application</string>
+    <string name="alert_title_select_application">Select an Application</string>
+    <string name="alert_title_sort_passwords">Sort Passwords</string>
+    <string name="alert_title_rename_category">Rename category</string>
+    <string name="alert_title_permissions">Permissions</string>
+    <string name="alert_message_selected_file">Selected file: %s</string>
+    <string name="alert_message_restart_app">The application must be restarted for blocking/allowing screenshots. Restart PassKeep now?</string>
+    <string name="alert_message_loading_app_list">Loading list of applications</string>
+    <string name="alert_message_delete_password_confirm">Are you sure you want to delete %s. This cannot be undone.</string>
+    <string name="alert_message_password_change">Generating a new password will remove the old one. Are you sure you want to continue?</string>
+    <string name="alert_message_save_changes">Do you want to save the changes made?</string>
+    <string name="alert_message_discard_entry">Do you want to discard this entry?</string>
+    <string name="alert_message_self_destruct_activated">The maximum password attempts has been reached. All passwords permanently deleted. There is no going back!</string>
+    <string name="alert_message_permission_system_alert">This application requires SYSTEM_ALERT_WINDOW permission in order to draw the floating window over other applications. Without the permission the floating window will not work.</string>
+    <string name="alert_message_read_write_permissions">PassKeep was not granted permission to write to your storage. Hence, backup restore functionality will not work. Please consider granting it this permission</string>
+    <string name="alert_message_grant_drawoverapps_permission">PassKeep was not granted permission to draw over other applications. Therefore the floating window functionality will not work. Please consider granting it this permission</string>
+    <string name="alert_btn_grant_permissions">Grant Permission</string>
+    <string name="alert_btn_select_folder">Select Folder</string>
+    <string name="alert_btn_yes">Yes</string>
+    <string name="alert_btn_cancel">Cancel</string>
+    <string name="alert_btn_no">No</string>
+    <string name="alert_btn_ok">OK</string>
+
+    <!--Preferences -->
+    <string name="pref_category_title_appearance">Appearance</string>
+    <string name="pref_category_title_general">General</string>
+    <string name="pref_category_title_security">Security</string>
+    <string name="pref_title_keep_screen_on">Keep Screen On</string>
+    <string name="pref_title_show_notification">Show Notification</string>
+    <string name="pref_title_hide_passwords">Hide Passwords</string>
+    <string name="pref_title_rename_masterkey">Reset Master Passkey</string>
+    <string name="pref_title_delete_all_passwords">Delete Database</string>
+    <string name="pref_title_block_screenshots">Block Screenshots</string>
+    <string name="pref_title_auto_logout">Auto Logout</string>
+    <string name="pref_title_auto_login">Auto Login</string>
+    <string name="pref_title_dark_theme">Dark Theme</string>
+    <string name="pref_title_show_system_apps">Show System Apps</string>
+    <string name="pref_title_use_pass_gen_options">Password Generator Options</string>
+    <string name="pref_title_hide_usernames">Hide Usernames</string>
+    <string name="pref_summary_delete_all_passwords">**Warning** Delete all the contents of the database including the master passkey. This cannot be undone.</string>
+    <string name="pref_summary_reset_master_passkey">**Warning** Reset the master passkey. Backups with the old passkey will not work anymore.</string>
+    <string name="pref_summary_self_destruct">Delete all passwords when 5 failed attempts have been entered using the \"sign in\" button.</string>
+    <string name="pref_summary_auto_logout">If you exit PassKeep to use another application, PassKeep will sign you out after the selected amount of time.</string>
+    <string name="pref_summary_disallow_screenshots">Don\'t allow screenshots of PassKeep to be taken.</string>
+    <string name="pref_summary_auto_login">Automatically sign in when the valid password is entered.</string>
+    <string name="pref_summary_show_notification">Show a notification is the status-bar when the app is running and unlocked.</string>
+    <string name="pref_summary_keep_screen_on">Keep the devices screen on while viewing Passkeep</string>
+    <string name="pref_summary_hide_passwords">Show the \"eye\" icon to toggle passwords visibility.</string>
+    <string name="pref_summary_dark_theme">Change PassKeeps UI to a dark material theme. (Application will restart)</string>
+    <string name="pref_default_backup_amount_unlimited">Unlimited</string>
+    <string name="pref_summary_show_system_apps">Show system apps in the list of applications for password entries</string>
+    <string name="pref_summary_hide_usernames">Hide passwords usernames from the list of passwords</string>
+    <string name="pref_summary_use_pass_gen_options">Use the password generators options when generating passwords for entries</string>
+
+    <!-- Misc Titles-->
+    <string name="title_last_edited">Last edited: %s</string>
+    <string name="title_autobackups">Automatic backup</string>
+    <string name="title_backup_every">Backup Every</string>
+    <string name="title_backup_time">Backup Time</string>
+    <string name="title_max_backups">Maximum Backups</string>
+    <string name="title_attempts_remaining">Attempts remaining: %d</string>
+    <string name="title_welcome">Welcome&#8230;</string>
+    <string name="title_bg_view_num_item">%1$d Item</string>
+    <string name="title_bg_view_num_items">%1$d Items</string>
+    <string name="title_bg_view_root">Root</string>
+    <string name="title_first_start">First Start</string>
+    <string name="title_btn_sign_in">Sign In</string>
+    <string name="title_uppercase_az">Uppercase A&#8211;Z</string>
+    <string name="title_lowercase_az">Lowercase a&#8211;z</string>
+    <string name="title_numbers">Numbers 0&#8211;9</string>
+    <string name="title_special_chars">Special Characters</string>
+    <string name="title_password_length">Password Length</string>
+    <string name="title_can_contain">Can Contain</string>
+    <string name="title_backup_restore_db">Database Backup/Restore</string>
+    <string name="title_backup_restore_csv">CSV Backup/Restore</string>
+    <string name="title_custom_characters">Custom Characters</string>
+    <string name="title_category_none">None</string>
+    <string name="title_category">Category</string>
+    <string name="title_category_all">All</string>
+    <string name="title_no_category">No Category</string>
+    <string name="title_category_new">New Category</string>
+    <string name="title_add_new_category">Add New Category</string>
+    <string name="title_category_toolbar">Category:</string>
+    <string name="title_select_destination_folder">Select destination folder</string>
+    <string name="title_files">Files</string>
+    <string name="title_use_fingerprint_to_authenticate_title">Use fingerprint to authenticate</string>
+    <string name="title_fingerprint_description">Confirm fingerprint to continue</string>
+    <string name="title_fingerprint_hint">Touch sensor</string>
+    <string name="title_folders">Folders</string>
+    <string name="title_sort_type">Name</string>
+    <string name="title_signin_fingerprint">Sign in with fingerprint</string>
+    <string name="title_login_failed">Sign In Failed</string>
+    <string name="title_failed_attempts">Too many failed attempts, try sign in using your password</string>
+    <string name="title_confirmation_failed">Confirmation Failed</string>
+    <string name="title_too_many_failed_try_again">Too many failed attempts, try again later</string>
+    <string name="title_file_picker_select_restore_csv">Select CSV to restore</string>
+    <string name="title_file_picker_select_restore_db">Select DB to restore</string>
+    <string name="title_file_picker_select_file_share">Select file to share</string>
+    <string name="title_file_picker_select_csv_dest">Select CSV backup destination</string>
+    <string name="title_file_picker_select_db_dest">Select DB backup destination</string>
+
+    <!-- Misc Messages-->
+    <string name="message_empty_passwords_recycler">Passwords will appear here when added</string>
+    <string name="message_welcome_first_start">To start you must enter a master password. This master password will be used to encrypt your passwords.\n\nThe master password is unrecoverable and in the case of forgetting the master password all passwords will be lost.\n\nTo prevent data loss backup the database regularly.</string>
+    <string name="message_placeholder_app_name">Touch To Add Application</string>
+    <string name="message_placeholder_apk_package">You can then open the application from here</string>
+    <string name="message_no_categories_available">No categories available..</string>
+    <string name="message_fingerprint_not_recognized">Fingerprint not recognized. Try again</string>
+    <string name="message_fingerprint_success">Fingerprint recognized</string>
+    <string name="message_empty_folder">Folder is empty&#8230;</string>
+    <string name="message_notification">PassKeep is running&#8230;</string>
+
+    <string name="btn_generate_password">Generate Password</string>
+    <string name="btn_restore_db">Restore DB</string>
+    <string name="btn_backup_db">Backup DB</string>
+    <string name="btn_restore_csv">Restore from CSV</string>
+    <string name="btn_backup_csv">Backup to CSV</string>
+    <string name="btn_submit_master_password">Start</string>
+    <string name="btn_use_password">Use password</string>
+
+    <!-- Default title for color picker dialog [CHAR LIMIT=30] -->
+    <string name="color_picker_default_title">Select a Color</string>
+    <string name="color_swatch_description">Color <xliff:g example="14" id="color_index">%1$d</xliff:g></string>
+    <string name="color_swatch_description_selected">Color <xliff:g example="14" id="color_index">%1$d</xliff:g> selected</string>
+
+    <!-- Timer settings strings -->
+    <string name="timer_off">Auto Logout Off</string>
+    <string name="timer_on_exit">On Exit</string>
+    <string name="timer_thirty_secs">30 seconds</string>
+    <string name="timer_one_minute">1 minute</string>
+    <string name="timer_two_minutes">2 minutes</string>
+    <string name="timer_five_minutes">5 minutes</string>
+    <string name="timer_ten_minutes">10 minutes</string>
+    <string name="timer_fifteen_minutes">15 minutes</string>
+
+    <string name="backup_interval_one_day">1 day</string>
+    <string name="backup_interval_two_days">2 days</string>
+    <string name="backup_interval_three_days">3 days</string>
+    <string name="backup_interval_four_days">4 days</string>
+    <string name="backup_interval_five_days">5 days</string>
+    <string name="backup_interval_six_days">6 days</string>
+    <string name="backup_interval_one_week">1 week</string>
+    <string name="backup_interval_two_weeks">2 weeks</string>
+    <string name="backup_interval_three_weeks">3 weeks</string>
+    <string name="backup_interval_one_month">1 month</string>
+
+    <string name="sort_option_alphabetically_ascending">Alphabetically (Ascending)</string>
+    <string name="sort_option_alphabetically_descending">Alphabetically (Descending)</string>
+    <string name="sort_option_date_created_ascending">Date (Ascending)</string>
+    <string name="sort_option_date_created_descending">Date (Descending)</string>
+    <string name="sort_option_color_ascending">Color (Ascending)</string>
+    <string name="sort_option_color_descending">Color (Descending)</string>
+
+    <string name="date_ending_st">%dst</string>
+    <string name="date_ending_nd">%dnd</string>
+    <string name="date_ending_rd">%drd</string>
+    <string name="date_ending_th">%dth</string>
+
+</resources>
