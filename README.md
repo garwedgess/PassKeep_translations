@@ -9,9 +9,10 @@ https://play.google.com/store/apps/details?id=eu.wedgess.passkeep
 
 # Completed Strings, thanks to:
 - Czech (phsnake)
+- French (BreckZeBoulay)
 - German (laufersteppenwolf/Trafalgar-Square/mythos234/noc.jfcbs)
 - Polish (Chamelleon)
-- Portuguese - Brazilian (LeandritoG) 
+- Portuguese - Brazilian (LeandritoG/brenosnt) 
 - Russian (DumF0rGaming/gaich)
 - Simplified Chinese (China) (ContactFront)
 - Slovak (phsnake)
