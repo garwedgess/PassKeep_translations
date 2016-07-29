@@ -1,0 +1,257 @@
+<resources xmlns:xliff="http://schemas.android.com/apk/res-auto">
+    <string name="app_name">PassKeep</string>
+
+    <!-- Main Titles -->
+    <string name="fragment_title_settings">Pengaturan</string>
+    <string name="fragment_title_backup_restore">Cadangkan/Kembalikan</string>
+    <string name="fragment_title_cat_manager">Manajer Kategori</string>
+    <string name="fragment_title_passwords">Kata Sandi</string>
+    <string name="fragment_title_password_entry">Entri Kata Sandi</string>
+    <string name="fragment_title_password_generator">Generator Kata Sandi</string>
+    <string name="fragment_title_path_picker_default">Pilih Lokasi</string>
+    <string name="fragment_title_path_picker_share_backup">Bagi Cadangan</string>
+
+    <!--Actions -->
+    <string name="action_select_all">Pilih semua</string>
+    <string name="action_delete">Hapus</string>
+    <string name="action_title_items_selected">%d terpilih</string>
+    <string name="action_settings">Pengaturan</string>
+    <string name="action_edit_password">Ubah Kata Sandi</string>
+    <string name="action_logout">Keluar</string>
+    <string name="action_delete_password">Hapus Kata Sandi</string>
+    <string name="action_search">Cari</string>
+    <string name="action_color_picker">Pilihan Warna</string>
+    <string name="action_undo">Undo</string>
+    <string name="action_floating_window">Jendela Melayang</string>
+    <string name="alert_title_new_folder">Folder Baru</string>
+    <string name="action_sort">Urut</string>
+    <string name="action_delete_category_passwords">Hapus kategori dan kata sandi</string>
+    <string name="action_delete_category">Hapus kategori</string>
+    <string name="action_rename_category">Ubah nama kategori</string>
+
+    <!-- Toast Messages -->
+    <string name="toast_message_dir_created">Berhasil membuat folder</string>
+    <string name="toast_message_dir_failed">Gagal membuat folder</string>
+    <string name="toast_message_restore_success">Pengembalian sukses</string>
+    <string name="toast_message_restore_failed">Pengembalian gagal</string>
+    <string name="toast_message_copied_to_clipboard">Terduplikat ke papan</string>
+    <string name="toast_message_double_tap_to_exit">Dua kali ketuk untuk keluar</string>
+    <string name="toast_message_double_tap_to_exit_file_picker">Dua kali ketuk untuk keluar dari pilihan berkas</string>
+    <string name="toast_message_must_contain">Anda harus memilih karakter apa yang akan digunakan untuk kata sandi</string>
+    <string name="toast_message_backup_fail">Cadangan gagal dibuat</string>
+    <string name="toast_message_backup_success">Cadangan berhasil dibuat</string>
+    <string name="toast_message_autobackup_success">PassKeep: Cadangan otomatis selesai</string>
+    <string name="toast_message_autobackup_failed">PassKeep: Cadangan otomatis gagal</string>
+    <string name="toast_message_autobackup_restarted">PassKeep: Memulai ulang cadangan otomatis</string>
+    <string name="toast_message_no_backups">Belum ada cadangan yang dibuat</string>
+    <string name="toast_message_no_character">Tidak ada karakter kustom yang telah dimasukkan</string>
+    <string name="toast_message_no_change_in_categoryname">Tidak ada perubahan di nama kategori</string>
+    <string name="toast_message_secure_lock_not_set"><![CDATA[Secure lock screen hasn\'t been set up.\n Go to \'Settings -> Security -> Fingerprint\' to set up a fingerprint]]></string>
+    <string name="toast_message_no_fingerprint_setup"><![CDATA[Go to \'Settings -> Security -> Fingerprint\' and register at least one fingerprint]]></string>
+    <string name="toast_message_fingerprint_disabled">Masuk menggunakan sidik jari dimatikan</string>
+    <string name="toast_message_use_password">Gunakan password anda untuk masuk</string>
+
+    <!-- Snackbar Messages -->
+    <string name="snackbar_message_select_a_backup_to">Pilih cadangan ke %s</string>
+    <string name="snackbar_message_append_share">bagi</string>
+    <string name="snackbar_message_append_restore">kembalikan</string>
+    <string name="snackbar_messgae_select_folder">Tekan dan tahan folder untuk memilih lokasi</string>
+    <string name="snackbar_message_self_destruct_remaining">%d usaha lagi sebelum menghancurkan diri. Semua kata sandi akan dihapus.</string>
+    <string name="snackbar_message_deleted_item">Terhapus %d entri</string>
+    <string name="snackbar_message_deleted_items">Terhapus %d entri</string>
+
+    <!--EditText/TIL -->
+    <string name="et_hint_confirm_masterkey">Konfirmasi Kunci Master Baru</string>
+    <string name="et_hint_backup_restore_loc">Lokasi Cadangkan/Kembalikan</string>
+    <string name="et_hint_new_masterkey">Kunci Master Baru</string>
+    <string name="et_hint_name">Nama</string>
+    <string name="et_hint_folder_name">Nama Folder</string>
+    <string name="et_hint_password">Kata Sandi</string>
+    <string name="et_hint_password_2">Kata Sandi 2</string>
+    <string name="et_hint_category">Kategori</string>
+    <string name="et_hint_title">Judul</string>
+    <string name="et_hint_site">Situs</string>
+    <string name="et_hint_old_masterkey">Kunci Master Lama</string>
+    <string name="et_hint_confirm_password">Konfirmasi Kata Sandi</string>
+    <string name="et_hint_username">Nama Pengguna</string>
+    <string name="et_hint_description">Deskripsi</string>
+    <string name="et_hint_custom_characters">Masukkan karakter kustom di sini</string>
+    <string name="error_passwords_dont_match">Kata sandi tidak cocok</string>
+    <string name="error_incorrect_password">Kata sandi salah</string>
+    <string name="error_blank_pass_title">Judul tidak boleh kosong</string>
+    <string name="error_blank_entry">Tidak boleh kosong</string>
+    <string name="error_blank_pass_username">Nama pengguna tidak boleh kosong</string>
+    <string name="error_blank_password">Kata sandi tidak boleh kosong</string>
+    <string name="error_password_length_short">Kata sandi minimal 6 karakter</string>
+    <string name="error_alert_et_name_required">Nama diperlukan</string>
+    <string name="til_title_backup">Nama Berkas Cadangan</string>
+
+    <!-- AlertDialogs -->
+    <string name="alert_title_confirm_selection">Konfirmasi Pilihan</string>
+    <string name="alert_title_self_destruct">Menghancurkan Diri</string>
+    <string name="alert_title_delete_password">Hapus Kata Sandi</string>
+    <string name="alert_title_backup_from_csv">Cadangkan CSV</string>
+    <string name="alert_title_new_directory">Direktori Baru</string>
+    <string name="alert_title_password_change">Ubah Kata Sandi</string>
+    <string name="alert_title_backup_from_db">Cadangkan DB</string>
+    <string name="alert_title_backup_db">Cadangkan DB</string>
+    <string name="alert_title_share_backup">Bagi Cadangan Dengan..</string>
+    <string name="alert_title_restart_app">Hidupkan Ulang Aplikasi</string>
+    <string name="alert_title_select_application">Pilih Aplikasi</string>
+    <string name="alert_title_sort_passwords">Urut Kata Sandi</string>
+    <string name="alert_title_rename_category">Ubah nama kategori</string>
+    <string name="alert_title_permissions">Permisi</string>
+    <string name="alert_message_selected_file">File terpilih: %s</string>
+    <string name="alert_message_restart_app">Aplikasi harus dihidupkan ulang untuk memblok/memperbolehkan screenshot. Mau hidupkan ulang sekarang?</string>
+    <string name="alert_message_loading_app_list">Sedang menyiapkan daftar aplikasi</string>
+    <string name="alert_message_delete_password_confirm">Apakah Anda yakin untuk menghapud %s. Tidak bisa di-undo.</string>
+    <string name="alert_message_password_change">Menggenerasi kata sandi baru akan membuang kata sandi lama. Apakah Anda yakin untuk melanjutkan?</string>
+    <string name="alert_message_save_changes">Apakah Anda ingin menyimpan perubahan yang telah dilakukan?</string>
+    <string name="alert_message_discard_entry">Apakah Anda ingin membuang entri ini?</string>
+    <string name="alert_message_self_destruct_activated">Usaha maksimum untuk memasukkan kata sandi telah tercapai. Semua kata sandi telah permanen dihapus. Tidak bisa undo!</string>
+    <string name="alert_message_permission_system_alert">Aplikasi ini memerlukan permisi SYSTEM_ALERT_WINDOW untuk membuat jendela melayang di aplikasi lain. Tanpa permisi ini, jendela melayang tidak akan bekerja.</string>
+    <string name="alert_message_read_write_permissions">PassKeep tidak diberikan permisi untuk menulis di penyimpanan. Maka dari itu, fungsi cadangkan/kembalikan tidak akan bekerja. Izinkanlah permisi ini untuk kenyamanan Anda</string>
+    <string name="alert_message_grant_drawoverapps_permission">PassKeep tidak diberikan permisi untuk membuat jendela melayang di aplikasi lain. Maka dari itu, fungsi jendela melayang tidak akan bekerja. Izinkanlah permisi ini untuk kenyamanan Anda</string>
+    <string name="alert_btn_grant_permissions">Berikan Permisi</string>
+    <string name="alert_btn_select_folder">Pilih Folder</string>
+    <string name="alert_btn_yes">Iya</string>
+    <string name="alert_btn_cancel">Batal</string>
+    <string name="alert_btn_no">Tidak</string>
+    <string name="alert_btn_ok">OKE</string>
+
+    <!--Preferences -->
+    <string name="pref_category_title_appearance">Penampilan</string>
+    <string name="pref_category_title_general">Umum</string>
+    <string name="pref_category_title_security">Keamanan</string>
+    <string name="pref_title_keep_screen_on">Layar Tetap Menyala</string>
+    <string name="pref_title_show_notification">Tunjukkan Notifikasi</string>
+    <string name="pref_title_hide_passwords">Sembunyikan Kata Sandi</string>
+    <string name="pref_title_rename_masterkey">Reset Kunci Master</string>
+    <string name="pref_title_delete_all_passwords">Hapus Database</string>
+    <string name="pref_title_block_screenshots">Blok Screenshot</string>
+    <string name="pref_title_auto_logout">Keluar Otomatis</string>
+    <string name="pref_title_auto_login">Masuk Otomatis</string>
+    <string name="pref_title_dark_theme">Tema Gelap</string>
+    <string name="pref_title_show_system_apps">Tunjukkan Aplikasi Sistem</string>
+    <string name="pref_title_use_pass_gen_options">Opsi Generator Kata Sandi</string>
+    <string name="pref_title_hide_usernames">Sembunyikan Nama Pengguna</string>
+    <string name="pref_summary_delete_all_passwords">**Peringatan** Hapus semua database termasuk kunci master. Tidak bisa di-undo.</string>
+    <string name="pref_summary_reset_master_passkey">**Peringatan** Reset kunci master. Cadangan dengan kunci master lama tidak akan bisa digunakan lagi.</string>
+    <string name="pref_summary_self_destruct">Hapus semua kata sandi saat 5 usaha telah digunakan melalui tombol \"masuk\".</string>
+    <string name="pref_summary_auto_logout">Jika Anda keluar dari PassKeep menuju aplikasi lain, PassKeep akan keluar otomatis setelah beberapa waktu yang terpilih.</string>
+    <string name="pref_summary_disallow_screenshots">Jangan izinkan mengambil screenshot di aplikasi PassKeep.</string>
+    <string name="pref_summary_auto_login">Masuk otomatis saat kata sandi yang dimasukkan valid.</string>
+    <string name="pref_summary_show_notification">Tunjukkan notifikasi di baris status saat aplikasi berjalan dan tidak terkunci.</string>
+    <string name="pref_summary_keep_screen_on">Biarkan layar tetap menyala saat di aplikasi PassKeep</string>
+    <string name="pref_summary_hide_passwords">Tunjukkan ikon \"mata\" untuk mengubah visibilitas kata sandi.</string>
+    <string name="pref_summary_dark_theme">Ubah penampilan PassKeep menjadi tema gelap. (Aplikasi akan dihidupkan ulang)</string>
+    <string name="pref_default_backup_amount_unlimited">Tak terhingga</string>
+    <string name="pref_summary_show_system_apps">Tunjukkan aplikasi sistem di daftar aplikasi untuk entri kata sandi</string>
+    <string name="pref_summary_hide_usernames">Sembunyikan kata sandi nama pengguna dari daftar kata sandi</string>
+    <string name="pref_summary_use_pass_gen_options">Gunakan opsi generator kata sandi saat menggenerasi kata sandi untuk entri</string>
+
+    <!-- Misc Titles-->
+    <string name="title_last_edited">Terakhir diubah: %s</string>
+    <string name="title_autobackups">Cadangkan Otomatis</string>
+    <string name="title_backup_every">Cadangkan Setiap</string>
+    <string name="title_backup_time">Waktu Cadangkan</string>
+    <string name="title_max_backups">Maksimum Cadangan</string>
+    <string name="title_attempts_remaining">Sisa usaha: %d</string>
+    <string name="title_welcome">Selamat Datang&#8230;</string>
+    <string name="title_bg_view_num_item">%1$d entri</string>
+    <string name="title_bg_view_num_items">%1$d entri</string>
+    <string name="title_bg_view_root">Root</string>
+    <string name="title_first_start">Langkah Awal</string>
+    <string name="title_btn_sign_in">Daftar</string>
+    <string name="title_uppercase_az">Huruf Kapital A&#8211;Z</string>
+    <string name="title_lowercase_az">Huruf Kecil a&#8211;z</string>
+    <string name="title_numbers">Angka 0&#8211;9</string>
+    <string name="title_special_chars">Karakter Spesial</string>
+    <string name="title_password_length">Panjang Kata Sandi</string>
+    <string name="title_can_contain">Dapat Memuat</string>
+    <string name="title_backup_restore_db">Cadangkan/Kembalikan Database</string>
+    <string name="title_backup_restore_csv">Cadangkan/Kembalikan CSV</string>
+    <string name="title_custom_characters">Karakter Kustom</string>
+    <string name="title_category_none">Tidak ada</string>
+    <string name="title_category">Kategori</string>
+    <string name="title_category_all">Semua</string>
+    <string name="title_no_category">Tidak Ada Kategori</string>
+    <string name="title_category_new">Kategori Baru</string>
+    <string name="title_add_new_category">Tambah Kategori Baru</string>
+    <string name="title_category_toolbar">Kategori:</string>
+    <string name="title_select_destination_folder">Pilih destinasi folder</string>
+    <string name="title_files">Berkas</string>
+    <string name="title_use_fingerprint_to_authenticate_title">Gunakan sidik jari untuk verifikasi</string>
+    <string name="title_fingerprint_description">Konfirmasi sidik jari untuk melanjutkan</string>
+    <string name="title_fingerprint_hint">Sentuh sensor</string>
+    <string name="title_folders">Folder</string>
+    <string name="title_sort_type">Nama</string>
+    <string name="title_signin_fingerprint">Masuk menggunakan sidik jari</string>
+    <string name="title_login_failed">Masuk Gagal</string>
+    <string name="title_failed_attempts">Terlalu banyak usaha yang gagal, coba masuk menggunakan kata sandi</string>
+    <string name="title_confirmation_failed">Konfirmasi Gagal</string>
+    <string name="title_too_many_failed_try_again">Terlalu banyak usaha yang gagal, coba lagi nanti</string>
+    <string name="title_file_picker_select_restore_csv">Pilih CSV untuk dikembalikan</string>
+    <string name="title_file_picker_select_restore_db">Pilih DB untuk dikembalikan</string>
+    <string name="title_file_picker_select_file_share">Pilih berkas untuk dibagikan</string>
+    <string name="title_file_picker_select_csv_dest">Pilih destinasi cadangan CSV </string>
+    <string name="title_file_picker_select_db_dest">Pilih destinasi cadangan DB</string>
+
+    <!-- Misc Messages-->
+    <string name="message_empty_passwords_recycler">Kata sandi akan muncul di sini saat ditambahkan</string>
+    <string name="message_welcome_first_start">Untuk memulai, Anda harus memasukkan kata kunci master. Kata kunci master ini akan digunakan untuk mengenkripsi kata sandi Anda.\n\nKata kunci master tidak bisa dipulihkan bila Anda lupa di mana bisa berakibat fatal.\n\nUntuk mencegah kehilangan data, cadangkanlah database secara rutin.</string>
+    <string name="message_placeholder_app_name">Sentuh Untuk Menambah Aplikasi</string>
+    <string name="message_placeholder_apk_package">Anda selanjutnya dapat membuka aplikasi dari sini</string>
+    <string name="message_no_categories_available">Tidak ada kategori..</string>
+    <string name="message_fingerprint_not_recognized">Sidik jari tidak dikenali. Coba lagi</string>
+    <string name="message_fingerprint_success">Sidik jari dikenali</string>
+    <string name="message_empty_folder">Folder kosong&#8230;</string>
+    <string name="message_notification">PassKeep sedang berjalan&#8230;</string>
+
+    <string name="btn_generate_password">Generasikan kata sandi</string>
+    <string name="btn_restore_db">Kembalikan DB</string>
+    <string name="btn_backup_db">Cadangkan DB</string>
+    <string name="btn_restore_csv">Kembalikan dari CSV</string>
+    <string name="btn_backup_csv">Cadangkan ke CSV</string>
+    <string name="btn_submit_master_password">Mulai</string>
+    <string name="btn_use_password">Gunakan kata sandi</string>
+
+    <!-- Default title for color picker dialog [CHAR LIMIT=30] -->
+    <string name="color_picker_default_title">Pilih warna</string>
+    <string name="color_swatch_description">Warna <xliff:g example="14" id="color_index">%1$d</xliff:g></string>
+    <string name="color_swatch_description_selected">Warna <xliff:g example="14" id="color_index">%1$d</xliff:g> terpilih</string>
+
+    <!-- Timer settings strings -->
+    <string name="timer_off">Keluar otomatis mati</string>
+    <string name="timer_on_exit">Saat keluar</string>
+    <string name="timer_thirty_secs">30 detik</string>
+    <string name="timer_one_minute">1 menit</string>
+    <string name="timer_two_minutes">2 menit</string>
+    <string name="timer_five_minutes">5 menit</string>
+    <string name="timer_ten_minutes">10 menit</string>
+    <string name="timer_fifteen_minutes">15 menit</string>
+
+    <string name="backup_interval_one_day">1 hari</string>
+    <string name="backup_interval_two_days">2 hari</string>
+    <string name="backup_interval_three_days">3 hari</string>
+    <string name="backup_interval_four_days">4 hari</string>
+    <string name="backup_interval_five_days">5 hari</string>
+    <string name="backup_interval_six_days">6 hari</string>
+    <string name="backup_interval_one_week">1 minggu</string>
+    <string name="backup_interval_two_weeks">2 minggu</string>
+    <string name="backup_interval_three_weeks">3 minggu</string>
+    <string name="backup_interval_one_month">1 bulan</string>
+
+    <string name="sort_option_alphabetically_ascending">Alfabetis (Naik)</string>
+    <string name="sort_option_alphabetically_descending">Alfabetis (Turun)</string>
+    <string name="sort_option_date_created_ascending">Tanggal (Naik)</string>
+    <string name="sort_option_date_created_descending">Tanggal (Turun)</string>
+    <string name="sort_option_color_ascending">Warna (Naik)</string>
+    <string name="sort_option_color_descending">Warna (Turun)</string>
+
+    <string name="date_ending_st">%dst</string>
+    <string name="date_ending_nd">%dnd</string>
+    <string name="date_ending_rd">%drd</string>
+    <string name="date_ending_th">%dth</string>
+
+</resources>
