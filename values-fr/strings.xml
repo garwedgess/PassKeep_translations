@@ -93,7 +93,7 @@
     <string name="alert_title_password_change">Changer la Clé</string>
     <string name="alert_title_backup_from_db">Sauvegarder DB</string>
     <string name="alert_title_backup_db">Sauvegarder DB</string>
-    <string name="alert_title_share_backup">Partager la Sauvegarde avec ...</string>
+    <string name="alert_title_share_backup">Partager la Sauvegarde avec &#8230;</string>
     <string name="alert_title_restart_app">Redémarrer l\'Application</string>
     <string name="alert_title_select_application">Sélectionner une Application</string>
     <string name="alert_title_sort_passwords">Trier les Fiches</string>
@@ -159,9 +159,9 @@
     <string name="title_bg_view_root">Racine</string>
     <string name="title_first_start">Premier démarrage</string>
     <string name="title_btn_sign_in">Connexion</string>
-    <string name="title_uppercase_az">Majuscules A–Z</string>
-    <string name="title_lowercase_az">Minuscules a–z</string>
-    <string name="title_numbers">Nombres 0–9</string>
+    <string name="title_uppercase_az">Majuscules A&#8211;Z</string>
+    <string name="title_lowercase_az">Minuscules a&#8211;z</string>
+    <string name="title_numbers">Nombres 0&#8211;9</string>
     <string name="title_special_chars">Caractères spéciaux</string>
     <string name="title_password_length">Nombre de caractères</string>
     <string name="title_can_contain">Peut contenir</string>
