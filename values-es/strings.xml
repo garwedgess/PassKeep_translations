@@ -1,5 +1,4 @@
 <resources xmlns:xliff="http://schemas.android.com/apk/res-auto">
-    <string name="app_name">PassKeep</string>
 
     <!-- Main Titles -->
     <string name="fragment_title_settings">Ajustes</string>
@@ -147,8 +146,8 @@
     <string name="title_max_backups">Maximo Copias de seguridad</string>
     <string name="title_attempts_remaining">Intentos restantes: %d</string>
     <string name="title_welcome">Bienvenido&#8230;</string>
-    <string name="title_bg_view_num_item">%1$d artículo</string>
-    <string name="title_bg_view_num_items">%1$d artículos</string>
+    <string name="title_bg_view_num_item">%d artículo</string>
+    <string name="title_bg_view_num_items">%d artículos</string>
     <string name="title_bg_view_root">Root</string>
     <string name="title_first_start">Primer inicio</string>
     <string name="title_btn_sign_in">Entrar</string>
@@ -186,8 +185,8 @@
 
     <!-- Default title for color picker dialog [CHAR LIMIT=30] -->
     <string name="color_picker_default_title">Elegir color</string>
-    <string name="color_swatch_description">Color <xliff:g example="14" id="color_index">%1$d</xliff:g></string>
-    <string name="color_swatch_description_selected">Color <xliff:g example="14" id="color_index">%1$d</xliff:g> selecionado</string>
+    <string name="color_swatch_description">Color <xliff:g example="14" id="color_index">%d</xliff:g></string>
+    <string name="color_swatch_description_selected">Color <xliff:g example="14" id="color_index">%d</xliff:g> selecionado</string>
 
     <!-- Timer settings strings -->
     <string name="timer_off">Auto-Logout Off</string>
@@ -206,8 +205,52 @@
     <string name="sort_option_color_ascending">Color (ascendente)</string>
     <string name="sort_option_color_descending">Color (descendente)</string>
 
-    <string name="date_ending_st">%sro</string>
-    <string name="date_ending_nd">%sdo</string>
-    <string name="date_ending_rd">%sro</string>
-    <string name="date_ending_th">%sto</string>
+    <string name="date_ending_st">%dro</string>
+    <string name="date_ending_nd">%ddo</string>
+    <string name="date_ending_rd">%dro</string>
+    <string name="date_ending_th">%dto</string>
+
+    <!-- Missing -->
+    <string name="toast_message_double_tap_to_exit_file_picker">Double tap to exit file picker</string>
+    <string name="toast_message_secure_lock_not_set"><![CDATA[Secure lock screen hasn\'t been set up.\n Go to \'Settings -> Security -> Fingerprint\' to set up a fingerprint]]></string>
+    <string name="toast_message_no_fingerprint_setup"><![CDATA[Go to \'Settings -> Security -> Fingerprint\' and register at least one fingerprint]]></string>
+    <string name="toast_message_fingerprint_disabled">Fingerprint sign in disabled</string>
+    <string name="et_hint_folder_name">Folder Name</string>
+    <string name="error_alert_et_name_required">Name is required</string>
+    <string name="alert_title_confirm_selection">Confirm Selection</string>
+    <string name="alert_message_selected_file">Selected file: %s</string>
+    <string name="title_select_destination_folder">Select destination folder</string>
+    <string name="title_files">Files</string>
+    <string name="title_use_fingerprint_to_authenticate_title">Use fingerprint to authenticate</string>
+    <string name="title_fingerprint_description">Confirm fingerprint to continue</string>
+    <string name="title_fingerprint_hint">Touch sensor</string>
+    <string name="title_folders">Folders</string>
+    <string name="title_sort_type">Name</string>
+    <string name="message_fingerprint_not_recognized">Fingerprint not recognized. Try again</string>
+    <string name="message_fingerprint_success">Fingerprint recognized</string>
+    <string name="message_empty_folder">Folder is empty&#8230;</string>
+    <string name="btn_use_password">Use password</string>
+    <string name="backup_interval_one_day">1 day</string>
+    <string name="backup_interval_two_days">2 days</string>
+    <string name="backup_interval_three_days">3 days</string>
+    <string name="backup_interval_four_days">4 days</string>
+    <string name="backup_interval_five_days">5 days</string>
+    <string name="backup_interval_six_days">6 days</string>
+    <string name="backup_interval_one_week">1 week</string>
+    <string name="backup_interval_two_weeks">2 weeks</string>
+    <string name="backup_interval_three_weeks">3 weeks</string>
+    <string name="backup_interval_one_month">1 month</string>
+
+    <string name="title_file_picker_select_restore_csv">Select CSV to restore</string>
+    <string name="title_file_picker_select_restore_db">Select DB to restore</string>
+    <string name="title_file_picker_select_file_share">Select file to share</string>
+    <string name="title_file_picker_select_csv_dest">Select CSV backup destination</string>
+    <string name="title_file_picker_select_db_dest">Select DB backup destination</string>
+    <string name="alert_btn_select_folder">Select Folder</string>
+    <string name="toast_message_use_password">Use your password to sign in</string>
+    <string name="title_signin_fingerprint">Sign in with fingerprint</string>
+    <string name="title_login_failed">Sign In Failed</string>
+    <string name="title_failed_attempts">Too many failed attempts, try sign in using your password</string>
+    <string name="title_confirmation_failed">Confirmation Failed</string>
+    <string name="title_too_many_failed_try_again">Too many failed attempts, try again later</string>
 </resources>

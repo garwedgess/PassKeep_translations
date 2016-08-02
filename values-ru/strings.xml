@@ -1,6 +1,5 @@
 <?xml version="1.0"?>
 <resources xmlns:xliff="http://schemas.android.com/apk/res-auto">
-    <string name="app_name">PassKeep</string>
 
     <!-- Main Titles -->
     <string name="fragment_title_settings">Настройки</string>
@@ -159,8 +158,8 @@
     <string name="title_max_backups">Всего копий</string>
     <string name="title_attempts_remaining">Осталось попыток: %d</string>
     <string name="title_welcome">Добро пожаловать&#8230;</string>
-    <string name="title_bg_view_num_item">%1$d элемент</string>
-    <string name="title_bg_view_num_items">%1$d элементов</string>
+    <string name="title_bg_view_num_item">%d элемент</string>
+    <string name="title_bg_view_num_items">%d элементов</string>
     <string name="title_bg_view_root">В корень</string>
     <string name="title_first_start">Первый запуск</string>
     <string name="title_btn_sign_in">Войти</string>
@@ -218,8 +217,8 @@
 
     <!-- Default title for color picker dialog [CHAR LIMIT=30] -->
     <string name="color_picker_default_title">Выберите окрас</string>
-    <string name="color_swatch_description"><xliff:g example="14" id="color_index">%1$d</xliff:g> цвет</string>
-    <string name="color_swatch_description_selected">Выбран <xliff:g example="14" id="color_index">%1$d</xliff:g> цвет</string>
+    <string name="color_swatch_description"><xliff:g example="14" id="color_index">%d</xliff:g> цвет</string>
+    <string name="color_swatch_description_selected">Выбран <xliff:g example="14" id="color_index">%d</xliff:g> цвет</string>
 
     <!-- Timer settings strings -->
     <string name="timer_off">Отключен</string>

@@ -1,5 +1,4 @@
 <resources xmlns:xliff="http://schemas.android.com/apk/res-auto">
-    <string name="app_name">PassKeep</string>
 
     <!-- Main Titles -->
     <string name="fragment_title_settings">Pengaturan</string>
@@ -158,8 +157,8 @@
     <string name="title_max_backups">Maksimum Cadangan</string>
     <string name="title_attempts_remaining">Sisa usaha: %d</string>
     <string name="title_welcome">Selamat Datang&#8230;</string>
-    <string name="title_bg_view_num_item">%1$d entri</string>
-    <string name="title_bg_view_num_items">%1$d entri</string>
+    <string name="title_bg_view_num_item">%d entri</string>
+    <string name="title_bg_view_num_items">%d entri</string>
     <string name="title_bg_view_root">Root</string>
     <string name="title_first_start">Langkah Awal</string>
     <string name="title_btn_sign_in">Daftar</string>
@@ -218,8 +217,8 @@
 
     <!-- Default title for color picker dialog [CHAR LIMIT=30] -->
     <string name="color_picker_default_title">Pilih warna</string>
-    <string name="color_swatch_description">Warna <xliff:g example="14" id="color_index">%1$d</xliff:g></string>
-    <string name="color_swatch_description_selected">Warna <xliff:g example="14" id="color_index">%1$d</xliff:g> terpilih</string>
+    <string name="color_swatch_description">Warna <xliff:g example="14" id="color_index">%d</xliff:g></string>
+    <string name="color_swatch_description_selected">Warna <xliff:g example="14" id="color_index">%d</xliff:g> terpilih</string>
 
     <!-- Timer settings strings -->
     <string name="timer_off">Keluar otomatis mati</string>

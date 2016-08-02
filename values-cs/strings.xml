@@ -1,8 +1,6 @@
 <?xml version="1.0"?>
 <resources xmlns:xliff="http://schemas.android.com/apk/res-auto">
 
-    <string name="app_name">PassKeep</string>
-
     <!-- Main Titles -->
     <string name="fragment_title_settings">Nastavení</string>
     <string name="fragment_title_backup_restore">Záloha/Obnova</string>
@@ -160,8 +158,8 @@
     <string name="title_max_backups">Maximum záloh</string>
     <string name="title_attempts_remaining">Zůstává pokusů: %d</string>
     <string name="title_welcome">Vítejte&#8230;</string>
-    <string name="title_bg_view_num_item">%1$d položka</string>
-    <string name="title_bg_view_num_items">%1$d položek</string>
+    <string name="title_bg_view_num_item">%d položka</string>
+    <string name="title_bg_view_num_items">%d položek</string>
     <string name="title_bg_view_root">Root</string>
     <string name="title_first_start">První spuštění</string>
     <string name="title_btn_sign_in">Přihlásiť se</string>
@@ -219,8 +217,8 @@
 
     <!-- Default title for color picker dialog [CHAR LIMIT=30] -->
     <string name="color_picker_default_title">Vybrat barvu</string>
-    <string name="color_swatch_description">Barva <xliff:g example="14" id="color_index">%1$d</xliff:g></string>
-    <string name="color_swatch_description_selected">Barva <xliff:g example="14" id="color_index">%1$d</xliff:g> vybrána</string>
+    <string name="color_swatch_description">Barva <xliff:g example="14" id="color_index">%d</xliff:g></string>
+    <string name="color_swatch_description_selected">Barva <xliff:g example="14" id="color_index">%d</xliff:g> vybrána</string>
 
     <!-- Timer settings strings -->
     <string name="timer_off">Automaticky odhlásit</string>

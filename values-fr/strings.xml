@@ -1,7 +1,6 @@
 <resources xmlns:xliff="http://schemas.android.com/apk/res-auto">
-    <string name="app_name">PassKeep</string>
 
-    <!-- Main Titles -->
+    <!--  Main Titles  -->
     <string name="fragment_title_settings">Paramètres</string>
     <string name="fragment_title_backup_restore">Sauvegarder/Restaurer</string>
     <string name="fragment_title_cat_manager">Liste des Catégories</string>
@@ -11,7 +10,7 @@
     <string name="fragment_title_path_picker_default">Choisir un Dossier</string>
     <string name="fragment_title_path_picker_share_backup">Partager la Sauvegarde</string>
 
-    <!--Actions -->
+    <!-- Actions  -->
     <string name="action_select_all">Sélectionner Tout</string>
     <string name="action_delete">Supprimer</string>
     <string name="action_title_items_selected">%d sélectionné</string>
@@ -29,7 +28,7 @@
     <string name="action_delete_category">Supprimer Catégorie</string>
     <string name="action_rename_category">Renommer Catégorie</string>
 
-    <!-- Toast Messages -->
+    <!--  Toast Messages  -->
     <string name="toast_message_dir_created">Dossier créé</string>
     <string name="toast_message_dir_failed">Dossier non créé</string>
     <string name="toast_message_restore_success">Restauration réussie</string>
@@ -51,7 +50,7 @@
     <string name="toast_message_fingerprint_disabled">Accès par empreinte désactivé</string>
     <string name="toast_message_use_password">Utilisez votre mot de passe pour vous authentifier</string>
 
-    <!-- Snackbar Messages -->
+    <!--  Snackbar Messages  -->
     <string name="snackbar_message_select_a_backup_to">Sélectionner une sauvegarde dans %s</string>
     <string name="snackbar_message_append_share">partager</string>
     <string name="snackbar_message_append_restore">restaurer</string>
@@ -60,7 +59,7 @@
     <string name="snackbar_message_deleted_item">%d objet supprimé</string>
     <string name="snackbar_message_deleted_items">%d objets supprimés</string>
 
-    <!--EditText/TIL -->
+    <!-- EditText/TIL  -->
     <string name="et_hint_confirm_masterkey">Confirmer nouvelle clé principale</string>
     <string name="et_hint_backup_restore_loc">Emplacement Sauvegarde/Restauration</string>
     <string name="et_hint_new_masterkey">Nouvelle clé principale</string>
@@ -85,8 +84,7 @@
     <string name="error_password_length_short">La clé doit comporter au moins 6 caractères</string>
     <string name="error_alert_et_name_required">Un nom est requis</string>
     <string name="til_title_backup">Nom de la sauvegarde</string>
-
-    <!-- AlertDialogs -->
+    <!--  AlertDialogs  -->
     <string name="alert_title_confirm_selection">Confirmer la Sélection</string>
     <string name="alert_title_self_destruct">Autodestruction</string>
     <string name="alert_title_delete_password">Supprimer la Fiche</string>
@@ -95,7 +93,7 @@
     <string name="alert_title_password_change">Changer la Clé</string>
     <string name="alert_title_backup_from_db">Sauvegarder DB</string>
     <string name="alert_title_backup_db">Sauvegarder DB</string>
-    <string name="alert_title_share_backup">Partager la Sauvegarde avec &#8230;</string>
+    <string name="alert_title_share_backup">Partager la Sauvegarde avec ...</string>
     <string name="alert_title_restart_app">Redémarrer l\'Application</string>
     <string name="alert_title_select_application">Sélectionner une Application</string>
     <string name="alert_title_sort_passwords">Trier les Fiches</string>
@@ -118,13 +116,12 @@
     <string name="alert_btn_cancel">Annuler</string>
     <string name="alert_btn_no">Non</string>
     <string name="alert_btn_ok">OK</string>
-
-    <!--Preferences -->
+    <!-- Preferences  -->
     <string name="pref_category_title_appearance">Apparence</string>
     <string name="pref_category_title_general">Général</string>
     <string name="pref_category_title_security">Sécurité</string>
     <string name="pref_title_keep_screen_on">Garder l\'Ecran Allumé</string>
-    <string name="pref_title_show_notification">Icone de Notification</string>
+    <string name="pref_title_show_notification">Icône de Notification</string>
     <string name="pref_title_hide_passwords">Masquer les Clés</string>
     <string name="pref_title_rename_masterkey">Modifier la Clé Principale</string>
     <string name="pref_title_delete_all_passwords">Supprimer la Base de Données</string>
@@ -137,39 +134,38 @@
     <string name="pref_title_hide_usernames">Masquer les Noms d\'Utilisateur</string>
     <string name="pref_summary_delete_all_passwords">**Attention** Supprime tout le contenu de la base de données ainsi que la clé principale. Ceci est irréversible.</string>
     <string name="pref_summary_reset_master_passkey">**Attention** Modifie la clé principale. Les sauvegardes créées avec l\'ancienne clé principale ne fonctionneront plus.</string>
-    <string name="pref_summary_self_destruct">Supprime toutes les fiches après 5 tentaives de connexions échouées.</string>
+    <string name="pref_summary_self_destruct">Supprime toutes les fiches après 5 tentatives de connexions échouées.</string>
     <string name="pref_summary_auto_logout">Déconnecte automatiquement PassKeep après la durée sélectionnée si l\'application est masquée.</string>
     <string name="pref_summary_disallow_screenshots">Interdit les captures d\'écran de PassKeep.</string>
     <string name="pref_summary_auto_login">Connecte automatiquement si la clé principale est valide.</string>
     <string name="pref_summary_show_notification">Montre une icône dans la barre de notification quand PassKeep fonctionne et est déverrouillé.</string>
     <string name="pref_summary_keep_screen_on">Garde l\'écran allumé tant Passkeep est affiché.</string>
     <string name="pref_summary_hide_passwords">Montre l\'icône \"oeil\" pour basculer l\'affichage des clés.</string>
-    <string name="pref_summary_dark_theme">Change l\'interface de PassKeeps thème Material sombre. L\'application redémarrera.</string>
+    <string name="pref_summary_dark_theme">Change l\'interface de PassKeeps en thème Material sombre. L\'application redémarrera.</string>
     <string name="pref_default_backup_amount_unlimited">Illimité</string>
     <string name="pref_summary_show_system_apps">Montre les applications système dans la liste des applications lors de la création de la fiche.</string>
     <string name="pref_summary_hide_usernames">Masque les noms d\'utilisateur dans la liste des fiches.</string>
     <string name="pref_summary_use_pass_gen_options">Utilise les options personnalisées du générateur de clé lors de la création d\'une fiche.</string>
-
-    <!-- Misc Titles-->
+    <!--  Misc Titles -->
     <string name="title_last_edited">Dernière modification : %s</string>
     <string name="title_autobackups">Sauvegarde automatique</string>
     <string name="title_backup_every">Sauvegarder tous les</string>
     <string name="title_backup_time">Heure de sauvegarde</string>
     <string name="title_max_backups">Nombre de sauvegardes</string>
     <string name="title_attempts_remaining">Tentative(s) restante(s) : %d</string>
-    <string name="title_welcome">Bienvenue &#8230;</string>
-    <string name="title_bg_view_num_item">%1$d Objet</string>
-    <string name="title_bg_view_num_items">%1$d Objets</string>
+    <string name="title_welcome">Bienvenue …</string>
+    <string name="title_bg_view_num_item">%d Objet</string>
+    <string name="title_bg_view_num_items">%d Objets</string>
     <string name="title_bg_view_root">Racine</string>
     <string name="title_first_start">Premier démarrage</string>
     <string name="title_btn_sign_in">Connexion</string>
-    <string name="title_uppercase_az">Majuscules A&#8211;Z</string>
-    <string name="title_lowercase_az">Minuscules a&#8211;z</string>
-    <string name="title_numbers">Nombres 0&#8211;9</string>
+    <string name="title_uppercase_az">Majuscules A–Z</string>
+    <string name="title_lowercase_az">Minuscules a–z</string>
+    <string name="title_numbers">Nombres 0–9</string>
     <string name="title_special_chars">Caractères spéciaux</string>
     <string name="title_password_length">Nombre de caractères</string>
     <string name="title_can_contain">Peut contenir</string>
-    <string name="title_backup_restore_db">Database Sauvegarder/Restaurer</string>
+    <string name="title_backup_restore_db">DB Sauvegarder/Restaurer</string>
     <string name="title_backup_restore_csv">CSV Sauvegarder/Restaurer</string>
     <string name="title_custom_characters">Caractères spécifiques</string>
     <string name="title_category_none">Aucune</string>
@@ -194,20 +190,18 @@
     <string name="title_file_picker_select_restore_csv">Sélectionner CSV à restaurer</string>
     <string name="title_file_picker_select_restore_db">Sélectionner DB à restaurer</string>
     <string name="title_file_picker_select_file_share">Sélectionner le fichier à partager</string>
-    <string name="title_file_picker_select_csv_dest">Sélectionner emplacement sauvegarde CSV</string>
-    <string name="title_file_picker_select_db_dest">Sélectionner emplacement sauvegarde DB</string>
-
-    <!-- Misc Messages-->
+    <string name="title_file_picker_select_csv_dest">Sélectionner l\'emplacement de la sauvegarde CSV</string>
+    <string name="title_file_picker_select_db_dest">Sélectionner l\'emplacement de la sauvegarde DB</string>
+    <!--  Misc Messages -->
     <string name="message_empty_passwords_recycler">Aucune fiche crée</string>
-    <string name="message_welcome_first_start">Pour commencer, vous devez enregistrer une clé principale. Cette clé principale sera utilisée pour chiffrer vos fiches.\n\nLa clé principale est irrécupérable. Si vous l\'oubliez tous les fiches seront perdues.\n\nPour éviter toute perte de données, sauvegardez régulièrement la base de données de vos fiches.</string>
+    <string name="message_welcome_first_start">Pour commencer, vous devez enregistrer une clé principale. Cette clé principale sera utilisée pour chiffrer vos fiches.\n\nLa clé principale est irrécupérable. Si vous l\'oubliez toutes les fiches seront perdues.\n\nPour éviter toute perte de données, sauvegardez régulièrement la base de données de vos fiches.</string>
     <string name="message_placeholder_app_name">Associer une Application</string>
     <string name="message_placeholder_apk_package">Ouvrir l\'application à partir d\'ici</string>
     <string name="message_no_categories_available">Aucune catégorie disponible</string>
     <string name="message_fingerprint_not_recognized">Empreinte non reconnue, essayez encore</string>
     <string name="message_fingerprint_success">Empreinte reconnue</string>
-    <string name="message_empty_folder">Dossier vide &#8230;</string>
-    <string name="message_notification">PassKeep connecté &#8230;</string>
-
+    <string name="message_empty_folder">Dossier vide …</string>
+    <string name="message_notification">PassKeep connecté …</string>
     <string name="btn_generate_password">Générer une clé</string>
     <string name="btn_restore_db">Restaurer DB</string>
     <string name="btn_backup_db">Sauvegarder DB</string>
@@ -215,13 +209,13 @@
     <string name="btn_backup_csv">Sauvegarder CSV</string>
     <string name="btn_submit_master_password">Démarrer</string>
     <string name="btn_use_password">Utiliser la clé</string>
-
-    <!-- Default title for color picker dialog [CHAR LIMIT=30] -->
+    <!--
+     Default title for color picker dialog [CHAR LIMIT=30]
+    -->
     <string name="color_picker_default_title">Sélectionner une couleur</string>
-    <string name="color_swatch_description">Couleur <xliff:g example="14" id="color_index">%1$d</xliff:g></string>
-    <string name="color_swatch_description_selected">Couleur <xliff:g example="14" id="color_index">%1$d</xliff:g> sélectionnée</string>
-
-    <!-- Timer settings strings -->
+    <string name="color_swatch_description">Couleur <xliff:g example="14" id="color_index">%d</xliff:g></string>
+    <string name="color_swatch_description_selected">Couleur <xliff:g example="14" id="color_index">%d</xliff:g>sélectionnée</string>
+    <!--  Timer settings strings  -->
     <string name="timer_off">En quittant</string>
     <string name="timer_on_exit">En masquant</string>
     <string name="timer_thirty_secs">30 secondes</string>
@@ -230,7 +224,6 @@
     <string name="timer_five_minutes">5 minutes</string>
     <string name="timer_ten_minutes">10 minutes</string>
     <string name="timer_fifteen_minutes">15 minutes</string>
-
     <string name="backup_interval_one_day">1 jour</string>
     <string name="backup_interval_two_days">2 jours</string>
     <string name="backup_interval_three_days">3 jours</string>
@@ -241,17 +234,14 @@
     <string name="backup_interval_two_weeks">2 semaines</string>
     <string name="backup_interval_three_weeks">3 semaines</string>
     <string name="backup_interval_one_month">1 mois</string>
-
     <string name="sort_option_alphabetically_ascending">Alphabet (Montant)</string>
     <string name="sort_option_alphabetically_descending">Alphabet (Descendant)</string>
     <string name="sort_option_date_created_ascending">Date (Montant)</string>
     <string name="sort_option_date_created_descending">Date (Descendant)</string>
     <string name="sort_option_color_ascending">Couleur (Montant)</string>
     <string name="sort_option_color_descending">Couleur (Descendant)</string>
-
     <string name="date_ending_st">%der</string>
     <string name="date_ending_nd">%dème</string>
     <string name="date_ending_rd">%dème</string>
     <string name="date_ending_th">%dème</string>
-
 </resources>

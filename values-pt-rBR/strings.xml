@@ -1,6 +1,5 @@
 <?xml version="1.0"?>
 <resources xmlns:xliff="http://schemas.android.com/apk/res-auto">
-    <string name="app_name">PassKeep</string>
 
     <!-- Main Titles -->
     <string name="fragment_title_settings">Configurações</string>
@@ -159,8 +158,8 @@
     <string name="title_max_backups">Máximo de Backups</string>
     <string name="title_attempts_remaining">Tentativas restantes: %d</string>
     <string name="title_welcome">Bem Vindo(a)&#8230;</string>
-    <string name="title_bg_view_num_item">%1$d Item</string>
-    <string name="title_bg_view_num_items">%1$d Itens</string>
+    <string name="title_bg_view_num_item">%d Item</string>
+    <string name="title_bg_view_num_items">%d Itens</string>
     <string name="title_bg_view_root">Root</string>
     <string name="title_first_start">Primeiro Acesso</string>
     <string name="title_btn_sign_in">Entrar</string>
@@ -218,8 +217,8 @@
 
     <!-- Default title for color picker dialog [CHAR LIMIT=30] -->
     <string name="color_picker_default_title">Selecione uma Cor</string>
-    <string name="color_swatch_description">Cor <xliff:g example="14" id="color_index">%1$d</xliff:g></string>
-    <string name="color_swatch_description_selected">Cor <xliff:g example="14" id="color_index">%1$d</xliff:g> selecionado</string>
+    <string name="color_swatch_description">Cor <xliff:g example="14" id="color_index">%d</xliff:g></string>
+    <string name="color_swatch_description_selected">Cor <xliff:g example="14" id="color_index">%d</xliff:g> selecionado</string>
 
     <!-- Timer settings strings -->
     <string name="timer_off">Saída Automática Desligada</string>

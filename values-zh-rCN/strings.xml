@@ -1,5 +1,4 @@
 <resources xmlns:xliff="http://schemas.android.com/apk/res-auto">
-    <string name="app_name">PassKeep</string>
 
     <!-- Main Titles -->
     <string name="fragment_title_settings">设置</string>
@@ -158,8 +157,8 @@
     <string name="title_max_backups">最大备份次数</string>
     <string name="title_attempts_remaining">剩余尝试次数: %d</string>
     <string name="title_welcome">欢迎&#8230;</string>
-    <string name="title_bg_view_num_item">%1$d 项</string>
-    <string name="title_bg_view_num_items">%1$d 项</string>
+    <string name="title_bg_view_num_item">%d 项</string>
+    <string name="title_bg_view_num_items">%d 项</string>
     <string name="title_bg_view_root">Root</string>
     <string name="title_first_start">首次启动</string>
     <string name="title_btn_sign_in">登录</string>
@@ -196,8 +195,8 @@
     <string name="title_file_picker_select_file_share">选择文件以共享</string>
     <string name="title_file_picker_select_csv_dest">选择目标 CSV 备份</string>
     <string name="title_file_picker_select_db_dest">选择目标数据库备份</string>
-    
-     <!-- Misc Messages-->
+
+    <!-- Misc Messages-->
     <string name="message_empty_passwords_recycler">密码被添加后将在此处显示</string>
     <string name="message_welcome_first_start">开始使用前您必须设置一个主密码. 主密码将被用来加密您的其他密码.\n\n主密码不可恢复. 因此如主密码丢失您将失去所有的密码.\n\n请定时备份数据库以防止密码丢失.</string>
     <string name="message_placeholder_app_name">点击添加应用</string>
@@ -218,8 +217,8 @@
 
     <!-- Default title for color picker dialog [CHAR LIMIT=30] -->
     <string name="color_picker_default_title">请选择一种颜色</string>
-    <string name="color_swatch_description">颜色 <xliff:g example="14" id="color_index">%1$d</xliff:g></string>
-    <string name="color_swatch_description_selected">颜色 <xliff:g example="14" id="color_index">%1$d</xliff:g> 已选择</string>
+    <string name="color_swatch_description">颜色 <xliff:g example="14" id="color_index">%d</xliff:g></string>
+    <string name="color_swatch_description_selected">颜色 <xliff:g example="14" id="color_index">%d</xliff:g> 已选择</string>
 
     <!-- Timer settings strings -->
     <string name="timer_off">关闭自动退出</string>

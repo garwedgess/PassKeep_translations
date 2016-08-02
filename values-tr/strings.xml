@@ -1,6 +1,5 @@
 <?xml version="1.0"?>
 <resources xmlns:xliff="http://schemas.android.com/apk/res-auto">
-    <string name="app_name">PassKeep</string>
 
     <!-- Main Titles -->
     <string name="fragment_title_settings">Ayarlar</string>
@@ -159,8 +158,8 @@
     <string name="title_max_backups">Maksimum Yedek</string>
     <string name="title_attempts_remaining">Kalan girişim: %d</string>
     <string name="title_welcome">Hoş Geldin&#8230;</string>
-    <string name="title_bg_view_num_item">%1$d Öge</string>
-    <string name="title_bg_view_num_items">%1$d Öge</string>
+    <string name="title_bg_view_num_item">%d Öge</string>
+    <string name="title_bg_view_num_items">%d Öge</string>
     <string name="title_bg_view_root">Root</string>
     <string name="title_first_start">İlk Başlangıç</string>
     <string name="title_btn_sign_in">Giriş Yap</string>
@@ -218,8 +217,8 @@
 
     <!-- Default title for color picker dialog [CHAR LIMIT=30] -->
     <string name="color_picker_default_title">Bir Renk Seç</string>
-    <string name="color_swatch_description"><xliff:g example="14" id="color_index">%1$d</xliff:g> renk</string>
-    <string name="color_swatch_description_selected"><xliff:g example="14" id="color_index">%1$d</xliff:g> renk seçildi</string>
+    <string name="color_swatch_description"><xliff:g example="14" id="color_index">%d</xliff:g> renk</string>
+    <string name="color_swatch_description_selected"><xliff:g example="14" id="color_index">%d</xliff:g> renk seçildi</string>
 
     <!-- Timer settings strings -->
     <string name="timer_off">Otomatik Çıkış Kapalı</string>
