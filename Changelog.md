@@ -85,3 +85,19 @@
 - Updated Russian translations (Thanks to gaich)
 - Updated Vietnamese translations (Thanks to Soft Phan)
 - Added Simplified Chinese translations (Thanks to ContactFront)
+
+##v2.1
+- Fix settings crash
+
+##v2.2
+- Bug fixes
+- UI improvements/fixes
+- Add toggle option to switch between numeric and alphanumeric keyboard for signing in
+- Update Turkish translation -- thanks to echelonx
+- Update Potuguese (Brazil) -- thanks to brenosnt
+- Android Nougat compatible
+
+##v2.3
+- Bug fixes
+- Add French translation -- thanks to BreckZeBoulay
+- Add Indonesian translation -- thanks to handgun50

@@ -11,11 +11,12 @@ https://play.google.com/store/apps/details?id=eu.wedgess.passkeep
 - Czech (phsnake)
 - French (BreckZeBoulay)
 - German (laufersteppenwolf/Trafalgar-Square/mythos234/noc.jfcbs)
+- Indonesian (handgun50)
 - Polish (Chamelleon)
 - Portuguese - Brazilian (LeandritoG/brenosnt) 
 - Russian (DumF0rGaming/gaich)
 - Simplified Chinese (China) (ContactFront)
 - Slovak (phsnake)
-- Spanish (smstiv)
+- Spanish (smstiv) -- Incomplete
 - Turkish (echelonx)
 - Vietnamese (dd721411/Soft Phan)
