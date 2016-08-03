@@ -27,6 +27,7 @@
     <string name="action_delete_category_passwords">Supprimer Catégories et Fiches</string>
     <string name="action_delete_category">Supprimer Catégorie</string>
     <string name="action_rename_category">Renommer Catégorie</string>
+    <string name="action_view_category">Filtrer Catégorie</string>
 
     <!--  Toast Messages  -->
     <string name="toast_message_dir_created">Dossier créé</string>
