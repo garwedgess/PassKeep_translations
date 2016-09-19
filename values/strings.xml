@@ -1,5 +1,12 @@
 <resources xmlns:xliff="http://schemas.android.com/apk/res-auto">
 
+    <string name="app_version">App Version: %s</string>
+
+    <!-- About -->
+    <string name="about_changelog">Changelog</string>
+    <string name="about_help_faq">Help/FAQ</string>
+    <string name="about_contact">Contact</string>
+
     <!-- Main Titles -->
     <string name="fragment_title_settings">Settings</string>
     <string name="fragment_title_backup_restore">Backup/Restore</string>
@@ -7,14 +14,13 @@
     <string name="fragment_title_passwords">Passwords</string>
     <string name="fragment_title_password_entry">Password Entry</string>
     <string name="fragment_title_password_generator">Password Generator</string>
-    <string name="fragment_title_path_picker_default">Choose A Directory</string>
     <string name="fragment_title_path_picker_share_backup">Share Backup</string>
+    <string name="fragment_title_about">About</string>
 
     <!--Actions -->
     <string name="action_select_all">Select All</string>
     <string name="action_delete">Delete</string>
     <string name="action_title_items_selected">%d selected</string>
-    <string name="action_settings">Settings</string>
     <string name="action_edit_password">Edit Password</string>
     <string name="action_logout">Logout</string>
     <string name="action_delete_password">Delete Password</string>
@@ -23,9 +29,9 @@
     <string name="action_undo">Undo</string>
     <string name="action_floating_window">Floating Window</string>
     <string name="action_sort">Sort</string>
-    <string name="action_delete_category_passwords">Delete category and passwords</string>
-    <string name="action_delete_category">Delete category</string>
-    <string name="action_rename_category">Rename category</string>
+    <string name="action_delete_category_passwords">Delete Category and Passwords</string>
+    <string name="action_delete_category">Delete Category</string>
+    <string name="action_rename_category">Rename Category</string>
     <string name="action_view_category">View Category</string>
 
     <!-- Toast Messages -->
@@ -51,11 +57,6 @@
     <string name="toast_message_use_password">Use your password to sign in</string>
 
     <!-- Snackbar Messages -->
-    <string name="snackbar_message_select_a_backup_to">Select a backup to %s</string>
-    <string name="snackbar_message_append_share">share</string>
-    <string name="snackbar_message_append_restore">restore</string>
-    <string name="snackbar_messgae_select_folder">Long-press a folder to select the location</string>
-    <string name="snackbar_message_self_destruct_remaining">%d more attempts remaining before self-destruct. All passwords will be wiped.</string>
     <string name="snackbar_message_deleted_item">Deleted %d item</string>
     <string name="snackbar_message_deleted_items">Deleted %d items</string>
 
@@ -79,7 +80,6 @@
     <string name="error_incorrect_password">Incorrect password</string>
     <string name="error_blank_pass_title">Title cannot be blank</string>
     <string name="error_blank_entry">Cannot be blank</string>
-    <string name="error_blank_pass_username">Username cannot be left blank</string>
     <string name="error_blank_password">Password cannot be left blank</string>
     <string name="error_password_length_short">Password must be at least 6 characters long</string>
     <string name="error_alert_et_name_required">Name is required</string>
@@ -90,15 +90,13 @@
     <string name="alert_title_self_destruct">Self Destruct</string>
     <string name="alert_title_delete_password">Delete Password</string>
     <string name="alert_title_backup_from_csv">Backup CSV</string>
-    <string name="alert_title_new_directory">New Directory</string>
     <string name="alert_title_password_change">Change Password</string>
-    <string name="alert_title_backup_from_db">Backup DB</string>
     <string name="alert_title_backup_db">Backup DB</string>
     <string name="alert_title_share_backup">Share Backup With..</string>
     <string name="alert_title_restart_app">Restart Application</string>
     <string name="alert_title_select_application">Select an Application</string>
     <string name="alert_title_sort_passwords">Sort Passwords</string>
-    <string name="alert_title_rename_category">Rename category</string>
+    <string name="alert_title_rename_category">Rename Category</string>
     <string name="alert_title_permissions">Permissions</string>
     <string name="alert_title_new_folder">New Folder</string>
     <string name="alert_message_selected_file">Selected file: %s</string>
@@ -109,7 +107,6 @@
     <string name="alert_message_save_changes">Do you want to save the changes made?</string>
     <string name="alert_message_discard_entry">Do you want to discard this entry?</string>
     <string name="alert_message_self_destruct_activated">The maximum password attempts has been reached. All passwords permanently deleted. There is no going back!</string>
-    <string name="alert_message_permission_system_alert">This application requires SYSTEM_ALERT_WINDOW permission in order to draw the floating window over other applications. Without the permission the floating window will not work.</string>
     <string name="alert_message_read_write_permissions">PassKeep was not granted permission to write to your storage. Hence, backup restore functionality will not work. Please consider granting it this permission</string>
     <string name="alert_message_grant_drawoverapps_permission">PassKeep was not granted permission to draw over other applications. Therefore the floating window functionality will not work. Please consider granting it this permission</string>
     <string name="alert_btn_grant_permissions">Grant Permission</string>
@@ -135,6 +132,9 @@
     <string name="pref_title_show_system_apps">Show System Apps</string>
     <string name="pref_title_use_pass_gen_options">Password Generator Options</string>
     <string name="pref_title_hide_usernames">Hide Usernames</string>
+    <string name="pref_title_clear_clipboard">Clear Clipboard</string>
+    <string name="pref_title_hide_copy_button">Hide Clipboard</string>
+    <string name="pref_summary_clear_clipboard">Clear the clipboard on application exit.</string>
     <string name="pref_summary_delete_all_passwords">**Warning** Delete all the contents of the database including the master passkey. This cannot be undone.</string>
     <string name="pref_summary_reset_master_passkey">**Warning** Reset the master passkey. Backups with the old passkey will not work anymore.</string>
     <string name="pref_summary_self_destruct">Delete all passwords when 5 failed attempts have been entered using the \"sign in\" button.</string>
@@ -145,23 +145,21 @@
     <string name="pref_summary_keep_screen_on">Keep the devices screen on while viewing Passkeep</string>
     <string name="pref_summary_hide_passwords">Show the \"eye\" icon to toggle passwords visibility.</string>
     <string name="pref_summary_dark_theme">Change PassKeeps UI to a dark material theme. (Application will restart)</string>
-    <string name="pref_default_backup_amount_unlimited">Unlimited</string>
     <string name="pref_summary_show_system_apps">Show system apps in the list of applications for password entries</string>
     <string name="pref_summary_hide_usernames">Hide passwords usernames from the list of passwords</string>
     <string name="pref_summary_use_pass_gen_options">Use the password generators options when generating passwords for entries</string>
+    <string name="pref_summary_hide_copy_button">Hide the \'copy to clipboard\' button for user names and passwords.</string>
+    <string name="pref_default_backup_amount_unlimited">Unlimited</string>
 
     <!-- Misc Titles-->
     <string name="title_last_edited">Last edited: %s</string>
-    <string name="title_autobackups">Automatic backup</string>
+    <string name="title_autobackups">Automatic Backup</string>
     <string name="title_backup_every">Backup Every</string>
     <string name="title_backup_time">Backup Time</string>
     <string name="title_max_backups">Maximum Backups</string>
     <string name="title_attempts_remaining">Attempts remaining: %d</string>
-    <string name="title_welcome">Welcome&#8230;</string>
-    <string name="title_bg_view_num_item">%d Item</string>
-    <string name="title_bg_view_num_items">%d Items</string>
     <string name="title_bg_view_root">Root</string>
-    <string name="title_first_start">First Start</string>
+    <string name="title_first_start">Initial Setup</string>
     <string name="title_btn_sign_in">Sign In</string>
     <string name="title_uppercase_az">Uppercase A&#8211;Z</string>
     <string name="title_lowercase_az">Lowercase a&#8211;z</string>
@@ -175,14 +173,10 @@
     <string name="title_category_none">None</string>
     <string name="title_category">Category</string>
     <string name="title_category_all">All</string>
-    <string name="title_no_category">No Category</string>
     <string name="title_category_new">New Category</string>
     <string name="title_add_new_category">Add New Category</string>
-    <string name="title_category_toolbar">Category:</string>
     <string name="title_select_destination_folder">Select destination folder</string>
     <string name="title_files">Files</string>
-    <string name="title_use_fingerprint_to_authenticate_title">Use fingerprint to authenticate</string>
-    <string name="title_fingerprint_description">Confirm fingerprint to continue</string>
     <string name="title_fingerprint_hint">Touch sensor</string>
     <string name="title_folders">Folders</string>
     <string name="title_sort_type">Name</string>
@@ -214,7 +208,6 @@
     <string name="btn_restore_csv">Restore from CSV</string>
     <string name="btn_backup_csv">Backup to CSV</string>
     <string name="btn_submit_master_password">Start</string>
-    <string name="btn_use_password">Use password</string>
 
     <!-- Default title for color picker dialog [CHAR LIMIT=30] -->
     <string name="color_picker_default_title">Select a Color</string>
@@ -253,5 +246,6 @@
     <string name="date_ending_nd">%dnd</string>
     <string name="date_ending_rd">%drd</string>
     <string name="date_ending_th">%dth</string>
+    <string name="toast_msg_password_save_success">Password \"%s\" saved successfully.</string>
 
 </resources>
