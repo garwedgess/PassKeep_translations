@@ -134,6 +134,8 @@
     <string name="pref_title_hide_usernames">Hide Usernames</string>
     <string name="pref_title_clear_clipboard">Clear Clipboard</string>
     <string name="pref_title_hide_copy_button">Hide Clipboard</string>
+    <string name="pref_title_quickaccess">Quick Access Notification</string>
+    <string name="pref_summary_quickaccess">Show a notification in the notification drawer for quick access when logged out.</string>
     <string name="pref_summary_clear_clipboard">Clear the clipboard on application exit.</string>
     <string name="pref_summary_delete_all_passwords">**Warning** Delete all the contents of the database including the master passkey. This cannot be undone.</string>
     <string name="pref_summary_reset_master_passkey">**Warning** Reset the master passkey. Backups with the old passkey will not work anymore.</string>
