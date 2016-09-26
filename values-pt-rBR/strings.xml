@@ -1,6 +1,13 @@
 <?xml version="1.0"?>
 <resources xmlns:xliff="http://schemas.android.com/apk/res-auto">
 
+    <string name="app_version">Versão do app: %s</string>
+
+    <!-- About -->
+    <string name="about_changelog">Registro de mudanças</string>
+    <string name="about_help_faq">Ajuda/FAQ</string>
+    <string name="about_contact">Contato</string>
+
     <!-- Main Titles -->
     <string name="fragment_title_settings">Configurações</string>
     <string name="fragment_title_backup_restore">Backup/Restaurar</string>
@@ -8,14 +15,13 @@
     <string name="fragment_title_passwords">Senhas</string>
     <string name="fragment_title_password_entry">Senha de Acesso</string>
     <string name="fragment_title_password_generator">Gerador de Senha</string>
-    <string name="fragment_title_path_picker_default">Escolha Um Diretório</string>
     <string name="fragment_title_path_picker_share_backup">Compartilhar Backup</string>
+    <string name="fragment_title_about">Sobre</string>
 
     <!--Actions -->
     <string name="action_select_all">Selecionar Tudo</string>
     <string name="action_delete">Excluído</string>
     <string name="action_title_items_selected">%d selecionado</string>
-    <string name="action_settings">Configurações</string>
     <string name="action_edit_password">Editar Senha</string>
     <string name="action_logout">Sair</string>
     <string name="action_delete_password">Excluir Senha</string>
@@ -23,11 +29,11 @@
     <string name="action_color_picker">Seletor de Cor</string>
     <string name="action_undo">Desfazer</string>
     <string name="action_floating_window">Janela Flutuante</string>
-    <string name="alert_title_new_folder">Novo Diretório</string>
     <string name="action_sort">Ordenar</string>
     <string name="action_delete_category_passwords">Excluir Categoria e Senhas</string>
     <string name="action_delete_category">Excluir Categoria</string>
     <string name="action_rename_category">Renomear Categoria</string>
+    <string name="action_view_category">Ver Categoria</string>
 
     <!-- Toast Messages -->
     <string name="toast_message_dir_created">Diretório criado com sucesso</string>
@@ -50,13 +56,9 @@
     <string name="toast_message_no_fingerprint_setup"><![CDATA[Vá para \'Configurações -> Segurança -> impressão digital\' e registre pelo menos uma impressão digital]]></string>
     <string name="toast_message_fingerprint_disabled">Login por impressão digital desativado</string>
     <string name="toast_message_use_password">Use sua senha para entrar</string>
+    <string name="toast_msg_password_save_success">Senha \"%s\" salva com sucesso</string>
 
     <!-- Snackbar Messages -->
-    <string name="snackbar_message_select_a_backup_to">Selecione um backup para %s</string>
-    <string name="snackbar_message_append_share">compartilhar</string>
-    <string name="snackbar_message_append_restore">restaurar</string>
-    <string name="snackbar_messgae_select_folder">Pressione longamente uma pasta para selecionar o local</string>
-    <string name="snackbar_message_self_destruct_remaining">%d mais tentativas restantes antes da autodestruição. Todas as senhas serão eliminadas.</string>
     <string name="snackbar_message_deleted_item">Excluído %d item</string>
     <string name="snackbar_message_deleted_items">Excluído %d itens</string>
 
@@ -80,7 +82,6 @@
     <string name="error_incorrect_password">Senha Incorreta</string>
     <string name="error_blank_pass_title">O título não pode ficar em branco</string>
     <string name="error_blank_entry">Não pode estar em branco</string>
-    <string name="error_blank_pass_username">O nome de usuário não pode ser deixado em branco</string>
     <string name="error_blank_password">A senha não pode ser deixada em branco</string>
     <string name="error_password_length_short">A senha deve ter pelo menos 6 caracteres</string>
     <string name="error_alert_et_name_required">O nome é requerido</string>
@@ -91,9 +92,7 @@
     <string name="alert_title_self_destruct">Autodestruir</string>
     <string name="alert_title_delete_password">Excluir Senha</string>
     <string name="alert_title_backup_from_csv">Backup de CSV</string>
-    <string name="alert_title_new_directory">Novo Diretório</string>
     <string name="alert_title_password_change">Mudar Senha</string>
-    <string name="alert_title_backup_from_db">Backup de DB</string>
     <string name="alert_title_backup_db">Backup de DB</string>
     <string name="alert_title_share_backup">Compartilhar Backup Com...</string>
     <string name="alert_title_restart_app">Reiniciar Aplicativo</string>
@@ -101,6 +100,7 @@
     <string name="alert_title_sort_passwords">Ordenar Senhas</string>
     <string name="alert_title_rename_category">Renomear Categoria</string>
     <string name="alert_title_permissions">Permissões</string>
+    <string name="alert_title_new_folder">Novo Diretório</string>
     <string name="alert_message_selected_file">Arquivo selecionado: %s</string>
     <string name="alert_message_restart_app">O aplicativo precisa ser reiniciado para bloquear/permitir capturas de tela. Reiniciar PassKeep agora?</string>
     <string name="alert_message_loading_app_list">Carregando lista de aplicativos</string>
@@ -109,7 +109,6 @@
     <string name="alert_message_save_changes">Você quer salvar as mudanças feitas?</string>
     <string name="alert_message_discard_entry">Você quer descartar este acesso?</string>
     <string name="alert_message_self_destruct_activated">O máximo de tentativas de senha foi atingido. Todas as senhas foram permanentemente excluídas. Não há retorno!</string>
-    <string name="alert_message_permission_system_alert">Esta aplicação requer permissão SYSTEM_ALERT_WINDOW a fim de chamar a janela flutuante sobre outras aplicações. Sem a permissão a janela flutuante não funcionará.</string>
     <string name="alert_message_read_write_permissions">Não foi concedida permissão para PassKeep escrever no seu armazenamento. Por isso, a função de restauração de backup não funcionará. Por favor, considere conceder esta permissão.</string>
     <string name="alert_message_grant_drawoverapps_permission">Não foi concedida permissão para PassKeep sobrescrever outras aplicações. Portanto, a função janela flutuante não funcionará. Por favor, considere conceder esta permissão.</string>
     <string name="alert_btn_grant_permissions">Conceder Permissão</string>
@@ -135,6 +134,11 @@
     <string name="pref_title_show_system_apps">Mostrar Aplicativos do Sistema</string>
     <string name="pref_title_use_pass_gen_options">Opções de Gerador de Senha</string>
     <string name="pref_title_hide_usernames">Esconder Nomes de Usuário</string>
+    <string name="pref_title_clear_clipboard">Limpar área de transferência</string>
+    <string name="pref_title_hide_copy_button">Esconder área de transferência</string>
+    <string name="pref_title_quickaccess">Notificação de Acesso de Rápido</string>
+    <string name="pref_summary_quickaccess">Exibir uma notificação na gaveta de notificações para acesso rápido quando desconectado.</string>
+    <string name="pref_summary_clear_clipboard">Limpar área de transferência da aplicação quando sair</string>
     <string name="pref_summary_delete_all_passwords">**Atenção** Excluir todo o conteúdo do banco de dados, incluindo a senha mestra. Isto não poderá ser desfeito.</string>
     <string name="pref_summary_reset_master_passkey">**Atenção** Redefinir a senha mestra. Os backups com a senha mestra antiga não funcionarão mais.</string>
     <string name="pref_summary_self_destruct">Excluir todas as senhas quando 5 tentativas erradas forem feitas usando o botão \"Entrar\".</string>
@@ -145,10 +149,11 @@
     <string name="pref_summary_keep_screen_on">Mantenha a tela do dispositivo acesa enquanto visualiza o PassKeep.</string>
     <string name="pref_summary_hide_passwords">Mostrar o ícone \"olho\" para alternar a visibilidade das senhas.</string>
     <string name="pref_summary_dark_theme">Mudar a interface UI do PassKeep para um tema material escuro. (O aplicativo será reiniciado)</string>
-    <string name="pref_default_backup_amount_unlimited">Ilimitado</string>
     <string name="pref_summary_show_system_apps">Mostrar aplicativos do sistema na lista de aplicativos de acesso por senha</string>
     <string name="pref_summary_hide_usernames">Esconder os nomes de usuário das senhas da lista de senhas</string>
     <string name="pref_summary_use_pass_gen_options">Usar as opções de geradores de senha ao gerar senhas de acesso</string>
+    <string name="pref_summary_hide_copy_button">Esconder o botão \"Copiar para área de transferência\" para nomes de usuário e senhas</string>
+    <string name="pref_default_backup_amount_unlimited">Ilimitado</string>
 
     <!-- Misc Titles-->
     <string name="title_last_edited">Editado pela última vez: %s</string>
@@ -157,9 +162,6 @@
     <string name="title_backup_time">Período de Backup</string>
     <string name="title_max_backups">Máximo de Backups</string>
     <string name="title_attempts_remaining">Tentativas restantes: %d</string>
-    <string name="title_welcome">Bem Vindo(a)&#8230;</string>
-    <string name="title_bg_view_num_item">%d Item</string>
-    <string name="title_bg_view_num_items">%d Itens</string>
     <string name="title_bg_view_root">Root</string>
     <string name="title_first_start">Primeiro Acesso</string>
     <string name="title_btn_sign_in">Entrar</string>
@@ -175,14 +177,10 @@
     <string name="title_category_none">Nenhuma</string>
     <string name="title_category">Categoria</string>
     <string name="title_category_all">Tudo</string>
-    <string name="title_no_category">Sem Categoria</string>
     <string name="title_category_new">Nova Categoria</string>
     <string name="title_add_new_category">Adicionar Nova Categoria</string>
-    <string name="title_category_toolbar">Categoria:</string>
     <string name="title_select_destination_folder">Selecione a pasta de destino</string>
     <string name="title_files">Arquivos</string>
-    <string name="title_use_fingerprint_to_authenticate_title">Use sua impressão digital para autenticar</string>
-    <string name="title_fingerprint_description">Confirme a impressão digital para continuar</string>
     <string name="title_fingerprint_hint">Sensor de toque</string>
     <string name="title_folders">Pastas</string>
     <string name="title_sort_type">Nome</string>
@@ -213,7 +211,6 @@
     <string name="btn_restore_csv">Restaurar do CSV</string>
     <string name="btn_backup_csv">Backup para CSV</string>
     <string name="btn_submit_master_password">Começar</string>
-    <string name="btn_use_password">Use a senha</string>
 
     <!-- Default title for color picker dialog [CHAR LIMIT=30] -->
     <string name="color_picker_default_title">Selecione uma Cor</string>
@@ -239,16 +236,14 @@
     <string name="backup_interval_two_weeks">2 semanas</string>
     <string name="backup_interval_three_weeks">3 semanas</string>
     <string name="backup_interval_one_month">1 mês</string>
-
     <string name="sort_option_alphabetically_ascending">Alfabética (Crescente)</string>
     <string name="sort_option_alphabetically_descending">Alfabética (Decrescente)</string>
     <string name="sort_option_date_created_ascending">Data (Crescente)</string>
     <string name="sort_option_date_created_descending">Data (Decrescente)</string>
     <string name="sort_option_color_ascending">Cor (Crescente)</string>
     <string name="sort_option_color_descending">Cor (Decrescente)</string>
-
     <string name="date_ending_st">%dst</string>
-    <string name="date_ending_nd">%dnd</string>
+    <string name="date_ending_nd">%snd</string>
     <string name="date_ending_rd">%drd</string>
     <string name="date_ending_th">%dth</string>
 </resources>
