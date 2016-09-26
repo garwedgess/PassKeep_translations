@@ -243,7 +243,7 @@
     <string name="sort_option_color_ascending">Cor (Crescente)</string>
     <string name="sort_option_color_descending">Cor (Decrescente)</string>
     <string name="date_ending_st">%dst</string>
-    <string name="date_ending_nd">%snd</string>
+    <string name="date_ending_nd">%dnd</string>
     <string name="date_ending_rd">%drd</string>
     <string name="date_ending_th">%dth</string>
 </resources>
