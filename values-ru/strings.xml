@@ -1,6 +1,13 @@
 <?xml version="1.0"?>
 <resources xmlns:xliff="http://schemas.android.com/apk/res-auto">
 
+    <string name="app_version">Версия приложения: %s</string>
+
+    <!-- About -->
+    <string name="about_changelog">История изменений</string>
+    <string name="about_help_faq">Помощь/вопросы и ответы</string>
+    <string name="about_contact">Связь</string>
+
     <!-- Main Titles -->
     <string name="fragment_title_settings">Настройки</string>
     <string name="fragment_title_backup_restore">Резервное копирование</string>
@@ -8,14 +15,13 @@
     <string name="fragment_title_passwords">Пароли</string>
     <string name="fragment_title_password_entry">Добавление пароля</string>
     <string name="fragment_title_password_generator">Генератор паролей</string>
-    <string name="fragment_title_path_picker_default">Выберите путь</string>
     <string name="fragment_title_path_picker_share_backup">Поделиться копией</string>
+    <string name="fragment_title_about">О приложении</string>
 
     <!--Actions -->
     <string name="action_select_all">Выбрать все</string>
     <string name="action_delete">Удалить</string>
     <string name="action_title_items_selected">Выбрано %d</string>
-    <string name="action_settings">Настройки</string>
     <string name="action_edit_password">Редактировать</string>
     <string name="action_logout">Выйти</string>
     <string name="action_delete_password">Удалить</string>
@@ -23,11 +29,11 @@
     <string name="action_color_picker">Выбрать цвет</string>
     <string name="action_undo">Отмена</string>
     <string name="action_floating_window">Всплывающее окно</string>
-    <string name="alert_title_new_folder">Создать папку</string>
     <string name="action_sort">Сортировать</string>
-    <string name="action_delete_category_passwords">Удалить категорию вместе с паролями</string>
+    <string name="action_delete_category_passwords">Удалить категорию и пароли</string>
     <string name="action_delete_category">Удалить категорию</string>
     <string name="action_rename_category">Переименовать категорию</string>
+    <string name="action_view_category">Просмотр категории</string>
 
     <!-- Toast Messages -->
     <string name="toast_message_dir_created">Путь создан</string>
@@ -52,11 +58,6 @@
     <string name="toast_message_use_password">Используйте Ваш пароль для входа</string>
 
     <!-- Snackbar Messages -->
-    <string name="snackbar_message_select_a_backup_to">Выберите копию для %s</string>
-    <string name="snackbar_message_append_share">отправки</string>
-    <string name="snackbar_message_append_restore">восстановления</string>
-    <string name="snackbar_messgae_select_folder">Удерживайте папку, чтобы выбрать ее</string>
-    <string name="snackbar_message_self_destruct_remaining">Осталось %d попыток до самоликвидации. Все пароли будут уничтожены.</string>
     <string name="snackbar_message_deleted_item">Удален %d объект</string>
     <string name="snackbar_message_deleted_items">Удалено %d объектов</string>
 
@@ -80,7 +81,6 @@
     <string name="error_incorrect_password">Неправильный пароль</string>
     <string name="error_blank_pass_title">Название должно быть заполнено</string>
     <string name="error_blank_entry">Поле не может быть пустым</string>
-    <string name="error_blank_pass_username">Имя пользователя должно быть введено</string>
     <string name="error_blank_password">Пароль должен быть введен</string>
     <string name="error_password_length_short">Пароль должен содержать не менее 6 символов</string>
     <string name="error_alert_et_name_required">Необходимо заполнить имя</string>
@@ -91,9 +91,7 @@
     <string name="alert_title_self_destruct">Самоликвидация</string>
     <string name="alert_title_delete_password">Удаление пароля</string>
     <string name="alert_title_backup_from_csv">Сохранить CSV</string>
-    <string name="alert_title_new_directory">Новое размещение</string>
     <string name="alert_title_password_change">Смена пароля</string>
-    <string name="alert_title_backup_from_db">Восстановление паролей</string>
     <string name="alert_title_backup_db">Сохранение паролей</string>
     <string name="alert_title_share_backup">Отправить копию через..</string>
     <string name="alert_title_restart_app">Перезапуск приложения</string>
@@ -101,6 +99,7 @@
     <string name="alert_title_sort_passwords">Сортировка паролей</string>
     <string name="alert_title_rename_category">Переименовать категорию</string>
     <string name="alert_title_permissions">Разрешения</string>
+    <string name="alert_title_new_folder">Создать папку</string>
     <string name="alert_message_selected_file">Выбран файл: %s</string>
     <string name="alert_message_restart_app">Приложение должно быть перезапущено для вступления настройки в силу. Сделать это сейчас?</string>
     <string name="alert_message_loading_app_list">Загрузка списка приложений</string>
@@ -109,7 +108,6 @@
     <string name="alert_message_save_changes">Сохранить изменения?</string>
     <string name="alert_message_discard_entry">Отменить редактирование?</string>
     <string name="alert_message_self_destruct_activated">Вы достигли предельной попытки. Все пароли безвозвратно удалены. И нет пути назад!</string>
-    <string name="alert_message_permission_system_alert">Приложению требуется разрешение SYSTEM_ALERT_WINDOW для показа всплывающего окна поверх других приложений. Без него всплывающее окно не появится.</string>
     <string name="alert_message_read_write_permissions">PassKeep не получил разрешение на запись в память. Следовательно, резервирование и восстановление не будут работать. Пожалуйста, предоставьте это разрешение</string>
     <string name="alert_message_grant_drawoverapps_permission">PassKeep не получил разрешение на отображение поверх других приложений. Следовательно, всплывающее окно не будет работать. Пожалуйста, предоставьте это разрешение</string>
     <string name="alert_btn_grant_permissions">Предоставить</string>
@@ -135,6 +133,11 @@
     <string name="pref_title_show_system_apps">Системные приложения</string>
     <string name="pref_title_use_pass_gen_options">Опции генератора</string>
     <string name="pref_title_hide_usernames">Сокрытие логинов</string>
+    <string name="pref_title_clear_clipboard">Очистить буфер</string>
+    <string name="pref_title_hide_copy_button">Скрыть буфер</string>
+    <string name="pref_title_quickaccess">Уведомление быстрого доступа</string>
+    <string name="pref_summary_quickaccess">Показывать в шторке уведомление для быстрого доступа при выходе.</string>
+    <string name="pref_summary_clear_clipboard">Очищать буфер обмена при выходе из приложения</string>
     <string name="pref_summary_delete_all_passwords">**Предупреждение** Все пароли, включая мастер-пароль будут удалены. Это действие нельзя отменить.</string>
     <string name="pref_summary_reset_master_passkey">**Предупреждение** Сменить мастер-пароль. Резервные копии со старым мастер-паролем перестанут работать.</string>
     <string name="pref_summary_self_destruct">Удалять все пароли при достижении 5 неудачных попыток входа.</string>
@@ -145,10 +148,11 @@
     <string name="pref_summary_keep_screen_on">Держать экран включенным, пока используется Passkeep</string>
     <string name="pref_summary_hide_passwords">Отображать значок \"глаза\" для показа паролей.</string>
     <string name="pref_summary_dark_theme">Применить темное оформление в стиле Material Design. (требуется перезапуск)</string>
-    <string name="pref_default_backup_amount_unlimited">Неограниченно</string>
     <string name="pref_summary_show_system_apps">Отображать системные приложения в списке для добавления паролей</string>
     <string name="pref_summary_hide_usernames">Скрывать имена пользователя в списке паролей</string>
     <string name="pref_summary_use_pass_gen_options">Применять опции генератора паролей при создании паролей</string>
+    <string name="pref_summary_hide_copy_button">Скрывать кнопку \'копировать в буфер\' для логинов и паролей</string>
+    <string name="pref_default_backup_amount_unlimited">Неограниченно</string>
 
     <!-- Misc Titles-->
     <string name="title_last_edited">Последнее изменение: %s</string>
@@ -157,9 +161,6 @@
     <string name="title_backup_time">Время копирования</string>
     <string name="title_max_backups">Всего копий</string>
     <string name="title_attempts_remaining">Осталось попыток: %d</string>
-    <string name="title_welcome">Добро пожаловать&#8230;</string>
-    <string name="title_bg_view_num_item">%d элемент</string>
-    <string name="title_bg_view_num_items">%d элементов</string>
     <string name="title_bg_view_root">В корень</string>
     <string name="title_first_start">Первый запуск</string>
     <string name="title_btn_sign_in">Войти</string>
@@ -175,14 +176,10 @@
     <string name="title_category_none">Отсутствует</string>
     <string name="title_category">Категория</string>
     <string name="title_category_all">Все</string>
-    <string name="title_no_category">Категории нет</string>
     <string name="title_category_new">Новая категория</string>
     <string name="title_add_new_category">Создать категорию</string>
-    <string name="title_category_toolbar">категорию:</string>
     <string name="title_select_destination_folder">Выберите папку назначения</string>
     <string name="title_files">Файлы</string>
-    <string name="title_use_fingerprint_to_authenticate_title">Использовать отпечаток пальца для входа</string>
-    <string name="title_fingerprint_description">Подтвердите отпечаток для продолжения</string>
     <string name="title_fingerprint_hint">Датчик касаний</string>
     <string name="title_folders">Папки</string>
     <string name="title_sort_type">Имя</string>
@@ -213,12 +210,11 @@
     <string name="btn_restore_csv">Восст из CSV</string>
     <string name="btn_backup_csv">Сохр в CSV</string>
     <string name="btn_submit_master_password">Приступить</string>
-    <string name="btn_use_password">Использовать пароль</string>
 
     <!-- Default title for color picker dialog [CHAR LIMIT=30] -->
     <string name="color_picker_default_title">Выберите окрас</string>
     <string name="color_swatch_description"><xliff:g example="14" id="color_index">%d</xliff:g> цвет</string>
-    <string name="color_swatch_description_selected">Выбран <xliff:g example="14" id="color_index">%d</xliff:g> цвет</string>
+    <string name="color_swatch_description_selected">Выбран <xliff:g example="14" id="color_index">%1$d</xliff:g> цвет</string>
 
     <!-- Timer settings strings -->
     <string name="timer_off">Отключен</string>
@@ -239,16 +235,15 @@
     <string name="backup_interval_two_weeks">Раз в 2 недели</string>
     <string name="backup_interval_three_weeks">Раз в 3 недели</string>
     <string name="backup_interval_one_month">Раз в месяц</string>
-
     <string name="sort_option_alphabetically_ascending">По алфавиту (возр.)</string>
     <string name="sort_option_alphabetically_descending">По алфавиту (убыв.)</string>
     <string name="sort_option_date_created_ascending">По дате (возр.)</string>
     <string name="sort_option_date_created_descending">По дате (убыв.)</string>
     <string name="sort_option_color_ascending">Цвет (возр.)</string>
     <string name="sort_option_color_descending">Цвет (убыв.)</string>
-
     <string name="date_ending_st">%dый</string>
     <string name="date_ending_nd">%dой</string>
     <string name="date_ending_rd">%dий</string>
     <string name="date_ending_th">%dый</string>
+    <string name="toast_msg_password_save_success">Пароль \"%s\" сохранен.</string>
 </resources>
