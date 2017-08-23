@@ -7,7 +7,7 @@
     <string name="about_contact">Contact</string>
 
     <string name="title_select_destination">Select Destination</string>
-    <string name="title_sort_type">Sort Type</string>
+    <string name="title_sort_type">Name</string>
     <string name="title_total_passwords">Total Passwords</string>
     <string name="title_restore_csv">Restore CSV</string>
     <string name="title_selected_category">Selected Category</string>
@@ -160,7 +160,7 @@
     <string name="toast_message_fingerprint_enabled">Fingerprint login enabled</string>
     <string name="toast_message_fingerprint_login_failed">Fingerprint login failed: %s</string>
     <string name="toast_message_donate_thank_you">Thank you for your donation :)</string>
-    
+
     <string name="deprecated_message_placeholder_apk_package">You can then open the application from here&#x2026;</string>
     <string name="donate_getting_product">Loading product&#x2026;</string>
     <string name="donate_donate">Donate\u0020</string>
@@ -250,7 +250,7 @@
     <string name="pref_title_hide_usernames">Hide Usernames</string>
     <string name="pref_title_hide_passwords">Hide Passwords</string>
     <string name="pref_summary_hide_passwords">Show the \"eye\" icon to toggle passwords visibility.</string>
-    <string name="pref_summary_hide_usernames">Hide passwords username from the list of passwords.</string>
+    <string name="pref_summary_hide_usernames">Hide usernames from the list of passwords.</string>
     <string name="pref_title_hide_copy_button">Hide Clipboard</string>
     <string name="pref_summary_hide_copy_button">Hide the \'copy to clipboard\' button from usernames and passwords.</string>
 
@@ -262,8 +262,8 @@
     <string name="pref_summary_auto_logout">If you exit PassKeep, you will logged out after the selected amount of time.</string>
     <string name="pref_title_clear_clipboard">Clear Clipboard</string>
     <string name="pref_summary_clear_clipboard">Clear the clipboard on application exit. Samsung devices and clipboard manager applications store X amount of clipboard entries, match this number below.</string>
-    <string name="pref_title_self_destruct">@string/alert_title_self_destruct</string>
-    <string name="pref_summary_self_destruct">Delete all passwords when X amount of failed attempts have been entered using the \"sign in\" button.</string>
+    <string name="pref_title_self_destruct">Self Destruct</string>
+    <string name="pref_summary_self_destruct">Delete all passwords when the specified amount of failed attempts have been entered using the \"sign in\" button.</string>
     <string name="pref_title_fingerprint">Fingerprint Login</string>
     <string name="pref_summary_fingerprint">Sign in to PassKeep using fingerprint authentication.</string>
     <string name="pref_title_delete_all_passwords">Delete Database</string>
