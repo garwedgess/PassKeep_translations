@@ -105,8 +105,8 @@
     <string name="error_passwords_dont_match">Passwords do not match!</string>
     <string name="error_no_permission_fingerprint">Fingerprint authentication permission not enabled</string>
     <string name="error_incorrect_password">Incorrect password!</string>
-    <string name="last_edited_placeholder">Last Edited: %s</string>
     <string name="error_short_master_key">Password must be at least 6 characters!</string>
+    <string name="error_fingerprint_changed">Fingerprint changed, please reset fingerprint from PassKeeps Settings</string>
 
     <string name="password_strength_v_weak">Very Weak</string>
     <string name="password_strength_weak">Weak</string>
@@ -164,7 +164,9 @@
     <string name="toast_message_fingerprint_login_failed">Fingerprint login failed: %s</string>
     <string name="toast_message_donate_thank_you">Thank you for your donation :)</string>
 
-    <string name="deprecated_message_placeholder_apk_package">You can then open the application from here&#x2026;</string>
+    <string name="last_edited_placeholder">Last Edited: %s</string>
+    <string name="deprecated_message_placeholder_apk_package">You can then open the application from here</string>
+
     <string name="donate_getting_product">Loading product&#x2026;</string>
     <string name="donate_donate">Donate\u0020</string>
     <string name="notif_message_running">PassKeep is running&#x2026;</string>
@@ -193,8 +195,9 @@
     <string name="alert_title_share_backup">Share backup with&#x2026;</string>
     <string name="alert_title_restore_warning">Restore Warning</string>
     <string name="alert_message_found_autofill_information_for_s">PassKeep found auto-fill information for \"%s\"</string>
+    <string name="alert_message_restore_failed_incorrect_masterkey">Your current master password does NOT match the backups master password, you can reset your current master password from PassKeeps settings and attempt to restore again&#x2026;</string>
     <string name="alert_message_upgrading_database">Please wait, Upgrading database&#x2026;</string>
-    <string name="alert_message_db_backup_warning">The database format has changed from previous PassKeep versions. When restoring old DB backups (.db files) the password which you were using for these databases will override your current password. When restoring new DB backups (.sqlite files) your current password will be used, therefore the master passkey must be the same as that used when backing up the DB or password entries will NOT be readable.</string>
+    <string name="alert_message_db_backup_warning">The database format has changed from previous PassKeep versions. Old database backups have the extension (.db) while new database backups have the extension (.sqlite), do not change these file extensions.\n\nWhen restoring database backups your current master password must match that of the backups master password.\nWhen a database backup is restored all your current passwords will be overridden.</string>
     <string name="alert_message_save_changes">Do you want to save the changes made?</string>
     <string name="alert_message_discard_entry">Do you want to discard this entry?</string>
     <string name="alert_message_share_file">Share file: %s</string>
@@ -270,13 +273,13 @@
     <string name="pref_title_fingerprint">Fingerprint Login</string>
     <string name="pref_summary_fingerprint">Sign in to PassKeep using fingerprint authentication.</string>
     <string name="pref_title_delete_all_passwords">Delete Database</string>
-    <string name="pref_summary_delete_all_passwords">**Warning** Delete all the contents of the database including the master passkey. This cannot be undone.</string>
-    <string name="pref_title_rename_masterkey">Reset Master Passkey</string>
+    <string name="pref_summary_delete_all_passwords">**Warning** Delete all the contents of the database. The master password will remain unchanged. This cannot be undone.</string>
+    <string name="pref_title_rename_masterkey">Change Master Password</string>
     <string name="pref_title_self_destruct_attempts">Self Destruct Attempts</string>
     <string name="pref_title_action_bar_color">ActionBar Color</string>
     <string name="pref_summary_action_bar_color">PassKeeps main colour shown in the ActionBar.</string>
     <string name="pref_title_clear_clipboard_count">Blank Clipboard Entries</string>
-    <string name="pref_summary_reset_master_passkey">**Warning** Reset the master passkey. Backups with the old passkey will not work anymore.</string>
+    <string name="pref_summary_reset_master_passkey">**Warning** Change the master password used to encrypt the database. If set the fingerprint login will be removed and will need to be reset using the settings option above.</string>
     <string name="pref_title_autofill">Autofill Logins</string>
     <string name="pref_summary_autofill">Autofill username and password information (experimental). Autofill will only work for passwords that have a site and/or application filled in from password entry.</string>
 
