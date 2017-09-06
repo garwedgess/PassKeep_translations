@@ -9,7 +9,6 @@
     <string name="title_select_destination">Select Destination</string>
     <string name="title_sort_type">Name</string>
     <string name="title_total_passwords">Total Passwords</string>
-    <string name="title_restore_csv">Restore CSV</string>
     <string name="title_selected_category">Selected Category</string>
     <string name="title_number_of_passwords">Number Of Passwords</string>
     <string name="title_options">Options</string>
@@ -148,6 +147,7 @@
     <string name="toast_message_dir_failed">Failed to create directory!</string>
     <string name="toast_message_no_fingerprint_setup"><![CDATA[Go to \'Settings -> Security -> Fingerprint\' and register at least one fingerprint]]></string>
     <string name="toast_message_double_tap_to_exit_file_picker">Double tap to exit file picker</string>
+    <string name="toast_message_double_tap_to_exit_passkeep">Double tap to exit PassKeep</string>
     <string name="toast_message_restore_success">Restore success</string>
     <string name="toast_message_restore_failed">Restore failed</string>
     <string name="toast_message_backup_fail">Backup failed</string>
@@ -282,6 +282,10 @@
     <string name="pref_summary_reset_master_passkey">**Warning** Change the master password used to encrypt the database. If set the fingerprint login will be removed and will need to be reset using the settings option above.</string>
     <string name="pref_title_autofill">Autofill Logins</string>
     <string name="pref_summary_autofill">Autofill username and password information (experimental). Autofill will only work for passwords that have a site and/or application filled in from password entry.</string>
+    <string name="pref_summary_lock_rotation">Lock the screen orientation to portrait while PassKeep is running.</string>
+    <string name="pref_title_lock_rotation">Lock Screen Rotation</string>
+    <string name="pref_title_hide_donate">Hide Donate</string>
+    <string name="pref_summary_hide_donate">Hide the donate menu item from PassKeeps main menu.</string>
 
     <string name="pref_default_backup_amount_unlimited">Unlimited</string>
 
@@ -305,5 +309,4 @@
     <string name="value_attempts_8">8 Attempts</string>
     <string name="value_attempts_9">9 Attempts</string>
     <string name="value_attempts_10">10 Attempts</string>
-
 </resources>
